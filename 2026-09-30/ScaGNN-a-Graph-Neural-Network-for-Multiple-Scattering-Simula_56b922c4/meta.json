@@ -4,5 +4,32 @@
  "title": "ScaGNN-a-Graph-Neural-Network-for-Multiple-Scattering-Simula",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-09-30 08:02:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1cd3a320-c6fb-429b-b8b3-1ed6ce74d99a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1cd3a320-c6fb-429b-b8b3-1ed6ce74d99a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:50:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multiple scattering",
+    "boundary element method",
+    "graph neural network",
+    "dynamic edge sampling",
+    "Helmholtz equation",
+    "PDE surrogate",
+    "linear complexity",
+    "scientific machine learning"
+   ],
+   "field": "科学机器学习/物理模拟代理建模",
+   "innovations": [
+    "动态自适应边采样机制，基于预测误差和边长将 BEM 稠密图降为线性稀疏图",
+    "U-Net 式层次化 GNN 架构，粗层隐维扩张提升表征能力",
+    "以 GNN 替代 BIE 迭代求解器，推理速度较 BEM 快两个数量级"
+   ],
+   "benchmarks": [
+    "ScaGNN Benchmark (Laplace Dirichlet, Helmholtz Dirichlet, Helmholtz Neumann)",
+    "PTv3 / Transolver / Transolver++ / Erwin / MGN / MuS-GNN"
+   ]
+  }
+ }
 }

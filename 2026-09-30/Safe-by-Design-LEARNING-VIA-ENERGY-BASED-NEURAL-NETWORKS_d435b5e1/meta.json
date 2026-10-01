@@ -4,5 +4,35 @@
  "title": "Safe-by-Design-LEARNING-VIA-ENERGY-BASED-NEURAL-NETWORKS",
  "token": "sk-wqji9kxkl...",
  "created_at": "2026-09-30 18:52:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/25ba97c2-58f3-4122-9e1a-39b1405b271e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/25ba97c2-58f3-4122-9e1a-39b1405b271e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:49:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "端口哈密顿神经网络",
+    "能量基模型",
+    "现代Hopfield网络",
+    "安全设计",
+    "鲁棒不变集",
+    "屏障函数",
+    "Polyak-Lojasiewicz",
+    "非线性系统辨识"
+   ],
+   "field": "安全关键动力学系统学习",
+   "innovations": [
+    "将coercive非凸现代Hopfield能量与端口哈密顿神经ODE融合，显式导出鲁棒不变能量壳",
+    "基于法向耗散/输入暴露比值给出逐点与全局鲁棒半径的闭式证书及几何下界",
+    "在NanoDrone等高维长时任务上证明短期精度与递归安全可分离,并提供跨模型归一化鲁棒评测协议"
+   ],
+   "benchmarks": [
+    "Silverbox",
+    "CED",
+    "Duffing double-well",
+    "n-link pendulum",
+    "NanoDrone"
+   ]
+  }
+ }
 }

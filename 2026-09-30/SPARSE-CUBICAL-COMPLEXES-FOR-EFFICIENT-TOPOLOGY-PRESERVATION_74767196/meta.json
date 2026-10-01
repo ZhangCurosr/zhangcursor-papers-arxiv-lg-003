@@ -4,5 +4,34 @@
  "title": "SPARSE-CUBICAL-COMPLEXES-FOR-EFFICIENT-TOPOLOGY-PRESERVATION",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-09-30 18:51:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/11f20e5a-93b1-49a4-9eb3-9faf6f0f7e5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/11f20e5a-93b1-49a4-9eb3-9faf6f0f7e5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:48:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persistent homology",
+    "topology-preserving segmentation",
+    "sparse cubical complexes",
+    "Betti Matching",
+    "computational topology",
+    "medical image segmentation"
+   ],
+   "field": "医学图像分割与拓扑深度学习",
+   "innovations": [
+    "提出稀疏立方复形理论框架，通过threshold τ省略高置信度背景区域，将PH计算复杂度从O(N)降至O(R+I)",
+    "首次实现sparseBM损失函数，使PH-based拓扑损失可在大patch_size的3D图像分割训练中实用化",
+    "通过induced matching theorem证明稀疏近似与稠密计算的梯度一致性，理论保证matched区间偏移≤1-τ"
+   ],
+   "benchmarks": [
+    "ATM'26 airway segmentation",
+    "NISB-B neuron boundary segmentation",
+    "BraTS-METS brain metastasis segmentation",
+    "MMWHS cardiac MRI segmentation",
+    "FIVES retinal vessel segmentation",
+    "ACDC cardiac MRI segmentation"
+   ]
+  }
+ }
 }

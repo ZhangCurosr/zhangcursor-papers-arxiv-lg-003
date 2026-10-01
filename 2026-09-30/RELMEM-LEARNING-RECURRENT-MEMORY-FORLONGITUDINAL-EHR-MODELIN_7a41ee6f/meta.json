@@ -4,5 +4,31 @@
  "title": "RELMEM-LEARNING-RECURRENT-MEMORY-FORLONGITUDINAL-EHR-MODELIN",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-09-30 08:00:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/27ed09ba-9afe-4446-8612-73872559a010.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/27ed09ba-9afe-4446-8612-73872559a010.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:48:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "longitudinal EHR",
+    "recurrent memory",
+    "context compression",
+    "large language models",
+    "attention alignment",
+    "curriculum learning",
+    "medical AI"
+   ],
+   "field": "纵向医疗记录建模",
+   "innovations": [
+    "固定容量循环记忆框架，通过多粒度优化（中间注意力对齐+最终预测监督）学习可替换的逐层KV记忆",
+    "仅在memory token位置激活的token-conditioned低秩适配器，实现极轻量参数更新",
+    "课程学习策略支持长程历史稳定更新，从短序列逐步过渡到完整历史"
+   ],
+   "benchmarks": [
+    "MIMIC-IV medication prediction",
+    "MIMIC-IV next-visit diagnosis prediction"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "RACE-RELATION-LEVEL-COUNTERFACTUAL-EXPLA-NATIONS-FOR-HETEROG",
  "token": "sk-Dw4PCoiSK...",
  "created_at": "2026-09-30 18:51:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/db54627d-265c-4830-9af4-450658eca5ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/db54627d-265c-4830-9af4-450658eca5ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:47:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "counterfactual explanation",
+    "heterogeneous GNN",
+    "graph interpretability",
+    "relation-level attribution",
+    "exact search"
+   ],
+   "field": "图神经网络可解释性",
+   "innovations": [
+    "实例级精确关系搜索提供确定性对抗性解释",
+    "层级化关系→边缘细化管道保证单边缘恢复不可约性",
+    "显式不可行性报告避免强行归因提升可信度"
+   ],
+   "benchmarks": [
+    "ACM",
+    "Cora-derived",
+    "ogbn-mag",
+    "ogbn-arXiv",
+    "DBLP"
+   ]
+  }
+ }
 }

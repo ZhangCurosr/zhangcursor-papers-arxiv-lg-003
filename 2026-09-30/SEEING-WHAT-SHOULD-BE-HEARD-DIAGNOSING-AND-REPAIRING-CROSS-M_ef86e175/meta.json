@@ -4,5 +4,33 @@
  "title": "SEEING-WHAT-SHOULD-BE-HEARD-DIAGNOSING-AND-REPAIRING-CROSS-M",
  "token": "sk-WLNedHnmw...",
  "created_at": "2026-09-30 18:52:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9d9461c1-1873-4937-aa8f-f41281f22acd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9d9461c1-1873-4937-aa8f-f41281f22acd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:48:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨模态捷径",
+    "全模态LLM",
+    "因子化诊断",
+    "反事实训练",
+    "模态依赖",
+    "音频幻觉",
+    "多模态推理"
+   ],
+   "field": "多模态大语言模型",
+   "innovations": [
+    "提出因子化模态诊断量化各模态对答案的因果贡献",
+    "DMC-Repair通过反事实网格+指定模态重标记消除跨模态捷径",
+    "证明RL奖励无法消除捷径且可能加剧图像依赖"
+   ],
+   "benchmarks": [
+    "MUSIC-AVQA",
+    "AVQA",
+    "AVHBench",
+    "IntentBench"
+   ]
+  }
+ }
 }

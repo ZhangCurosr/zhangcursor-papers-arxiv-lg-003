@@ -4,5 +4,32 @@
  "title": "Search-Dimension-in-Unlabeled-Projection-Pursuit-A-Scaling-L",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-30 18:50:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ad087815-302e-43e1-952b-cdc6bef35731.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ad087815-302e-43e1-952b-cdc6bef35731.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:51:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "投影寻踪",
+    "峰度",
+    "高维统计",
+    "子空间限制",
+    "缩放律",
+    "协方差尖刺",
+    "BBP相变"
+   ],
+   "field": "高维统计推断与无监督学习",
+   "innovations": [
+    "证明高斯补空间导致无限制极小峰度投影寻踪的精确退化与虚假最小值",
+    "推导图空间限制下方向恢复的有限样本充分条件与缩放律",
+    "测量并揭示固定与变化搜索维度下阈比值指数的差异及其校准敏感性"
+   ],
+   "benchmarks": [
+    "受控两成分高斯混合实验室数据",
+    "模糊型算子物理基准",
+    "非线性 PDE 基准"
+   ]
+  }
+ }
 }

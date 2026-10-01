@@ -4,5 +4,31 @@
  "title": "Search-Dimension-in-Unlabeled-Projection-Pursuit-A-Scaling-L",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-09-30 07:59:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ad087815-302e-43e1-952b-cdc6bef35731.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ad087815-302e-43e1-952b-cdc6bef35731.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:51:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "projection pursuit",
+    "high-dimensional statistics",
+    "subspace restriction",
+    "kurtosis",
+    "scaling law",
+    "spiked covariance",
+    "inverse problems"
+   ],
+   "field": "高维统计学习与逆问题",
+   "innovations": [
+    "刻画了无约束最小峰度投影追寻在高维中的精确退化与虚假极小值失效模式",
+    "证明已知信号子空间限制在负峰度分支上总体无损，并导出与 PCA 估计的 scaling 对比",
+    "通过受控实验测量阈值比的幂律 exponent，发现固定维度下接近 1/8 而搜索维度变化时偏离至 0.325"
+   ],
+   "benchmarks": [
+    "Controlled Laboratory (LAB) two-component Gaussian mixture",
+    "Physical Benchmark (PB) blur-type operator with M=2 regimes"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "STEPQUANT-WHEN-AND-WHERE-ERRORS-MATTER-IN-DELTA-RULE-RECURRE",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-30 18:50:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4bed9f8e-af39-4b8f-a54b-85f1bdd07e35.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4bed9f8e-af39-4b8f-a54b-85f1bdd07e35.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:49:09",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,42 @@
  "title": "STEPQUANT-WHEN-AND-WHERE-ERRORS-MATTER-IN-DELTA-RULE-RECURRE",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-30 08:01:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7a1a8f76-07f8-437e-a200-555ca88c8553.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7a1a8f76-07f8-437e-a200-555ca88c8553.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:49:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "recurrent state quantization",
+    "post-training quantization",
+    "delta-rule attention",
+    "GDN",
+    "KDA",
+    "STEPQuant",
+    "mixed-precision",
+    "key-row impact"
+   ],
+   "field": "低比特量化与高效推理",
+   "innovations": [
+    "提出寿命感知位分配，将门控保留时长建模为误差累积权重以指导混合精度",
+    "提出键行感知双轴拟合，把 readout 敏感分数注入行/列缩放联合优化",
+    "在 SGLang 中以融合 tile kernel 实现压缩状态的 decode 流水线，实测 5× 压缩与近无损 6-bit 精度"
+   ],
+   "benchmarks": [
+    "LiveCodeBench v6",
+    "EvalPlus",
+    "AIME 2026",
+    "MATH-500",
+    "HMMT Feb 2026",
+    "GPQA Diamond",
+    "IFBench",
+    "MMLU",
+    "ARC-C",
+    "HellaSwag",
+    "WinoGrande",
+    "LAMBADA"
+   ]
+  }
+ }
 }

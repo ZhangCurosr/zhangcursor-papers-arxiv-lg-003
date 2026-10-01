@@ -4,5 +4,32 @@
  "title": "Strict-Saddle-Landscapes-and-Multi-Rank-Geometry-in-Low-Tuba",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-30 18:50:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1ab56579-24fc-4baa-be32-381d62f79302.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1ab56579-24fc-4baa-be32-381d62f79302.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:52:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低管秩张量感知",
+    "严格鞍点地形",
+    "多秩几何",
+    "平衡因子化",
+    "t-乘积",
+    "t-RIP",
+    "频率wise超参数化",
+    "张量优化"
+   ],
+   "field": "张量分解与低秩优化理论",
+   "innovations": [
+    "在t-RIP(2r,δ<1/5)下证明任意多秩剖面无虚假局部极小且非全局临界点为严格鞍点",
+    "揭示多秩二分局部几何：统一秩二次增长、非统一秩四次平坦方向",
+    "给出定量严格鞍点邻近半径O(ε)与O(ε^{1/3})的紧界区分"
+   ],
+   "benchmarks": [
+    "合成4×4×3张量100次随机初值恢复",
+    "UK Biobank OCT视网膜体数据m/N=0.8时100%成功率"
+   ]
+  }
+ }
 }

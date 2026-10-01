@@ -4,5 +4,34 @@
  "title": "SPARSE-CUBICAL-COMPLEXES-FOR-EFFICIENT-TOPOLOGY-PRESERVATION",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-09-30 08:03:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/11f20e5a-93b1-49a4-9eb3-9faf6f0f7e5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/11f20e5a-93b1-49a4-9eb3-9faf6f0f7e5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:48:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持久同调",
+    "拓扑保持分割",
+    "稀疏立方复形",
+    "Betti Matching",
+    "3D医学图像分割",
+    "计算拓扑学"
+   ],
+   "field": "医学图像分割中的拓扑感知学习",
+   "innovations": [
+    "提出稀疏立方复形理论框架，首次使PH-based损失在3D大patch训练中可行",
+    "通过诱导匹配定理提供稀疏与密集持久图的理论相容性保证",
+    "设计隐式省略区域表示结合交错训练优化，实现高达100倍加速"
+   ],
+   "benchmarks": [
+    "ATM'26 airway lumen",
+    "NISB-B cell interfaces",
+    "BraTS-METS brain metastases",
+    "MMWHS LV myocardium",
+    "FIVES retinal vessels",
+    "ACDC LV myocardium"
+   ]
+  }
+ }
 }

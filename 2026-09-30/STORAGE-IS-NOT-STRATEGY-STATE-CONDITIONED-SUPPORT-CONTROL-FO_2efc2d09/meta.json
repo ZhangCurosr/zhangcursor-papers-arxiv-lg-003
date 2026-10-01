@@ -4,5 +4,10 @@
  "title": "STORAGE-IS-NOT-STRATEGY-STATE-CONDITIONED-SUPPORT-CONTROL-FO",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-30 18:50:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/864bb17e-2a1d-4aca-969e-7a62f254fab2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/864bb17e-2a1d-4aca-969e-7a62f254fab2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:49:20",
+  "chunks": 1
+ }
 }

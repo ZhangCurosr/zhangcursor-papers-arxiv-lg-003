@@ -4,5 +4,35 @@
  "title": "SYNCR-DIAGNOSING-AND-LEARNING-CROSS-VIDEO-REASONING-FROM-SIM",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-09-30 18:50:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4f4b6d51-fadc-435f-b539-a9a55db89874.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4f4b6d51-fadc-435f-b539-a9a55db89874.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:49:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-video reasoning",
+    "multimodal large language models",
+    "simulation-to-real transfer",
+    "benchmark",
+    "visual reasoning",
+    "synthetic supervision"
+   ],
+   "field": "多视频视觉推理",
+   "innovations": [
+    "用统一任务生成器连接跨视频推理诊断与合成监督训练",
+    "提出8项覆盖四大诊断族类的仿真驱动评测任务",
+    "验证时序排序能力可从合成数据稳定迁移至真实视频"
+   ],
+   "benchmarks": [
+    "SYNCR",
+    "MVU-Eval",
+    "CrossVid",
+    "CVBench",
+    "Assembly101",
+    "Panoptic",
+    "nuScenes"
+   ]
+  }
+ }
 }

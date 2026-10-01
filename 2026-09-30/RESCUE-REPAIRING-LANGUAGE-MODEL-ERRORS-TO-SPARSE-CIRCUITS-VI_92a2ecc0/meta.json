@@ -4,5 +4,38 @@
  "title": "RESCUE-REPAIRING-LANGUAGE-MODEL-ERRORS-TO-SPARSE-CIRCUITS-VI",
  "token": "sk-yHDqoBBn3...",
  "created_at": "2026-09-30 18:52:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/53e0b4a0-d6f5-48dc-a94a-209cd7deeebf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/53e0b4a0-d6f5-48dc-a94a-209cd7deeebf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:48:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "error circuit",
+    "sparse circuit editing",
+    "reinforcement learning",
+    "language model repair",
+    "circuit localization"
+   ],
+   "field": "LLM 机制可解释性与模型修复",
+   "innovations": [
+    "RL-based 生成式电路精炼与组相对策略梯度",
+    "两阶段 ablation 验证 + 限定微调闭环",
+    "跨重述迁移证明因果稳健性"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "MedMCQA",
+    "ARC-Challenge",
+    "HellaSwag",
+    "WinoGrande",
+    "PIQA",
+    "TruthfulQA-MC1",
+    "MMLU-HS Math/Stats",
+    "BBH Multi-Step Arithmetic"
+   ]
+  }
+ }
 }

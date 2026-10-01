@@ -4,5 +4,29 @@
  "title": "Scene-Consistent-Illumination-Transfer-for-Inserted-Advertis",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-30 08:05:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7526ff04-a4b4-4e27-8d01-463fc7634b7c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7526ff04-a4b4-4e27-8d01-463fc7634b7c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:50:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "advertising graphics",
+    "illumination transfer",
+    "diffusion prior",
+    "image harmonization",
+    "training-free",
+    "scene compositing"
+   ],
+   "field": "图像合成与光度一致",
+   "innovations": [
+    "训练无关的差分光照探测机制，通过两次受控查询分离目标区域光照残差",
+    "区域条件化光照转移框架，将身份保真与光度一致性解耦处理"
+   ],
+   "benchmarks": [
+    "560 placements (80 frames × 7 graphics)",
+    "SSIM, LPIPS, ILL-SIM"
+   ]
+  }
+ }
 }

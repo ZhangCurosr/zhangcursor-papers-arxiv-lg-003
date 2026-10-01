@@ -4,5 +4,30 @@
  "title": "State-transport-routing-for-short-horizon-adaptation-in-mult",
  "token": "sk-dpgvlEWCZ...",
  "created_at": "2026-09-30 08:12:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8e299ebd-0dc9-4e08-8842-ee645b80b74d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8e299ebd-0dc9-4e08-8842-ee645b80b74d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:51:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "光伏功率预测",
+    "多时段预测",
+    "状态传输路由",
+    "预测适配",
+    "时间序列修正"
+   ],
+   "field": "可再生能源预测",
+   "innovations": [
+    "提出STR适配器，显式融合原始预测与状态轨迹，通过时段条件路由器动态加权",
+    "精确旁路设计保证120分钟后恢复原始预测，平衡短期修正与长期可靠性"
+   ],
+   "benchmarks": [
+    "PVDAQ",
+    "GEFCom2014",
+    "Gatton",
+    "Solar-Energy"
+   ]
+  }
+ }
 }

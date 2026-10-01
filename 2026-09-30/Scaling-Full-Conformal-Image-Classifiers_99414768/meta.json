@@ -4,5 +4,38 @@
  "title": "Scaling-Full-Conformal-Image-Classifiers",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-09-30 18:51:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/334d4095-d0f9-4ca7-88e7-8a7d01d700a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/334d4095-d0f9-4ca7-88e7-8a7d01d700a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:50:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conformal prediction",
+    "full conformal prediction",
+    "vision-language model",
+    "scalable image classification",
+    "zero-shot adaptation",
+    "online LDA"
+   ],
+   "field": "可信视觉识别与不确定性量化",
+   "innovations": [
+    "提出T-FCP框架，利用零样本VLM剪枝标签空间并结合FCP保证覆盖稳定性",
+    "设计SO-LDA在线LDA求解器，通过秩一逆协方差更新与零样本锚定实现O(F²)可扩展适配"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "SUN397",
+    "FGVCAircraft",
+    "EuroSAT",
+    "StanfordCars",
+    "Food101",
+    "OxfordPets",
+    "Flowers102",
+    "Caltech101",
+    "DTD",
+    "UCF101"
+   ]
+  }
+ }
 }

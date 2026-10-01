@@ -4,5 +4,33 @@
  "title": "SKILL-SPACE-SHOOTING-FOR-AUTONOMOUS-ROBOT-POLICY-IMPROVEMENT",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-09-30 18:49:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b8bebf9a-89b5-412d-b18b-6cb350053b7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b8bebf9a-89b5-412d-b18b-6cb350053b7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:48:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "skill-space shooting",
+    "robot policy improvement",
+    "foundation models",
+    "autonomous learning",
+    "reusable skills",
+    "interactive imitation",
+    "VLA"
+   ],
+   "field": "autonomous robotic policy improvement",
+   "innovations": [
+    "将可复用短期技能作为纠正监督源，实现策略的自主迭代改进",
+    "价值模型与基础模型协同决定失败触发、技能选择与修复验证",
+    "跨任务共享技能库，减少新任务的初始教学需求"
+   ],
+   "benchmarks": [
+    "Stack-3",
+    "Drawer",
+    "Coffee",
+    "Sweeping"
+   ]
+  }
+ }
 }

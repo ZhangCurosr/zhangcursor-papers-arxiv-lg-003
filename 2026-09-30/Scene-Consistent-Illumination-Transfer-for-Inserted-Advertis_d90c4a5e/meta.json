@@ -4,5 +4,31 @@
  "title": "Scene-Consistent-Illumination-Transfer-for-Inserted-Advertis",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-30 18:50:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7526ff04-a4b4-4e27-8d01-463fc7634b7c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7526ff04-a4b4-4e27-8d01-463fc7634b7c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:51:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "illumination transfer",
+    "advertising graphics",
+    "diffusion model",
+    "image harmonization",
+    "inference-time method",
+    "scene compositing"
+   ],
+   "field": "图像编辑与合成",
+   "innovations": [
+    "提出Ad-Relight无训练推理流程，将扩散重光照骨干用作诊断式差分探针提取局部光照残差",
+    "低频阴影分离+结构化比率保留的预处理策略，实现banner标识保真与场景光照匹配的双重目标"
+   ],
+   "benchmarks": [
+    "560组场景放置案例（80帧×7图形）",
+    "SSIM/LPIPS/ILL-SIM自动评估",
+    "GPT-4o pairwise偏好评测",
+    "25人人工双选偏好测试"
+   ]
+  }
+ }
 }

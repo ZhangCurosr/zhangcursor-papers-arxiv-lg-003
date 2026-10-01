@@ -4,5 +4,30 @@
  "title": "SafeLLM4SE-Statistical-Evaluation-and-Reporting-for-LLM-base",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-09-30 08:05:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ed5d9cf1-2b30-4371-86b6-5a2aa193e0ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ed5d9cf1-2b30-4371-86b6-5a2aa193e0ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:50:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM评估",
+    "统计推断",
+    "自适应采样",
+    "软件工程",
+    "可复现性",
+    "非参数检验",
+    "置信区间"
+   ],
+   "field": "LLM-based Software Engineering Evaluation",
+   "innovations": [
+    "提出质量+稳定性+估计不确定性三维度评估框架，将LLM输出视为随机过程实现",
+    "设计成本感知的自适应采样策略，以目标CI宽度为停止条件替代固定样本量",
+    "制定面向LLM4SE的最小报告标准并提供开源Python工具包"
+   ],
+   "benchmarks": [
+    "HumanEval"
+   ]
+  }
+ }
 }
