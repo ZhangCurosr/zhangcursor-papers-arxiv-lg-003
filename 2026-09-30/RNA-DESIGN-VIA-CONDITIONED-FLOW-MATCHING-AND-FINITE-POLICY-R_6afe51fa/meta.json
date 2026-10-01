@@ -4,5 +4,33 @@
  "title": "RNA-DESIGN-VIA-CONDITIONED-FLOW-MATCHING-AND-FINITE-POLICY-R",
  "token": "sk-zzqRc1aqT...",
  "created_at": "2026-09-30 08:05:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9d778e1e-8af5-4c48-b609-058423f4de7b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9d778e1e-8af5-4c48-b609-058423f4de7b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:12:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RNA design",
+    "flow matching",
+    "reinforcement learning",
+    "inverse folding",
+    "Dirichlet flow",
+    "thermodynamic selection",
+    "RNA sequence design"
+   ],
+   "field": "RNA 逆向折叠与结构生物学 AI",
+   "innovations": [
+    "结构条件化 Dirichlet 流匹配建模全局协同序列变异",
+    "流到策略映射（FPM）将连续流精确转换为有限离散策略",
+    "热力学轨迹精炼（TTR）以末端折叠能量回传组归一化优势"
+   ],
+   "benchmarks": [
+    "Eterna100-v2",
+    "Eterna100",
+    "Rfam-27",
+    "RNAsolo-764"
+   ]
+  }
+ }
 }

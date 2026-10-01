@@ -4,5 +4,37 @@
  "title": "SOLO-PRETRAINING-BILLION-PARAMETER-LANGUAGE-MODELS-WITH-SHAR",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-29 19:07:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d0f99b37-2709-422d-9b03-7226b83a230f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d0f99b37-2709-422d-9b03-7226b83a230f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:10:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "local learning",
+    "shared readout",
+    "pipeline parallelism",
+    "backpropagation alternative",
+    "large language model pretraining",
+    "update locking"
+   ],
+   "field": "高效大模型训练方法",
+   "innovations": [
+    "首次将本地学习扩展至十亿参数语言模型预训练，性能接近端到端反向传播",
+    "提出共享终端 readout 机制，通过只读副本传递深层信息而保持梯度隔离",
+    "消除 pipeline 更新锁定，使激活内存从 O(p) 降至 O(1)，吞吐最高提升 1.44×"
+   ],
+   "benchmarks": [
+    "WikiText perplexity",
+    "SlimPajama 15B tokens pretraining",
+    "LM-evaluation-harness six zero-shot tasks",
+    "LAMBADA",
+    "PIQA",
+    "HellaSwag",
+    "WinoGrande",
+    "ARC-easy",
+    "ARC-challenge"
+   ]
+  }
+ }
 }

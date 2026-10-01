@@ -4,5 +4,31 @@
  "title": "SCALING-ZERO-ORDER-PRETRAINING-THROUGH-MODEL-SHARDING",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-30 07:59:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1cb29f24-a228-478e-bd46-9a240161d36c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1cb29f24-a228-478e-bd46-9a240161d36c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:16:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零阶优化",
+    "zero-order optimization",
+    "SPSA",
+    "Mixture of Experts",
+    "模型分片",
+    "语言模型预训练",
+    "梯度方差"
+   ],
+   "field": "零阶优化与语言模型预训练",
+   "innovations": [
+    "提出 SOMA 架构，通过独立专家训练与独立损失将 ZO 梯度相对方差降至共享损失的 1/N",
+    "证明并实验验证独立损失机制在固定预算下显著优于加和损失",
+    "揭示轻度分片优化训练效率、重度分片优化推理吞吐的分离设计原则"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu 100B bytes",
+    "WikiText-103"
+   ]
+  }
+ }
 }

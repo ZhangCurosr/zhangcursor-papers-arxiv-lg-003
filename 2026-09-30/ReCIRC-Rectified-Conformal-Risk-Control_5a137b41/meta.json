@@ -4,5 +4,32 @@
  "title": "ReCIRC-Rectified-Conformal-Risk-Control",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-09-30 18:49:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5efe2afb-9868-42b0-84f9-0475aaf4fcba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5efe2afb-9868-42b0-84f9-0475aaf4fcba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:12:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conformal prediction",
+    "conformal risk control",
+    "conditional risk control",
+    "distribution-free inference",
+    "adaptive calibration"
+   ],
+   "field": "可微分推理与不确定性量化",
+   "innovations": [
+    "将CRC的原始阈值重参数化为输入依赖的风险预算，通过逆转条件风险曲线实现局部自适应",
+    "证明风险曲线估计误差直接控制条件风险界限，并在正则条件下给出收敛速率",
+    "提出无需额外数据的风险校准诊断工具，基于预算-风险关系评估尺度准确性"
+   ],
+   "benchmarks": [
+    "Polyp segmentation (PraNet)",
+    "RCV1 multilabel classification",
+    "Letter Recognition",
+    "Medical Insurance regression",
+    "Superconductor regression"
+   ]
+  }
+ }
 }

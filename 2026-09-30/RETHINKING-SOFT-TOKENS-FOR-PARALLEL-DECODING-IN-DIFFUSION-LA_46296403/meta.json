@@ -4,5 +4,32 @@
  "title": "RETHINKING-SOFT-TOKENS-FOR-PARALLEL-DECODING-IN-DIFFUSION-LA",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-09-30 08:02:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/db9a7b62-a680-4ff5-8ba4-a0710849d913.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/db9a7b62-a680-4ff5-8ba4-a0710849d913.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:11:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Language Models",
+    "Soft Tokens",
+    "Parallel Decoding",
+    "Spherical Interpolation",
+    "Training-free Method",
+    "Sequence Consistency"
+   ],
+   "field": "扩散语言模型并行解码",
+   "innovations": [
+    "提出无需训练的几何感知软token构建方法（SLERP+范数保持），可直接应用于冻结预训练DLM",
+    "揭示软token反馈通过乘性聚合实现'寻求一致'行为，而非仅保留不确定性",
+    "在4个预训练DLM和4个数学/代码基准上均优于标准并行解码和欧氏软token基线"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH500",
+    "HumanEval",
+    "MBPP"
+   ]
+  }
+ }
 }

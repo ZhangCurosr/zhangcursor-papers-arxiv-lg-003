@@ -4,5 +4,44 @@
  "title": "QUANTMLA-FUNCTION-ALIGNED-DUAL-PATH-QUAN-TIZATION-FOR-LOW-BI",
  "token": "sk-KvGX6663A...",
  "created_at": "2026-09-30 18:52:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/55d52e2c-2bcd-47a1-9790-a2310ffe838c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/55d52e2c-2bcd-47a1-9790-a2310ffe838c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:10:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MLA quantization",
+    "KV cache compression",
+    "low-bit inference",
+    "dual-path quantization",
+    "function-aligned learning",
+    "RoPE quantization",
+    "memory-efficient serving"
+   ],
+   "field": "大模型高效推理与量化",
+   "innovations": [
+    "建立MLA双路径量化误差模型并推导算子-误差增益分解",
+    "设计路径特定的离线可融合变换空间与函数对齐学习目标",
+    "首个联合INT4 content+RoPE缓存的MLA量化框架"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "GSM8K",
+    "GPQA-Diamond",
+    "HumanEval",
+    "LiveCodeBench",
+    "RULER S-NIAH",
+    "HellaSwag",
+    "PIQA",
+    "ARC",
+    "WinoGrande",
+    "SQuAD",
+    "FDA",
+    "SWDE",
+    "MATH500",
+    "AIME25"
+   ]
+  }
+ }
 }

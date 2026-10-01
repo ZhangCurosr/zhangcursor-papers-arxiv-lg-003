@@ -4,5 +4,28 @@
  "title": "SCALING-ZERO-ORDER-PRETRAINING-THROUGH-MODEL-SHARDING",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-30 18:50:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1cb29f24-a228-478e-bd46-9a240161d36c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1cb29f24-a228-478e-bd46-9a240161d36c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:16:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-order optimization",
+    "language model pretraining",
+    "mixture of experts",
+    "SPSA",
+    "gradient variance"
+   ],
+   "field": "零阶优化与语言模型预训练",
+   "innovations": [
+    "独立损失机制理论证明方差降低1/N",
+    "SOMA架构实现ZO预训练的计算效率优势"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu",
+    "WikiText-103"
+   ]
+  }
+ }
 }

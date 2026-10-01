@@ -4,5 +4,29 @@
  "title": "ROUTING-IN-GRADIENT-SPACE-BALANCED-USAGE-IS-NOT-EXPERT-SPECI",
  "token": "sk-YployDpk7...",
  "created_at": "2026-09-30 08:11:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5e578925-f495-4755-9bc2-61e0e5d46943.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5e578925-f495-4755-9bc2-61e0e5d46943.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:14:32",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "稀疏专家模型",
+    "梯度路由",
+    "多任务学习",
+    "负载均衡",
+    "专家专业化"
+   ],
+   "field": "多任务学习",
+   "innovations": [
+    "提出梯度对齐路由(GAR)直接优化梯度空间相干性",
+    "理论证明负载均衡与梯度专业化可共存",
+    "路由器与专家参数梯度分离更新"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "SuperGLUE"
+   ]
+  }
+ }
 }

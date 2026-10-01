@@ -4,5 +4,39 @@
  "title": "S-sup-3-sup-Spectral-Null-Space-Swap-Makes-Reasoning-Models",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-09-30 18:49:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0fc73dc1-fb77-494f-8099-a110c9a05340.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0fc73dc1-fb77-494f-8099-a110c9a05340.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:14:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理效率",
+    "模型合并",
+    "谱投影",
+    "零空间",
+    "注意力熵",
+    "无训练组合",
+    "CoT压缩"
+   ],
+   "field": "推理模型效率优化",
+   "innovations": [
+    "首次系统揭示Thinking差分中零空间分量承担主要功能变化并提出S³算子",
+    "建立训练无的谱子空间选择性组合方法并确立精度-token Pareto前沿",
+    "以注意力熵排序解释零空间投影提升推理效率的机制并提供一阶分析模型"
+   ],
+   "benchmarks": [
+    "AIME24/25",
+    "HMMT25",
+    "CMIMC25",
+    "Olympiad-Bench",
+    "GSM8K",
+    "MMLU",
+    "MMMU",
+    "MathVista-testmini",
+    "MMAR",
+    "MMSU"
+   ]
+  }
+ }
 }

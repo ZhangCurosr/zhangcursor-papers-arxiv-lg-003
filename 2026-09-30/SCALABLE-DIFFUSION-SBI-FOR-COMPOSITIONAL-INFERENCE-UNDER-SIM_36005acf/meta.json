@@ -4,5 +4,31 @@
  "title": "SCALABLE-DIFFUSION-SBI-FOR-COMPOSITIONAL-INFERENCE-UNDER-SIM",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-09-30 08:05:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5e7f1424-b115-4147-9beb-25ec230f684b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5e7f1424-b115-4147-9beb-25ec230f684b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:15:42",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Score-based Bayesian Inference",
+    "compositional diffusion",
+    "hierarchical inference",
+    "path-space KL regularization",
+    "BMP signaling pathway",
+    "likelihood fine-tuning"
+   ],
+   "field": "科学机器学习与可微分仿真",
+   "innovations": [
+    "提出 HBDS 在采样阶段通过 score composition 实现层级贝叶斯推断，避免参数退化",
+    "推导连续时间 compositional diffusion coefficient g_n(t)^2 并证明其数值稳定性优势",
+    "设计路径空间 KL 正则化的 likelihood fine-tuning 结合 FiLM 条件嵌入，提升 BMP 通路推断生物学合理性"
+   ],
+   "benchmarks": [
+    "correlated Gaussian (d=10, sW error)",
+    "SLCP (sW, MMD, C2ST)",
+    "BMP 通路 940 观测 RMSE"
+   ]
+  }
+ }
 }

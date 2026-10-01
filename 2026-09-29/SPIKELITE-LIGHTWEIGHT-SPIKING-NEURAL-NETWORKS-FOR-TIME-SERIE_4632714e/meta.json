@@ -4,5 +4,39 @@
  "title": "SPIKELITE-LIGHTWEIGHT-SPIKING-NEURAL-NETWORKS-FOR-TIME-SERIE",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-09-29 19:08:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b583fa13-1206-4c03-bcd6-47421dcf331f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b583fa13-1206-4c03-bcd6-47421dcf331f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:10:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spiking neural network",
+    "time-series forecasting",
+    "frequency-domain encoding",
+    "sparse attention",
+    "energy efficiency"
+   ],
+   "field": "脉冲神经网络时序预测",
+   "innovations": [
+    "FSSE: 基于并行LIF分支与telescoping差分解构的频域敏感时间编码",
+    "SSCA: 基于rFFT谱描述子的样本相关二元通道掩码稀疏交互",
+    "双协议（SeqSNN+SpikF）综合评测下精度与能耗双重最优"
+   ],
+   "benchmarks": [
+    "METR-LA",
+    "PEMS-BAY",
+    "Solar",
+    "Electricity",
+    "ECL",
+    "Weather",
+    "ETTh1",
+    "ETTh2",
+    "ETTm1",
+    "ETTm2",
+    "Traffic",
+    "Exchange"
+   ]
+  }
+ }
 }
