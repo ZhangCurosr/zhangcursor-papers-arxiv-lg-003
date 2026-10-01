@@ -4,5 +4,33 @@
  "title": "Recommendation-Ranking-Of-Policy-Evaluation-under-Ranking-De",
  "token": "sk-4xOJ8RgWe...",
  "created_at": "2026-09-29 19:08:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a5b094b1-1307-4c90-b63a-825e3b00add5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a5b094b1-1307-4c90-b63a-825e3b00add5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:56:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Of-policy Evaluation",
+    "Recommendation Systems",
+    "Ranking",
+    "Click Models",
+    "Double Robust Estimation",
+    "Examination Probability",
+    "Inverse Propensity Scoring"
+   ],
+   "field": "推荐系统离线策略评估",
+   "innovations": [
+    "首次将点击分解为浏览和相关潜变量引入排序OPE估计器设计",
+    "提出ED-DR双重稳健估计器，浏览概率准确即无偏，不依赖相关性估计准确性",
+    "严格刻画IIPS与ED-DR的MSE交叉样本量n*及其理论边界"
+   ],
+   "benchmarks": [
+    "Synthetic ranking data",
+    "PBM/CPBM/Ranking-dependent examination settings",
+    "DBN click model",
+    "Relative MSE comparison against IIPS/RIPS/Cascade DR/AIPS"
+   ]
+  }
+ }
 }

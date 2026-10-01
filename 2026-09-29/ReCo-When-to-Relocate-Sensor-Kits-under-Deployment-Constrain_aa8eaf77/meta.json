@@ -4,5 +4,30 @@
  "title": "ReCo-When-to-Relocate-Sensor-Kits-under-Deployment-Constrain",
  "token": "sk-DBMW62NBu...",
  "created_at": "2026-09-29 19:08:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3ef5ffa5-f1a5-428a-b777-3f10137e545e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3ef5ffa5-f1a5-428a-b777-3f10137e545e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:56:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "non-intrusive load monitoring",
+    "sensor deployment",
+    "constrained data collection",
+    "sequential decision making",
+    "regime coverage"
+   ],
+   "field": "非侵入式负载监测与传感器采集优化",
+   "innovations": [
+    "提出约束驱动的 ReCo 框架，每晚比较停留与搬迁的预期 regime coverage 增益",
+    "设计无模型训练的 target-background 联合特征空间 regime 计数作为 NILM 场景增益度量",
+    "引入逐户新颖性预测与跨站点收缩估计，显式建模不同家庭 regime 耗尽速率差异"
+   ],
+   "benchmarks": [
+    "Plegma washing machine",
+    "Plegma air conditioner subset",
+    "REFIT washing machine"
+   ]
+  }
+ }
 }

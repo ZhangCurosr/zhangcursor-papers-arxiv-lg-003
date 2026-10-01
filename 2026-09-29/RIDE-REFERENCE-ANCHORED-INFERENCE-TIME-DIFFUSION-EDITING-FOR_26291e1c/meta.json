@@ -4,5 +4,29 @@
  "title": "RIDE-REFERENCE-ANCHORED-INFERENCE-TIME-DIFFUSION-EDITING-FOR",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-09-29 19:06:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3e763ae7-c981-41c1-98fe-aa80a021d323.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3e763ae7-c981-41c1-98fe-aa80a021d323.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:56:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scaffold hopping",
+    "diffusion model",
+    "inference-time editing",
+    "molecular generation",
+    "drug discovery"
+   ],
+   "field": "分子生成与药物设计",
+   "innovations": [
+    "提出参考锚定推理时扩散编辑框架 RIDE，实现无需重训练的可控骨架生成",
+    "引入价值引导采样策略，联合优化 2D 新颖性和 3D 形状保留",
+    "通过噪声轨迹恢复与扰动编辑，建立受参考约束的生成分布"
+   ],
+   "benchmarks": [
+    "CrossDocked2020",
+    "60 human disease-related protein-ligand complexes"
+   ]
+  }
+ }
 }

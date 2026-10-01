@@ -4,5 +4,32 @@
  "title": "QIYAO-M-MULTIMODAL-TIME-SERIES-FOUNDATIONMODEL-WITH-ROLE-AWA",
  "token": "sk-vCZXYoScl...",
  "created_at": "2026-09-29 19:08:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a64c96f6-a63a-4035-81b5-24e4af290961.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a64c96f6-a63a-4035-81b5-24e4af290961.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:55:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "time series forecasting",
+    "multimodal foundation model",
+    "endogenous/exogenous modality",
+    "retrieval enhancement",
+    "role-aware modeling"
+   ],
+   "field": "多模态时间序列预测",
+   "innovations": [
+    "角色感知建模：区分内生/外生模态的预测角色并分别设计演化建模与检索增强策略",
+    "内生模态显式演化监督：通过预测未来内生表示并监督对齐实现时序演化学习",
+    "代理训练解决外生数据稀缺：用内生模态动态替代外生模态训练检索增强器"
+   ],
+   "benchmarks": [
+    "GIFT-Eval",
+    "TIME",
+    "Time-MMD",
+    "MoTime",
+    "FinMultiTime"
+   ]
+  }
+ }
 }

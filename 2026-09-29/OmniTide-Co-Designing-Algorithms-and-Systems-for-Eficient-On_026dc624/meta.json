@@ -4,5 +4,31 @@
  "title": "OmniTide-Co-Designing-Algorithms-and-Systems-for-Eficient-On",
  "token": "sk-SVYqei9VG...",
  "created_at": "2026-09-29 08:08:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d6cdab89-dab7-450c-bc25-0922472fe115.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d6cdab89-dab7-450c-bc25-0922472fe115.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:52:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "流式推理",
+    "全模态模型",
+    "KV缓存管理",
+    "端侧部署",
+    "稀疏注意力",
+    "算法系统协同设计"
+   ],
+   "field": "端侧大模型高效推理",
+   "innovations": [
+    "提出以'单位'为抽象的算法-系统协同设计 OmniTide，解耦逻辑选词与物理管理",
+    "设计无需在线计算的 OmniPick 逻辑保留算法，利用多模态流的结构化稀疏性",
+    "设计对齐注意力 tile 的 OmniPage 物理 KV 管理系统，通过选择性迁移减少内存碎片和实际计算量"
+   ],
+   "benchmarks": [
+    "StreamingBench",
+    "SVBench",
+    "LiveSports-3K-CC"
+   ]
+  }
+ }
 }

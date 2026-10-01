@@ -4,5 +4,35 @@
  "title": "Probabilistic-Geodesic-Flow-Matching-on-Location-Scale-Famil",
  "token": "sk-Wy5CGD3Z6...",
  "created_at": "2026-09-29 19:09:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/38e53bd0-28f3-4859-987a-fa64e532736f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/38e53bd0-28f3-4859-987a-fa64e532736f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:54:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "flow matching",
+    "probabilistic geodesic",
+    "Fisher-Rao metric",
+    "exponential power distribution",
+    "location-scale family",
+    "generative modeling",
+    "information geometry"
+   ],
+   "field": "生成模型与信息几何",
+   "innovations": [
+    "将 CFM 从高斯推广至指数幂分布的位置-尺度族并给出通用构造定理",
+    "在 Fisher-Rao 流形上导出 Poincaré 半圆测地线路径（PG）并给出显式闭式解",
+    "提出 Hybrid 混合策略缓解低 sigma_min 时概率测地线的数值刚度问题"
+   ],
+   "benchmarks": [
+    "Neal's funnel (100d)",
+    "8-Gaussians (36d)",
+    "MNIST",
+    "QM9 分子生成",
+    "Swiss roll/moons/checkerboard",
+    "Alanine dipeptide/scRNA/Lattice phi4"
+   ]
+  }
+ }
 }

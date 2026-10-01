@@ -4,5 +4,36 @@
  "title": "ReSPO-Reshaped-Sequence-Policy-Optimization-for-Gradient-Sta",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-09-29 19:07:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8688dd2f-f855-46e5-809c-0bb2fe3e2cbc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8688dd2f-f855-46e5-809c-0bb2fe3e2cbc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:57:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "policy optimization",
+    "off-policy learning",
+    "gradient starvation",
+    "sequence-level importance weighting",
+    "alpha-divergence",
+    "RLVR",
+    "rollout reuse"
+   ],
+   "field": "大语言模型强化学习优化",
+   "innovations": [
+    "揭示 clipping policy optimization 中符号依赖的梯度饥饿机制并提出序列级两分支核函数设计原则",
+    "基于alpha-散度变分目标与KL指数倾斜推导可解析确定的正负分支光滑重塑核",
+    "在密集与MoE模型上系统验证rollout复用场景下ReSPO对训练效率与泛化性能的提升"
+   ],
+   "benchmarks": [
+    "DAPO-MATH-17k",
+    "AIME 2025",
+    "AIME 2024",
+    "AMC 2023",
+    "OlympiadBench",
+    "MinervaMath",
+    "MATH-500"
+   ]
+  }
+ }
 }

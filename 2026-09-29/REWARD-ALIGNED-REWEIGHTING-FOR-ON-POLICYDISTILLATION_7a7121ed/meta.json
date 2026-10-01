@@ -4,5 +4,38 @@
  "title": "REWARD-ALIGNED-REWEIGHTING-FOR-ON-POLICYDISTILLATION",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-09-29 19:07:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e68471df-c19f-4d45-ada5-413171d003a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e68471df-c19f-4d45-ada5-413171d003a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:56:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "reward-aligned reweighting",
+    "knowledge distillation",
+    "verifiable reward",
+    "token-level supervision allocation",
+    "continuation value",
+    "mathematical reasoning",
+    "code generation"
+   ],
+   "field": "大语言模型后训练：有策略蒸馏与奖励对齐",
+   "innovations": [
+    "用轨迹级验证结果对教师监督强度做连续 sigmoid 重加权，质量守恒且保留所有非零修正",
+    "从一阶条件严格证明偏好–价值错配导致 over-correction/over-trust，给出 Cov(g,u)>0 的充分判据"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME25",
+    "AMC23",
+    "AMC24",
+    "MATH500",
+    "MinervaMath",
+    "OlympiadBench",
+    "HumanEval+",
+    "LiveCodeBench"
+   ]
+  }
+ }
 }

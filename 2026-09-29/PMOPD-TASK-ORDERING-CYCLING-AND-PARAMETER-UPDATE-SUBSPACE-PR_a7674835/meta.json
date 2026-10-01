@@ -4,5 +4,33 @@
  "title": "PMOPD-TASK-ORDERING-CYCLING-AND-PARAMETER-UPDATE-SUBSPACE-PR",
  "token": "sk-d32lj3sMR...",
  "created_at": "2026-09-29 19:09:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7714a36f-8a3d-48c6-a2f3-cc95b15ac614.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7714a36f-8a3d-48c6-a2f3-cc95b15ac614.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:53:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多教师在线策略蒸馏",
+    "参数更新子空间保护",
+    "能力跷跷板",
+    "梯度投影",
+    "任务排序",
+    "低维子空间"
+   ],
+   "field": "大语言模型后训练与蒸馏",
+   "innovations": [
+    "利用累积参数位移构建低维子空间记忆，实现对跨任务干扰的几何控制",
+    "对梯度和自适应优化器更新进行双重投影以全面保护已习得能力",
+    "基于轻量冲突探针的任务排序与跨周期子空间一致性诊断指导调度策略"
+   ],
+   "benchmarks": [
+    "Qwen2.5-7B",
+    "Llama-3.1-8B",
+    "NuminaMath-CoT",
+    "CommonsenseQA",
+    "APPS"
+   ]
+  }
+ }
 }

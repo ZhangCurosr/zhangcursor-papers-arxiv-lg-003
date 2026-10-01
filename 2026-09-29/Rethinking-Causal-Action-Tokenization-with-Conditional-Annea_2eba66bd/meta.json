@@ -4,5 +4,32 @@
  "title": "Rethinking-Causal-Action-Tokenization-with-Conditional-Annea",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-29 19:07:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/348ff7d0-1131-4d61-b09c-36b3ad9e78d8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/348ff7d0-1131-4d61-b09c-36b3ad9e78d8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:57:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Action Tokenization",
+    "Vision-Language-Action Models",
+    "Flow Matching",
+    "Autoregressive Generation",
+    "Robot Learning",
+    "Conditional Annealing",
+    "MMDiT"
+   ],
+   "field": "具身智能与机器人学习",
+   "innovations": [
+    "条件退火机制将流匹配时间步层次映射到因果token空间",
+    "MMDiT-based流匹配解码器实现高精度离散-连续动作重建",
+    "通过离散token接口冻结预训练decoder实现知识隔离"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "SimplerEnv",
+    "RoboTwin 2.0"
+   ]
+  }
+ }
 }

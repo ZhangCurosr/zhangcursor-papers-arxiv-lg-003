@@ -4,5 +4,31 @@
  "title": "One-Proposal-for-Every-Margin-Zero-Shot-Amortized-Sequential",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-29 19:07:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6d1b1ee2-1100-4a4b-8ae1-725ab79351a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6d1b1ee2-1100-4a4b-8ae1-725ab79351a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:53:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Sequential Importance Sampling",
+    "GFlowNet",
+    "Fixed-margin binary matrices",
+    "Amortized sampling",
+    "Zero-shot generalization",
+    "Effective sample size"
+   ],
+   "field": "组合采样与计数",
+   "innovations": [
+    "证明固定边际二元矩阵 SIS 零方差提议与单位奖励 GFlowNet 流比例策略精确等价",
+    "利用部分矩阵自相似性训练单一网络跨所有边缘零样本泛化提议",
+    "将解析先验（Harrison-Miller）作为网络 additive logit 项实现强初始化与持续学习"
+   ],
+   "benchmarks": [
+    "1190 held-out margins (synthetic + real)",
+    "Bezakova et al. 2012 failure family extrapolation",
+    "18 margins with known exact counts"
+   ]
+  }
+ }
 }

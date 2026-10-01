@@ -4,5 +4,31 @@
  "title": "RETHINKING-CIRCUIT-EVALUATION-DO-CIRCUITS-EXPLAIN-MODEL-ERRO",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-09-29 19:06:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b3fb6073-e923-4922-87c3-ac4d3f72a442.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b3fb6073-e923-4922-87c3-ac4d3f72a442.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:55:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "circuit evaluation",
+    "faithfulness",
+    "error reproduction",
+    "ablation",
+    "IOI"
+   ],
+   "field": "mechanistic interpretability",
+   "innovations": [
+    "提出A_ok/A_err分层评估框架揭示电路对模型错误的系统性盲区",
+    "IOI案例显示添加63个head-position节点可将错误重现从14.2%提升至75.1%",
+    "系统对比六种电路方法跨三个基准的错误重现能力"
+   ],
+   "benchmarks": [
+    "IOI",
+    "DOCSTRING",
+    "MIB"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "PERCEPTUAL-QUALITY-LOSS-OR-LOSS-OF-PERCEPTUAL-QUALITY",
  "token": "sk-KgtqP1w4p...",
  "created_at": "2026-09-29 19:08:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c3a9ef4f-3b03-4698-af8a-61052b1769ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c3a9ef4f-3b03-4698-af8a-61052b1769ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:53:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speech enhancement",
+    "PESQ loss",
+    "perceptual quality",
+    "metric optimization",
+    "listening experiment",
+    "Goodhart's law"
+   ],
+   "field": "语音增强评估",
+   "innovations": [
+    "系统对比可微分PESQ损失与GAN度量损失在SE中的实际效果",
+    "主观听觉实验揭示无PESQ损失模型在不匹配条件下显著更优",
+    "量化复合指标中PESQ的主导性（最高91.1%方差解释）"
+   ],
+   "benchmarks": [
+    "VB-DMD",
+    "EARS-WHAM v2"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "QAM-Quadratic-Accurate-Checkpoint-Merging-via-Sequential-Con",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-09-29 19:08:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9fd50c55-837a-47a5-af22-38e48cbca26f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9fd50c55-837a-47a5-af22-38e48cbca26f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:54:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "checkpoint merging",
+    "quadratic accurate merging",
+    "sequential consistency",
+    "weight averaging",
+    "large language model pretraining",
+    "warmup-stable schedule"
+   ],
+   "field": "大模型训练与权重合并",
+   "innovations": [
+    "提出基于独立Bernoulli和的二次精确合并QAM并证明其达到O(h^3)最优重构率",
+    "建立固定检查点历史的minimax下界并证明其不可超越",
+    "通过二阶矩条件刻画所有局部二阶一致合并系数的充要条件"
+   ],
+   "benchmarks": [
+    "SmolLM3-3B",
+    "OpenEuroLLM-Prelude-9B",
+    "GSM8K",
+    "MMLU",
+    "MuTual"
+   ]
+  }
+ }
 }

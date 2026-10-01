@@ -4,5 +4,36 @@
  "title": "ORPG-Reconciling-Multiple-Reward-Objectives-through-Objectiv",
  "token": "sk-yeaNqR4AC...",
  "created_at": "2026-09-29 08:03:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c160aabd-f518-4471-883f-20c9434c901b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c160aabd-f518-4471-883f-20c9434c901b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:52:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-reward RL",
+    "policy gradient",
+    "gradient reconciliation",
+    "RLHF",
+    "multi-objective optimization",
+    "mathematical reasoning"
+   ],
+   "field": "多目标强化学习与语言模型对齐",
+   "innovations": [
+    "提出 ORPG 框架，在独立截断策略目标基础上通过兼容协调与优先级冲突解决重结合完整策略梯度",
+    "兼容更新被证明为固定半径球面上方向折衷的唯一解并保持原始梯度求和范数",
+    "统一兼容规则适配等权重与主次优先级两种任务设定"
+   ],
+   "benchmarks": [
+    "Alpaca",
+    "HH-RLHF",
+    "PKU-SafeRLHF",
+    "AIME-24",
+    "AMC-22-23",
+    "MATH",
+    "Minerva-Math",
+    "OlympiadBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,38 @@
  "title": "OUTPUT-AWARE-RESIDUAL-STREAM-PRUNING-FOR-LARGE-LANGUAGE-MODE",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-29 07:53:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ef91b00e-60dc-4be7-a9a3-c1c621a4ecdb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ef91b00e-60dc-4be7-a9a3-c1c621a4ecdb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:52:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "residual stream pruning",
+    "output-aware compression",
+    "sensitivity-aware pruning",
+    "SliceGPT",
+    "KL divergence approximation",
+    "structured pruning"
+   ],
+   "field": "大语言模型压缩与剪枝",
+   "innovations": [
+    "基于二阶KL散度近似的输出敏感性残差流剪枝目标",
+    "通过谱上界将耦合目标转化为可高效求解的特征分解问题",
+    "提出tau网格候选搜索策略实现激活协方差与输出敏感度的权衡"
+   ],
+   "benchmarks": [
+    "WikiText-2",
+    "WinoGrande",
+    "MMLU",
+    "ARC-Easy",
+    "ARC-Challenge",
+    "HellaSwag",
+    "OpenBookQA",
+    "PIQA",
+    "GSM8K",
+    "IFEval"
+   ]
+  }
+ }
 }

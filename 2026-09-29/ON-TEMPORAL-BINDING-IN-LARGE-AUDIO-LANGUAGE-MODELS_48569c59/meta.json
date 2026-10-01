@@ -4,5 +4,31 @@
  "title": "ON-TEMPORAL-BINDING-IN-LARGE-AUDIO-LANGUAGE-MODELS",
  "token": "sk-LqkNuH8i8...",
  "created_at": "2026-09-29 08:00:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/246d5f1d-5acd-4ba5-8209-c0c0b8f152c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/246d5f1d-5acd-4ba5-8209-c0c0b8f152c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:51:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "large audio language models",
+    "mechanistic interpretability",
+    "temporal reasoning",
+    "representation steering",
+    "temporal binding",
+    "activation swapping"
+   ],
+   "field": "多模态大模型可解释性",
+   "innovations": [
+    "在三个开源LALM中发现事件时间信息在中间模态融合层绑定到事件名称token的低维弯曲相对时间轨迹",
+    "提出时间ID表征干预方法，因果性地改变before/after判断翻转率达70-84%",
+    "证明粗粒度时序推理与精确时间定位依赖不同机制，前者由事件名称表征介导后者不受其影响"
+   ],
+   "benchmarks": [
+    "RealDESED",
+    "ESC-50",
+    "FreeSound"
+   ]
+  }
+ }
 }

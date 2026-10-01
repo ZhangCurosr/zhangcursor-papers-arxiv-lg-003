@@ -4,5 +4,29 @@
  "title": "Provable-Benefits-of-Regularization-Fast-Rates-for-Adversari",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-29 19:06:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/17ac3c90-5528-411c-bb32-0c9b0da22a17.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/17ac3c90-5528-411c-bb32-0c9b0da22a17.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:55:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对抗性模仿学习",
+    "正则化",
+    "快速收敛率",
+    "在线镜下降",
+    "KL正则化",
+    "样本复杂度"
+   ],
+   "field": "强化学习与模仿学习理论",
+   "innovations": [
+    "提出双正则化AIL算法，结合KL策略正则化与二次奖励惩罚",
+    "首次证明正则化AIL的~O(1/K+1/N)快速收敛率",
+    "发展OMD与曲率匹配的分析技术，揭示奖励与策略正则化的协同统计角色"
+   ],
+   "benchmarks": [
+    "有限视界MDP，一般函数逼近"
+   ]
+  }
+ }
 }

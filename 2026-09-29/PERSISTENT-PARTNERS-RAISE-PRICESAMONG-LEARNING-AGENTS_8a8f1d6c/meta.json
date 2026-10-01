@@ -4,5 +4,30 @@
  "title": "PERSISTENT-PARTNERS-RAISE-PRICESAMONG-LEARNING-AGENTS",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-09-29 19:07:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2a39b0f9-2763-4e8f-9183-fed6929cbc3a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2a39b0f9-2763-4e8f-9183-fed6929cbc3a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:54:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "algorithmic collusion",
+    "pricing agents",
+    "multi-agent reinforcement learning",
+    "platform design",
+    "spontaneous coupling",
+    "LLM agents",
+    "Bertrand duopoly"
+   ],
+   "field": "算法合谋与多智能体定价",
+   "innovations": [
+    "首个预注册随机化实验证明配对持久性 causal 地提高学习代理价格",
+    "提出净执行度量 E_net 并证明约 1/3-1/2 表观惩罚实为静态最佳响应",
+    "在对手价格隐藏且惩罚不可能的条件下仍观察到价格上升"
+   ],
+   "benchmarks": [
+    "Calvano et al. (2020) calibrated Bertrand duopoly"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Predicting-Delayed-Train-Trajectories-on-the-Dutch-Railway-N",
  "token": "sk-hGbDG10SO...",
  "created_at": "2026-09-29 19:09:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/be58ea79-cefb-4199-9322-950fb9851313.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/be58ea79-cefb-4199-9322-950fb9851313.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:54:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Railway Delay Prediction",
+    "Explainable AI",
+    "Tree-Based Ensemble",
+    "Temporal Generalization",
+    "SHAP Analysis",
+    "Concept Drift",
+    "Dutch Railway Network"
+   ],
+   "field": "交通时空预测与可解释AI",
+   "innovations": [
+    "利用SHAP+K-S双诊断框架定位跨月预测衰减源于天气特征漂移与静态标签定义",
+    "到站级细粒度拓扑表示替代OD聚合缓解数据稀疏",
+    "消融证实天气特征破坏泛化而运营特征提升稳定性"
+   ],
+   "benchmarks": [
+    "Balanced Accuracy vs. Null Baseline",
+    "Wilcoxon Signed-Rank Test",
+    "Kendall Rank Correlation (τ)",
+    "Kolmogorov-Smirnov Drift Test"
+   ]
+  }
+ }
 }

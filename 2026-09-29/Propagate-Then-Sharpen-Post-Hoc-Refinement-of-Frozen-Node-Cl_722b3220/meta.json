@@ -4,5 +4,37 @@
  "title": "Propagate-Then-Sharpen-Post-Hoc-Refinement-of-Frozen-Node-Cl",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-09-29 19:08:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4065beee-ea5b-4884-ab74-f3f4b1e5df69.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4065beee-ea5b-4884-ab74-f3f4b1e5df69.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:54:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-hoc refinement",
+    "graph node classification",
+    "Potts energy",
+    "Dirichlet-Gini decomposition",
+    "frozen classifier",
+    "propagation sharpening"
+   ],
+   "field": "图神经网络事后精修",
+   "innovations": [
+    "将 Potts 能量分解为 Dirichlet（平滑）与 Gini（锐化）两项并解耦为交替传播-锐化迭代",
+    "提出质量保持锐化操作 R_η，证明其保持节点预测类别并局部下降 KL-Gini 能量",
+    "在概率空间而非 logit 空间进行个性化 PageRank 传播，显著提升深传播鲁棒性"
+   ],
+   "benchmarks": [
+    "WikiCS",
+    "Cora-TAPE",
+    "PubMed-TAPE",
+    "ogbn-arxiv",
+    "ogbn-products",
+    "Ele-Photo",
+    "Ele-Computers",
+    "Books-History",
+    "TAPE-Arxiv23"
+   ]
+  }
+ }
 }

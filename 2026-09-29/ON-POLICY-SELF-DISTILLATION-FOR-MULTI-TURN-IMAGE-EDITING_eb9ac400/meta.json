@@ -4,5 +4,31 @@
  "title": "ON-POLICY-SELF-DISTILLATION-FOR-MULTI-TURN-IMAGE-EDITING",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-29 08:01:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1f25deff-3d68-4f21-b190-5ccdf694d9f7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1f25deff-3d68-4f21-b190-5ccdf694d9f7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 02:51:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-turn image editing",
+    "on-policy self-distillation",
+    "train-test mismatch",
+    "flow matching",
+    "exposure bias",
+    "image editing benchmark"
+   ],
+   "field": "多轮图像编辑",
+   "innovations": [
+    "提出MT-OPSD自蒸馏框架，无需多轮标注即可训练模型在自身生成的退化状态上保持编辑能力",
+    "构建LME-Bench基准，包含100个十轮混合局部/全局编辑会话及SR/CR评测协议",
+    "设计自适应rollout课程+门控教师晋升机制，以漂移量为信号动态推进训练难度"
+   ],
+   "benchmarks": [
+    "LME-Bench",
+    "MSE-Bench",
+    "ImgEdit"
+   ]
+  }
+ }
 }
