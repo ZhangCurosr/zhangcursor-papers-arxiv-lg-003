@@ -4,5 +4,30 @@
  "title": "Probe-Space-Preconditioning-for-Fast-and-Stable-Zero-Order-T",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-09-30 08:04:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ce23d734-5c77-4e6b-8922-7cdd2b176127.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ce23d734-5c77-4e6b-8922-7cdd2b176127.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:25:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-order optimization",
+    "SPSA",
+    "large language model fine-tuning",
+    "inference-mode training",
+    "curvature preconditioning",
+    "derivative-free optimization"
+   ],
+   "field": "零阶优化与大模型高效微调",
+   "innovations": [
+    "提出1.5-SPSA，在推理模式下通过单次clean forward pass估计探针空间曲率预条件子，显著加速收敛",
+    "证明预算应从多step转向大批量+多扰动以在少步内达到更高精度",
+    "结合8-bit打包扰动与Triton融合kernel实现OPT-30B级别模型的单卡推理模式训练"
+   ],
+   "benchmarks": [
+    "GLUE/SuperGLUE (SST-2, RTE, BoolQ, WSC, WiC)",
+    "Stable ToolBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Sol-H3-Recursive-Self-Improvement-for-MiniMax-H3-Inference-A",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-09-29 19:08:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c8b568f3-8ea5-4b19-bf59-474686381fe4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c8b568f3-8ea5-4b19-bf59-474686381fe4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:21:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "推理加速",
+    "跨分辨率调度",
+    "Recursive Self-Improvement",
+    "量化",
+    "稀疏注意力",
+    "latent适配器"
+   ],
+   "field": "视频生成模型推理优化",
+   "innovations": [
+    "跨分辨率两阶段生成管线+跨VAE latent适配器消除decode-reencode开销",
+    "RSI循环在fail-closed约束下自动搜索kernel融合与通信优化",
+    "LoRA precision-preserving consumer fusion避免weight merge数值漂移"
+   ],
+   "benchmarks": [
+    "GB200 8× 5秒视频1.434秒",
+    "DGX Spark 5秒视频56.17秒",
+    "SGLang基线对比"
+   ]
+  }
+ }
 }

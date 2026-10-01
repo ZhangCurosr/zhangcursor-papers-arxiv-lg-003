@@ -4,5 +4,33 @@
  "title": "Physics-Attested-Federated-Learning-Securing-Collaborative-A",
  "token": "sk-zzqRc1aqT...",
  "created_at": "2026-09-29 19:09:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/25235fb6-9a07-466a-9515-e1cf9059eb91.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/25235fb6-9a07-466a-9515-e1cf9059eb91.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:19:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "federated learning",
+    "data poisoning",
+    "process invariants",
+    "zero-knowledge proofs",
+    "industrial control systems",
+    "anomaly detection",
+    "Byzantine-robust aggregation"
+   ],
+   "field": "联邦学习安全与工业控制系统",
+   "innovations": [
+    "将过程不变量从实时告警重定位为联邦训练批次的数据空间准入门控，拒绝全部伪造数据且零误拒诚实分片",
+    "证明数据空间准入与更新空间聚合防御的正交互补性，揭示现有7种聚合规则对物理违反数据的系统性失效",
+    "构建PA-FL Lite零知识证明协议，以806字节证明和290ms验证实现隐私保护下的物理合规认证"
+   ],
+   "benchmarks": [
+    "SWaT",
+    "WADI",
+    "BATADAL",
+    "HAI"
+   ]
+  }
+ }
 }

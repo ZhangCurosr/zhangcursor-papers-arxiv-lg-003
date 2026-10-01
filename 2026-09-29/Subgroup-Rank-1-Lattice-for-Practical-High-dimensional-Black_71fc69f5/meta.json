@@ -4,5 +4,32 @@
  "title": "Subgroup-Rank-1-Lattice-for-Practical-High-dimensional-Black",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-09-29 19:08:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5e99f6e1-2a39-4002-84af-8d9c85de410a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5e99f6e1-2a39-4002-84af-8d9c85de410a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:23:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "quasi-Monte Carlo",
+    "rank-1 lattice",
+    "fast Fourier transform",
+    "Korobov space",
+    "worst-case error",
+    "cyclotomic polynomial",
+    "random features",
+    "softmax attention"
+   ],
+   "field": "高维数值积分与随机特征",
+   "innovations": [
+    "基于固定阶幂形式生成元的子群秩-1格点，将逐元素非线性变换降至O(n log d)时间/O(n)内存",
+    "利用结式与分圆多项式直接证明固定候选池下最坏误差收敛率并给出精确维数阈值m≥d+1",
+    "通过代数数论中完全分裂与理想因子分解证明平均误差常数改善Θ(m-1)倍"
+   ],
+   "benchmarks": [
+    "exp(x^T y) 核估计 (d=8..2048, 54配置)",
+    "self-normalized softmax attention 九真实嵌入数据集 (45配置)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "OmniTide-Co-Designing-Algorithms-and-Systems-for-Eficient-On",
  "token": "sk-SVYqei9VG...",
  "created_at": "2026-09-29 19:09:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d6cdab89-dab7-450c-bc25-0922472fe115.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d6cdab89-dab7-450c-bc25-0922472fe115.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:19:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-device inference",
+    "streaming omni-modal",
+    "KV cache management",
+    "sparse attention",
+    "algorithm-system co-design",
+    "multi-modal LLM"
+   ],
+   "field": "端侧多模态大模型高效推理",
+   "innovations": [
+    "提出 OmniPick：基于单元边界与模态重要性的零开销逻辑 token 保留算法，避免 online attention-score 估计",
+    "提出 OmniPage：保留状态感知的 tile-aligned 分页与 threshold-gated 选择性迁移机制，消除逻辑 evict 引发的物理碎片化"
+   ],
+   "benchmarks": [
+    "StreamingBench",
+    "SVBench",
+    "LiveSports-3K-CC"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "ScAn-Bench-Evaluating-Scaling-Analysis-Methodology",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-29 19:06:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e98508e6-e18a-4612-bb3f-a5a5cd9aaa47.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e98508e6-e18a-4612-bb3f-a5a5cd9aaa47.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:20:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scaling laws",
+    "surrogate benchmark",
+    "scaling analysis",
+    "hyperparameter optimization",
+    "language models",
+    "vision-language models"
+   ],
+   "field": "大模型Scaling分析与方法学评测",
+   "innovations": [
+    "首个面向scaling分析的系统性代理基准ScAn-Bench，支持跨模态公平比较",
+    "统一框架解耦数据采集与外推策略，揭示不同方法间的互补性",
+    "多保真度TabPFN代理建模实现CPU秒级替代GPU小时级训练评估"
+   ],
+   "benchmarks": [
+    "ScAn-Bench-LLM",
+    "ScAn-Bench-VLM",
+    "OpenCLIP",
+    "SlimPajama"
+   ]
+  }
+ }
 }

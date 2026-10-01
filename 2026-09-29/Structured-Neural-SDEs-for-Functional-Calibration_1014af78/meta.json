@@ -4,5 +4,30 @@
  "title": "Structured-Neural-SDEs-for-Functional-Calibration",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-09-29 19:09:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/56a1a4a5-8d55-451b-8579-2ce667490be8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/56a1a4a5-8d55-451b-8579-2ce667490be8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:23:53",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Neural SDE",
+    "Functional Calibration",
+    "Girsanov Tilt",
+    "Parallel Scan",
+    "Structured Linear SDE",
+    "Importance Sampling",
+    "Rare Event Learning"
+   ],
+   "field": "随机微分方程建模与金融机器学习",
+   "innovations": [
+    "将非线性从每步转移至层间，结合并行扫描实现 O(log T) 长序列模拟",
+    "末层 Girsanov 变换作为学习型重要性采样，闭合形式修正稀有路径期望"
+   ],
+   "benchmarks": [
+    "TOY 稀有事件基准",
+    "DAX 期权定价基准"
+   ]
+  }
+ }
 }

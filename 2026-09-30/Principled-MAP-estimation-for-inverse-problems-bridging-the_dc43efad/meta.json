@@ -4,5 +4,30 @@
  "title": "Principled-MAP-estimation-for-inverse-problems-bridging-the",
  "token": "sk-Gq5lt3OzO...",
  "created_at": "2026-09-30 08:04:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/fbc52e9f-0cf2-41e6-b51a-8d943fe6e079.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/fbc52e9f-0cf2-41e6-b51a-8d943fe6e079.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:24:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "逆问题",
+    "MAP估计",
+    "去噪器 Plug-and-Play",
+    "Flow Matching",
+    "收敛理论",
+    " annealing调度"
+   ],
+   "field": "计算成像与逆问题求解",
+   "innovations": [
+    "提出GAMMA统一框架，首次为annealed去噪器逆问题求解提供MAP收敛理论保证",
+    "推导满足收敛条件的显式调度公式（幂律衰减）",
+    "引入Renoised-GAMMA变体桥接理论与实践经验"
+   ],
+   "benchmarks": [
+    "CelebA-128",
+    "AFHQ-Cat-256"
+   ]
+  }
+ }
 }

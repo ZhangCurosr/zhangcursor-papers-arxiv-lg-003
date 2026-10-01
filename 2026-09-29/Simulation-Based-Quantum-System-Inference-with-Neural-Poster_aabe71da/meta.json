@@ -4,5 +4,33 @@
  "title": "Simulation-Based-Quantum-System-Inference-with-Neural-Poster",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-09-29 19:08:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/afb1fd4a-0476-4ab5-bc1d-6d184ebeec69.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/afb1fd4a-0476-4ab5-bc1d-6d184ebeec69.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:21:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "simulation-based inference",
+    "neural posterior estimation",
+    "quantum error mitigation",
+    "quantum state tomography",
+    "Pauli propagation",
+    "Hamiltonian learning",
+    "normalizing flow"
+   ],
+   "field": "量子系统表征与校准",
+   "innovations": [
+    "将多项式成本经典模拟器与 NPE 结合，实现摊销式高维量子参数推断",
+    "提出数字孪生策略，用 SBI 噪声后验驱动合成数据生成以支持 ML-QEM",
+    "通过后验不确定性自动诊断规范自由度导致的参数不可辨识性"
+   ],
+   "benchmarks": [
+    "50-qubit Pauli noise learning",
+    "15-qubit ZNE/PEC error mitigation",
+    "12-qubit quantum state tomography",
+    "9x9 Rydberg atom array Hamiltonian learning"
+   ]
+  }
+ }
 }

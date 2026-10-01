@@ -4,5 +4,31 @@
  "title": "PRICE-STABILITY-IN-THE-EUROPEAN-UNION-A-SYSTEMIC-APPROACH-US",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-09-29 19:08:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/96723bb1-fcaf-495b-a624-7fd95681e7ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/96723bb1-fcaf-495b-a624-7fd95681e7ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:19:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Random Matrix Theory",
+    "Inflation",
+    "Eurozone",
+    "HICP",
+    "Signal-Noise Separation",
+    "Community Detection"
+   ],
+   "field": "计算宏观经济学",
+   "innovations": [
+    "首次将RMT应用于欧元区通胀系统分析，提出信息相关指数α作为自组织能力度量",
+    "基于NNSD自动确定去噪阈值，识别六个区域通胀聚类",
+    "引入条件数迭代分析追踪2019-2026年系统稳定性演变"
+   ],
+   "benchmarks": [
+    "Eurostat HICP monthly inflation (2001-2026)",
+    "WeightWatcher SETOL framework",
+    "RMThreshold NNSD tool"
+   ]
+  }
+ }
 }

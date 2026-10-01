@@ -4,5 +4,37 @@
  "title": "STRUCTURED-LATENT-MODELING-FOR-SUPERVISED-MULTIMODAL-INFORMA",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-29 19:07:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7e6c9d64-4e07-41cf-97bb-6df11695f618.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7e6c9d64-4e07-41cf-97bb-6df11695f618.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:20:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态学习",
+    "潜在变量模型",
+    "部分信息分解",
+    "归一化流",
+    "单模态偏差",
+    "协同信息"
+   ],
+   "field": "多模态表征学习",
+   "innovations": [
+    "提出S2MLVM将多模态表征显式分解为共享预测、模态特定预测和干扰因子",
+    "通过归一化流桥接神经网络表征与结构化高斯LVM实现端到端联合优化",
+    "建立与PID的解析联系并提供可计算的条件独立性对手闭式分解"
+   ],
+   "benchmarks": [
+    "TriFeatures",
+    "MOSI",
+    "MIMIC",
+    "CREMA-D",
+    "UCF101",
+    "Vision&Touch",
+    "MOSEI",
+    "UR-FUNNY",
+    "MUSTARD"
+   ]
+  }
+ }
 }

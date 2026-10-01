@@ -4,5 +4,35 @@
  "title": "Prompts-Live-on-an-Arc-Gaussian-Curricula-in-Fisher-Rao-Coor",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-30 08:02:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d36ebd0d-9a0e-4db2-a64c-0397806f2e83.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d36ebd0d-9a0e-4db2-a64c-0397806f2e83.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:26:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GRPO",
+    "prompt selection",
+    "Fisher-Rao geometry",
+    "curriculum learning",
+    "RLVR",
+    "rollout efficiency",
+    "Kalman filter"
+   ],
+   "field": "大语言模型强化学习",
+   "innovations": [
+    "揭示GRPO的Fisher-Rao弧长几何，证明在该坐标下更新均匀、零方差组为高斯边界层、证据同方差、目标梯度为高斯",
+    "提出ARCUS算法：弧长Kalman滤波+目标匹配高斯核评分+frontier pacing，留空GRPO损失不变",
+    "建立sampler-objective对应关系（Corollary 1），证明任何prompt选择器等价于对某目标函数的梯度上升"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME25",
+    "AMC23",
+    "MATH500",
+    "Minerva",
+    "OlympiadBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "THEIA-A-Multimodal-Dataset-and-Benchmark-for-Vision-Language",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-09-29 19:08:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9058b710-9ef9-43cf-801c-1617a071ab45.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9058b710-9ef9-43cf-801c-1617a071ab45.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:24:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模拟集成电路布局",
+    "视觉语言模型",
+    "GDSII分析",
+    "EDA自动化",
+    "多模态基准测试",
+    "领域自适应微调"
+   ],
+   "field": "电子设计自动化中的AI辅助布局分析",
+   "innovations": [
+    "首个面向GDSII布局的视觉语言多模态数据集THEIA，支持自然语言交互式布局语义分析",
+    "验证通用VLM在无领域适配时性能严重下降，微调后准确率提升65-81个百分点",
+    "提出可控迁移学习评估协议，跨骨干网络证明领域微调效果的通用性"
+   ],
+   "benchmarks": [
+    "THEIA Benchmark",
+    "Task A-E 五任务分级评测",
+    "ALIGN 跨生成器泛化验证"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "SRHARNESS-A-HARNESS-FOR-AGENTIC-SYMBOLIC-REGRESSION",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-09-29 19:07:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f27cfed3-863c-4f8c-87f3-8a221607bba5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f27cfed3-863c-4f8c-87f3-8a221607bba5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:20:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "symbolic regression",
+    "agentic AI",
+    "LLM harness",
+    "scientific discovery",
+    "equation recovery",
+    "runtime support"
+   ],
+   "field": "符号回归与科学发现",
+   "innovations": [
+    "提出与搜索策略无关的领域特定harness框架，解耦运行时支撑与搜索逻辑",
+    "设计组合科学动作机制，支持基于表达式的视图实现异构操作统一接口",
+    "建立持久科学状态与模型朝向视图分离机制，缓解长程agent的context瓶颈"
+   ],
+   "benchmarks": [
+    "LLM-SRBench",
+    "LSR-Synth",
+    "LSR-Transform",
+    "LSR-Transform-Anon"
+   ]
+  }
+ }
 }

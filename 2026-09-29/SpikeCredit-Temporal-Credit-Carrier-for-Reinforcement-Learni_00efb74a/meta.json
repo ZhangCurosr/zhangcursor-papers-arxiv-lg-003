@@ -4,5 +4,32 @@
  "title": "SpikeCredit-Temporal-Credit-Carrier-for-Reinforcement-Learni",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-29 19:07:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8f235e3c-db60-4867-a343-0ebbcf6bd2e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8f235e3c-db60-4867-a343-0ebbcf6bd2e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:22:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse reward RL",
+    "spiking neural network",
+    "temporal credit assignment",
+    "reinforcement learning",
+    "membrane potential",
+    "spike events"
+   ],
+   "field": "稀疏奖励强化学习",
+   "innovations": [
+    "提出 TCC 概念将 SNN 内部动力学作为时间信用载体，首次用于稀疏奖励信用分配",
+    "设计快读-慢写闭环（SMF+CTT）实现从 TCC 读取过渡级信用并写回塑造未来动态",
+    "任务自适应 TCC 选择机制基于事件得分自动切换膜电位/脉冲载体"
+   ],
+   "benchmarks": [
+    "Ant-v4",
+    "Hopper-v4",
+    "Swimmer-v4",
+    "Walker2d-v4"
+   ]
+  }
+ }
 }

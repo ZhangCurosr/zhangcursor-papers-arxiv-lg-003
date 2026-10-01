@@ -4,5 +4,33 @@
  "title": "SincDPNet-Interpretable-Raw-Waveform-Bathroom-Activity-Recog",
  "token": "sk-W9Ytd4ppc...",
  "created_at": "2026-09-29 19:09:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/af55dd0c-da5b-4ef0-b8c8-4bfc1a5fe053.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/af55dd0c-da5b-4ef0-b8c8-4bfc1a5fe053.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:21:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Acoustic Event Classification",
+    "Raw-Waveform Learning",
+    "SincNet",
+    "Interpretable Deep Learning",
+    "TinyML",
+    "Bathroom Activity Recognition",
+    "Multi-Objective Bayesian Optimization",
+    "Edge AI"
+   ],
+   "field": "边缘声学事件分类与可解释 TinyML",
+   "innovations": [
+    "提出 SincDPNet：将可学习 sinc 带通前端与深度可分离卷积体结合，在仅 2,848 参数下实现可解释的原始波形浴室事件分类",
+    "发布 SnaanGhar7：首个含门/助行器/非目标类、采用环境不交叉划分的卫生间声学事件公开数据集",
+    "以 MOBO 探索 accuracy–size Pareto 前沿，证明结构化 sinc 前端在千参数量级下显著优于无约束卷积前端"
+   ],
+   "benchmarks": [
+    "SnaanGhar7 (environment-disjoint split)",
+    "LOEO cross-validation across 5 environments",
+    "Raspberry Pi Zero 2 W deployment (RTF evaluation)"
+   ]
+  }
+ }
 }

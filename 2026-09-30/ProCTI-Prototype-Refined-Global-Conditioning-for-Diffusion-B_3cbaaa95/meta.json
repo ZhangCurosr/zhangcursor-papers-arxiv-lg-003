@@ -4,5 +4,32 @@
  "title": "ProCTI-Prototype-Refined-Global-Conditioning-for-Diffusion-B",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-09-30 18:51:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/61213123-174e-47a1-b9d8-1d1d3a34b9da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/61213123-174e-47a1-b9d8-1d1d3a34b9da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:24:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "time series imputation",
+    "diffusion models",
+    "global conditioning",
+    "prototype retrieval",
+    "regime learning"
+   ],
+   "field": "时间序列缺失值插补",
+   "innovations": [
+    "提出原型条件扩散框架，显式融合全局数据集先验与局部观测",
+    "建立局部‑全局条件化的理论分解，证明混合条件严格降低插补误差",
+    "系统评估五个真实数据集，在随机缺失和属性缺失场景下全面优于现有基线"
+   ],
+   "benchmarks": [
+    "Gait",
+    "PhysioNet",
+    "Weather",
+    "Beijing Air Quality",
+    "Stock"
+   ]
+  }
+ }
 }

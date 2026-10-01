@@ -4,5 +4,30 @@
  "title": "PREDICTIVE-DUAL-SMOOTHING-FOR-COLUMN-GENERATION",
  "token": "sk-L9xk33MRr...",
  "created_at": "2026-09-29 19:09:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5a1f4358-2083-4c9d-9607-7ac06dae728a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5a1f4358-2083-4c9d-9607-7ac06dae728a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:18:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "column generation",
+    "dual smoothing",
+    "predictive stabilization",
+    "learning for operations research",
+    "cutting stock problem",
+    "generalized assignment problem"
+   ],
+   "field": "学习加速组合优化/列生成",
+   "innovations": [
+    "用有限步对偶预测作为定价平滑参考点，替代历史对偶",
+    "从单条标准CG轨迹提取多horizon约束级监督信号并复用",
+    "预测定价+精确reduced cost检验+fallback的保正确性退化机制"
+   ],
+   "benchmarks": [
+    "CUTGEN1生成切割库存问题",
+    "Martello-Toth Type C广义分配问题"
+   ]
+  }
+ }
 }

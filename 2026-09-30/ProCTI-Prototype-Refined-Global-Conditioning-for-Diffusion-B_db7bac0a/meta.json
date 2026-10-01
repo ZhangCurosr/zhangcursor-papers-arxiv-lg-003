@@ -4,5 +4,34 @@
  "title": "ProCTI-Prototype-Refined-Global-Conditioning-for-Diffusion-B",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-09-30 08:00:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/61213123-174e-47a1-b9d8-1d1d3a34b9da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/61213123-174e-47a1-b9d8-1d1d3a34b9da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:25:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列补全",
+    "扩散模型",
+    "原型检索",
+    "全局条件",
+    "频率分解",
+    "随机缺失",
+    "属性缺失"
+   ],
+   "field": "时序补全与生成建模",
+   "innovations": [
+    "提出原型条件扩散补全框架 ProCTI，在逆向过程中检索全局数据集级先验并与局部条件融合",
+    "建立局部-全局条件化理论体系，给出原型条件严格改进补全的等价信息论判据",
+    "频率分解主导分支注入全局状态向量的模块化设计，提升低频结构一致性"
+   ],
+   "benchmarks": [
+    "Gait",
+    "PhysioNet",
+    "Weather",
+    "Beijing Air Quality",
+    "Stock (Google)"
+   ]
+  }
+ }
 }

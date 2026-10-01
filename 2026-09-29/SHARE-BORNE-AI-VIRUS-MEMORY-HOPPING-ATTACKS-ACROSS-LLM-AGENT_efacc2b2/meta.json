@@ -4,5 +4,31 @@
  "title": "SHARE-BORNE-AI-VIRUS-MEMORY-HOPPING-ATTACKS-ACROSS-LLM-AGENT",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-29 19:07:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/323980bf-92a4-480c-b06a-9523f9355abf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/323980bf-92a4-480c-b06a-9523f9355abf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:20:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent Security",
+    "Prompt Injection",
+    "Self-propagating Attacks",
+    "Memory Poisoning",
+    "Multi-hop Propagation",
+    "Artifact-mediated Attack"
+   ],
+   "field": "LLM Agent安全与对抗",
+   "innovations": [
+    "形式化artifact-mediated propagation机制，揭示独立助手间通过共享文件传播攻击的新路径",
+    "构建goal-agnostic attack template优化框架，经endpoint辅助实现多跳传播而不依赖agent直连通信",
+    "系统性评估四种主流模型传播能力差异，证明更robust模型仅提高攻击搜索成本而非免疫"
+   ],
+   "benchmarks": [
+    "Human-Agent Universes (36 test + 3 large)",
+    "OpenClaw Personal Assistant Harness",
+    "DeepSeek-V4-Flash Judge"
+   ]
+  }
+ }
 }

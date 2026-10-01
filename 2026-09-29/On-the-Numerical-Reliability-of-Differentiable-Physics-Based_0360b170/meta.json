@@ -4,5 +4,30 @@
  "title": "On-the-Numerical-Reliability-of-Differentiable-Physics-Based",
  "token": "sk-rxBzzlmRG...",
  "created_at": "2026-09-29 19:09:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b36bde32-001b-416f-9426-86191424c673.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b36bde32-001b-416f-9426-86191424c673.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:19:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "differentiable physics",
+    "material point method",
+    "numerical reliability",
+    "parallel reduction",
+    "finite-difference validation",
+    "robotic material manipulation"
+   ],
+   "field": "可微分物理与机器人优化",
+   "innovations": [
+    "揭示GPU并行归约可导致长时程梯度符号反转并提供确定性归约解决方案",
+    "证明有限差分验证在长rollout下因重复运行噪声而失效",
+    "阐明观察与损失设计对优化行为与解质量的决定性影响"
+   ],
+   "benchmarks": [
+    "DPSI-derived elastoplastic case",
+    "DDBot-derived granular case"
+   ]
+  }
+ }
 }

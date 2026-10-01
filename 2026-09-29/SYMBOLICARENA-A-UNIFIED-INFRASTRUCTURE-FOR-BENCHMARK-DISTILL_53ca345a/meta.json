@@ -4,5 +4,34 @@
  "title": "SYMBOLICARENA-A-UNIFIED-INFRASTRUCTURE-FOR-BENCHMARK-DISTILL",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-09-29 19:08:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f50b04f9-28bb-4951-bd6f-b1feb08d07ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f50b04f9-28bb-4951-bd6f-b1feb08d07ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:21:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "符号回归",
+    "基准蒸馏",
+    "多轴评估",
+    "紧凑基准",
+    "统一执行协议",
+    "可解释AI"
+   ],
+   "field": "符号回归评估基准",
+   "innovations": [
+    "将紧凑SR基准构建形式化为带约束的蒸馏优化问题并导出Core50",
+    "提供统一执行协议标准化异构SR算法的跨范式比较",
+    "提出六轴多轴评估体系揭示数值/符号/搜索行为的正交差异"
+   ],
+   "benchmarks": [
+    "Core50",
+    "Full Task Set (664)",
+    "Calibration Set (200)",
+    "SRBench",
+    "SRSD",
+    "LLM-SRBench"
+   ]
+  }
+ }
 }

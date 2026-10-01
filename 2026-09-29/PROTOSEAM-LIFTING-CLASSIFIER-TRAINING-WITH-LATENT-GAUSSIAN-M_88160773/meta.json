@@ -4,5 +4,31 @@
  "title": "PROTOSEAM-LIFTING-CLASSIFIER-TRAINING-WITH-LATENT-GAUSSIAN-M",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-09-29 19:08:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a4fc9a81-359e-49c0-b057-87c899131132.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a4fc9a81-359e-49c0-b057-87c899131132.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:19:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "classifier training",
+    "gradient decoupling",
+    "prototypes",
+    "Gaussian mixture",
+    "neural collapse",
+    "lifting"
+   ],
+   "field": "监督分类与表示学习",
+   "innovations": [
+    "在单一语义接口插入类条件高斯原型实现梯度解耦的 classifiers lifting 训练框架",
+    "证明采样分类损失等价于对分类头施加显式曲率正则化",
+    "将多重射击分解思想从最优控制迁移至深度学习分类器训练"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "TinyImageNet"
+   ]
+  }
+ }
 }

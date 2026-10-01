@@ -4,5 +4,31 @@
  "title": "Sub-Model-Short-Term-Memory-Convolutions-for-Keyword-Spottin",
  "token": "sk-jqdHJ0gJC...",
  "created_at": "2026-09-29 19:08:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cec404ce-cae5-4751-bd01-0113c559a889.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cec404ce-cae5-4751-bd01-0113c559a889.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:22:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Keyword Spotting",
+    "Edge AI",
+    "Efficient Inference",
+    "Convolutional Neural Networks",
+    "Microcontrollers",
+    "SM-STMC",
+    "Google Speech Commands"
+   ],
+   "field": "边缘设备音频处理与高效推理",
+   "innovations": [
+    "提出SM-STMC方法，通过子模型分解与静态调度消除在线KWS中的冗余时序状态",
+    "实现无需重训练的CNN在线推理优化，显著降低边缘设备的计算与内存开销"
+   ],
+   "benchmarks": [
+    "Google Speech Commands (GSC)",
+    "MCPS计算效率对比",
+    "F1-score准确率"
+   ]
+  }
+ }
 }
