@@ -4,5 +4,32 @@
  "title": "UnlearningSoup-Is-Repeated-Tuning-Necessary-for-Large-Langua",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-09-30 18:52:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f5bdaf21-a9fd-45d4-8ec9-8f81e2a5f89c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f5bdaf21-a9fd-45d4-8ec9-8f81e2a5f89c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:38:53",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "LLM Unlearning",
+    "Model Soups",
+    "PerformanceSoup",
+    "EfficientSoup",
+    "Weight Fusion",
+    "Forget-Retain Trade-off"
+   ],
+   "field": "大语言模型安全对齐与知识遗忘",
+   "innovations": [
+    "提出性能感知的重加权贪心融合框架（PerformanceSoup）",
+    "提出凸包边缘约束的两阶段搜索策略（EfficientSoup）",
+    "形式化刻画欠遗忘/过遗忘/崩塌的共享盆地理论条件"
+   ],
+   "benchmarks": [
+    "TOFU",
+    "WMDP",
+    "MUSE-Books",
+    "MUSE-News"
+   ]
+  }
+ }
 }

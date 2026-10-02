@@ -4,5 +4,10 @@
  "title": "The-Geometry-of-Inference-in-Transformer-Residual-Streams",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-09-30 08:06:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c8120014-9bfe-4eb0-9497-e4d937cc5b09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c8120014-9bfe-4eb0-9497-e4d937cc5b09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:34:17",
+  "chunks": 1
+ }
 }

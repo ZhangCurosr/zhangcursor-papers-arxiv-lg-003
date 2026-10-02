@@ -4,5 +4,33 @@
  "title": "Understanding-Private-Evolution-as-Learning-Augmented-Cluste",
  "token": "sk-zBDLMy3uA...",
  "created_at": "2026-09-30 08:07:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/19f28a5b-3e64-4b5a-8f8c-1f4a5b993f3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/19f28a5b-3e64-4b5a-8f8c-1f4a5b993f3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:37:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "differential privacy",
+    "private evolution",
+    "synthetic data generation",
+    "Wasserstein learning",
+    "learning-augmented algorithms",
+    "foundation model APIs",
+    "beyond-worst-case analysis",
+    " clustering"
+   ],
+   "field": "隐私保护的合成数据生成与 Wasserstein 分布学习",
+   "innovations": [
+    "将 PE 分析从最坏情况 d 维度改进到内在维度 k，证明生成器有效秩 λ 可打破 Wasserstein 下界",
+    "提出 GAPE，以几何感知 local search selection 克服已有 PE 变体在聚类数据上的系统性失败",
+    "首次实证并理论化 VariationAPI 的有效维度（文本约 15 维），解释 PE 在实践中远超理论预测的原因"
+   ],
+   "benchmarks": [
+    "PubMed 医学摘要 (m=2000)",
+    "Reddit 多轮对话 (m=10000)",
+    "2D 人工 GMM 聚类反例"
+   ]
+  }
+ }
 }

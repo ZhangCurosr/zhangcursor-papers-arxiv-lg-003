@@ -4,5 +4,37 @@
  "title": "TomoTransformer-Towards-a-Foundation-Model-for-CT-Reconstruc",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-09-30 08:09:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ecd21036-948e-49ab-8d9b-a85abc388085.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ecd21036-948e-49ab-8d9b-a85abc388085.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:35:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse-view CT",
+    "foundation model",
+    "transformer reconstruction",
+    "disentangled back-projection",
+    "geometric attention",
+    "zero-shot denoising"
+   ],
+   "field": "医学影像重建",
+   "innovations": [
+    "在解耦后投影空间中提出协议无关的 transformer 重建基础模型，支持任意输入/输出视角数和探测器尺寸",
+    "设计几何 tokenizer 与 GAM 注意力机制，将物理先验直接编码入注意力偏置",
+    "单次前向传播即可实现零样本去噪，结合重掩码策略无需微调提升重建质量"
+   ],
+   "benchmarks": [
+    "LoDoPaB-CT",
+    "KiTS23",
+    "COVID-19 CTSpine1K",
+    "MSD-T10",
+    "COLONOG",
+    "HNSCC",
+    "FFHQ",
+    "ImageNet",
+    "SLS 纳米脑组织 PXCT"
+   ]
+  }
+ }
 }

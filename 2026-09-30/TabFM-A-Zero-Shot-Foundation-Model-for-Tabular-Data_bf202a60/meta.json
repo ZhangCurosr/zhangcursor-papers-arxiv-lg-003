@@ -4,5 +4,10 @@
  "title": "TabFM-A-Zero-Shot-Foundation-Model-for-Tabular-Data",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-30 07:59:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/190848e4-d4a8-4abd-adf4-5d72f20dc3b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/190848e4-d4a8-4abd-adf4-5d72f20dc3b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:33:31",
+  "chunks": 1
+ }
 }

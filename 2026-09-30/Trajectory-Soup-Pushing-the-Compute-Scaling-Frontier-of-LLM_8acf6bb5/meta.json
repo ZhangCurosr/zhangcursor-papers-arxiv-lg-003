@@ -4,5 +4,36 @@
  "title": "Trajectory-Soup-Pushing-the-Compute-Scaling-Frontier-of-LLM",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-09-30 08:10:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/acc08337-d9f1-44eb-a1ea-1c800542a7d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/acc08337-d9f1-44eb-a1ea-1c800542a7d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:36:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mid-training",
+    "model merging",
+    "compute scaling",
+    "trajectory diversity",
+    "weight averaging",
+    "large language models"
+   ],
+   "field": "大语言模型训练效率优化",
+   "innovations": [
+    "将中型训练的计算预算分配到多条独立优化轨迹并通过两阶段选择与平均合并，突破串行训练的扩展饱和瓶颈",
+    "在局部二次损失模型下推导偏差–方差分解，证明均匀权重在两阶段平均中的方差最优性",
+    "通过控制实验隔离轨迹多样性增益，揭示方向余弦相似度对插值增益的预测作用"
+   ],
+   "benchmarks": [
+    "ARC-Easy/Challenge",
+    "AGIEval",
+    "MMLU-Pro",
+    "GSM8K",
+    "HumanEval",
+    "LiveCodeBench",
+    "C-Eval",
+    "BFCL v4"
+   ]
+  }
+ }
 }

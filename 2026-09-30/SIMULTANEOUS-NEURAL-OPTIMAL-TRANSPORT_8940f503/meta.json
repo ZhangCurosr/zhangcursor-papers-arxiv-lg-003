@@ -4,5 +4,31 @@
  "title": "SIMULTANEOUS-NEURAL-OPTIMAL-TRANSPORT",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-09-30 18:51:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5236d7e3-f3d2-4089-ab2e-e0baa3e0b8c7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5236d7e3-f3d2-4089-ab2e-e0baa3e0b8c7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:32:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "optimal transport",
+    "simultaneous OT",
+    "unbalanced OT",
+    "image restoration",
+    "neural transport map",
+    "multi-source mapping",
+    "distribution alignment"
+   ],
+   "field": "最优传输与生成模型",
+   "innovations": [
+    "首次将同时最优传输扩展到连续神经网络求解器，提出共享传输图与源特异性势函数的联合训练方法",
+    "推导非平衡同时OT的精确半对偶表示，建立神经网络一致性近似保证，并证明二次KL情形下最优方案的Monge确定性结构",
+    "在CelebA多退化图像修复上实现无需退化标签的盲修复，并在未见退化强度下取得最低的FID/LPIPS与最高PSNR"
+   ],
+   "benchmarks": [
+    "CelebA 64x64",
+    "Gaussian-to-Swiss-roll toy experiment"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "RECAP-RETRIEVAL-GUIDED-CAPABILITY-REUSE-FOR-MULTIMODAL-CONTI",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-09-30 18:50:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5127bd5d-b28c-45e7-a879-e173bc3e0e66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5127bd5d-b28c-45e7-a879-e173bc3e0e66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:31:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal continual instruction tuning",
+    "retrieval-augmented generation",
+    "capability reuse",
+    "adaptive subspace recycling",
+    "catastrophic forgetting",
+    "parameter-efficient fine-tuning"
+   ],
+   "field": "多模态持续学习",
+   "innovations": [
+    "检索引导的能力复用机制，将外部知识作为实例级能力路径选择的显式接口",
+    "自适应子空间回收：通过共享基底+阶段特定核与能量排序坐标系实现跨阶段稳定复用",
+    "在 UCIT/CoIN 基准上以最少可训练参数（25.34M）取得 SOTA 性能"
+   ],
+   "benchmarks": [
+    "UCIT",
+    "CoIN"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Understanding-Private-Evolution-as-Learning-Augmented-Cluste",
  "token": "sk-zBDLMy3uA...",
  "created_at": "2026-09-30 18:52:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/19f28a5b-3e64-4b5a-8f8c-1f4a5b993f3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/19f28a5b-3e64-4b5a-8f8c-1f4a5b993f3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:37:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "differential privacy",
+    "private evolution",
+    "Wasserstein learning",
+    "synthetic data generation",
+    "learning-augmented algorithms",
+    "generative model"
+   ],
+   "field": "差分隐私合成数据生成",
+   "innovations": [
+    "将PE重新定义为learning-augmented Wasserstein learning，证明收敛率仅依赖内蕴维度而非环境维度",
+    "首次揭示ranking/subsampling选择在分层聚类数据上的失败模式并提出GAPE几何感知算法",
+    "实证估计GPT-2/Mistral/Llama文本生成器的内蕴维度约15远低于768维嵌入空间"
+   ],
+   "benchmarks": [
+    "PubMed 75K medical abstracts",
+    "Reddit 5M dialogues"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "UNLOCKING-THE-CRITIC-REWARD-FREE-POLICY-OPTIMIZATION-FOR-LLM",
  "token": "sk-8zjLxCqN4...",
  "created_at": "2026-09-30 18:51:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/89e8bcc6-88b6-4dc9-9bc3-4112d15eccd0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/89e8bcc6-88b6-4dc9-9bc3-4112d15eccd0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:37:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reward-free RL",
+    "critic reuse",
+    "LLM post-training",
+    "chain-of-thought reasoning",
+    "proximal policy optimization",
+    "length debiasing"
+   ],
+   "field": "大语言模型强化学习后训练",
+   "innovations": [
+    "证明 critic 不稳定性源于优化配方而非网络本身，单步低方差更新可稳定训练",
+    "单一冻结校准 critic 同时担任 rollout 奖励、GAE 基线、未完成前缀预测器三重角色",
+    "通过长度十分位去偏加二值化阈值关闭策略 exploit 通道，实现零标签匹配监督 PPO"
+   ],
+   "benchmarks": [
+    "AIME 2025",
+    "AIME 2026",
+    "AMC 2023",
+    "GPQA-Diamond"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "RAE-PPG-DURATION-GROUNDED-RETAIN-AND-EXTEND-PRETRAINING-FOR",
  "token": "sk-wmVet9QXD...",
  "created_at": "2026-09-30 18:52:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c89c95ed-91ea-41bf-b27e-e5064953268b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c89c95ed-91ea-41bf-b27e-e5064953268b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:32:41",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "PPG",
+    "自监督预训练",
+    "参数隔离",
+    "Retained-target Supervision",
+    "Multi-duration Pretraining",
+    "Physiological Signal"
+   ],
+   "field": "生理信号表示学习",
+   "innovations": [
+    "提出 Nested Read & Protected Write 参数组织机制，按递增时长（10s→30s→240s）分阶段预训练避免灾难性遗忘",
+    "引入 Retained-target Supervision 损失，使早期特征监督在后续阶段继续作用于冻结参数组",
+    "系统性验证特征保留与扩展增益，18 项下游任务中 12 项取得最佳 mean rank 1.44"
+   ],
+   "benchmarks": [
+    "MIMIC-III Waveform Database",
+    "VitalDB"
+   ]
+  }
+ }
 }

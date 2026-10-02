@@ -4,5 +4,35 @@
  "title": "Trident-Unifying-Guarded-Dispatch-and-Host-Execution-for-PyT",
  "token": "sk-FmwWXAxnf...",
  "created_at": "2026-09-30 18:51:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/84f7bcaa-610b-4fa6-ac17-95326c2b40c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/84f7bcaa-610b-4fa6-ac17-95326c2b40c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:36:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Triton",
+    "PyTorch",
+    "host-side overhead",
+    "specialization cache",
+    "compiler backend",
+    "LLM inference",
+    "Torch-MLIR"
+   ],
+   "field": "深度学习编译器与运行时优化",
+   "innovations": [
+    "提出 SCM 将多特化守卫分派与主机执行统一编译为单一可执行模块，消除暖路径跨边界开销",
+    "设计原生守卫翻译与短路控制流 IR，使守卫评估与图执行在同一编译单元内联合优化",
+    "实现 Trident FFI schema-driven 泛化 C++ 模板绑定层，复用 PyTorch ATen 运行时实现"
+   ],
+   "benchmarks": [
+    "FlagGems 21 operators",
+    "DeepSeek-V2-Lite",
+    "Qwen3-8B",
+    "MMLU",
+    "GSM8K",
+    "HumanEval"
+   ]
+  }
+ }
 }

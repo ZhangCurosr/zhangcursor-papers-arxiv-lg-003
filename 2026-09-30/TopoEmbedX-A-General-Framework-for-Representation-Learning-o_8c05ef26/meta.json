@@ -4,5 +4,32 @@
  "title": "TopoEmbedX-A-General-Framework-for-Representation-Learning-o",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-30 18:50:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3c455de8-825f-4c37-ac52-9e31e167a6de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3c455de8-825f-4c37-ac52-9e31e167a6de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:35:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "拓扑表示学习",
+    "增广 Hasse 图",
+    "单纯复形",
+    "细胞复形",
+    "高阶网络嵌入",
+    "TopoEmbedX",
+    "随机游走嵌入",
+    "谱嵌入"
+   ],
+   "field": "拓扑深度学习 / 高阶图表示学习",
+   "innovations": [
+    "提出增广 Hasse 图把任意拓扑域约化为图，使经典图嵌入可直接用于高维复形",
+    "统一单秩与多秩表示学习目标并给出可计算的相似度构造",
+    "发布包含 10 种算法的开源 TopoEmbedX 框架并在 AHORN 基准上系统评测"
+   ],
+   "benchmarks": [
+    "edge classification on AHORN (algebra/geometry/cooking/MAG-10/reviews)",
+    "edge regression on semantic-scholar-coauth-sample"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "TRAVERSING-THE-SOLUTION-SPACE-OF-NEURAL-NET-WORKS-WITH-HESSI",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-30 08:04:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e649b3fd-7cf9-4d8f-8836-8c71e4465e7a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e649b3fd-7cf9-4d8f-8836-8c71e4465e7a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:33:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "海森零空间继续",
+    "权重空间遍历",
+    "表征多样性",
+    "损失景观几何",
+    "强化学习奖励黑客",
+    "普朗克表征假设"
+   ],
+   "field": "神经网络可解释性与优化动力学",
+   "innovations": [
+    "提出HNC方法在局部平坦方向上遍历并保持功能的替代解",
+    "揭示权重空间连通区域内存在超越跨模型变异的表征多样性",
+    "通过软投影引导在海森零空间中优化任意可微目标"
+   ],
+   "benchmarks": [
+    "3BFF RNN记忆任务",
+    "ImageNet分类（ViT-S/16）",
+    "AI Safety Gridworlds船赛",
+    "CIFAR-100 CNN宽度‑类别扫掠"
+   ]
+  }
+ }
 }

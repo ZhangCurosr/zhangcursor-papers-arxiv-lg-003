@@ -4,5 +4,34 @@
  "title": "Towards-Better-Training-Signal-Advantage-Clipped-Policy-Opti",
  "token": "sk-u8lryRDFU...",
  "created_at": "2026-09-30 18:52:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2548b114-a224-49bd-9050-72f3fb1c6175.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2548b114-a224-49bd-9050-72f3fb1c6175.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:35:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RL post-training",
+    "policy optimization",
+    "importance sampling",
+    "advantage clipping",
+    "PPO",
+    "GRPO",
+    "mirror descent",
+    "LLM reasoning"
+   ],
+   "field": "大语言模型强化学习后训练",
+   "innovations": [
+    "提出ACPO，直接对IS ratio与优势函数乘积进行截断以稳定梯度估计",
+    "建立ACPO截断与梯度截断Policy Mirror Descent的理论联系并证明收敛性",
+    "在数学推理基准上统一验证ACPO对PPO/GRPO的精度提升与训练加速效果"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "Minerva Math",
+    "OlympiadBench",
+    "AIME-like"
+   ]
+  }
+ }
 }

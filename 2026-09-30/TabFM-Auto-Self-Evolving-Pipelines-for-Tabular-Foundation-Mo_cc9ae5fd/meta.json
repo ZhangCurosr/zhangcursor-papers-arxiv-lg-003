@@ -4,5 +4,31 @@
  "title": "TabFM-Auto-Self-Evolving-Pipelines-for-Tabular-Foundation-Mo",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-30 18:49:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2f76dad5-7b1e-4215-8101-b902eb869d19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2f76dad5-7b1e-4215-8101-b902eb869d19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:33:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tabular Foundation Models",
+    "LLM Agents",
+    "Feature Engineering",
+    "AutoML",
+    "In-context Learning",
+    "TabArena",
+    "MLE-Bench"
+   ],
+   "field": "表格数据机器学习",
+   "innovations": [
+    "提出 TabFM-Auto 框架，将冻结 TFM 与 LLM agent 结合，通过迭代搜索优化数据流水线",
+    "设计四阶段模块化流水线（清洗、特征工程、上下文选择、后处理），利用 LLM 域知识自动推导物理/临床公式",
+    "发现的流水线可无修改迁移至其他 TFM（TabPFN-3、TabICLv2、EXAONE-Tabular），提升 +69~+143 Elo"
+   ],
+   "benchmarks": [
+    "TabArena (51 datasets)",
+    "MLE-Bench-Tabular (8 Kaggle competitions)"
+   ]
+  }
+ }
 }

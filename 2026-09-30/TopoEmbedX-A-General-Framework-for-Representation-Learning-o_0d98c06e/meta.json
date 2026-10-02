@@ -4,5 +4,30 @@
  "title": "TopoEmbedX-A-General-Framework-for-Representation-Learning-o",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-30 08:02:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3c455de8-825f-4c37-ac52-9e31e167a6de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3c455de8-825f-4c37-ac52-9e31e167a6de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:35:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "拓扑表示学习",
+    "增广Hasse图",
+    "高阶嵌入",
+    "单纯复形",
+    "胞腔复形",
+    "组合复形",
+    "无监督表示学习"
+   ],
+   "field": "拓扑深度学习",
+   "innovations": [
+    "提出增广Hasse图归约实现拓扑表示学习到图表示学习的统一框架",
+    "新增ComplexNetMF/ComplexRep/ComplexRandNE/ComplexWalklets/ComplexHeat五个原创多秩与单秩算法"
+   ],
+   "benchmarks": [
+    "AHORN边分类七数据集",
+    "semantic-scholar-coauth-sample边回归"
+   ]
+  }
+ }
 }

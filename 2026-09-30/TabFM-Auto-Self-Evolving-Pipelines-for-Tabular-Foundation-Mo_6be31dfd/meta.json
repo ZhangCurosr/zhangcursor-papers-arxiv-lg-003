@@ -4,5 +4,30 @@
  "title": "TabFM-Auto-Self-Evolving-Pipelines-for-Tabular-Foundation-Mo",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-30 08:07:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2f76dad5-7b1e-4215-8101-b902eb869d19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2f76dad5-7b1e-4215-8101-b902eb869d19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:33:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tabular Foundation Models",
+    "Self-evolving Pipelines",
+    "LLM Agents",
+    "In-context Learning",
+    "TabFM",
+    "AutoML"
+   ],
+   "field": "表格数据机器学习与基础模型",
+   "innovations": [
+    "冻结TabFM权重并让LLM agent迭代搜索数据清洗、特征工程、上下文选择与后处理管道",
+    "发现的管道可跨模型迁移至TabICLv2/TabPFN-3/EXAONE-Tabular（+68.8至+143.3 Elo）",
+    "在TabArena 51数据集上包揽前五（最高2013 Elo）并在MLE-Bench-Tabular 8竞赛中排名第一"
+   ],
+   "benchmarks": [
+    "TabArena",
+    "MLE-Bench-Tabular"
+   ]
+  }
+ }
 }

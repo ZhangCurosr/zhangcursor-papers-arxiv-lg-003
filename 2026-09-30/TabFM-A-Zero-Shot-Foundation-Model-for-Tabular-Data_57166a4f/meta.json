@@ -4,5 +4,31 @@
  "title": "TabFM-A-Zero-Shot-Foundation-Model-for-Tabular-Data",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-30 18:49:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/190848e4-d4a8-4abd-adf4-5d72f20dc3b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/190848e4-d4a8-4abd-adf4-5d72f20dc3b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:33:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tabular foundation model",
+    "in-context learning",
+    "zero-shot prediction",
+    "structural causal model",
+    "Fourier embedding",
+    "ISAB",
+    "RoPE",
+    "TabArena"
+   ],
+   "field": "表格机器学习基础模型",
+   "innovations": [
+    "400M参数Transformer将表格预测建模为上下文学习，仅单次前向推理输出校准zero-shot预测",
+    "列-行解耦架构(ISAB+SAB+RoPE)突破二次注意力限制，将上下文扩展到16384行",
+    "纯合成SCM数据预训练配合四阶段课程学习，实现跨真实任务的零样本迁移"
+   ],
+   "benchmarks": [
+    "TabArena"
+   ]
+  }
+ }
 }

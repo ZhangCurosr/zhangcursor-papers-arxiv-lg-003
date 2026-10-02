@@ -4,5 +4,32 @@
  "title": "SELFSEARCH-REWARD-FREE-SEARCH-FOR-SELF-IMPROVING-AGENTS",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-09-30 08:06:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/53e8b8f3-7c1e-4abc-b9b6-5f5745005227.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/53e8b8f3-7c1e-4abc-b9b6-5f5745005227.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:31:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-improving agents",
+    "reward-free search",
+    "LLM agent",
+    "automated agent design",
+    "experience-driven evolution",
+    "SWE-bench",
+    "Terminal-Bench"
+   ],
+   "field": "自主代理与自动化 agent 设计",
+   "innovations": [
+    "提出无需下游评估反馈的自我改进搜索流程，以历史 episode 记录作为改进信号",
+    "双谱系（能力/自适应）共享只读记录并交叉复用工具的演化架构",
+    "跨模型族可迁移且搜索成本仅 $4.03 的高成功率 harness"
+   ],
+   "benchmarks": [
+    "SWE-bench Verified",
+    "SWE-bench Multilingual",
+    "Terminal-Bench 2.1"
+   ]
+  }
+ }
 }

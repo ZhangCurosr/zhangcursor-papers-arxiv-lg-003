@@ -4,5 +4,35 @@
  "title": "Trajectory-Soup-Pushing-the-Compute-Scaling-Frontier-of-LLM",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-09-30 18:51:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/acc08337-d9f1-44eb-a1ea-1c800542a7d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/acc08337-d9f1-44eb-a1ea-1c800542a7d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:36:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mid-training",
+    "model merging",
+    "trajectory averaging",
+    "compute scaling",
+    "weight averaging",
+    "LLM"
+   ],
+   "field": "大语言模型训练与计算分配",
+   "innovations": [
+    "将 mid-training 计算预算从单条轨迹延长改为分配到多条 recipe-perturbed 独立分支，提出 Trajectory Soup 两阶段合并",
+    "通过局部偏差-方差分析分离 intra/inter 两阶段合并对验证 loss 的不同贡献，证明均匀权重方差最优并推导有限最优 checkpoint 数",
+    "在 7.9B MoE 模型上验证 Extended 模式优于单轨迹最强 merge（68.96 vs 68.55），且优势经 SFT 后仍保持"
+   ],
+   "benchmarks": [
+    "ARC-Easy/Challenge",
+    "AGIEval",
+    "MMLU-Pro",
+    "GSM8K",
+    "HumanEval",
+    "LiveCodeBench",
+    "C-Eval"
+   ]
+  }
+ }
 }

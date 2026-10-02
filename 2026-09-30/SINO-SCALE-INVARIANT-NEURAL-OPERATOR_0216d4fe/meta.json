@@ -4,5 +4,34 @@
  "title": "SINO-SCALE-INVARIANT-NEURAL-OPERATOR",
  "token": "sk-LqkNuH8i8...",
  "created_at": "2026-09-30 08:05:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/413cf8d5-0fe4-4a92-853f-19433bd19c6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/413cf8d5-0fe4-4a92-853f-19433bd19c6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:32:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "神经算子",
+    "湍流闭合",
+    "尺度不变性",
+    "低秩参数化",
+    "超网络",
+    "PDE求解"
+   ],
+   "field": "科学机器学习",
+   "innovations": [
+    "瓶颈超网络生成归一化坐标下的连续低秩卷积核",
+    "双分支频域-空域架构实现全局谱传递与局部非线性协同",
+    "理论证明算子范数次线性增长与Lipschitz连续性"
+   ],
+   "benchmarks": [
+    "Forcing Burgers",
+    "Decaying Burgers",
+    "KS turbulence",
+    "Forcing NS Re=1000",
+    "Forcing NS Re=4000",
+    "Decaying NS"
+   ]
+  }
+ }
 }

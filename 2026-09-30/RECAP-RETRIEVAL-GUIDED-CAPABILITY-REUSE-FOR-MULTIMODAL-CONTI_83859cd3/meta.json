@@ -4,5 +4,30 @@
  "title": "RECAP-RETRIEVAL-GUIDED-CAPABILITY-REUSE-FOR-MULTIMODAL-CONTI",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-09-30 07:59:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5127bd5d-b28c-45e7-a879-e173bc3e0e66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5127bd5d-b28c-45e7-a879-e173bc3e0e66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:31:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态持续指令微调",
+    "检索增强生成",
+    "能力复用",
+    "自适应子空间回收",
+    "持续学习",
+    "知识卡片"
+   ],
+   "field": "多模态持续学习",
+   "innovations": [
+    "检索引导的能力复用框架：利用外部知识（领域/推理/格式卡片）组织实例级别的能力路径与跨阶段复用",
+    "自适应子空间回收机制：基于历史能量排序的共享基+阶段特定核心参数化，保护高能量方向同时回收低能量方向",
+    "无任务标签的纯内容路由：推理时仅凭指令、检索知识与视觉信号选择历史阶段特定核心"
+   ],
+   "benchmarks": [
+    "UCIT",
+    "CoIN"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "UnlearningSoup-Is-Repeated-Tuning-Necessary-for-Large-Langua",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-09-30 08:10:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f5bdaf21-a9fd-45d4-8ec9-8f81e2a5f89c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f5bdaf21-a9fd-45d4-8ec9-8f81e2a5f89c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:39:09",
+  "chunks": 5
+ }
 }

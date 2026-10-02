@@ -4,5 +4,32 @@
  "title": "Trident-Unifying-Guarded-Dispatch-and-Host-Execution-for-PyT",
  "token": "sk-FmwWXAxnf...",
  "created_at": "2026-09-30 08:09:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/84f7bcaa-610b-4fa6-ac17-95326c2b40c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/84f7bcaa-610b-4fa6-ac17-95326c2b40c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:36:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Triton",
+    "PyTorch",
+    "Compiler Backend",
+    "Host Overhead",
+    "Specialization Cache",
+    "LLM Inference",
+    "Torch-MLIR"
+   ],
+   "field": "深度学习编译器优化",
+   "innovations": [
+    "提出 SCM 将 guarded dispatch 与 host execution 统一编译消除 warm path 开销",
+    "基于 Torch-MLIR 实现完整编译器后端并通过 TVM FFI 暴露",
+    "在 LLM 推理场景下相比 torch.compile 最高获得 1.68× 端到端加速"
+   ],
+   "benchmarks": [
+    "FlagGems 21 operators",
+    "DeepSeek-V2-Lite MMLU/GSM8K/HumanEval",
+    "Qwen3-8B MMLU/GSM8K/HumanEval"
+   ]
+  }
+ }
 }

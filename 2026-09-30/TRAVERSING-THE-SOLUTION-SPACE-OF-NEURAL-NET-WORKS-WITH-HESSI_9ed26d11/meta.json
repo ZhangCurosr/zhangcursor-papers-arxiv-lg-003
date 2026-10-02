@@ -4,5 +4,36 @@
  "title": "TRAVERSING-THE-SOLUTION-SPACE-OF-NEURAL-NET-WORKS-WITH-HESSI",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-30 18:50:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e649b3fd-7cf9-4d8f-8836-8c71e4465e7a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e649b3fd-7cf9-4d8f-8836-8c71e4465e7a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:33:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Hessian null space",
+    "solution degeneracy",
+    "mode connectivity",
+    "representational diversity",
+    "reward hacking",
+    "mechanistic interpretability",
+    "loss landscape geometry"
+   ],
+   "field": "神经网络解空间与可解释性",
+   "innovations": [
+    "提出HNC方法：利用函数匹配损失的海森零空间在保持输出的前提下遍历替代解",
+    "首次在单训练解附近的局部连通低损失区域内揭示大量多样化表示与行为策略",
+    "证明ViT替代解的表示差异可超过所有独立训练模型甚至未训练随机初始化"
+   ],
+   "benchmarks": [
+    "Places-365",
+    "ImageNet-1k",
+    "CIFAR-100",
+    "3-Bit Flip-Flop RNN",
+    "Plume Tracking",
+    "AI Safety Gridworlds Boat Race",
+    "MuJoCo Ant-v3"
+   ]
+  }
+ }
 }
