@@ -4,5 +4,34 @@
  "title": "WHAT-LIMITS-RECURSIVE-REASONING-MODELS-OP-TIMIZATION-ARCHITE",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-10-01 08:26:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b8e48aef-bc70-4480-bcb5-324f710d8b3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b8e48aef-bc70-4480-bcb5-324f710d8b3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:43:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "recursive reasoning",
+    "stable training",
+    "gradient horizon",
+    "physical batch",
+    "out-of-distribution generalization",
+    "controlled ablation"
+   ],
+   "field": "递归/迭代推理模型训练与泛化",
+   "innovations": [
+    "揭示中间梯度视界与物理大 batch 对递归模型 OOD 泛化的决定性作用",
+    "提出边界化+门控+归一化的受控隐状态更新稳定配方",
+    "在六域统一流程下完成 HRM/TRM/URM 的可归因消融并构建 13.6M 最强递归基线"
+   ],
+   "benchmarks": [
+    "Sudoku",
+    "Maze",
+    "Game of Life",
+    "Arithmetic",
+    "ARC-AGI-1",
+    "ARC-AGI-2"
+   ]
+  }
+ }
 }

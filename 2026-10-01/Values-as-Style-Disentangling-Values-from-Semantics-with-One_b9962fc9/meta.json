@@ -4,5 +4,34 @@
  "title": "Values-as-Style-Disentangling-Values-from-Semantics-with-One",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-10-01 08:24:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b8f55193-7504-4141-9da0-934e5e6cb9a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b8f55193-7504-4141-9da0-934e5e6cb9a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:43:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "value steering",
+    "semantic-value disentanglement",
+    "one-way mixing",
+    "activation editing",
+    "LLM alignment",
+    "inference-time intervention",
+    "representation engineering"
+   ],
+   "field": "大语言模型价值对齐与推理时干预",
+   "innovations": [
+    "提出语义-价值观解耦的可编辑接口，通过单向混合路径实现价值观与场景语义的选择性分离",
+    "引入残差增量编辑（delta editing）结合 GatedNSI 选择性激活，在同等对齐下显著降低语义漂移与良性拒答",
+    "通过匹配拆分探针与 2×2 消融系统论证表征选择性与下游编辑质量的因果关联"
+   ],
+   "benchmarks": [
+    "ValueBench",
+    "SVQ-Test",
+    "SVQ-EQ-10K",
+    "Moral Foundations transfer",
+    "Hard benign FRR set"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Working-Around-the-Compute-Ceiling-Galahad-s-Byte-Exact-Memo",
  "token": "sk-y9PdQWlPV...",
  "created_at": "2026-10-01 08:29:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/f2a32de3-6463-46db-a952-f31a17de867c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/f2a32de3-6463-46db-a952-f31a17de867c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:44:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV cache persistence",
+    "byte-exact reuse",
+    "LLM serving",
+    "retrieval-augmented generation",
+    "energy-efficient inference",
+    "stateful inference"
+   ],
+   "field": "LLM系统优化与推理加速",
+   "innovations": [
+    "Taliesin：字节级精确的KV状态持久化与恢复，bit-identical logits保证",
+    "Blaise：CPU端精确文档节选，将全量corpus阅读转为单section阅读",
+    "三运行时统一接入（vLLM/SGLang/llama.cpp）的fail-closed记忆层设计"
+   ],
+   "benchmarks": [
+    "100 facts in 96,726-token Wikipedia corpus",
+    "Seven real-world datasets (349 questions)",
+    "RAGFlow v0.27.2 external baseline"
+   ]
+  }
+ }
 }

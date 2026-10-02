@@ -4,5 +4,31 @@
  "title": "What-Streaming-Anomaly-Detection-Finds-and-Misses-in-Industr",
  "token": "sk-gFvvi8BZy...",
  "created_at": "2026-10-01 08:25:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e405add3-1086-4f4a-8e91-a72c4f8ac542.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e405add3-1086-4f4a-8e91-a72c4f8ac542.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:43:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列异常检测",
+    "流式异常检测",
+    "AutoAD",
+    "工业时间序列",
+    "在线学习",
+    "集成学习",
+    "核电厂监测"
+   ],
+   "field": "工业时间序列异常检测",
+   "innovations": [
+    "首次系统性对比Online TSAD与Streaming方法在真实工业数据上的表现",
+    "证明Online模型整体一致性优于Streaming方法，且集成策略显著提升稳定性",
+    "通过外部数据解释共识性假阳性背后的物理真实事件"
+   ],
+   "benchmarks": [
+    "VUS-PR",
+    "Blayais核电厂堵塞数据集"
+   ]
+  }
+ }
 }

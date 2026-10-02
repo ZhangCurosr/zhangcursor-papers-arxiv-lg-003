@@ -4,5 +4,29 @@
  "title": "TopTimeNet-Topologically-assisted-time-series-classification",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-10-01 08:20:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a7c40f83-1ca1-47f4-9951-628193221149.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a7c40f83-1ca1-47f4-9951-628193221149.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:42:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "time series classification",
+    "topological data analysis",
+    "persistent homology",
+    "periodic-chaotic distinction",
+    "parameter-efficient deep learning",
+    "Takens embedding"
+   ],
+   "field": "拓扑数据分析与时间序列分类",
+   "innovations": [
+    "固定几何/拓扑特征提取与轻量分类器的解耦架构",
+    "1638参数小模型与54886参数大模型达到相同均值精度",
+    "特征级与原始信号级扰动鲁棒性的分层评测与差异揭示"
+   ],
+   "benchmarks": [
+    "Teaspoon 49-system benchmark (periodic vs chaotic)"
+   ]
+  }
+ }
 }

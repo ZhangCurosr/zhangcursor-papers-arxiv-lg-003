@@ -4,5 +4,32 @@
  "title": "VALIDITY-PRESERVING-HIERARCHICAL-RL-FOR-JOINT-ROUTING-AND-SW",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-10-01 08:28:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c014e5aa-0427-4a2a-ad4c-7e8404412f81.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c014e5aa-0427-4a2a-ad4c-7e8404412f81.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:43:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "joint routing and switch placement",
+    "hierarchical reinforcement learning",
+    "Gumbel MCTS",
+    "validity-preserving construction",
+    "EDA physical design",
+    "Hanan grid",
+    "risk-seeking value estimation",
+    "transfer learning"
+   ],
+   "field": "芯片物理设计自动化",
+   "innovations": [
+    "提出保持有效性的层次化图构造框架，将路由与开关联合优化限制在可行子空间且保留全局最优可达性",
+    "证明扩展Hanan格点离散化不失最优性并将连续放置转化为有限候选搜索",
+    "将Gumbel MCTS与风险追求分位数价值估计结合用于组合物理设计优化"
+   ],
+   "benchmarks": [
+    "24个合成方形版图预训练集",
+    "4个持有OUT版图fine-tuning测试集"
+   ]
+  }
+ }
 }

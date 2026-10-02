@@ -4,5 +4,34 @@
  "title": "TIME-ANCHORED-DIFFUSION-LANGUAGE-MODELS-LATENT-SPACE-CACHING",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-09-30 08:09:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/502e9d2c-bdac-439e-8548-a02384110cde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/502e9d2c-bdac-439e-8548-a02384110cde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:41:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散语言模型",
+    "推理加速",
+    "隐式缓存",
+    "时间锚定",
+    "自监督学习"
+   ],
+   "field": "扩散语言模型推理优化",
+   "innovations": [
+    "提出时间锚定机制，学习跨扩散步可复用的隐式语义表征，无需显式锚标记监督",
+    "设计两阶段分解+融合模块架构，将昂贵锚网络计算周期性地 amortize 到多个反向步",
+    "提出 T-ANELBO 理论框架，在预训练阶段直接学习可缓存的时空稳定表征"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "HumanEval",
+    "GPQA-Diamond",
+    "MMLU-Pro",
+    "LiveCodeBench-v6",
+    "AIME26",
+    "OpenWebText"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "WHEN-INSTRUCTIONS-RETRIEVE-TRAJECTORIES-DIAGNOSING-AND-MITIG",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-10-01 08:26:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/0aaa01b2-d0f8-4687-a434-83e7c227e6f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/0aaa01b2-d0f8-4687-a434-83e7c227e6f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:43:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA models",
+    "instruction-action binding",
+    "counterfactual training",
+    "flow matching",
+    "robotic manipulation",
+    "generalization failure"
+   ],
+   "field": "Vision-Language-Action models",
+   "innovations": [
+    "Identify and diagnose instruction-action binding in VLA models through behavioral probes and internal-state interventions",
+    "Propose Equivariant Counterfactual Training (ECT) with action-valid counterpart pairs and paired loss",
+    "Derive supervision principle from conditional action support analysis under flow matching"
+   ],
+   "benchmarks": [
+    "LIBERO-PRO",
+    "CALVIN ABC→D",
+    "UR5e physical robot"
+   ]
+  }
+ }
 }

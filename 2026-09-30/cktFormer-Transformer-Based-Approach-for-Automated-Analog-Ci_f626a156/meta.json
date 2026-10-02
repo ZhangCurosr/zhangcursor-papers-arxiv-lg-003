@@ -4,5 +4,29 @@
  "title": "cktFormer-Transformer-Based-Approach-for-Automated-Analog-Ci",
  "token": "sk-eUuUuX3MU...",
  "created_at": "2026-09-30 08:10:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/815d29dd-ef34-4ade-9739-f50acab2638f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/815d29dd-ef34-4ade-9739-f50acab2638f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:42:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模拟电路设计",
+    "Transformer",
+    "图生成",
+    "电子设计自动化",
+    "Analog Circuit Synthesis"
+   ],
+   "field": "AI for Electronic Design Automation",
+   "innovations": [
+    "解耦双Transformer节点/边预测架构提升有效电路生成率至89.6%",
+    "Edge Bias注意力机制将邻接矩阵先验注入自注意力",
+    "邻接矩阵对称化与迭代精炼后处理提升物理有效性"
+   ],
+   "benchmarks": [
+    "AnalogGenie Dataset",
+    "OCB (Open Circuit Benchmark)"
+   ]
+  }
+ }
 }
