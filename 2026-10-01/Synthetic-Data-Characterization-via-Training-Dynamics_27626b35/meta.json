@@ -4,5 +4,32 @@
  "title": "Synthetic-Data-Characterization-via-Training-Dynamics",
  "token": "sk-4xOJ8RgWe...",
  "created_at": "2026-10-01 08:23:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5c827360-33e2-41d6-ae72-c8058fc2bd8a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5c827360-33e2-41d6-ae72-c8058fc2bd8a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:39:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "synthetic data",
+    "training dynamics",
+    "learnability",
+    "data cartography",
+    "LLM-generated data",
+    "dataset characterization"
+   ],
+   "field": "合成数据质量评估",
+   "innovations": [
+    "基于训练动力学（confidence/variability/correctness）的样本级合成数据表征框架",
+    "扩展数据地图至多标签分类、序列标注和树预测任务，揭示合成与人类数据的系统性可学习性差异"
+   ],
+   "benchmarks": [
+    "SST-5",
+    "SemEval-2018 EC",
+    "UD 2.15 English EWT",
+    "Spanish GSD",
+    "French Sequoia"
+   ]
+  }
+ }
 }

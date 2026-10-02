@@ -4,5 +4,31 @@
  "title": "SELF-REPULSIVE-SAMPLING-FOR-DIFFUSION-LANGUAGE-MODELS",
  "token": "sk-mtb2NN4Ja...",
  "created_at": "2026-10-01 08:28:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a1c812bf-67ba-48a0-9eac-df7a78fea64c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a1c812bf-67ba-48a0-9eac-df7a78fea64c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:36:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion language models",
+    "self-consistency",
+    "diverse sampling",
+    "test-time scaling",
+    "masked diffusion",
+    "ensemble decoding"
+   ],
+   "field": "扩散语言模型推理优化",
+   "innovations": [
+    "提出 Self-Repulsion 采样器，通过路径间 token 承诺计数施加 logit 惩罚提升多样性",
+    "在温度零下实现确定性多样性，打破对称性使多条路径产生不同输出",
+    "将投票增益分解为覆盖度与选择性项，证明增益主要来自覆盖度提升"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

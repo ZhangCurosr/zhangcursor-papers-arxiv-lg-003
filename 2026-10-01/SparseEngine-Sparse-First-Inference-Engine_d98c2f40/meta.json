@@ -4,5 +4,33 @@
  "title": "SparseEngine-Sparse-First-Inference-Engine",
  "token": "sk-zBDLMy3uA...",
  "created_at": "2026-10-01 08:27:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2a3354b5-28ba-403b-8259-0eab0118feba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2a3354b5-28ba-403b-8259-0eab0118feba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:38:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse attention",
+    "LLM inference engine",
+    "KV cache management",
+    "long-context serving",
+    "agent inference",
+    "lifecycle abstraction"
+   ],
+   "field": "大语言模型高效推理系统",
+   "innovations": [
+    "提出基于共享生命周期契约的稀疏优先推理引擎，使15种异构稀疏方法可自主控制KV表示与计算",
+    "设计Chain Cache实现逐出类稀疏方法的多轮Agent状态复用",
+    "支持可控Prefix-Cache Pruning在保留逻辑前缀匹配的同时释放物理KV容量"
+   ],
+   "benchmarks": [
+    "LongBench V1",
+    "LongBench V2",
+    "AIME 2024",
+    "SWE-bench Lite",
+    "Claw-Eval"
+   ]
+  }
+ }
 }

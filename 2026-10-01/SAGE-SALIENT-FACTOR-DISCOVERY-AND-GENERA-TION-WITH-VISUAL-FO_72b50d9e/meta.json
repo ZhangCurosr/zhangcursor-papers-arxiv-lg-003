@@ -4,5 +4,31 @@
  "title": "SAGE-SALIENT-FACTOR-DISCOVERY-AND-GENERA-TION-WITH-VISUAL-FO",
  "token": "sk-Gq5lt3OzO...",
  "created_at": "2026-10-01 08:26:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6dd4c883-a75e-4736-acbc-1af586c39e74.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6dd4c883-a75e-4736-acbc-1af586c39e74.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:36:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对比分析",
+    "表示分解",
+    "显著因子发现",
+    "条件生成",
+    "表示自编码器",
+    "无监督子类型发现"
+   ],
+   "field": "视觉表示学习与生成模型",
+   "innovations": [
+    "在冻结表示自编码器的空间潜在空间中进行对比因子分解",
+    "设计多重损失协同约束显著因子纯净性",
+    "以显著因子为条件进行扩散生成实现子类型保持与内容变化"
+   ],
+   "benchmarks": [
+    "Digits-ImageNet",
+    "FFHQ 眼镜数据集",
+    "OCT-Kermany 视网膜图像"
+   ]
+  }
+ }
 }

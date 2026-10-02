@@ -4,5 +4,30 @@
  "title": "STARS-From-Spatiotemporal-Dynamics-to-Social-Representations",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-10-01 08:19:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/bc3673ce-25ff-4e38-8998-3428e77d9fe0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/bc3673ce-25ff-4e38-8998-3428e77d9fe0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:37:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human-Robot Interaction",
+    "Social Navigation",
+    "Representation Learning",
+    "Graph Neural Networks",
+    "Self-supervised Learning",
+    "Relational Inductive Bias"
+   ],
+   "field": "社交导航中的表示学习",
+   "innovations": [
+    "提出STARS时空图自编码器，将HRI物理动态压缩为可迁移的社会语义潜表征",
+    "证明关系归纳偏置在小样本场景下显著提升数据效率",
+    "自监督预训练无需社会标签即自然编码动作意图等高阶语义"
+   ],
+   "benchmarks": [
+    "SEAN Together (SEAN-T)",
+    "SocialNav-SUB (SNS)"
+   ]
+  }
+ }
 }

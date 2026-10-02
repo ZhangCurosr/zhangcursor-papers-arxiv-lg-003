@@ -4,5 +4,33 @@
  "title": "The-Golden-Path-Hypothesis-Reusable-Schedules-in-Diffusion-C",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-10-01 08:24:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a31538ba-6d32-40b6-9219-0619bf8b335e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a31538ba-6d32-40b6-9219-0619bf8b335e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:41:54",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "diffusion caching",
+    "schedule optimization",
+    "golden path hypothesis",
+    "compute reuse",
+    "inference acceleration"
+   ],
+   "field": "扩散模型高效推理",
+   "innovations": [
+    "提出并系统验证黄金路径假设：跨prompt的缓存schedule高度可复用",
+    "首次对137万调度进行穷举搜索并建立固定vs自适应的严格统计比较框架",
+    "证明单一固定schedule仅比自适应损失≤0.25dB且覆盖89.8%的prompt"
+   ],
+   "benchmarks": [
+    "DrawBench",
+    "PartiPrompts",
+    "DiffusionDB-clean10k",
+    "Penguin599",
+    "VBench944",
+    "GenEval-style"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "TOWARDS-BETTER-EXPLORATION-IN-SEQUENTIAL-TEST-TIME-SCALING",
  "token": "sk-6g8ixta3t...",
  "created_at": "2026-10-01 08:29:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/02f1b143-9e88-4ac4-8a30-57bc61b3bb2a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/02f1b143-9e88-4ac4-8a30-57bc61b3bb2a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:39:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time scaling",
+    "sequential reasoning",
+    "attractor",
+    "model mixing",
+    "recursive self-aggregation",
+    "reasoning evaluation"
+   ],
+   "field": "大语言模型推理效率与测试时扩展",
+   "innovations": [
+    "提出测试时扩展的通用动力系统框架并形式化吸引子概念",
+    "发现序列扩展在53.8%情况下过早收敛于次优吸引子",
+    "提出模型混入干预使序列方法覆盖率超越并行基线3.3个百分点"
+   ],
+   "benchmarks": [
+    "IMO-AnswerBench",
+    "AMO-Bench-P",
+    "Reasoning Gym Games",
+    "ARC AGI 1"
+   ]
+  }
+ }
 }

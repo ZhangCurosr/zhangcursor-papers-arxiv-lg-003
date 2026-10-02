@@ -4,5 +4,10 @@
  "title": "SHOULD-I-STAY-OR-SHOULD-I-SHOW-LEARNING-TO-SELECTIVELY-DISCL",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-10-01 08:22:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ab2a2aaa-fba5-4511-8123-1a4b55258c4a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ab2a2aaa-fba5-4511-8123-1a4b55258c4a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:38:42",
+  "chunks": 3
+ }
 }

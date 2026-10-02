@@ -4,5 +4,27 @@
  "title": "Sharp-Stationary-Gaussian-Approximation-for-Constant-Stepsiz",
  "token": "sk-ZJWd8qnO6...",
  "created_at": "2026-10-01 08:27:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/31f8efbe-32a6-4a04-8766-0af731c5b4a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/31f8efbe-32a6-4a04-8766-0af731c5b4a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:38:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "常数步长 SGD",
+    "Markovian 噪声",
+    "高斯近似",
+    "Wasserstein 距离",
+    "Poisson 方程",
+    "平稳分布",
+    "Lindeberg 插值"
+   ],
+   "field": "随机优化理论",
+   "innovations": [
+    "将常数步长SGD平稳分布的W_1高斯近似上界从O(sqrt(alpha)log(1/alpha))改进至O(sqrt(alpha))",
+    "构造四状态Markov噪声下界实例，揭示三阶时序混合矩是主导修正阶的来源",
+    "双Poisson方程方法同时处理Markov噪声均值与条件协方差的时序依赖"
+   ]
+  }
+ }
 }

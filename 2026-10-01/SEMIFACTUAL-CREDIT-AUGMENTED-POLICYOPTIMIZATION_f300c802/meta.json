@@ -4,5 +4,34 @@
  "title": "SEMIFACTUAL-CREDIT-AUGMENTED-POLICYOPTIMIZATION",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-10-01 08:19:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/54b7ba46-8be1-457c-a276-39528d32096d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/54b7ba46-8be1-457c-a276-39528d32096d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:36:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "GRPO",
+    "token-level credit assignment",
+    "semifactual intervention",
+    "reasoning robustness",
+    "policy optimization"
+   ],
+   "field": "大语言模型强化学习",
+   "innovations": [
+    "提出半事实信用增强策略优化SCAPO，通过token级概率漂移信号细化GRPO信用分配",
+    "设计负向-only校正机制，仅惩罚不稳定token而不额外奖励稳定性",
+    "证明无需过程监督或外部奖励模型即可实现细粒度token级信用分配"
+   ],
+   "benchmarks": [
+    "AIME 2024-2026",
+    "AMC 2023-2025",
+    "HMMT 2025-2026",
+    "GPQA-Diamond",
+    "NoOp-AIME",
+    "ThinkBench-AIME"
+   ]
+  }
+ }
 }

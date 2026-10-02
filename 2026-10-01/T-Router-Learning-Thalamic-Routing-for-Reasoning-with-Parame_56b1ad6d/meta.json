@@ -4,5 +4,32 @@
  "title": "T-Router-Learning-Thalamic-Routing-for-Reasoning-with-Parame",
  "token": "sk-rxBzzlmRG...",
  "created_at": "2026-10-01 08:26:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/902b359d-1370-43b8-bf60-05f18c4ca951.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/902b359d-1370-43b8-bf60-05f18c4ca951.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:40:43",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "T-Router",
+    "参数高效强化学习",
+    "丘脑路由",
+    "大模型推理",
+    "样本方差",
+    "跨层通信"
+   ],
+   "field": "大语言模型高效强化学习/推理增强",
+   "innovations": [
+    "围绕冻结主干构建跨层通信接口实现参数高效RL",
+    "借鉴丘脑路由原理将内容/状态/控制信号三元解耦",
+    "通过动态路由与状态维护显著降低数学推理训练的样本方差"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "AIME24",
+    "AIME25"
+   ]
+  }
+ }
 }

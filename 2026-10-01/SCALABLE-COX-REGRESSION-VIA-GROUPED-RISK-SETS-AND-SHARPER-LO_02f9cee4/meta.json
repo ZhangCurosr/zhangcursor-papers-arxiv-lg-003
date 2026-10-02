@@ -4,5 +4,34 @@
  "title": "SCALABLE-COX-REGRESSION-VIA-GROUPED-RISK-SETS-AND-SHARPER-LO",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-10-01 08:21:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5b1eb7a4-b7f4-4684-bd52-1af488e5f203.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5b1eb7a4-b7f4-4684-bd52-1af488e5f203.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:36:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cox regression",
+    "LogSumExp optimization",
+    "stochastic approximation",
+    "grouped risk sets",
+    "softplus surrogate",
+    "asymptotic equivalence",
+    "survival analysis"
+   ],
+   "field": "大规模生存分析与凸随机优化",
+   "innovations": [
+    "对 softplus LogSumExp 代理建立 O(T^{-1/2}) 均值率与 O(log T/T) 最后迭代率",
+    "基于嵌套风险集分组的二阶梯度误差控制与曲率转移",
+    "压缩估计器在显式调度下保持全数据 Cox 估计器的渐近正态性"
+   ],
+   "benchmarks": [
+    "SUPPORT2",
+    "NWTCO",
+    "Correlated 100k",
+    "Correlated 1M",
+    "Independent 100k"
+   ]
+  }
+ }
 }

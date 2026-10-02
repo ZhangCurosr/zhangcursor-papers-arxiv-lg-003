@@ -4,5 +4,32 @@
  "title": "TRACE-TRAJECTORY-SELECTION-FOR-PARALLEL-SCALING-OF-SEARCH-AG",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-10-01 08:20:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/dd8c8f0b-6f34-4e09-909e-518551132162.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/dd8c8f0b-6f34-4e09-909e-518551132162.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:40:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Search Agents",
+    "Trajectory Selection",
+    "Parallel Scaling",
+    "Graph Neural Networks",
+    "Evidence Aggregation",
+    "Efficient Reasoning"
+   ],
+   "field": "强化学习与Agent系统",
+   "innovations": [
+    "提出TRACE选择器，利用跨轨迹证据传播进行轻量级轨迹选择",
+    "构建保持发生的查询-证据图，连接不同轨迹的共享证据",
+    "实现答案条件读取，结合局部轨迹背景与全局证据信息"
+   ],
+   "benchmarks": [
+    "WebQA",
+    "BrowseComp-Plus",
+    "FRAMES",
+    "GAIA"
+   ]
+  }
+ }
 }

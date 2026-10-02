@@ -4,5 +4,34 @@
  "title": "SEPAL-SEPARATED-EXPERT-PAIRS-WITH-ANSWER-LEVEL-FUSION-FOR-RE",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-10-01 08:22:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/474e388f-2642-4d6b-b8c4-c50efd6be349.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/474e388f-2642-4d6b-b8c4-c50efd6be349.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:36:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent collaboration",
+    "actor-critic",
+    "preference optimization",
+    "self-consistency",
+    "chain-of-thought",
+    "answer-level fusion",
+    "DPO"
+   ],
+   "field": "大语言模型推理与协作",
+   "innovations": [
+    "隔离角色对+答案级投票融合避免跨候选错误传播",
+    "续写价值偏好学习训练私有Critic修正各角色轨迹",
+    "三角色（Direct/Evidence/Verification）结构化多样性设计"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "BoolQ",
+    "BBH",
+    "SciQ",
+    "ARC"
+   ]
+  }
+ }
 }

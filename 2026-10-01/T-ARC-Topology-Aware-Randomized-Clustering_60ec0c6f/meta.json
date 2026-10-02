@@ -4,5 +4,34 @@
  "title": "T-ARC-Topology-Aware-Randomized-Clustering",
  "token": "sk-kPtjfXaXd...",
  "created_at": "2026-10-01 08:29:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/05698810-aafa-44ef-9b93-5c130a5a0c48.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/05698810-aafa-44ef-9b93-5c130a5a0c48.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:39:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "clustering",
+    "topological data analysis",
+    "persistent homology",
+    "stochastic block model",
+    "distributionally robust optimization",
+    "graph cut",
+    "K-means"
+   ],
+   "field": "无监督学习/聚类分析",
+   "innovations": [
+    "将零维持续同调构建的拓扑相似性矩阵嵌入聚类优化目标，修正K-means几何偏差",
+    "联合学习潜在图结构（SBM）与聚类分配，通过DRO框架处理图结构不确定性",
+    "近端点方法求解图参数闭式更新，Lyapunov泛函证明期望收敛性"
+   ],
+   "benchmarks": [
+    "Two-Moons",
+    "Two-Spirals",
+    "Two-Eights",
+    "Chain-link",
+    "Fashion-MNIST subset"
+   ]
+  }
+ }
 }

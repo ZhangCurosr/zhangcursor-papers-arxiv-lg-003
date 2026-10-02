@@ -4,5 +4,34 @@
  "title": "SHARED-WEIGHTS-SELECTED-COMPUTATIONS-HOW-LOOPED-TRANSFORMERS",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-10-01 08:27:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1ec8f023-f754-408b-b7eb-9ff661ff5560.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1ec8f023-f754-408b-b7eb-9ff661ff5560.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:37:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Looped Transformer",
+    "state steering",
+    "activation patching",
+    "recurrent computation",
+    "mechanistic interpretability",
+    "latent reasoning"
+   ],
+   "field": "循环Transformer机制解释",
+   "innovations": [
+    "证明冻结共享Transformer块可通过修改进入隐状态被路由至不同语义转换（一跳/两跳）",
+    "揭示注意力模式路由是隐状态控制下一计算目标的因果通路",
+    "通过配对监督对比证明转向能力取决于骨干网络已学的计算而非创造新算法"
+   ],
+   "benchmarks": [
+    "Graph Walk",
+    "Parity",
+    "Ouro Letter-Walk",
+    "Ouro Antonym Cancellation",
+    "Qwen3-8B Continued Computation",
+    "Synthetic Knowledge Graph Relation Composition"
+   ]
+  }
+ }
 }

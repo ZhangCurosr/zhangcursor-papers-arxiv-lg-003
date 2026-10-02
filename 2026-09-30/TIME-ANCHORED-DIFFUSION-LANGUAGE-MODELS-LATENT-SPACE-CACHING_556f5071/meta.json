@@ -4,5 +4,34 @@
  "title": "TIME-ANCHORED-DIFFUSION-LANGUAGE-MODELS-LATENT-SPACE-CACHING",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-09-30 18:50:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/502e9d2c-bdac-439e-8548-a02384110cde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/502e9d2c-bdac-439e-8548-a02384110cde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:34:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散语言模型",
+    "推理加速",
+    "潜在空间缓存",
+    "锚定扩散模型",
+    "自监督学习"
+   ],
+   "field": "扩散语言模型高效推理",
+   "innovations": [
+    "将锚定从token级监督转为潜在空间时间缓存，实现跨扩散步复用",
+    "提出TADM:Post-train仅需微调3.1M融合参数即可在预训练DLM上启用缓存加速",
+    "设计T-ANELBO损失函数支持从零预训练时可缓存锚定的自监督学习"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "GPQA-Diamond",
+    "HumanEval",
+    "LiveCodeBench-v6",
+    "AIME26",
+    "MMLU-Pro",
+    "OpenWebText"
+   ]
+  }
+ }
 }

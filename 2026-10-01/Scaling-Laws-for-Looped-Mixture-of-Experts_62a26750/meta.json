@@ -4,5 +4,10 @@
  "title": "Scaling-Laws-for-Looped-Mixture-of-Experts",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-10-01 08:19:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/9abee621-b4d9-44fe-878a-702b29ff5559.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/9abee621-b4d9-44fe-878a-702b29ff5559.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:38:30",
+  "chunks": 1
+ }
 }

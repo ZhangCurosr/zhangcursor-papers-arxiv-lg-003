@@ -4,5 +4,30 @@
  "title": "SEAR-SPOOFING-EVIDENCE-GROUNDED-AUDIO-REASONING-BENCHMARK-FO",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-10-01 08:19:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d96ebb44-0044-4d3e-b315-035636bde9b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d96ebb44-0044-4d3e-b315-035636bde9b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:36:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Audio Deepfake Detection",
+    "Audio Language Models",
+    "Evidence-Grounded Reasoning",
+    "Audio Question Answering",
+    "Speech Anti-Spoofing"
+   ],
+   "field": "音频安全与可解释AI",
+   "innovations": [
+    "提出首个证据 grounded 的四任务AQA基准SEAR",
+    "设计工具增强的冻结ALM推理框架BAEA",
+    "揭示理由可信度与可验证证据推理能力的分离现象"
+   ],
+   "benchmarks": [
+    "ASVspoof 2019 LA",
+    "ASVspoof 2021 LA",
+    "CodecFake+"
+   ]
+  }
+ }
 }

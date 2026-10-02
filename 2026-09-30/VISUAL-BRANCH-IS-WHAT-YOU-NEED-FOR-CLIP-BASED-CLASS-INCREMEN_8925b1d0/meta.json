@@ -4,5 +4,38 @@
  "title": "VISUAL-BRANCH-IS-WHAT-YOU-NEED-FOR-CLIP-BASED-CLASS-INCREMEN",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-30 18:50:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0e89a54f-6e97-4b7f-bfa0-62afe6b78303.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0e89a54f-6e97-4b7f-bfa0-62afe6b78303.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:35:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "类增量学习",
+    "CLIP",
+    "视觉-语言预训练",
+    "闭式分类器",
+    "无回放学习",
+    "LS-SVM",
+    "模态间隙"
+   ],
+   "field": "类增量学习",
+   "innovations": [
+    "提出完全去除CLIP文本分支的纯视觉增量分类方法Vis",
+    "通过多层CLIP特征残差融合增强视觉表示并在基座会话固化",
+    "设计基于可加充分统计量的闭式增量核化LS-SVM分类器"
+   ],
+   "benchmarks": [
+    "CIFAR100",
+    "FGVCAircraft",
+    "StanfordCars",
+    "ImageNet-R",
+    "CUB200",
+    "UCF101",
+    "Food101",
+    "ObjectNet",
+    "SUN397"
+   ]
+  }
+ }
 }

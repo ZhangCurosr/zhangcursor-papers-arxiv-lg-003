@@ -4,5 +4,36 @@
  "title": "STEEPEST-GUIDANCE-A-PRACTICAL-AND-PRINCI-PLED-APPROACH-TO-IN",
  "token": "sk-0H4qcWJwC...",
  "created_at": "2026-10-01 08:27:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7d509cc2-984a-48b0-be9f-9a9da3a96930.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7d509cc2-984a-48b0-be9f-9a9da3a96930.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:37:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理时对齐",
+    "流匹配模型",
+    "扩散模型",
+    "奖励引导生成",
+    "概率测度优化",
+    "Doob h-transform",
+    "Steepest Guidance"
+   ],
+   "field": "生成模型的推理时控制与对齐",
+   "innovations": [
+    "将推理时对齐建模为概率测度空间的序列优化，提出无偏的Steepest Guidance估计器",
+    "建立时变reward functional下的全局收敛性定理，推广Wasserstein梯度流理论",
+    "通过lookahead粒子近似支持CVaR等非线性奖励泛函的training-free优化"
+   ],
+   "benchmarks": [
+    "Stable Diffusion v1.5",
+    "FLUX.1 [dev]",
+    "ImageReward",
+    "PickScore",
+    "Blueness",
+    "Compressibility",
+    "CVaR"
+   ]
+  }
+ }
 }

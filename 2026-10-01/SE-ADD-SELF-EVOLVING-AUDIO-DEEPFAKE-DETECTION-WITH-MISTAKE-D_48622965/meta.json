@@ -4,5 +4,29 @@
  "title": "SE-ADD-SELF-EVOLVING-AUDIO-DEEPFAKE-DETECTION-WITH-MISTAKE-D",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-10-01 08:24:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/285e9fd7-c285-41aa-8b5b-eeb317ac7837.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/285e9fd7-c285-41aa-8b5b-eeb317ac7837.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:36:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "audio deepfake detection",
+    "audio language model",
+    "self-evolving",
+    "mistake-driven supervision",
+    "LoRA adaptation",
+    "ASVspoof"
+   ],
+   "field": "音频深度伪造检测",
+   "innovations": [
+    "提出错误驱动监督与自生成法医线索结合的自我演化框架",
+    "引入连续演变伪造环境下的累积 LoRA 适应机制",
+    "设计直接/联合/条件三阶段监督任务以提升泛化能力"
+   ],
+   "benchmarks": [
+    "ASVspoof 2019 LA"
+   ]
+  }
+ }
 }

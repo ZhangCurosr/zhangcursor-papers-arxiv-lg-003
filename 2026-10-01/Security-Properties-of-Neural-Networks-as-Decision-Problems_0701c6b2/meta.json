@@ -4,5 +4,34 @@
  "title": "Security-Properties-of-Neural-Networks-as-Decision-Problems",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-10-01 08:22:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5ab422be-fce0-4f6d-996d-83aa2d379cea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5ab422be-fce0-4f6d-996d-83aa2d379cea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:38:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "神经网络验证",
+    "计算复杂性",
+    "安全属性",
+    "多项式层次",
+    "实数存在理论",
+    "后门检测",
+    "参数不确定性"
+   ],
+   "field": "机器学习安全理论",
+   "innovations": [
+    "统一框架形式化8类神经网络安全决策问题",
+    "揭示参数空间不确定性导致从P到∃R-complete的复杂度跃升",
+    "证明后门触发检测在量化字母表下为Σ²ₚ-complete"
+   ],
+   "benchmarks": [
+    "NNReach",
+    "VIP",
+    "NE",
+    "MIN",
+    "Rule Checking"
+   ]
+  }
+ }
 }

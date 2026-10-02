@@ -4,5 +4,31 @@
  "title": "The-Nixtlaverse-An-Open-Source-Ecosystem-for-Forecasting-sup",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-10-01 08:27:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/06b069e8-1b20-4e24-b94f-821e3156e1e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/06b069e8-1b20-4e24-b94f-821e3156e1e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:40:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列预测",
+    "开源框架",
+    "层级预测校准",
+    "跨模型族评估",
+    "可扩展性测量",
+    "M5竞争"
+   ],
+   "field": "时间序列预测软件工程",
+   "innovations": [
+    "提出共享面板与输出契约的第三条设计路径，保留各模型族实现独立性",
+    "首次在全规模M5面板上测量统计/ML/神经三类引擎的分阶段运行时与内存瓶颈",
+    "验证外部引擎通过121行适配器即可接入统一评估与稀疏层级校准链路"
+   ],
+   "benchmarks": [
+    "M5 competition (30,490 series bottom-level, 42,840 series hierarchical)",
+    "MASE, RMSE, WRMSSE",
+    "单.worker线性扩展指数≈0.99; 20.worker加速9.8×"
+   ]
+  }
+ }
 }

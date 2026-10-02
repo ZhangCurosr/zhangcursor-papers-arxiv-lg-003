@@ -4,5 +4,33 @@
  "title": "STABLE-TRANSFORMERS-FOR-GRAPH-GENERATION",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-10-01 08:26:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/42ea8c4f-2a22-4f78-a47f-007868780d1d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/42ea8c4f-2a22-4f78-a47f-007868780d1d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:37:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Graph Generation",
+    "Graph Transformer",
+    "Discrete Flow Matching",
+    "Orthogonal Dynamics",
+    "Rank Collapse",
+    "Cayley Transform",
+    "Vanishing Gradients"
+   ],
+   "field": "图生成与图神经网络动力学",
+   "innovations": [
+    "首次从动力系统视角揭示深度GT去噪器的耗散收缩机制并与图生成质量建立因果联系",
+    "提出基于Cayley变换的正交节点传播算子SGT，保证非耗散等距传播并保留排列等变性",
+    "引入可连续插值的阻尼参数γ0实现非耗散到收缩regime的系统消融"
+   ],
+   "benchmarks": [
+    "Planar",
+    "SBM",
+    "ZINC250k",
+    "MOSES"
+   ]
+  }
+ }
 }
