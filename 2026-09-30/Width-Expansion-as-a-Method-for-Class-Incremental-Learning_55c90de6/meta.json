@@ -4,5 +4,30 @@
  "title": "Width-Expansion-as-a-Method-for-Class-Incremental-Learning",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-30 07:59:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a3251b1c-2984-4b51-8edf-7521c2e488ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a3251b1c-2984-4b51-8edf-7521c2e488ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:56:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Class-Incremental Learning",
+    "Catastrophic Forgetting",
+    "Network Expansion",
+    "Width Expansion",
+    "Continual Learning",
+    "Attention Mechanism"
+   ],
+   "field": "持续学习/增量学习",
+   "innovations": [
+    "提出基于规范化损失的无任务依赖动态宽度扩展机制(WE)",
+    "引入带持久键值记忆的线性注意力机制以稳定跨步表征",
+    "系统评估WE与注意力机制与多种持续学习策略(EWC,LwF,A-GEM等)的组合效果"
+   ],
+   "benchmarks": [
+    "Split MNIST",
+    "Split CIFAR-100"
+   ]
+  }
+ }
 }

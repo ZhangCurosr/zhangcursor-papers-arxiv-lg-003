@@ -4,5 +4,31 @@
  "title": "WHEN-MODELS-DON-T-MANIPULATE-MANIFOLDS-THE-GEOMETRY-OF-A-COM",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-09-30 08:05:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a5a04887-942b-4a30-8072-fe984b6d49c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a5a04887-942b-4a30-8072-fe984b6d49c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:53:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "linear representation",
+    "manifold hypothesis",
+    "causal geometry",
+    "number comparison",
+    "Qwen2.5-7B"
+   ],
+   "field": "机制可解释性",
+   "innovations": [
+    "揭示比较任务中线性表征优先于流形几何的因果机制",
+    "提出加法混合+局部-全局MLP组合的两阶段比较算法",
+    "将比较算法扩展至多数字序列的递推标志位框架"
+   ],
+   "benchmarks": [
+    "数字最大值比较任务（2-20个数）",
+    "两数比较I IA=1.000",
+    "三数比较位置恢复PR=1.000"
+   ]
+  }
+ }
 }

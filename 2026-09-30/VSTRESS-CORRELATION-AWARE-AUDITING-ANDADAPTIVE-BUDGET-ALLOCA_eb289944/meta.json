@@ -4,5 +4,32 @@
  "title": "VSTRESS-CORRELATION-AWARE-AUDITING-ANDADAPTIVE-BUDGET-ALLOCA",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-09-30 08:05:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9f787901-525a-428a-9a87-e31c895b767c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9f787901-525a-428a-9a87-e31c895b767c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:52:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "verifier aggregation",
+    "correlation-aware allocation",
+    "auditable replay",
+    "conditional mutual information",
+    "repeated verification",
+    "RLVR",
+    "budget allocation"
+   ],
+   "field": "可解释AI评估",
+   "innovations": [
+    "提出条件边际可判别性估计验证器增量价值",
+    "设计可审计重放合约防止事后偏差",
+    "实现成本归一化与不确定性感知的自适应分配策略"
+   ],
+   "benchmarks": [
+    "GSM8K fixture",
+    "periodic binary oracle",
+    "RLVR downstream tasks"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "WEIGHTS-READ-AND-WRITE-FEATURES-SCALABLEPARAMETER-DECOMPOSIT",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-09-30 08:06:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/aa273fd7-a75a-41c8-bf4d-18ffd861d097.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/aa273fd7-a75a-41c8-bf4d-18ffd861d097.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:52:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "parameter decomposition",
+    "sparse autoencoder",
+    "weight editing",
+    "IOI circuit",
+    "activation grounding"
+   ],
+   "field": " mechanistic interpretability",
+   "innovations": [
+    "提出ASPD联合激活与参数空间分解，用共享稀疏表示实现权重组件的激活接地",
+    "设计内部重建损失提供局部学习信号，使参数分解可扩展至Qwen-3-8B等大规模模型",
+    "构建读-写交互评分框架，将权重组件组合为参数级机制电路并恢复IOI电路"
+   ],
+   "benchmarks": [
+    "GPT-2 small",
+    "Gemma-2-2B",
+    "Qwen-3-8B"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "VOLATILITY-CLUSTERING-ADAPTATION-FOR-FINANCIAL-TIME-SERIES",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-09-30 18:50:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c4f76331-93d1-4e52-902c-8d387eafb461.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c4f76331-93d1-4e52-902c-8d387eafb461.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:52:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "volatility clustering",
+    "time-series foundation models",
+    "financial forecasting",
+    "fine-tuning objectives",
+    "ACF² loss",
+    "regime matching"
+   ],
+   "field": "金融时间序列预测与基础模型自适应",
+   "innovations": [
+    "提出 VCA 方法：通过可微 ACF² 匹配损失增强金融基础模型微调，使 rollout 波动率聚类结构与真实路径对齐",
+    "揭示波动率趋势信道机制：证明 ACF² 损失对波动率指数趋势方向不敏感",
+    "提出 regime-matched 数据选择策略：基于验证期波动率匹配实现高效微调"
+   ],
+   "benchmarks": [
+    "CSI300",
+    "CSI500",
+    "Crypto (Binance top-20 pairs)"
+   ]
+  }
+ }
 }

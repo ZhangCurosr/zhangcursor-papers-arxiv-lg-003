@@ -4,5 +4,33 @@
  "title": "When-do-data-mixtures-improve-scaling-laws-Insights-from-hig",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-30 18:49:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/931a0e04-e619-4030-96d4-df26f57e0279.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/931a0e04-e619-4030-96d4-df26f57e0279.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:57:42",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "scaling laws",
+    "data mixture",
+    "ridge regression",
+    "high-dimensional statistics",
+    "deterministic equivalence",
+    "spectral gap",
+    "language model pretraining"
+   ],
+   "field": "大模型训练理论与数据配比",
+   "innovations": [
+    "建立高维混合ridge回归的确定性等价框架，严格刻画scaling law指数改善的充分条件",
+    "首次证明谱差异δ>1且辅助样本比例适中时混合minimax率严格优于单域",
+    "在GPT-2-style语言模型预训练中验证理论预测的甜蜜点现象"
+   ],
+   "benchmarks": [
+    "SlimPajama",
+    "StackExchange",
+    "CIFAR-10",
+    "ImageNet-100"
+   ]
+  }
+ }
 }

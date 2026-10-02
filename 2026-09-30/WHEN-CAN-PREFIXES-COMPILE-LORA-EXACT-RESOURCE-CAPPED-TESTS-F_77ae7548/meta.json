@@ -4,5 +4,32 @@
  "title": "WHEN-CAN-PREFIXES-COMPILE-LORA-EXACT-RESOURCE-CAPPED-TESTS-F",
  "token": "sk-L8fxiXWw6...",
  "created_at": "2026-09-30 08:12:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/13f6877a-1483-46dc-9966-65e15ac10cb8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/13f6877a-1483-46dc-9966-65e15ac10cb8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:54:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prefix compilation",
+    "LoRA",
+    "frozen attention",
+    "SOCP",
+    "low-rank adaptation",
+    "in-context learning",
+    "parameter-efficient fine-tuning"
+   ],
+   "field": "大语言模型参数高效微调与上下文学习理论",
+   "innovations": [
+    "提出prefix编译LoRA的三个层次化判定条件（可观测性/可实现性/实现精度），建立head-level精确SOCP测试框架",
+    "在资源受限(prefix slot数和norm cap)下给出可达聚合对的精确刻画和SOCP可解性证明",
+    "揭示有限精度下signed构造的稳定性和编译性断裂，发现value和query适配器的可编译性因头而异"
+   ],
+   "benchmarks": [
+    "GPT-2 first-layer heads (0, 4, 8)",
+    "rank-1 and rank-4 value/query adapters",
+    "float64/float32/bfloat16 precision tests"
+   ]
+  }
+ }
 }

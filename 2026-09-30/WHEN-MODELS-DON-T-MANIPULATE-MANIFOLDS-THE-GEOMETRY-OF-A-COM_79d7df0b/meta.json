@@ -4,5 +4,31 @@
  "title": "WHEN-MODELS-DON-T-MANIPULATE-MANIFOLDS-THE-GEOMETRY-OF-A-COM",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-09-30 18:50:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6eb9c474-b21e-4df9-bc44-7b8d492a6058.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6eb9c474-b21e-4df9-bc44-7b8d492a6058.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:54:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "number comparison",
+    "linear representation",
+    "manifold hypothesis",
+    "causal intervention",
+    "DAS",
+    "LLM geometry"
+   ],
+   "field": "机制可解释性",
+   "innovations": [
+    "发现尽管数字表征存在弯曲流形，模型在比较任务中因果依赖线性方向进行加性混合计算",
+    "给出两数和三数比较的完整算法（copy head+残差加和+局部到全局MLP组合），并以IIA/PR严格因果验证"
+   ],
+   "benchmarks": [
+    "两位数字对比较（100%准确率）",
+    "三数字序列比较",
+    "多operand（2-20）最大值查找"
+   ]
+  }
+ }
 }

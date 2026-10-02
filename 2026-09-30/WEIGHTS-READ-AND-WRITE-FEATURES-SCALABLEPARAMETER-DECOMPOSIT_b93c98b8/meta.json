@@ -4,5 +4,31 @@
  "title": "WEIGHTS-READ-AND-WRITE-FEATURES-SCALABLEPARAMETER-DECOMPOSIT",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-09-30 18:50:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/aa273fd7-a75a-41c8-bf4d-18ffd861d097.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/aa273fd7-a75a-41c8-bf4d-18ffd861d097.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:53:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "parameter decomposition",
+    "sparse autoencoder",
+    "weight editing",
+    "activation grounding",
+    "IOI circuit"
+   ],
+   "field": " mechanistic interpretability of LLMs",
+   "innovations": [
+    "提出激活锚定参数分解 ASPD，用共享稀疏坐标统一建模激活特征与权重门控，避免 O(F×C) 成对因果干预",
+    "引入内部重建损失 L_internal，在目标权重矩阵输出处提供局部监督，显著提升大模型参数分解的可解释性与编辑定位性",
+    "构建读-写交互度量并组装参数级机制电路，在 IOI 电路上无监督还原 induction/duplicate-name/S-inhibition/name-mover 等已知机制"
+   ],
+   "benchmarks": [
+    "GPT-2 small MLP_in layer 0",
+    "Gemma-2-2B MLP_out layer 13",
+    "Qwen-3-8B Attention O layer 17"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "When-Is-Coarse-Supervision-Worth-It-Cost-Aware-Learning-unde",
  "token": "sk-ctUtc5ulp...",
  "created_at": "2026-09-30 18:52:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cd930852-31c7-4dba-8808-c185ac0a3e4a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cd930852-31c7-4dba-8808-c185ac0a3e4a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:55:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cost-aware supervision",
+    "two-resolution learning",
+    "optimal design",
+    "active learning",
+    "nuisance profiling",
+    "online adaptation"
+   ],
+   "field": "自适应数据获取与预算分配",
+   "innovations": [
+    "推导未知聚合权重下两分辨率监督的闭式成本-信息前沿与临界条件",
+    "提出估计-跟踪在线策略EET并证明其一阶最优性与minimax下界匹配",
+    "通过nuisance profiling精确刻画未知投影方向导致的K-1个方向信息损失"
+   ],
+   "benchmarks": [
+    "Synthetic DCT basis experiments",
+    "Oracle-share benchmark B2",
+    "All-fine baseline"
+   ]
+  }
+ }
 }

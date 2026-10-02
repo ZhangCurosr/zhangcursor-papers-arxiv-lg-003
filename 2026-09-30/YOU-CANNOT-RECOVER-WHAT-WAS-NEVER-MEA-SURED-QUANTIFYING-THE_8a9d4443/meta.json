@@ -4,5 +4,33 @@
  "title": "YOU-CANNOT-RECOVER-WHAT-WAS-NEVER-MEA-SURED-QUANTIFYING-THE",
  "token": "sk-wUD9ZXHNo...",
  "created_at": "2026-09-30 08:12:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a8313975-f236-4cc1-82ec-8fcfa49234df.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a8313975-f236-4cc1-82ec-8fcfa49234df.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:57:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "超低场 MRI",
+    "超分辨率",
+    "信息天花板",
+    "幻觉检测",
+    "傅里叶壳层相关",
+    "陌生者对照",
+    "评估指标",
+    "真实配对数据"
+   ],
+   "field": "医学影像超分辨率与评估",
+   "innovations": [
+    "首次测量真实 64 mT MRI 受试者信息恢复上限（约 3-4 mm 半周期）",
+    "量化合成退化与真实采集之间的信息差距（约 1.16 mm HP）",
+    "提出频带分辨率陌生者对照忠实度测试并证明传统指标无法区分幻觉与恢复"
+   ],
+   "benchmarks": [
+    "Zenodo T1w",
+    "OpenNeuro ds006557 T1w",
+    "NIST b0 diffusion MRI"
+   ]
+  }
+ }
 }

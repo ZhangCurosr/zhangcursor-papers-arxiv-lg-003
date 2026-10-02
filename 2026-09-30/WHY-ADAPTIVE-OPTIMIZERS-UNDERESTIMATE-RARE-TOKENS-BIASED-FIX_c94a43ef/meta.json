@@ -4,5 +4,32 @@
  "title": "WHY-ADAPTIVE-OPTIMIZERS-UNDERESTIMATE-RARE-TOKENS-BIASED-FIX",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-09-30 08:02:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9590aa85-a5e2-4656-8cf5-4712c13dde85.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9590aa85-a5e2-4656-8cf5-4712c13dde85.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:55:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adaptive optimizer",
+    "softmax output layer",
+    "rare token",
+    "biased fixed point",
+    "RMSProp",
+    "conservation law",
+    "Adam"
+   ],
+   "field": "优化器理论与语言模型训练",
+   "innovations": [
+    "给出坐标wise自适应优化器在softmax输出层对罕见token产生有偏固定点的闭式刻画与统一参数κ",
+    "建立输出层均值嵌入守恒的分类定理并定量给出Adam/RMSProp等方法的每步漂移公式",
+    "在单语与小型LM上以KL与r_y验证理论预测的偏差符号与量级"
+   ],
+   "benchmarks": [
+    "unigram Zipf model",
+    "small Markov-chain language model",
+    "softmax regression conservation test"
+   ]
+  }
+ }
 }

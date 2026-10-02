@@ -4,5 +4,35 @@
  "title": "WUSH-KV-KV-Cache-Quantization-with-Data-Adaptive-Transforms",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-09-30 18:49:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4bfb1829-5a7c-48e5-98fd-008b388a4668.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/4bfb1829-5a7c-48e5-98fd-008b388a4668.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:55:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV cache quantization",
+    "WUSH transform",
+    "low-bit inference",
+    "grouped-query attention",
+    "transform-based quantization",
+    "clipped quantizer"
+   ],
+   "field": "大模型推理量化与系统优化",
+   "innovations": [
+    "将WUSH数据自适应变换从权重-激活量化推广到KV cache的key/value双端分别构造变换",
+    "提出post-RoPE放置与value端权重折叠的工程方案以保留全自由度同时避免位置相关补偿",
+    "在QuEST量化器与敏感度平衡约束下给出含裁剪误差的近优性理论保证"
+   ],
+   "benchmarks": [
+    "WikiText-2",
+    "AIME 2025",
+    "MATH-500",
+    "GPQA Diamond",
+    "LiveCodeBench v6",
+    "RULER NIAH",
+    "MRCR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "THE-DEFAULT-TRAP-RETHINKING-PLAN-EVALUATION-IN-TOOL-USING-LL",
  "token": "sk-L9xk33MRr...",
  "created_at": "2026-09-30 18:52:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/870865c9-ea89-4f29-86e1-6829040c8680.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/870865c9-ea89-4f29-86e1-6829040c8680.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:50:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tool-using agents",
+    "plan evaluation",
+    "LLM agents",
+    "position bias",
+    "causal measurement"
+   ],
+   "field": "工具使用LLM Agent评估",
+   "innovations": [
+    "配对优先级框架与会计恒等式分解优先级切换与移除效应",
+    "列表顺序干预分离呈现依赖默认与优先级控制",
+    "联合报告局部控制、任务成功率与资源消耗"
+   ],
+   "benchmarks": [
+    "τ²-Bench",
+    "AgentDojo"
+   ]
+  }
+ }
 }

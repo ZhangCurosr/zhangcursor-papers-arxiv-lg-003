@@ -4,5 +4,32 @@
  "title": "When-Is-Coarse-Supervision-Worth-It-Cost-Aware-Learning-unde",
  "token": "sk-ctUtc5ulp...",
  "created_at": "2026-09-30 08:07:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cd930852-31c7-4dba-8808-c185ac0a3e4a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cd930852-31c7-4dba-8808-c185ac0a3e4a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:55:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cost-aware learning",
+    "two-resolution supervision",
+    "unknown aggregation",
+    "optimal experimental design",
+    "cross-fitted estimation",
+    "online adaptation",
+    "minimax lower bound"
+   ],
+   "field": "在线实验设计与多保真学习",
+   "innovations": [
+    "未知聚合方向下的闭式临界阈值 λ_c = dK/(d-K+1)，揭示nuisance参数导致的K-1方向信息损失",
+    "EET在线算法：设计流与估计流严格解耦，交叉拟合一步估计器避免分配反馈偏差",
+    "局部渐近minimax下界Φ_U^* log T + O(1)与上界匹配，证明在线学习 allocation 不增加一阶代价"
+   ],
+   "benchmarks": [
+    "all-fine baseline",
+    "oracle-share benchmark B2",
+    "known-w* static oracle B1"
+   ]
+  }
+ }
 }

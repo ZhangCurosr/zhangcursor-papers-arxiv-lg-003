@@ -4,5 +4,37 @@
  "title": "WHAT-YOU-OBSERVE-DETERMINES-HOW-YOU-IDENTIFY-CAUSAL-EFFECTS",
  "token": "sk-4XReLOXGN...",
  "created_at": "2026-09-30 18:52:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c9c9755c-06b3-4d52-bf8b-61e046983ab3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c9c9755c-06b3-4d52-bf8b-61e046983ab3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:53:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "causal foundation models",
+    "causal identification",
+    "CATE estimation",
+    "observational views",
+    "modular estimators",
+    "partial identification",
+    "negative control outcomes"
+   ],
+   "field": "因果推断与机器学习交叉",
+   "innovations": [
+    "提出CAUSALIDVIEW多视图基准，在相同因果世界中控制性改变观测视图以评估CFM跨识别机制性能",
+    "引入Stay/Move结构性响应诊断，量化估计器对无关结构变化的虚假敏感性和对真实效应变化的追踪能力",
+    "验证TabPFN-v3.5模块化估计器在后门/前门/近端视图中达到与CFM相当甚至更优的点估计和偏识别界估计性能"
+   ],
+   "benchmarks": [
+    "CAUSALIDVIEW",
+    "ACIC 2016",
+    "LaLonde-PSID",
+    "LaLonde-CPS",
+    "IHDP",
+    "ACTG 175",
+    "Pennsylvania Reemployment Bonus",
+    "Illinois UI Experiment"
+   ]
+  }
+ }
 }

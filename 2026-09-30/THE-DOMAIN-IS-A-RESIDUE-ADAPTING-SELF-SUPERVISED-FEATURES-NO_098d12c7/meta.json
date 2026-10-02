@@ -4,5 +4,33 @@
  "title": "THE-DOMAIN-IS-A-RESIDUE-ADAPTING-SELF-SUPERVISED-FEATURES-NO",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-09-30 08:04:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2f34294a-2f09-4a61-9aa2-dd1507c17b41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2f34294a-2f09-4a61-9aa2-dd1507c17b41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:51:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "域适应",
+    "自监督特征",
+    "图像翻译",
+    "生成对抗网络",
+    "扩散模型",
+    "无配对翻译",
+    "残差适配"
+   ],
+   "field": "无配对图像翻译/域适应",
+   "innovations": [
+    "在冻结的DINO自监督特征空间内学习仅占13-14%范数的域残差进行翻译",
+    "2.9M参数的轻量级前馈适配器RFA配合共享冻结解码器，实现高效多域适应",
+    "证明并验证了特征适配器的解码器可移植性"
+   ],
+   "benchmarks": [
+    "ACDC雾/雪/雨",
+    "HIVIS霾",
+    "BDD100K夜转昼",
+    "PreSIL→Mapillary仿真到真实"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "RAE-PPG-DURATION-GROUNDED-RETAIN-AND-EXTEND-PRETRAINING-FOR",
  "token": "sk-wmVet9QXD...",
  "created_at": "2026-09-30 08:10:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c89c95ed-91ea-41bf-b27e-e5064953268b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c89c95ed-91ea-41bf-b27e-e5064953268b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:52:30",
+  "chunks": 4
+ }
 }

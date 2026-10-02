@@ -4,5 +4,31 @@
  "title": "THE-DEFAULT-TRAP-RETHINKING-PLAN-EVALUATION-IN-TOOL-USING-LL",
  "token": "sk-L9xk33MRr...",
  "created_at": "2026-09-30 08:10:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/870865c9-ea89-4f29-86e1-6829040c8680.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/870865c9-ea89-4f29-86e1-6829040c8680.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:50:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tool-using agents",
+    "plan evaluation",
+    "priority control",
+    "default behavior",
+    "position bias",
+    "agent reliability"
+   ],
+   "field": "LLM Agent评估与可解释性",
+   "innovations": [
+    "提出配对优先级框架与会计恒等式，区分优先级切换效应与整体计划移除效应",
+    "通过呈现顺序干预实验揭示默认行为的高度情境依赖性",
+    "联合测量局部控制、任务成功与资源消耗，发现强响应不一定转化为高成功率"
+   ],
+   "benchmarks": [
+    "τ-bench",
+    "τ²-Bench",
+    "AgentDojo"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "WHERE-DOES-RANDOMNESS-MATTER-IN-NEURAL-CELLULAR-AUTOMATA",
  "token": "sk-hGbDG10SO...",
  "created_at": "2026-09-30 08:17:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6fd07926-0fbf-40a1-9f8b-b8f262b4a071.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6fd07926-0fbf-40a1-9f8b-b8f262b4a071.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:54:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neural Cellular Automata",
+    "stochastic updates",
+    " Growing NCA",
+    "training dynamics",
+    "long-horizon stability",
+    "cellular automata"
+   ],
+   "field": "神经细胞自动机的随机性与动力学分析",
+   "innovations": [
+    "训练-评估更新模式的受控分离，证明异步提升学习效率但成功模型可确定性执行",
+    "标量平移不变格的精确二阶矩衰变准则，揭示均值测试的误分类边界",
+    "同质量阈值下三种配方（grow/persist/regenerate）的保持与修复行为分解"
+   ],
+   "benchmarks": [
+    "Flower 和 Heart 图像重建（MSE<0.02 at T=96）",
+    "4096 步确定性保持测试",
+    "80 步损伤恢复评估",
+    "32×32 扩散格线性稳定性验证（27 种配置）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "Where-the-Model-Changes-Its-Mind-Hindsight-Divergence-Locali",
  "token": "sk-rJF0pjIu8...",
  "created_at": "2026-09-30 18:52:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ce69b519-81e8-494f-b35d-f06238f0b5c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ce69b519-81e8-494f-b35d-f06238f0b5c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:56:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "HDL",
+    "后视分歧",
+    "rollout 效率",
+    "组相对策略优化",
+    "分支点定位",
+    "前缀复用"
+   ],
+   "field": "大语言模型强化学习",
+   "innovations": [
+    "利用事后反馈引发的 token 对数似然变化定位分支点，替代纯熵或反射方法",
+    "前缀复用 + 后缀 loss 聚焦的高效组构建，在不减小组规模前提下削减 35–61% 生成 token",
+    "将事后自蒸馏范式从 token 级监督迁移到 rollout 预算分配，保持 GRPO 目标不变"
+   ],
+   "benchmarks": [
+    "AIME24/25/26",
+    "HMMT February 2026",
+    "Minerva Math",
+    "OlympiadBench",
+    "LiveCodeBench v5/v6",
+    "ScienceWorld"
+   ]
+  }
+ }
 }

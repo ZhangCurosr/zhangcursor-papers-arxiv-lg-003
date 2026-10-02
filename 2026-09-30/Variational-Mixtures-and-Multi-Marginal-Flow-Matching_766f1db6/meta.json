@@ -4,5 +4,32 @@
  "title": "Variational-Mixtures-and-Multi-Marginal-Flow-Matching",
  "token": "sk-MTzedkBc1...",
  "created_at": "2026-09-30 18:52:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/de0d69b0-ae09-47f6-9f58-42df132e5961.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/de0d69b0-ae09-47f6-9f58-42df132e5961.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:53:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "variational inference",
+    "black-box variational inference",
+    "MISELBO",
+    "variational mixtures",
+    "flow matching",
+    "multi-marginal flow matching",
+    "spatial transcriptomics"
+   ],
+   "field": "变分推断与生成建模",
+   "innovations": [
+    "提出MISELBO并澄清变分混合对数改进上界的长期误解",
+    "发展S2A/S2S高效估计器与摊销变分混合学习方案",
+    "结合变分混合与流匹配推导多边际变分插值混合方法MVI-CFM"
+   ],
+   "benchmarks": [
+    "CoLN分布（四模态/双模态）",
+    "3D空间转录组学肿瘤重建（Mo et al. 2024）",
+    "MNIST边际对数似然评估"
+   ]
+  }
+ }
 }

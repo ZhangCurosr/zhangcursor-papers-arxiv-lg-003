@@ -4,5 +4,29 @@
  "title": "Variational-Augmented-Invertible-Koopman-Autoencoder-for-pro",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-09-30 18:52:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1b78d674-46c5-407c-9e07-8d17b0bef4ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1b78d674-46c5-407c-9e07-8d17b0bef4ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:52:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Koopman算子",
+    "可逆自编码器",
+    "概率时间序列预测",
+    "数据同化",
+    "归一化流",
+    "不确定性量化"
+   ],
+   "field": "动力系统建模与概率时间序列预测",
+   "innovations": [
+    "提出VAIKAE变分增强可逆Koopman自编码器，在隐空间引入高斯分布并实现显式状态似然计算",
+    "设计基于CRPS的隐空间联合均值-方差数据同化策略4DVar-CRPS，支持不规则采样观测融合"
+   ],
+   "benchmarks": [
+    "Informer Benchmark (ETTm1/m2, ECL, Solar, Weather, Traffic)",
+    "Sentinel-2卫星影像时间序列 (Fontainebleau, Orléans)"
+   ]
+  }
+ }
 }

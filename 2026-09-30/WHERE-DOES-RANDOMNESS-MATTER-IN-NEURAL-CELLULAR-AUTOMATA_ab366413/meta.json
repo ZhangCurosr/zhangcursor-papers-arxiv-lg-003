@@ -4,5 +4,33 @@
  "title": "WHERE-DOES-RANDOMNESS-MATTER-IN-NEURAL-CELLULAR-AUTOMATA",
  "token": "sk-hGbDG10SO...",
  "created_at": "2026-09-30 18:52:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6fd07926-0fbf-40a1-9f8b-b8f262b4a071.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6fd07926-0fbf-40a1-9f8b-b8f262b4a071.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:54:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "neural cellular automata",
+    "random updates",
+    "asynchronous training",
+    "stochastic stability",
+    "growing NCA",
+    "second-moment analysis",
+    "long-horizon retention"
+   ],
+   "field": "神经细胞自动机与自演化生成模型",
+   "innovations": [
+    "分离NCA训练与评估更新模式的受控对比，证明异步训练提升通过率但成功模型无需执行时随机性",
+    "推导线性平移不变格点独立Bernoulli掩码的精确二阶矩衰变判据，揭示均值检验的四类误分类",
+    "在同等重建质量下对比grow/persist/regenerate配方，发现长期保持与损伤恢复能力的显著分化"
+   ],
+   "benchmarks": [
+    "Growing NCA flower/heart reconstruction",
+    "4096-step deterministic retention",
+    "finite-time perturbation growth lambda_pert",
+    "circular damage recovery R"
+   ]
+  }
+ }
 }

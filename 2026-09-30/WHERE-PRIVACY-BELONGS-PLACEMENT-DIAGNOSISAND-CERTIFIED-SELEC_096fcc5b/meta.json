@@ -4,5 +4,31 @@
  "title": "WHERE-PRIVACY-BELONGS-PLACEMENT-DIAGNOSISAND-CERTIFIED-SELEC",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-09-30 08:05:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9da2536d-2a06-4cdb-b0de-491e83c3b462.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9da2536d-2a06-4cdb-b0de-491e83c3b462.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:54:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "differential privacy",
+    "counterfactual explanations",
+    "graph neural networks",
+    "exponential mechanism",
+    "privacy certification",
+    "graph structure leakage"
+   ],
+   "field": "隐私保护的可解释人工智能",
+   "innovations": [
+    "提出放置诊断框架揭示图级与解释级DP在反事实解释中的两类失败模式",
+    "设计PRIVCFS通过数据无关候选宇宙+有效性门控+指数机制实现完整释放的纯ε-DP认证",
+    "构建隐私-效用前沿作为可购买价格表，量化公共披露与隐私预算的边际代价"
+   ],
+   "benchmarks": [
+    "Cora",
+    "CiteSeer",
+    "ogbn-arxiv-core"
+   ]
+  }
+ }
 }

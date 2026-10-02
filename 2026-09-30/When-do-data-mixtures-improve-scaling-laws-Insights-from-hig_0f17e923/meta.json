@@ -4,5 +4,29 @@
  "title": "When-do-data-mixtures-improve-scaling-laws-Insights-from-hig",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-30 08:05:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/931a0e04-e619-4030-96d4-df26f57e0279.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/931a0e04-e619-4030-96d4-df26f57e0279.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:57:02",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "data mixtures",
+    "scaling laws",
+    "ridge regression",
+    "bias-variance decomposition",
+    "spectral analysis",
+    "power-law signals"
+   ],
+   "field": "机器学习理论",
+   "innovations": [
+    "提出临界源幂指数γc作为混合数据增益的理论判据",
+    "建立双谱设定下ridge回归风险的紧确上下界",
+    "完整刻画混合数据在不同幂律regime下的最优收敛速率"
+   ],
+   "benchmarks": [
+    "纯理论分析，无传统benchmark"
+   ]
+  }
+ }
 }

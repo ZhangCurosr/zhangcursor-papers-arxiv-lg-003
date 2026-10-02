@@ -4,5 +4,35 @@
  "title": "Where-Root-Cause-Analysis-Fails-A-Retrieval-Reranking-Decomp",
  "token": "sk-MPIaIwMik...",
  "created_at": "2026-09-30 08:07:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8f7a68dd-7a3b-4686-bfdc-7805b5b357e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/8f7a68dd-7a3b-4686-bfdc-7805b5b357e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:55:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Root Cause Analysis",
+    "Retrieval-Reranking Decomposition",
+    "LLM Reranking",
+    "Cyber-Physical Systems",
+    "Anomaly Detection",
+    "Causal Inference",
+    "Benchmark Audit"
+   ],
+   "field": "系统可观测性与故障诊断",
+   "innovations": [
+    "提出 RCA 检索–重排分解框架，将 top@k 拆分为独立可测的 Retrieval@K 和 Rerank@k",
+    "多信号检索器结合偏差幅度、最早出现和离散状态变化三信号，显著提升传播故障基准的检索覆盖率",
+    "单调用 LLM listwise 重排器无需因果图或标注数据，在所有六个基准上匹配或超越最佳基线"
+   ],
+   "benchmarks": [
+    "WADI",
+    "SWaT",
+    "HVAC",
+    "RCAEval RE1-OB",
+    "RCAEval RE1-SS",
+    "RCAEval RE1-TT"
+   ]
+  }
+ }
 }
