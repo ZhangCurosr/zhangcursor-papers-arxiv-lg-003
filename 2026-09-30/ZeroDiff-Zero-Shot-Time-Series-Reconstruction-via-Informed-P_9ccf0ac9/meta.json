@@ -4,5 +4,32 @@
  "title": "ZeroDiff-Zero-Shot-Time-Series-Reconstruction-via-Informed-P",
  "token": "sk-vo4GDqdWy...",
  "created_at": "2026-09-30 18:52:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2df3b0df-2add-42f2-bc2e-a81cc6d3710d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2df3b0df-2add-42f2-bc2e-a81cc6d3710d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:41:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot reconstruction",
+    "diffusion models",
+    "time series",
+    "informed prior",
+    "cross-location generalization",
+    "spatiotemporal modeling"
+   ],
+   "field": "时间序列分析与预测",
+   "innovations": [
+    "将扩散模型从 generation 转为 calibration，通过 informed prior warm-start 实现零样本重构",
+    "从 exogenous 变量 alone 推断 target 统计量并分离 magnitude/dynamics 学习",
+    "moment-guided weighting 实现跨位置泛化的训练采样策略"
+   ],
+   "benchmarks": [
+    "CAMELS Streamflow",
+    "Solar Energy Prediction",
+    "NHD Water Temperature",
+    "Methane Flux"
+   ]
+  }
+ }
 }

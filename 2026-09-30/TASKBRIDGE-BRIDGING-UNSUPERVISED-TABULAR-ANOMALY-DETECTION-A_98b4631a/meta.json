@@ -4,5 +4,28 @@
  "title": "TASKBRIDGE-BRIDGING-UNSUPERVISED-TABULAR-ANOMALY-DETECTION-A",
  "token": "sk-bXaG87Ajl...",
  "created_at": "2026-09-30 08:05:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3887651e-7644-43b1-90a1-fa609c310c63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3887651e-7644-43b1-90a1-fa609c310c63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:41:50",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "表格异常检测",
+    "表格基础模型",
+    "上下文学习",
+    "零样本学习",
+    "虚拟监督任务"
+   ],
+   "field": "表格异常检测",
+   "innovations": [
+    "通过常态锚定虚拟监督任务将无监督TAD转化为通用TFM的有监督ICL推理",
+    "五类互补任务模板+数据自适应两级选择机制实现零样本异常检测"
+   ],
+   "benchmarks": [
+    "ODDBench",
+    "ADBench"
+   ]
+  }
+ }
 }
