@@ -4,5 +4,10 @@
  "title": "Towards-Robust-Time-Series-Learning-via-Capacity-Centric-Mod",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-10-01 08:23:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/8874f526-eb0d-4e5e-ae10-1d98e49f4ba5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/8874f526-eb0d-4e5e-ae10-1d98e49f4ba5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:43:01",
+  "chunks": 4
+ }
 }

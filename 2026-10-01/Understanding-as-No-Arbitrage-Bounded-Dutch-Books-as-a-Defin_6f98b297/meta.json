@@ -4,5 +4,10 @@
  "title": "Understanding-as-No-Arbitrage-Bounded-Dutch-Books-as-a-Defin",
  "token": "sk-W9Ytd4ppc...",
  "created_at": "2026-10-01 08:24:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/f597ba8c-1605-4d88-b26d-facfc2060f5b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/f597ba8c-1605-4d88-b26d-facfc2060f5b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:41:57",
+  "chunks": 1
+ }
 }
