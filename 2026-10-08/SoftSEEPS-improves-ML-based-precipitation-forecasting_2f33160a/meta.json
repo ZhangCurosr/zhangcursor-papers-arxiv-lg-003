@@ -4,5 +4,10 @@
  "title": "SoftSEEPS-improves-ML-based-precipitation-forecasting",
  "token": "sk-FmwWXAxnf...",
  "created_at": "2026-10-08 19:49:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6ce14b61-063d-471b-a79b-894de2d4183b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6ce14b61-063d-471b-a79b-894de2d4183b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:11:06",
+  "chunks": 1
+ }
 }

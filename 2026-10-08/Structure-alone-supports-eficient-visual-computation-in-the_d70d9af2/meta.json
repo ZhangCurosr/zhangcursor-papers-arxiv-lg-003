@@ -4,5 +4,32 @@
  "title": "Structure-alone-supports-eficient-visual-computation-in-the",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-10-08 19:47:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e8f2f013-b29f-44c4-a882-2bcdde172e5c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e8f2f013-b29f-44c4-a882-2bcdde172e5c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:12:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "connectome",
+    "wiring economy",
+    "Drosophila",
+    "message-passing neural network",
+    "approximate number system",
+    "visual computation",
+    "randomized ensemble"
+   ],
+   "field": "计算神经科学与连接组学",
+   "innovations": [
+    "构建完全仅依赖解剖连接的果蝇视觉计算模型，无需额外处理模块",
+    "提出四级布线约束随机化 ensemble 并证明生物连接组在相同布线成本下计算效率最优",
+    "在结构层面复现果蝇 Weber-ratio 依赖的近似数量辨别行为特征"
+   ],
+   "benchmarks": [
+    "Color discrimination (blue vs yellow)",
+    "Shape discrimination (circle vs star, retinotopic-sector generalization)",
+    "Numerosity discrimination under area-controlled Weber ratio"
+   ]
+  }
+ }
 }

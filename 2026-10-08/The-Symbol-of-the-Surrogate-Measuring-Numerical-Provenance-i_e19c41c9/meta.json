@@ -4,5 +4,29 @@
  "title": "The-Symbol-of-the-Surrogate-Measuring-Numerical-Provenance-i",
  "token": "sk-MPIaIwMik...",
  "created_at": "2026-10-08 19:49:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/12af814c-ae51-489d-917e-4e7f2d9366a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/12af814c-ae51-489d-917e-4e7f2d9366a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:13:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "numerical provenance",
+    "Fourier symbol",
+    "neural PDE surrogate",
+    "spectral bias",
+    "twin-scheme differencing",
+    "advection-Burgers"
+   ],
+   "field": "神经PDE求解器的数值溯源诊断",
+   "innovations": [
+    "将经验傅里叶符号改造为精确参考与训练方案之间的溯源系数α",
+    "提出双方案正交差分消去架构谱偏置B(k)的识别策略"
+   ],
+   "benchmarks": [
+    "线性对流CNN与FNO单模符号测量",
+    "受迫Burgers算子层面D_scheme/D_exact比值"
+   ]
+  }
+ }
 }

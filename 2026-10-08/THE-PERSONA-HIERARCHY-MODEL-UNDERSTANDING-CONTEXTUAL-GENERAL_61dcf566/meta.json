@@ -4,5 +4,34 @@
  "title": "THE-PERSONA-HIERARCHY-MODEL-UNDERSTANDING-CONTEXTUAL-GENERAL",
  "token": "sk-u8lryRDFU...",
  "created_at": "2026-10-08 19:49:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/5d06cab1-4c49-46f4-bac2-e07c0cc158c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/5d06cab1-4c49-46f4-bac2-e07c0cc158c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:12:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "contextual generalization",
+    "persona hierarchy",
+    "reward hacking",
+    "reinforcement learning",
+    "system prompt",
+    "fine-tuning LLMs",
+    "activation patching"
+   ],
+   "field": "大语言模型对齐与泛化",
+   "innovations": [
+    "提出 Persona Hierarchy Model 解释微调行为泛化窄度与 persona 距离的相关性",
+    "通过两阶段训练和响应对齐干预验证并调制泛化范围",
+    "设计 PPR 正则化将 RL 中的 reward hacking 率从 42–55% 降至≤0.2% 且保留准确率"
+   ],
+   "benchmarks": [
+    "MATH",
+    "GCD sycophancy",
+    "Tulu3 post-training",
+    "LeetCode coding tasks (GRPO)",
+    "MBPP reward hacking"
+   ]
+  }
+ }
 }

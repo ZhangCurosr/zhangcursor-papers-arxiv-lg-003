@@ -4,5 +4,29 @@
  "title": "Shared-Gaussianization-What-Gaussian-Regularizers-Certify-Ab",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-10-08 19:48:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/51ed301d-cd73-4ae0-8249-59b8e6a81af3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/51ed301d-cd73-4ae0-8249-59b8e6a81af3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:11:06",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Gaussian regularization",
+    "content-style disentanglement",
+    "information bottleneck",
+    "contrastive learning",
+    "controlled experiments"
+   ],
+   "field": "表征学习与解耦表示",
+   "innovations": [
+    "提出基于可控隐变量的 Gaussian 正则化解耦认证框架",
+    "发现 warm start 强度临界阈值 α≈0.01 实现内容-风格分离",
+    "揭示 VICReg 过度正交约束导致风格完全消失的反例"
+   ],
+   "benchmarks": [
+    "Exact-law controlled-latent",
+    "heat-channel d=8"
+   ]
+  }
+ }
 }

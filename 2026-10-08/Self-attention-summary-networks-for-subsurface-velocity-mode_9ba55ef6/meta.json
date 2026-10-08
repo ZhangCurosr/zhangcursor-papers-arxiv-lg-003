@@ -4,5 +4,28 @@
  "title": "Self-attention-summary-networks-for-subsurface-velocity-mode",
  "token": "sk-ctUtc5ulp...",
  "created_at": "2026-10-08 19:49:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a105b7b1-3c82-4fc9-9711-0940c87bd30b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a105b7b1-3c82-4fc9-9711-0940c87bd30b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:09:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "共成像道集",
+    "速度模型反演",
+    "自注意力",
+    "流匹配",
+    "概率反演",
+    "地震成像"
+   ],
+   "field": "地球物理人工智能",
+   "innovations": [
+    "多尺度自注意力摘要网络将高维CIG压缩为失配感知的紧凑条件嵌入",
+    "条件流匹配框架实现概率性速度模型后验生成与不确定性量化"
+   ],
+   "benchmarks": [
+    "合成2D速度模型反演"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Revisiting-Explainable-AI-through-Model-Independent-Concept",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-10-08 19:51:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6c78becc-97c3-4695-a88b-31652338dc87.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6c78becc-97c3-4695-a88b-31652338dc87.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:07:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Explainable AI",
+    "Concept-based XAI",
+    "Dictionary Learning",
+    "Sparse Coding",
+    "Model-agnostic Interpretability",
+    "Clever Hans Effect"
+   ],
+   "field": "可解释人工智能（XAI）",
+   "innovations": [
+    "提出 DictXAI 框架，在输入空间通过过完备字典定义概念级解释",
+    "证明字典级导数的 Lipschitz 连续性，保证归因的输入稳定性",
+    "首次在数据级通过字典干预消除 Clever Hans 虚假相关"
+   ],
+   "benchmarks": [
+    "MNIST Clever Hans 水印",
+    "MIMIC-IV-ECG QRS 持续时间预测",
+    "MALDI-TOF 微生物质谱分析"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Sparse-Feature-Policy-Unlearning-Mitigates-State-Hallucinati",
  "token": "sk-LqkNuH8i8...",
  "created_at": "2026-10-08 19:49:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/8bb41de7-4815-4902-901f-da3cc322b4fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/8bb41de7-4815-4902-901f-da3cc322b4fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:11:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "Machine Unlearning",
+    "Sparse Autoencoder",
+    "State Hallucination",
+    "Mechanistic Interpretability",
+    "Robot Policy"
+   ],
+   "field": "机器人基础模型可靠性与可解释性",
+   "innovations": [
+    "提出SOUL特征级策略遗忘方法，选择性抑制幻觉相关稀疏特征同时保留成功特征",
+    "首次将状态幻像形式化为VLA反复失败模式并提供特征级诊断与干预框架",
+    "区域引导的稀疏特征选择在机器人策略修改中显著优于全局/token级选择"
+   ],
+   "benchmarks": [
+    "LIBERO-Plus",
+    "RoboCasa",
+    "Franka Real-World"
+   ]
+  }
+ }
 }

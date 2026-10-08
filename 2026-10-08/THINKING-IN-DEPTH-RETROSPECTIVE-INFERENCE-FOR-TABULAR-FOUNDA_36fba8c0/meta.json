@@ -4,5 +4,10 @@
  "title": "THINKING-IN-DEPTH-RETROSPECTIVE-INFERENCE-FOR-TABULAR-FOUNDA",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-10-08 19:51:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/448accb8-bb35-4e9a-814d-6e4fc9ce00ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/448accb8-bb35-4e9a-814d-6e4fc9ce00ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:13:25",
+  "chunks": 1
+ }
 }

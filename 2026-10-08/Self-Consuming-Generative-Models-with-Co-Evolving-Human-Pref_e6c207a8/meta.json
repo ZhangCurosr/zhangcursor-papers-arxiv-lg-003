@@ -4,5 +4,30 @@
  "title": "Self-Consuming-Generative-Models-with-Co-Evolving-Human-Pref",
  "token": "sk-7wel9Fhtk...",
  "created_at": "2026-10-08 19:54:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d3fbc6fc-35f4-4e3e-848a-3cfce81cc8fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d3fbc6fc-35f4-4e3e-848a-3cfce81cc8fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:10:29",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "self-consuming generative models",
+    "co-evolving preference",
+    "performative prediction",
+    "distribution collapse",
+    "preference-guided curation",
+    "reference data mixing"
+   ],
+   "field": "生成模型可靠性与对齐",
+   "innovations": [
+    "将人类偏好建模为内生变量与模型共演化，突破偏好固定的已有假设",
+    "建立自消耗生成+偏好共演化的理论框架，揭示锁死机制与参考数据缓解效应",
+    "跨模态实证（离散/扩散/语言）验证偏好共演化动力学与多样性恢复策略"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "AG News"
+   ]
+  }
+ }
 }

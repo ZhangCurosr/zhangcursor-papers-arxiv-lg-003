@@ -4,5 +4,31 @@
  "title": "SemanticFold-Latent-Sequence-Compression-Separates-Language",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-10-08 19:49:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f870d86c-e0f1-4520-9a9a-ff08452bee8b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f870d86c-e0f1-4520-9a9a-ff08452bee8b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:09:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "latent sequence compression",
+    "Transformer interpretability",
+    "model compression",
+    "preservation evaluation",
+    "frozen backbone intervention",
+    "multi-endpoint analysis"
+   ],
+   "field": "大语言模型高效推理与可解释性",
+   "innovations": [
+    "精确预算 latent sequence compression 干预框架分离多保真度端点",
+    "NLL 贡献分解证明 favorable fit 主要来自 residual transform 而非 shortening",
+    "Matched-R boundary 控制实验反驳 cosine-selected boundary 的可靠优势假设"
+   ],
+   "benchmarks": [
+    "BBH 9-task 450-prompt reasoning population",
+    "WikiText-103 fixed-target continuation",
+    "Qwen3-1.7B/8B SmolLM2-1.7B Pythia-1.4B/6.9B checkpoints"
+   ]
+  }
+ }
 }

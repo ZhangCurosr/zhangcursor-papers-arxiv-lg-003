@@ -4,5 +4,30 @@
  "title": "Stream-Based-Active-Learning-with-Cooperative-Neural-Network",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-10-08 19:51:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/51575209-0ca7-4e07-b087-7e7358525a57.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/51575209-0ca7-4e07-b087-7e7358525a57.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:12:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "部分逆设计",
+    "主动学习",
+    "合作神经网络",
+    "蒙特卡洛Dropout",
+    "流式主动学习",
+    "数据效率",
+    "汽车密封设计"
+   ],
+   "field": "数据驱动的工程逆设计",
+   "innovations": [
+    "首个将流式主动学习与Cooperative Neural Network结合用于部分逆设计的框架",
+    "在合作代理模型上应用MC-Dropout估计预测不确定性驱动实时样本获取",
+    "以2.3%标注数据（20,000样本）达到接近上限的R²=0.967–0.982性能"
+   ],
+   "benchmarks": [
+    "GRC汽车玻璃密封条数据集（906,215样本）"
+   ]
+  }
+ }
 }

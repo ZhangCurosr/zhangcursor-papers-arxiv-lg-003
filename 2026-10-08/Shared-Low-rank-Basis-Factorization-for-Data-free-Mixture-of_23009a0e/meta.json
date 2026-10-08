@@ -4,5 +4,37 @@
  "title": "Shared-Low-rank-Basis-Factorization-for-Data-free-Mixture-of",
  "token": "sk-pbKDuH2mM...",
  "created_at": "2026-10-08 19:49:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6f0e666a-afaa-4f69-bbea-a79d2f3be42f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6f0e666a-afaa-4f69-bbea-a79d2f3be42f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:10:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MoE压缩",
+    "权重重构",
+    "低秩分解",
+    "无数据方法",
+    "结构化误差"
+   ],
+   "field": "模型压缩",
+   "innovations": [
+    "统一推导剪枝与合并的结构误差下界，证明权重重构避免干预引起误差",
+    "提出共享低秩基分解SLBF，在固定预算下允许多基共享以提升跨专家混合与收敛速度",
+    "引入双线性规范固定消除冗余参数，实现无数据一键压缩"
+   ],
+   "benchmarks": [
+    "ARC-Challenge",
+    "GPQA-Diamond",
+    "IFEval",
+    "MMLU",
+    "CEval",
+    "CMMLU",
+    "GSM8K",
+    "MBPP",
+    "HumanEval",
+    "WikiText-2"
+   ]
+  }
+ }
 }

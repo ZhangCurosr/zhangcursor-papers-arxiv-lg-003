@@ -4,5 +4,32 @@
  "title": "ResidualQuant-KV-Cache-Quantization-for-Looped-Transformers",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-10-08 19:45:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/aed02cce-19e3-4940-b250-6370562002f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/aed02cce-19e3-4940-b250-6370562002f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:07:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV Cache Quantization",
+    "Looped Transformers",
+    "Low-bit Quantization",
+    "Residual Quantization",
+    "Inference Optimization",
+    "INT2 Quantization"
+   ],
+   "field": "大模型推理效率优化",
+   "innovations": [
+    "提出 Last-loop 残差量化框架，以末环 KV 为锚点存储跨环 INT2 残差，结合 LS 缩放显著降低极低精度下的量化误差",
+    "将正交旋转（OptR-H）作用于残差而非原始 KV，实现残差量化与旋转 outlier 缓解的正交互补",
+    "设计环路混合精度 [2,2,2,4] 策略，将 INT4 分配给共享锚点、INT2 分配给残差，在 80.7% 存储压缩下保持 BF16 级精度"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH500",
+    "HumanEval",
+    "MBPP"
+   ]
+  }
+ }
 }

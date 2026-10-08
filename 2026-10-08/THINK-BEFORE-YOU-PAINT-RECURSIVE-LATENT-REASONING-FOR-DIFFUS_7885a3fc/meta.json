@@ -4,5 +4,32 @@
  "title": "THINK-BEFORE-YOU-PAINT-RECURSIVE-LATENT-REASONING-FOR-DIFFUS",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-10-08 19:46:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/2d146c86-bab2-4501-b0b8-4af141648ae0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/2d146c86-bab2-4501-b0b8-4af141648ae0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:12:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion models",
+    "visual reasoning",
+    "recursive reasoning",
+    "ControlNet",
+    "constraint satisfaction",
+    "sudoku",
+    "scene generation"
+   ],
+   "field": "视觉生成与推理",
+   "innovations": [
+    "将TRM式递归推理器与冻结扩散模型解耦，通过ControlNet适配器在像素空间实现无符号监督的规则遵循",
+    "系统性诊断推理-渲染分离机制，证明latent探索-回溯是性能提升来源",
+    "在Sudoku/迷宫/N-Queens/CLEVR四个任务族上建立SOTA，差距随复杂度扩大"
+   ],
+   "benchmarks": [
+    "MNIST Sudoku",
+    "AMAZE",
+    "CLEVR"
+   ]
+  }
+ }
 }

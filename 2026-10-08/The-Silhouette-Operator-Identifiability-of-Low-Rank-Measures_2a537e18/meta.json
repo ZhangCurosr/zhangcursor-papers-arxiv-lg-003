@@ -4,5 +4,31 @@
  "title": "The-Silhouette-Operator-Identifiability-of-Low-Rank-Measures",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-10-08 19:51:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/eee6cf29-bbef-4548-b91c-37797d1f937c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/eee6cf29-bbef-4548-b91c-37797d1f937c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:15:05",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "低秩测度",
+    "可识别性",
+    "Wasserstein距离",
+    "非参数密度估计",
+    "轮廓算子",
+    "混合乘积模型",
+    "切片Wasserstein"
+   ],
+   "field": "非参数统计与测度理论",
+   "innovations": [
+    "证明R²中2k个投影方向对秩≤k测度的最优可识别性",
+    "提出SME算法将高维密度估计转化为并行一维Wasserstein匹配",
+    "建立低秩测度空间上轮廓算子的弱*同胚嵌入与RIP类型界"
+   ],
+   "benchmarks": [
+    "HEPMASS",
+    "kin8nm"
+   ]
+  }
+ }
 }

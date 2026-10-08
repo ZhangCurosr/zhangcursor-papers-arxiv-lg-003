@@ -4,5 +4,30 @@
  "title": "TR-PTQ-High-Accuracy-Integer-Only-Transformer-Post-Training",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-10-08 19:50:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/50c96dcf-bb51-42d3-a1c8-14f8cb991062.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/50c96dcf-bb51-42d3-a1c8-14f8cb991062.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:13:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-training quantization",
+    "integer-only inference",
+    "Transformer",
+    "Taylor region approximation",
+    "SoftMax quantization",
+    "LayerNorm quantization"
+   ],
+   "field": "模型量化与高效推理",
+   "innovations": [
+    "通过误差源解剖证明Transformer非线性层可全整数量化而无需浮点回退",
+    "提出共享TR-exp/TR-ln原语统一实现SoftMax、GELU、LayerNorm",
+    "基于方差归一化RMSE的γ scale优化消除LayerNorm重尾分布导致的精度崩溃"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "GLUE"
+   ]
+  }
+ }
 }

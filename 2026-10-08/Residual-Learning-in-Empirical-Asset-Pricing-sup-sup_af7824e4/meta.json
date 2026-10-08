@@ -4,5 +4,10 @@
  "title": "Residual-Learning-in-Empirical-Asset-Pricing-sup-sup",
  "token": "sk-yoA5lsrHK...",
  "created_at": "2026-10-08 19:52:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f00e4591-e16c-4a11-802f-ae3d4682141d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f00e4591-e16c-4a11-802f-ae3d4682141d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:09:07",
+  "chunks": 7
+ }
 }

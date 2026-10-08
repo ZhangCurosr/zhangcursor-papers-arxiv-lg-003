@@ -4,5 +4,29 @@
  "title": "Stationary-Bias-and-Extrapolation-in-Nonlinear-Two-Timescale",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-10-08 19:51:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a69605f7-93ee-42bb-9342-a21d03993fca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a69605f7-93ee-42bb-9342-a21d03993fca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:13:04",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "随机近似",
+    "双时间尺度",
+    "稳态偏差",
+    "Richardson外推",
+    "强化学习",
+    "奇异摄动"
+   ],
+   "field": "强化学习理论分析",
+   "innovations": [
+    "首次推导非线性双时间尺度SA的稳态偏差一阶展开（含混合项ε²/η）",
+    "提出幂律路径下的Richardson-Romberg外推算法消除稳态偏差",
+    "引入快流形坐标与切线坐标解决奇异摄动极限下的Lyapunov方程病态问题"
+   ],
+   "benchmarks": [
+    "TDC算法在5状态Markov链上的数值实验"
+   ]
+  }
+ }
 }

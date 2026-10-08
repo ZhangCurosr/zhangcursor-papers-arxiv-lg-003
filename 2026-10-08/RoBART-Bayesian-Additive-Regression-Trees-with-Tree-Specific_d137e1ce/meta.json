@@ -4,5 +4,10 @@
  "title": "RoBART-Bayesian-Additive-Regression-Trees-with-Tree-Specific",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-10-08 19:52:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bb624efb-aaaf-4b60-95ce-7893f94c7619.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bb624efb-aaaf-4b60-95ce-7893f94c7619.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:08:21",
+  "chunks": 1
+ }
 }

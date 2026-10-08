@@ -4,5 +4,31 @@
  "title": "STEERSPEECH-ACTIVATION-STEERING-FOR-EMOTION-CONTROL-IN-GENER",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-10-08 08:31:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/ac4f1956-1df0-41c6-97ab-5468b70f7138.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/ac4f1956-1df0-41c6-97ab-5468b70f7138.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:08:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-Speech",
+    "Emotion Control",
+    "Activation Steering",
+    "Low-rank Transform",
+    "Straight-Through Estimator",
+    "Speech Synthesis"
+   ],
+   "field": "语音合成与情感控制",
+   "innovations": [
+    "学习低秩残差变换对冻结TTS激活方向做单调监督优化",
+    "两阶段生成与重放结合直通估计器使离散token专家梯度可回传",
+    "多专家联合损失同时保障情绪强度、说话人身份与文本内容保留"
+   ],
+   "benchmarks": [
+    "ESD English subset",
+    "L2-ARCTIC accented speakers",
+    "Qwen3-TTS-0.6B backbone"
+   ]
+  }
+ }
 }

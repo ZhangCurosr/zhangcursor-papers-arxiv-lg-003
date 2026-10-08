@@ -4,5 +4,32 @@
  "title": "Stability-and-Diversity-of-Networked-Self-Consuming-Generati",
  "token": "sk-L9xk33MRr...",
  "created_at": "2026-10-08 19:50:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/929ce609-c965-437c-959c-d6dffdb24228.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/929ce609-c965-437c-959c-d6dffdb24228.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:11:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自消费生成模型",
+    "模型坍缩",
+    "网络动力学",
+    "生成式AI",
+    "迭代重训练",
+    "图拓扑",
+    "多样性分析",
+    "稳定性理论"
+   ],
+   "field": "生成模型理论与安全",
+   "innovations": [
+    "首次建立网络化自消费生成模型图论框架，揭示交互拓扑与合成数据混合共同决定系统稳定性",
+    "推导谱半径准则 rho(D)<1 作为网络自消费系统的局部渐近稳定充分条件，推广单模型理论",
+    "证明合成数据消费 induce 拓扑依赖平滑效应，给出多样性上界并与代数连通性关联"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "8-Gaussian 合成数据集"
+   ]
+  }
+ }
 }

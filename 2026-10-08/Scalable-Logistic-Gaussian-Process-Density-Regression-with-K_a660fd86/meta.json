@@ -4,5 +4,10 @@
  "title": "Scalable-Logistic-Gaussian-Process-Density-Regression-with-K",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-10-08 19:48:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/06b8587c-6a7d-484e-8abd-8e54d4bdde3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/06b8587c-6a7d-484e-8abd-8e54d4bdde3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:09:01",
+  "chunks": 1
+ }
 }

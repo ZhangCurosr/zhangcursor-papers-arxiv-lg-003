@@ -4,5 +4,31 @@
  "title": "UNDERSTANDING-HEAD-GEOMETRY-AND-DYNAMICS-IN-FEDERATED-REGRES",
  "token": "sk-t5rU5DeOT...",
  "created_at": "2026-10-01 08:23:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/05e8a1ef-1dc1-493b-ac3b-50cfd1a4415f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/05e8a1ef-1dc1-493b-ac3b-50cfd1a4415f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:07:55",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Federated Learning",
+    "Federated Regression",
+    "Head Geometry",
+    "Non-IID",
+    "Adaptive Aggregation",
+    "Convergence Dynamics"
+   ],
+   "field": "联邦学习理论分析",
+   "innovations": [
+    "提出联邦回归头部几何分析框架，量化异构性与头部分布的关系",
+    "推导头部动态收敛动力学模型并建立理论下界",
+    "设计基于几何相似性的自适应头部协调算法AHC"
+   ],
+   "benchmarks": [
+    "LEAF",
+    "California Housing",
+    "Friedman Benchmark"
+   ]
+  }
+ }
 }
