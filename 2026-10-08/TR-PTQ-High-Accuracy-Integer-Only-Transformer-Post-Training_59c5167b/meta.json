@@ -4,5 +4,30 @@
  "title": "TR-PTQ-High-Accuracy-Integer-Only-Transformer-Post-Training",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-10-08 08:34:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/2dbc60ae-b1f5-43c5-898c-bf55740442f3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/2dbc60ae-b1f5-43c5-898c-bf55740442f3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:12:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Post-Training Quantization",
+    "Transformer",
+    "Integer-Only Inference",
+    "Taylor Region Approximation",
+    "SoftMax Quantization",
+    "LayerNorm Optimization"
+   ],
+   "field": "模型压缩与高效推理",
+   "innovations": [
+    "提出共享Taylor Region指数/对数原语实现全整数SoftMax/GELU/LayerNorm",
+    "发现并缓解LayerNorm尺度参数γ重尾分布与GELU近似叠加两类结构性误差源",
+    "验证SoftMax仅需8项LUT即可保持高精度，挑战非线性层需浮点的传统假设"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "GLUE"
+   ]
+  }
+ }
 }

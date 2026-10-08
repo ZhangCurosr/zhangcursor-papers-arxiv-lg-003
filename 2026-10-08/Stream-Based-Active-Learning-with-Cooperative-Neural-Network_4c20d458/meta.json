@@ -4,5 +4,30 @@
  "title": "Stream-Based-Active-Learning-with-Cooperative-Neural-Network",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-10-08 08:36:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/95af376d-4e43-4376-a52c-9405b212ce29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/95af376d-4e43-4376-a52c-9405b212ce29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:09:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "主动学习",
+    "部分逆设计",
+    "协作神经网络",
+    "流式主动学习",
+    "MC Dropout",
+    "数据高效学习",
+    "汽车密封设计"
+   ],
+   "field": "数据驱动的逆向工程与主动学习",
+   "innovations": [
+    "首次将流式主动学习集成到协作代理-插补架构中用于部分逆设计",
+    "基于MC Dropout不确定性的实时查询/丢弃采集策略适配仿真昂贵场景"
+   ],
+   "benchmarks": [
+    "Glass Run Channel (GRC) 数据集 (906,215 samples)",
+    "R² threshold efficiency (MM=6)"
+   ]
+  }
+ }
 }

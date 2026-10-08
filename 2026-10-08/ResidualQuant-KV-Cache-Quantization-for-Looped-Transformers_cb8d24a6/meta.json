@@ -4,5 +4,32 @@
  "title": "ResidualQuant-KV-Cache-Quantization-for-Looped-Transformers",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-10-08 08:29:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/3d152903-de7b-4c9b-a3e5-2ca77126b632.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/3d152903-de7b-4c9b-a3e5-2ca77126b632.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:03:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV Cache Quantization",
+    "Looped Transformer",
+    "Low-bit Quantization",
+    "Residual Quantization",
+    "INT2 Quantization",
+    "Inference Throughput"
+   ],
+   "field": "低比特量化与高效推理",
+   "innovations": [
+    "利用末loop残差重建实现INT2级别KV压缩",
+    "Last-loop参考与LS缩放结合降低重建误差",
+    "混合精度锚点分配提升精度-存储权衡"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH500",
+    "HumanEval",
+    "MBPP"
+   ]
+  }
+ }
 }

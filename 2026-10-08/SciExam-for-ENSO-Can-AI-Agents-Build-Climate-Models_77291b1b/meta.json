@@ -4,5 +4,31 @@
  "title": "SciExam-for-ENSO-Can-AI-Agents-Build-Climate-Models",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-10-08 08:32:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/2ad2daac-289f-4f21-b06e-eb589db17151.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/2ad2daac-289f-4f21-b06e-eb589db17151.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:04:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ENSO modeling",
+    "AI science agents",
+    "benchmark",
+    "stochastic differential equations",
+    "climate model",
+    "open scientific evaluation",
+    "low-order models",
+    "structural simplification"
+   ],
+   "field": "climate AI modeling",
+   "innovations": [
+    "Proposed a hidden-scoring three-phase benchmark where agents autonomously build ENSO stochastic models from real observations",
+    "Demonstrated that six of twelve agent systems outperform a published reference model under identical scientific tests",
+    "Showed that top agent-built models structurally reduce to two families corresponding to competing theories of ENSO asymmetry"
+   ],
+   "benchmarks": [
+    "SciExam for ENSO"
+   ]
+  }
+ }
 }

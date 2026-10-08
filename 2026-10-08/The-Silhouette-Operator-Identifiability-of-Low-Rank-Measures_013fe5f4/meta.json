@@ -4,5 +4,29 @@
  "title": "The-Silhouette-Operator-Identifiability-of-Low-Rank-Measures",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-10-08 08:36:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d79324e2-bbbb-41e0-a328-3503956f8a94.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d79324e2-bbbb-41e0-a328-3503956f8a94.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:14:59",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "低秩测度",
+    "可识别性",
+    "轮廓算子",
+    "Wasserstein距离",
+    "密度估计",
+    "高维统计"
+   ],
+   "field": "高维概率测度理论",
+   "innovations": [
+    "证明2k个投影方向是唯一识别秩≤k测度的最优数量",
+    "提出SME估计器并建立非渐近估计速率"
+   ],
+   "benchmarks": [
+    "HEPMASS",
+    "kin8nm"
+   ]
+  }
+ }
 }

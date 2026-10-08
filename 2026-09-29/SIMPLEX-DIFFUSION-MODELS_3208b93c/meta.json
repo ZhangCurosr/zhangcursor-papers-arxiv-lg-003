@@ -4,5 +4,33 @@
  "title": "SIMPLEX-DIFFUSION-MODELS",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-29 19:07:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/548df69d-bfb4-42a5-8e13-876b634e7a58.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/548df69d-bfb4-42a5-8e13-876b634e7a58.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:05:12",
+  "chunks": 7,
+  "meta": {
+   "keywords": [
+    "Simplex Diffusion",
+    "Discrete Diffusion",
+    "Dirichlet Distribution",
+    "Self-Conditioning",
+    "Diffusion Distillation",
+    "Probability Simplex",
+    "Information Collapse"
+   ],
+   "field": "离散扩散生成模型",
+   "innovations": [
+    "将扩散过程提升至概率单纯形使不确定性跨步传播",
+    "闭式反向转移无需ODE数值积分",
+    "Simplex DMD蒸馏提供单一路径精确梯度"
+   ],
+   "benchmarks": [
+    "TinyGSM",
+    "OpenWebText",
+    "Sudoku",
+    "零样本语言理解"
+   ]
+  }
+ }
 }

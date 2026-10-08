@@ -4,5 +4,10 @@
  "title": "TERRA-LEARNING-TRANSPORTABLE-LATENT-AC-TIONS-THROUGH-TEMPORA",
  "token": "sk-s7NFyJaLu...",
  "created_at": "2026-10-08 08:36:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/c8e09337-286c-4371-94bf-c493e6557e9a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/c8e09337-286c-4371-94bf-c493e6557e9a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:10:51",
+  "chunks": 1
+ }
 }

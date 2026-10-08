@@ -4,5 +4,31 @@
  "title": "THINKING-IN-DEPTH-RETROSPECTIVE-INFERENCE-FOR-TABULAR-FOUNDA",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-10-08 08:33:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/dc456ac2-274f-42b0-afd3-f7193f06fde4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/dc456ac2-274f-42b0-afd3-f7193f06fde4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:11:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tabular Foundation Models",
+    "In-Context Learning",
+    "Retrospective Inference",
+    "Attention Residuals",
+    "Gated Attention",
+    "Predictive Refinement"
+   ],
+   "field": "表格数据机器学习",
+   "innovations": [
+    "提出回顾性推理框架，使后续层可显式回顾并重组合中间表示",
+    "将 Attention Residuals 适配至表格 ICL 堆栈实现自适应跨深度聚合",
+    "引入查询条件门控注意力，逐维调制上下文更新的几何形状"
+   ],
+   "benchmarks": [
+    "TabArena",
+    "TALENT",
+    "RelArena"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "SearchWorld-Spatial-Value-Grounded-Imagination-for-UAV-Objec",
  "token": "sk-alntNRIDw...",
  "created_at": "2026-10-08 08:34:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/52de6f3e-54fb-4c75-99f8-4994ad69b67e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/52de6f3e-54fb-4c75-99f8-4994ad69b67e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:05:40",
+  "chunks": 1
+ }
 }

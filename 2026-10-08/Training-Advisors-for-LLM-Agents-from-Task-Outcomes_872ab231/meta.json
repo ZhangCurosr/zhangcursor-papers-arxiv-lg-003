@@ -4,5 +4,34 @@
  "title": "Training-Advisors-for-LLM-Agents-from-Task-Outcomes",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-10-08 08:31:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/06ccf78b-db92-4ac5-93ba-278ef757cb88.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/06ccf78b-db92-4ac5-93ba-278ef757cb88.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:14:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM agent",
+    "critic training",
+    "outcome-based RL",
+    "transfer learning",
+    "multi-step reasoning",
+    "DAPO",
+    "natural language feedback"
+   ],
+   "field": "LLM Agent 训练与迁移",
+   "innovations": [
+    "只用最终任务结果训练生成式批评者，无需步骤级标注与参考批评",
+    "单模型训练的 critic 跨不同基础模型与跨任务域仍能带来显著增益",
+    "与 actor GRPO 微调正交，可在已收敛 generator 上叠加 critic 进一步提升成败率"
+   ],
+   "benchmarks": [
+    "MuSiQue",
+    "ALFWorld",
+    "DeepDive",
+    "tau^3 Retail",
+    "tau^3 Airline"
+   ]
+  }
+ }
 }

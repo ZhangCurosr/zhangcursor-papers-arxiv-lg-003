@@ -4,5 +4,32 @@
  "title": "Sparse-Planning-in-Visual-World-Models-via-Cost-Gradients",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-10-08 08:32:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/c1fad3fc-89fe-4992-83b1-520105ec1324.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/c1fad3fc-89fe-4992-83b1-520105ec1324.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:08:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual world models",
+    "sparse planning",
+    "token selection",
+    "gradient-based attribution",
+    "model-based reinforcement learning",
+    "CEM planning",
+    "AdaLN conditioning"
+   ],
+   "field": "视觉世界模型的高效推理与规划",
+   "innovations": [
+    "提出COSTGRAD，一种基于规划成本梯度范数的免训练目标条件token选择器，在50%稀疏度下匹配或超越全token规划",
+    "揭示选择器-架构兼容性现象：COSTGRAD在AdaLN-Zero预测器上有效但在matched-concat上失效，差异由action-pathway drift解释"
+   ],
+   "benchmarks": [
+    "PointMaze",
+    "Wall",
+    "PushT",
+    "MetaWorld"
+   ]
+  }
+ }
 }

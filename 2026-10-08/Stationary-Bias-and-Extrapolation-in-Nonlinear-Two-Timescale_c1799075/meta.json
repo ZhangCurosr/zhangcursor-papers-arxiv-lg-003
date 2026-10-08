@@ -4,5 +4,31 @@
  "title": "Stationary-Bias-and-Extrapolation-in-Nonlinear-Two-Timescale",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-10-08 08:36:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/889f9726-31a3-4ae5-988c-eb1f59a7eece.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/889f9726-31a3-4ae5-988c-eb1f59a7eece.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:11:40",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "双时标随机逼近",
+    "平稳偏置",
+    "协方差展开",
+    "奇异比值外推",
+    "Lyapunov方程",
+    "Markov响应",
+    "三轮矩估计"
+   ],
+   "field": "强化学习理论 / 随机逼近渐近分析",
+   "innovations": [
+    "提出Tangent坐标+Poisson修正的一致协方差界，消去slow块1/ρ发散",
+    "给出平稳均值三阶展开 m=ηb₀+εb₁+ε²b₂/η+…，系数独立于步长",
+    "基于奇异比值ε=ηρ的路径感知外推方法，跨(η,ρ)组合去偏"
+   ],
+   "benchmarks": [
+    "两状态Markov链精确偏差示例",
+    "非线性双时标递归数值验证"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Safe-Meta-Policy-Design-with-Risk-Control",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-10-08 08:32:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/cd1f9418-2ad9-452b-b9c2-f826179ed6b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/cd1f9418-2ad9-452b-b9c2-f826179ed6b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:04:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "meta-policy",
+    "safe policy deployment",
+    "resource-constrained shortest path",
+    "policy learning",
+    "risk control",
+    "stochastic diffusion"
+   ],
+   "field": "安全策略部署与元策略规划",
+   "innovations": [
+    "将序列策略的离线部署时机规划转化为资源约束DAG路径问题并给出DP求解器",
+    "在期望单调性下证明最新策略归约，使调度仅需决定更新时刻",
+    "基于Itô扩散给出更新间隔与局部SNR平方成反比的渐近最优结构"
+   ],
+   "benchmarks": [
+    "Synthetic low/medium/high SNR policy learning",
+    "International Stroke Trial (IST) clinical data"
+   ]
+  }
+ }
 }

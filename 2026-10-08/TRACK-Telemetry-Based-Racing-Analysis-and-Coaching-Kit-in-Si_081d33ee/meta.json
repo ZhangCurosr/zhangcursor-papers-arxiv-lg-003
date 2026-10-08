@@ -4,5 +4,32 @@
  "title": "TRACK-Telemetry-Based-Racing-Analysis-and-Coaching-Kit-in-Si",
  "token": "sk-UIdHTd8L7...",
  "created_at": "2026-10-08 08:36:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/112a33c4-6720-4801-bbf7-0f01a3ad92b8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/112a33c4-6720-4801-bbf7-0f01a3ad92b8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:12:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sim racing",
+    "driving telemetry",
+    "behavioral fingerprint",
+    "unsupervised clustering",
+    "reinforcement learning reference",
+    "driver style analysis",
+    "corner segmentation",
+    "repeatability"
+   ],
+   "field": "模拟赛车行为分析与驾驶风格建模",
+   "innovations": [
+    "提出四维行为指纹（速度/制动/策略/一致性）对模拟赛车驾驶风格进行无监督刻画",
+    "引入RL参考代理归一化，使指标刻度脱离样本构成并支持跨平台移植",
+    "构建覆盖梯度评估协议并系统检验跨弯道类型与跨车型的驾驶风格迁移性"
+   ],
+   "benchmarks": [
+    "ACGym",
+    "Assetto Corsa Competizione (ACC) portability check"
+   ]
+  }
+ }
 }

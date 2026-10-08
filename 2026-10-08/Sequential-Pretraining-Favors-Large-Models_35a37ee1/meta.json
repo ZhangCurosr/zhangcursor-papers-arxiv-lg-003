@@ -4,5 +4,36 @@
  "title": "Sequential-Pretraining-Favors-Large-Models",
  "token": "sk-y9PdQWlPV...",
  "created_at": "2026-10-08 08:37:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/b228895f-9520-4ca5-b698-21f529452443.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/b228895f-9520-4ca5-b698-21f529452443.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:06:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "pretraining",
+    "primacy bias",
+    "exposure therapy",
+    "model scaling",
+    "sequential data order",
+    "capacity allocation",
+    "continual learning"
+   ],
+   "field": "大模型预训练算法",
+   "innovations": [
+    "定义并量化首因偏差（primacy sensitivity），揭示数据顺序与模型规模的交互效应",
+    "提出暴露疗法（ET），通过稀疏引入后期数据分布改善小模型容量分配效率",
+    "证明过参数化模型的鲁棒性源于避免复用早期参数，而非单纯容量优势"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "Fashion-MNIST",
+    "KMNIST",
+    "FineWeb",
+    "TinyStories",
+    "CodeSearchNet",
+    "OpenWebMath"
+   ]
+  }
+ }
 }

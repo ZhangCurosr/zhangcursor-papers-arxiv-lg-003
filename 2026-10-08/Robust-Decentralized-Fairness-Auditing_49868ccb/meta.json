@@ -4,5 +4,31 @@
  "title": "Robust-Decentralized-Fairness-Auditing",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-10-08 08:30:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/eee20df5-b42b-4f4f-9e76-504b047f92a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/eee20df5-b42b-4f4f-9e76-504b047f92a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:03:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fairness auditing",
+    "large language models",
+    "decentralized protocols",
+    "robust aggregation",
+    "fairwashing",
+    "demographic parity",
+    "Byzantine resilience"
+   ],
+   "field": "AI 安全与公平性审计",
+   "innovations": [
+    "多轮去中心化审计协议 AUDITOPUS，通过累积统计向量交换实现异构数据的无偏聚合",
+    "基于历史一致性（二项分布 z-score）的本地加权防御，抵御自适应敌手的公平洗白攻击",
+    "首次理论刻画单敌手完成 fairwashing 的充要条件并证明鲁棒聚合方法在异构数据下的失效机制"
+   ],
+   "benchmarks": [
+    "Civil Comments",
+    "Bias in Bios"
+   ]
+  }
+ }
 }

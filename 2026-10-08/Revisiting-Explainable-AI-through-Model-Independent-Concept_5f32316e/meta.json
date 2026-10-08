@@ -4,5 +4,33 @@
  "title": "Revisiting-Explainable-AI-through-Model-Independent-Concept",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-10-08 08:35:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/36630e2d-fbdf-4bba-ad52-67531632e6e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/36630e2d-fbdf-4bba-ad52-67531632e6e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:02:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Explainable AI",
+    "concept-based explanations",
+    "sparse coding",
+    "overcomplete dictionary",
+    "model-agnostic interpretability",
+    "Clever Hans mitigation",
+    "ECG explainability",
+    "mass spectrometry"
+   ],
+   "field": "可解释人工智能与概念归因",
+   "innovations": [
+    "在输入域使用过完备字典并保留无损残差原子以实现函数等价的模型无关概念归因",
+    "证明字典级导数Lipschitz连续性并继承守恒型归因器的保真性质",
+    "在输入域直接定位并移除伪相关原子以根治Clever Hans捷径复发"
+   ],
+   "benchmarks": [
+    "MNIST Clever Hans Remove-and-Retrain",
+    "MIMIC-IV-ECG QRS duration classification",
+    "MALDI-TOF microbial co-culture spectral similarity"
+   ]
+  }
+ }
 }

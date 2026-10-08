@@ -4,5 +4,34 @@
  "title": "TEMPORAL-PREDICTIVE-MULTIPLICITY-EQUALLY-ACCURATE-TIME-SERIE",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-10-08 08:29:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/c7713b8d-b357-4af6-87ec-fef361ac031d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/c7713b8d-b357-4af6-87ec-fef361ac031d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:12:40",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "predictive multiplicity",
+    "Rashomon set",
+    "time series forecasting",
+    "forecast trajectory",
+    "model diversity",
+    "uncertainty quantification"
+   ],
+   "field": "时间序列预测的不确定性分析与模型多重性",
+   "innovations": [
+    "首次为时间序列预测定义7种轨迹距离并给出精确上界与达到构造",
+    "在11数据集上构建大规模实证Rashomon集，揭示非对称多重性模式",
+    "建立逐时点容忍控制下各类距离的精确刻画定理"
+   ],
+   "benchmarks": [
+    "MASE",
+    "UK ATM Withdrawals",
+    "Bitcoin Price",
+    "Australian Electricity Demand",
+    "Jena Weather",
+    "FRED-MD"
+   ]
+  }
+ }
 }

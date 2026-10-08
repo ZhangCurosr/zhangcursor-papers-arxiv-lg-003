@@ -4,5 +4,36 @@
  "title": "Sparsifying-Stochasticity-Not-Capacity-Partial-Stochasticity",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-10-08 08:30:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/775a081c-f7d9-4e53-9c34-84b7e9903e8f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/775a081c-f7d9-4e53-9c34-84b7e9903e8f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:08:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "部分随机贝叶斯神经网络",
+    "深度权重分解",
+    "功能先验",
+    "MMD",
+    "通用条件密度逼近",
+    "稀疏随机性"
+   ],
+   "field": "贝叶斯深度学习",
+   "innovations": [
+    "通过深度权重分解对先验尺度稀疏化实现随机性的自动学习，而非容量稀疏化",
+    "给出线性时间可检验的UCDA充分性证书及最小修复方案",
+    "证明混合推理方案为type-II MAP的随机近似并揭示耦合步长的非消失跟踪误差"
+   ],
+   "benchmarks": [
+    "UCI BANKNOTE",
+    "UCI HTRU2",
+    "UCI CONCRETE",
+    "UCI WINE",
+    "UCI BIKESHARING",
+    "UCI BOSTON",
+    "UCI ONLINESHOPPERS",
+    "UCI CREDIT"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Temporally-Interpretable-Differentiable-Decision-Trees",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-10-08 08:29:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/3c792d62-9ab8-4d92-af7c-6f08c10ec288.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/3c792d62-9ab8-4d92-af7c-6f08c10ec288.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:12:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可解释强化学习",
+    "可微决策树",
+    "时间可解释性",
+    "动作分块",
+    "策略梯度",
+    "树结构重构"
+   ],
+   "field": "可解释人工智能",
+   "innovations": [
+    "引入时间可解释性维度，使DDTs输出短期行动计划",
+    "提出Temporal Ensemble与Temporal Prediction两种动作分块策略梯度算法",
+    "设计ITTR动态树重构算法，基于信息瓶颈理论在线调整树结构"
+   ],
+   "benchmarks": [
+    "Lane Keeping",
+    "Inverted Pendulum V5",
+    "Lunar Lander V3",
+    "Lunar Lander V3 Hard"
+   ]
+  }
+ }
 }

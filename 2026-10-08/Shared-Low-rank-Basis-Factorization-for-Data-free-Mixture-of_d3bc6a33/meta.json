@@ -4,5 +4,39 @@
  "title": "Shared-Low-rank-Basis-Factorization-for-Data-free-Mixture-of",
  "token": "sk-pbKDuH2mM...",
  "created_at": "2026-10-08 08:34:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/45b7223b-2e38-41fa-9ab3-2a6adae77c7a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/45b7223b-2e38-41fa-9ab3-2a6adae77c7a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:06:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "模型压缩",
+    "权重重建",
+    "低秩分解",
+    "无数据压缩",
+    "稀疏路由"
+   ],
+   "field": "大语言模型压缩与效率",
+   "innovations": [
+    "推导剪枝与合并的不可约结构误差上界，证明权重重建避免干预诱导的结构性代价",
+    "提出 SLBF 低秩共享基因子分解，在固定预算下以更多基实现更丰富跨专家混合",
+    "双线性规范固定消除 mk^2 冗余参数，在 no-representational-cost 下进一步提升压缩效率"
+   ],
+   "benchmarks": [
+    "ARC-Challenge",
+    "GPQA-Diamond",
+    "MMLU",
+    "CEval",
+    "CMMLU",
+    "GSM8K",
+    "MBPP",
+    "HumanEval",
+    "WikiText-2",
+    "HellaSwag",
+    "PIQA"
+   ]
+  }
+ }
 }

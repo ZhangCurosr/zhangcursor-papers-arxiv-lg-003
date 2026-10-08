@@ -4,5 +4,32 @@
  "title": "Structure-alone-supports-eficient-visual-computation-in-the",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-10-08 08:31:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/b00c02c6-bf1a-4ed3-9877-729ce49284ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/b00c02c6-bf1a-4ed3-9877-729ce49284ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:09:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "connectome",
+    "wiring economy",
+    "message-passing neural network",
+    "Drosophila visual system",
+    "approximate number system",
+    "randomized connectome ensembles",
+    "Voronoi tessellation"
+   ],
+   "field": "计算神经科学与连接组学",
+   "innovations": [
+    "纯连接组模型：仅固定解剖图与眼几何，可学习突触增益与阈值即可支持多任务视觉计算",
+    "沿生物学合理性构造四类随机化连接组系谱，定位生物图在布线经济约束下的近优地位",
+    "在布线匹配条件下证明生物连接组在形状与近似数任务上优于所有更生物学合理的随机替代"
+   ],
+   "benchmarks": [
+    "color discrimination (binary)",
+    "shape discrimination (circle vs star, retinotopic-sector generalization)",
+    "numerosity discrimination with Weber ratio control, area-controlled condition"
+   ]
+  }
+ }
 }

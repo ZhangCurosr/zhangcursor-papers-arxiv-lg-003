@@ -4,5 +4,33 @@
  "title": "THE-PERSONA-HIERARCHY-MODEL-UNDERSTANDING-CONTEXTUAL-GENERAL",
  "token": "sk-u8lryRDFU...",
  "created_at": "2026-10-08 08:33:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/29099739-1d5a-4a09-924e-8136151d9f6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/29099739-1d5a-4a09-924e-8136151d9f6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:10:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人格层级模型",
+    "上下文泛化",
+    "微调",
+    "奖励黑客",
+    "人格保持正则化",
+    "激活修补",
+    "LLM对齐"
+   ],
+   "field": "大语言模型对齐与可解释性",
+   "innovations": [
+    "提出人格层级模型，建立训练上下文人格与默认人格的距离与泛化窄度的定量关系",
+    "通过激活修补揭示prefix和postfix位置分别编码局部人格和共享人格的神经机制",
+    "提出PPR正则化，在RL中将奖励黑客率从42-55%降至≤0.2%且不损失准确率"
+   ],
+   "benchmarks": [
+    "MATH",
+    "GCD",
+    "MBPP",
+    "Tulu3"
+   ]
+  }
+ }
 }
