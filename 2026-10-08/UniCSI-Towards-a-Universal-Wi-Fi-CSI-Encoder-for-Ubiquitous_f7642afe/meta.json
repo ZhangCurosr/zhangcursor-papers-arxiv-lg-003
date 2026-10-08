@@ -4,5 +4,37 @@
  "title": "UniCSI-Towards-a-Universal-Wi-Fi-CSI-Encoder-for-Ubiquitous",
  "token": "sk-6puwYp2kk...",
  "created_at": "2026-10-08 08:36:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/493bbc3b-560a-4477-9dc0-61a646607baf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/493bbc3b-560a-4477-9dc0-61a646607baf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:13:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Wi-Fi sensing",
+    "CSI",
+    "foundation model",
+    "heterogeneous representation",
+    "self-supervised learning",
+    "cross-domain transfer",
+    "JEPA"
+   ],
+   "field": "无线感知与信号处理",
+   "innovations": [
+    "物理感知 RF Tokenizer：基于分数频带位置而非离散索引的子载波编码",
+    "光谱聚合器：查询式 cross-attention 将可变长度 CSI 压缩为固定潜在表示",
+    "原生异构摄入：无需零填充/重采样直接处理任意子载波数和带宽"
+   ],
+   "benchmarks": [
+    "CSI-Bench",
+    "Exposing-CSI",
+    "XRF55",
+    "SHARP",
+    "NTU-Fi HAR",
+    "FallDar",
+    "GaitID",
+    "WiMANS"
+   ]
+  }
+ }
 }

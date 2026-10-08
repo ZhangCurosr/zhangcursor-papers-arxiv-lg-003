@@ -4,5 +4,32 @@
  "title": "What-Can-a-Gaussian-Process-Design-Test-Structural-and-Prior",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-10-08 08:26:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/6772c123-64ab-4c25-9ad1-bc1f674c06b3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/6772c123-64ab-4c25-9ad1-bc1f674c06b3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:14:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Gaussian process",
+    "experimental design",
+    "model diagnostics",
+    "Gale duality",
+    "active learning",
+    "statistical power",
+    "kernel methods"
+   ],
+   "field": "高斯过程模型诊断与实验设计",
+   "innovations": [
+    "提出 GP 可测试性前瞻性分析框架，区分结构证据与先验证据",
+    "利用 Gale 对偶几何化有限秩核的一致性关系并识别电路",
+    "推导组检验功率闭式公式，指导主动采样决策"
+   ],
+   "benchmarks": [
+    "E1直线vs曲率检测",
+    "E2未知位置凸起检测",
+    "E3二维可加性检验"
+   ]
+  }
+ }
 }

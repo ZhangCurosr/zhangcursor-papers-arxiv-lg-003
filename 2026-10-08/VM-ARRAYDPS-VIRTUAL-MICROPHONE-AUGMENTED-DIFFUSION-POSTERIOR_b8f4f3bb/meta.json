@@ -4,5 +4,28 @@
  "title": "VM-ARRAYDPS-VIRTUAL-MICROPHONE-AUGMENTED-DIFFUSION-POSTERIOR",
  "token": "sk-KvGX6663A...",
  "created_at": "2026-10-08 08:34:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d3608fe4-eb6b-4c8e-af72-9d57c831e866.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d3608fe4-eb6b-4c8e-af72-9d57c831e866.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:14:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "盲语音分离",
+    "扩散模型",
+    "后验采样",
+    "多通道一致性",
+    "虚拟麦克风"
+   ],
+   "field": "无监督多通道语音分离",
+   "innovations": [
+    "将IVA输出作为虚拟麦克风观察纳入扩散后验采样全过程",
+    "设计加权虚拟麦克风一致性目标以控制间接观测贡献"
+   ],
+   "benchmarks": [
+    "SMS-WSJ 2-speaker 3-mic",
+    "SMS-WSJ 3-speaker 4-mic"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "Unbounded-Characteristic-and-Universal-Kernels",
  "token": "sk-t5rU5DeOT...",
  "created_at": "2026-10-08 08:32:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/931478f4-0da0-4a87-beda-b97bd150ab38.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/931478f4-0da0-4a87-beda-b97bd150ab38.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:13:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "unbounded kernel",
+    "characteristic kernel",
+    "Lp-universality",
+    "i.s.p.d.",
+    "strong negative type",
+    "kernel Stein discrepancy",
+    "RKHS",
+    "mean embedding"
+   ],
+   "field": "核方法与非参数统计理论基础",
+   "innovations": [
+    "建立无界核下 characteristic/i.s.p.d./s.n.t./Lp-universal 四性质统一关系图",
+    "证明 A^p(K;X)=P_b(K;X) 使 Lp-universality 可简化为 P_b-i.s.p.d.",
+    "从理论上证明任何 Stein 核均不可能是 Lp-universal"
+   ]
+  }
+ }
 }

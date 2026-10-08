@@ -4,5 +4,28 @@
  "title": "SAFE-ON-AVERAGE-UNSAFE-IN-THE-TAIL-WHEN-IS-THE-EPISODIC-COST",
  "token": "sk-wqji9kxkl...",
  "created_at": "2026-10-08 08:33:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/687e3d19-af39-472d-a9df-41903032e177.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/687e3d19-af39-472d-a9df-41903032e177.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:12:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "安全强化学习",
+    "CVaR",
+    "尾部风险",
+    "约束 RL",
+    "Safety-Gymnasium",
+    "OQ-SAC"
+   ],
+   "field": "安全强化学习",
+   "innovations": [
+    "提出统一 episodic CVaR₀.₁ 后训练评估协议以识别均值安全但尾部危险的政策",
+    "构建乐观探索+分位数CVaR惩罚的OQ-SAC，在步态任务上同时实现尾安全与高回报"
+   ],
+   "benchmarks": [
+    "Safety-Gymnasium v1.0.0, HalfCheetah, Ant, Walker2d, Hopper, PointGoal2, PointButton1, CarButton1, PointPush1"
+   ]
+  }
+ }
 }

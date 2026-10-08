@@ -4,5 +4,32 @@
  "title": "What-a-Reporting-Convention-Hides-A-Matched-Budget-Audit-of",
  "token": "sk-Ow5x4gcSo...",
  "created_at": "2026-10-08 08:33:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/9496b404-6c4b-4825-868a-2397fd5ed86b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/9496b404-6c4b-4825-868a-2397fd5ed86b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:14:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "quantum natural gradient",
+    "variational quantum optimizer",
+    "benchmarking convention",
+    "Fubini-Study metric",
+    "barren plateaus",
+    "reporting bias"
+   ],
+   "field": "量子机器学习优化器基准测试",
+   "innovations": [
+    "揭示报告约定（成功运行筛选、目标阈值）对优化器比较判决的系统性影响",
+    "构建配对公平测试床（明确计价、固定预算、超出样本测试）",
+    "精确计算Fubini-Study度量并分析其谱性质随深度变化"
+   ],
+   "benchmarks": [
+    "QNG vs Adam vs SPSA",
+    "global-cost family",
+    "local-cost family",
+    "loose target τ=0.20 vs strict target τ=0.01"
+   ]
+  }
+ }
 }

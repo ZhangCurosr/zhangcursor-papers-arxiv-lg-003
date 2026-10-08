@@ -4,5 +4,32 @@
  "title": "WxFM-XL-Adapting-Univariate-Foundation-Models-to-Multi-Stati",
  "token": "sk-Dw4PCoiSK...",
  "created_at": "2026-10-08 08:28:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/afe60848-bfd3-4a36-88f7-de8b7de7f6bc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/afe60848-bfd3-4a36-88f7-de8b7de7f6bc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:15:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列基础模型",
+    "多站点天气预报",
+    "频域分解",
+    "误差相关先验图",
+    "图残差适配器",
+    "动态融合",
+    "单变量到多变量适配"
+   ],
+   "field": "时间序列基础模型适配与多站点时空预测",
+   "innovations": [
+    "提出频带特异性误差相关先验图与静态空间图的门控动态融合机制",
+    "设计冻结基础模型的轻量图残差适配器实现结构化跨站点残差校正",
+    "揭示基础模型误差相关结构随频带变化的非局部依赖特性"
+   ],
+   "benchmarks": [
+    "MeteoNet 法国区域",
+    "湖南气象站数据集",
+    "NCEI 全球数据集"
+   ]
+  }
+ }
 }

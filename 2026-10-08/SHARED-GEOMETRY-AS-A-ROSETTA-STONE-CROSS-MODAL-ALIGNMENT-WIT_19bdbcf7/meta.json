@@ -4,5 +4,35 @@
  "title": "SHARED-GEOMETRY-AS-A-ROSETTA-STONE-CROSS-MODAL-ALIGNMENT-WIT",
  "token": "sk-wUD9ZXHNo...",
  "created_at": "2026-10-08 08:37:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d84ed3c0-9915-467a-a0f2-ee055f687b20.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d84ed3c0-9915-467a-a0f2-ee055f687b20.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:12:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-modal alignment",
+    "unpaired representation learning",
+    "Wasserstein Procrustes",
+    "Platonic Representation Hypothesis",
+    "shared geometry",
+    "embedding alignment"
+   ],
+   "field": "多模态表示学习",
+   "innovations": [
+    "首次证明无需任何配对数据即可实现跨模态嵌入空间的粗粒度对齐",
+    "提出Wasserstein Procrustes结合几何初始化（聚类+CKA匹配）的统一无对/少对对齐框架",
+    "建立CKA几何相似性与对齐成功率之间的定量预测关系（R²=0.69跨领域）"
+   ],
+   "benchmarks": [
+    "MS COCO",
+    "NQ (Natural Questions)",
+    "PBMC (RNA-ATAC)",
+    "NSD fMRI",
+    "CIFAR-10/100",
+    "ImageNet-100",
+    "CyclePrefDB-T2I"
+   ]
+  }
+ }
 }

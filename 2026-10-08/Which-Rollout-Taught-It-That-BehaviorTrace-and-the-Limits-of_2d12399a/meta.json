@@ -4,5 +4,10 @@
  "title": "Which-Rollout-Taught-It-That-BehaviorTrace-and-the-Limits-of",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-10-08 08:30:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/de367f14-69be-40cd-bd3e-06e3eedfc76a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/de367f14-69be-40cd-bd3e-06e3eedfc76a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:15:33",
+  "chunks": 1
+ }
 }

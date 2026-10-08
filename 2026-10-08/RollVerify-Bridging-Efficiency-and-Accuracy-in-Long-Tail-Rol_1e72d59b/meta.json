@@ -4,5 +4,33 @@
  "title": "RollVerify-Bridging-Efficiency-and-Accuracy-in-Long-Tail-Rol",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-10-08 08:35:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/6bee09bd-2e16-489c-ac26-8f19222e43cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/6bee09bd-2e16-489c-ac26-8f19222e43cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:11:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "long-tail rollout",
+    "off-policy",
+    "partial rollout",
+    "LLM post-training",
+    "verification"
+   ],
+   "field": "LLM强化学习训练效率",
+   "innovations": [
+    "提出OPS指标量化off-policy偏差并与精度强相关",
+    "两阶段verify-and-truncate主动修复部分生成轨迹",
+    "条件切换策略自适应调节partial/on-policy训练模式"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME25",
+    "AMC23",
+    "MATH500",
+    "DAPO-MATH"
+   ]
+  }
+ }
 }

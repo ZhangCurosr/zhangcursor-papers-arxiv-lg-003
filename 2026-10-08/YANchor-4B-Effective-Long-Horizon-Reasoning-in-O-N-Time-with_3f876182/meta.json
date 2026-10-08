@@ -4,5 +4,40 @@
  "title": "YANchor-4B-Effective-Long-Horizon-Reasoning-in-O-N-Time-with",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-10-08 08:26:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/79612148-e7bb-4249-a606-0109bcd4f6dd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/79612148-e7bb-4249-a606-0109bcd4f6dd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:16:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "循环语言模型",
+    "长程推理",
+    "O(1)内存",
+    "显式记忆机制",
+    "RWKV",
+    "数学推理",
+    "线性时间生成"
+   ],
+   "field": "高效长上下文语言模型",
+   "innovations": [
+    "独立记忆锚点机制实现O(N)时间O(1)内存的长程推理",
+    "读写分离投影与优先级保留策略提升记忆管理能力",
+    "四阶段训练(M0-R-S-RLVR)系统化发展循环模型的显式记忆能力"
+   ],
+   "benchmarks": [
+    "AIME 2024-2026",
+    "HMMT Feb 2026",
+    "MATH-500",
+    "MMLU-Pro",
+    "HumanEval",
+    "LiveCodeBench v6",
+    "DROP",
+    "MuSR",
+    "MMBench",
+    "POPE",
+    "MME"
+   ]
+  }
+ }
 }

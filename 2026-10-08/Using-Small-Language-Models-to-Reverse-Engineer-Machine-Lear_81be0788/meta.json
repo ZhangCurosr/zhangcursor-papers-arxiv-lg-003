@@ -4,5 +4,10 @@
  "title": "Using-Small-Language-Models-to-Reverse-Engineer-Machine-Lear",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-10-08 08:29:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/bf132143-c15e-4d34-9a16-739feb364b7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/bf132143-c15e-4d34-9a16-739feb364b7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:14:19",
+  "chunks": 1
+ }
 }

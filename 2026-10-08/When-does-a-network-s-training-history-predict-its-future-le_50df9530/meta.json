@@ -4,5 +4,32 @@
  "title": "When-does-a-network-s-training-history-predict-its-future-le",
  "token": "sk-0sYDudTcj...",
  "created_at": "2026-10-08 08:35:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/b3de1ea8-40fc-4881-98a5-a123566aec7a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/b3de1ea8-40fc-4881-98a5-a123566aec7a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:15:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "plasticity loss",
+    "training history",
+    "forecasting neural networks",
+    "learning dynamics",
+    "response probe",
+    "compact recurrent state",
+    "learning curve extrapolation"
+   ],
+   "field": "神经网络训练动力学与可解释性",
+   "innovations": [
+    "双重目标实验框架揭示历史信息的边际预测价值取决于当前状态的信息量",
+    "先验证测量工具再读取预测结果的protocol设计，包含正对照与ICC可靠性评估",
+    "预注册有序准则体系用于训练历史vs当前状态预测力的公平比较"
+   ],
+   "benchmarks": [
+    "synthetic regression tasks (32-dim Gaussian input)",
+    "CIFAR-100 subsets",
+    "13 scalar function families (linear, polynomial, Fourier, RBF, ODE/PDE solutions)"
+   ]
+  }
+ }
 }

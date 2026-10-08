@@ -4,5 +4,31 @@
  "title": "Unpaired-Canonical-Correlation-Analysis",
  "token": "sk-DZdSC3jNI...",
  "created_at": "2026-10-08 08:33:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/cd281906-8efe-4c31-8609-d6aef3f77723.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/cd281906-8efe-4c31-8609-d6aef3f77723.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:14:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "canonical correlation analysis",
+    "unpaired data",
+    "quadratic assignment problem",
+    "multiview learning",
+    "cross-modal alignment",
+    "representation learning"
+   ],
+   "field": "多视图表示学习与无配对对齐",
+   "innovations": [
+    "首次证明无配对CCA可通过线性核QAP可计算求解，建立MCP_O(d)与MCP_S_F的理论等价性",
+    "提出UCCA算法：K-Means锚点提取+2-opt QAP排列匹配+伪配对标准CCA的三步框架，在无配对设置下显著超越所有现有基线"
+   ],
+   "benchmarks": [
+    "Handwritten Digits (PC/KL/PA)",
+    "SNARE single-cell multi-omics",
+    "Flickr8k image-text",
+    "COCO image-text"
+   ]
+  }
+ }
 }

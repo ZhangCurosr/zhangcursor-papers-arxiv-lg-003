@@ -4,5 +4,33 @@
  "title": "SEQ-FLOW-EFFICIENT-PROBABILISTIC-FORECASTING-WITH-SELF-ROLLO",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-10-08 08:31:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/ed555d8b-7cd2-4d6d-8933-c0270cbb3e04.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/ed555d8b-7cd2-4d6d-8933-c0270cbb3e04.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:12:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "flow matching",
+    "probabilistic forecasting",
+    "self-rollout",
+    "recursive generation",
+    "error accumulation",
+    "few-step sampling",
+    "scientific ML"
+   ],
+   "field": "科学机器学习/概率时间序列预测",
+   "innovations": [
+    "以预测更新为基本单元的 flow-to-forecast 传输（而非 noise-to-target）",
+    "自展开训练结合 EMA 与重噪机制控制递归源分布误差",
+    "仅用短 rollout 训练即实现 400+ 步稳定长程递归预测"
+   ],
+   "benchmarks": [
+    "Beam Spill (Fermilab Mu2e)",
+    "Burgers' Equation",
+    "RealPDE-FSI",
+    "Synthetic mixture-Gaussian random walk"
+   ]
+  }
+ }
 }

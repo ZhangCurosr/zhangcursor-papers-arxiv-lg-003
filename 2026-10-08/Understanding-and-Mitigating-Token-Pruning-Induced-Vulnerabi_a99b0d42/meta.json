@@ -4,5 +4,35 @@
  "title": "Understanding-and-Mitigating-Token-Pruning-Induced-Vulnerabi",
  "token": "sk-1W4pDEr0k...",
  "created_at": "2026-10-08 08:34:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/7c781cc3-ed56-40e2-aa2a-7072867cec5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/7c781cc3-ed56-40e2-aa2a-7072867cec5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:13:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Token剪枝",
+    "视觉语言模型",
+    "多模态安全",
+    "越狱攻击",
+    "注意力机制",
+    "模型压缩"
+   ],
+   "field": "多模态大模型安全",
+   "innovations": [
+    "首次系统评估Token剪枝对VLM安全性的异质性影响",
+    "发现并形式化剪枝诱导恶意放大机制",
+    "提出即插即用SAP推理时防御框架"
+   ],
+   "benchmarks": [
+    "MM-SafetyBench",
+    "FigStep",
+    "JailBreakV-28K",
+    "MMBench",
+    "MM-Vet",
+    "LLaVA-Bench",
+    "ScienceQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "m-Set-Adversarial-Bandits-with-Winner-Feedback",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-10-08 08:33:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/cca35d44-fc0e-4339-ad76-60b140b4623b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/cca35d44-fc0e-4339-ad76-60b140b4623b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:16:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "m-set bandits",
+    "adversarial bandits",
+    "winner feedback",
+    "combinatorial optimization",
+    "Plackett-Luce model",
+    "regret bounds"
+   ],
+   "field": "在线学习与博弈",
+   "innovations": [
+    "提出FB+WF模型并证明Theta(m*sqrt(KT))紧遗憾界",
+    "揭示sum-utility缺sum-feedback或winner-utility有sum-feedback时的linear regret现象",
+    "构造含uniform noise的hard instance破解winner index泄露额外信息的KL bound难题"
+   ],
+   "benchmarks": [
+    "synthetic stationary correlated rewards",
+    "synthetic uniform rewards",
+    "corrupted rewards setting"
+   ]
+  }
+ }
 }

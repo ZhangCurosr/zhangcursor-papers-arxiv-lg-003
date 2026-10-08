@@ -4,5 +4,30 @@
  "title": "Why-Forget-Only-Unlearning-Needs-Memorization",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-10-08 08:29:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/29afe7a4-c20e-45ad-9d28-ef51bef7237c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/29afe7a4-c20e-45ad-9d28-ef51bef7237c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 17:15:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine unlearning",
+    "forget-only unlearning",
+    "Rényi divergence",
+    "memorization",
+    "information-theoretic lower bound",
+    "mutual information",
+    "teaching dimension"
+   ],
+   "field": "机器学习理论/机器遗忘",
+   "innovations": [
+    "提出共享删除示例(s.d.e.)并证明forget-only unlearning并非对所有学习算法可行",
+    "推导模型为支持unlearning需保留的训练数据信息量下界I(M;S)",
+    "将下界实例化至阈值/PCA/岭回归/SVM/矩阵补全等多种学习算法"
+   ],
+   "benchmarks": [
+    "理论下界（无数值benchmark）"
+   ]
+  }
+ }
 }
