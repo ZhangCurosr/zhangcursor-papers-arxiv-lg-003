@@ -4,5 +4,32 @@
  "title": "Perception-Test-2026-Challenge-Summary-and-Extension-to-City",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-10-09 08:29:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a4b33fa5-e9d8-4d9e-a0cb-4ea9308fd9d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a4b33fa5-e9d8-4d9e-a0cb-4ea9308fd9d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:56:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态视频理解",
+    "空间智能",
+    "城市级视听推理",
+    "Perception Test",
+    "视频问答",
+    "Grounded VQA",
+    "长视频评测"
+   ],
+   "field": "多模态视频理解与空间推理",
+   "innovations": [
+    "提出城市级音频-视觉联合推理基准 KilometerAudio，聚焦长视频纯音频事件问题",
+    "将 Perception Test 扩展为四赛道并引入 KilometerVision，系统评估大规模空间推理",
+    "对比代理工具链与通用单模型在空间/视听任务上的能力边界"
+   ],
+   "benchmarks": [
+    "Perception Test (Unified VideoQA, Grounded VideoQA)",
+    "KilometerVision",
+    "KilometerAudio"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Unlocking-the-Regulatory-Genome-by-ARGUS-An-Evidence-Constra",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-10-09 08:38:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b02e2c7f-06c5-4b28-8433-3d6cc90d6ef8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b02e2c7f-06c5-4b28-8433-3d6cc90d6ef8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:02:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "noncoding variant interpretation",
+    "agentic genomics",
+    "allele-specific binding",
+    "hallucination reduction",
+    "evidence-constrained reasoning",
+    "DNABERT",
+    "ADASTRA",
+    "transcription factor binding"
+   ],
+   "field": "计算基因组学/非编码变异功能解释",
+   "innovations": [
+    "确定性分类与LLM推理的架构级分离防止生物学幻觉",
+    "假设驱动的observation-dependent调查循环实现同planner divergent trajectories",
+    "三层证据源优先级与CAN_CLAIM_EXPERIMENTAL flag区分实验与计算证据"
+   ],
+   "benchmarks": [
+    "rs6983267 8q24 locus",
+    "AlphaGenome Atlas AVI cross-reference",
+    "Frontier LLM qualitative baseline (GPT-4o/Claude 4.6/Gemini 2.5 Pro)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Smoothing-the-Top-k-Exposure-Boundary-for-Sparse-Mixture-of",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-10-09 08:33:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/4ef42946-4528-4a1b-b6fe-fd4d0a765230.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/4ef42946-4528-4a1b-b6fe-fd4d0a765230.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:57:21",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,34 @@
  "title": "WHEN-KL-REGULARIZATION-MISFIRES-IN-GROUPPOLICY-OPTIMIZATION",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-10-09 08:42:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c42d7d68-6ead-4db3-9850-8ff3daece9f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c42d7d68-6ead-4db3-9850-8ff3daece9f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:03:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "group policy optimization",
+    "KL regularization",
+    "RLVR",
+    "policy gradient",
+    "conditional KL",
+    "zero-sum calibration",
+    "reward clipping"
+   ],
+   "field": "大语言模型强化学习",
+   "innovations": [
+    "系统分析 KL-奖励交互的七种失配模式",
+    "提出 ZCPO：利用条件 KL 漂移进行组内零和系数校准",
+    "最大绝对奖励归一化替代标准差归一化以提升稳定性"
+   ],
+   "benchmarks": [
+    "AIME 2024",
+    "AIME 2025",
+    "DocMath",
+    "LongBench-V2",
+    "GLM-4-9B math"
+   ]
+  }
+ }
 }

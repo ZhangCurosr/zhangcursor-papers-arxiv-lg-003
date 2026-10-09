@@ -4,5 +4,34 @@
  "title": "PUFFIN-PROBABILISTIC-LEARNING-OF-SPATIAL-DETAIL-FROM-COARSE",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-10-09 08:32:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/69012232-4fe1-4d1d-8f6b-66c1b9192aa0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/69012232-4fe1-4d1d-8f6b-66c1b9192aa0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:56:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spatial disaggregation",
+    "probabilistic constraint satisfaction",
+    "learning from aggregates",
+    "mass conservation",
+    "conformal calibration",
+    "satellite embedding",
+    "areal interpolation"
+   ],
+   "field": "空间统计细分与弱监督地理机器学习",
+   "innovations": [
+    "仅用粗总量 + 卫星嵌入训练子区域高斯先验，推理时闭合条件化得到总量守恒后验",
+    "面积缩放方差 + clip 重缩放同时解决不规则单元非负与质量守恒",
+    "两阶段校准使 90% 区间覆盖率达 0.87–0.93 且全局因子仅需少量验证标签"
+   ],
+   "benchmarks": [
+    "German Zensus 2022 100m grid",
+    "US 2020 Census population at block level",
+    "US LODES jobs at block level",
+    "US 2024 precinct turnout",
+    "Gun Violence Archive incidents"
+   ]
+  }
+ }
 }

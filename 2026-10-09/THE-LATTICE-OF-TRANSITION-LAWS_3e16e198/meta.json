@@ -4,5 +4,35 @@
  "title": "THE-LATTICE-OF-TRANSITION-LAWS",
  "token": "sk-DZdSC3jNI...",
  "created_at": "2026-10-09 08:37:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/8a544045-709c-4a47-829c-b511e83f9265.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/8a544045-709c-4a47-829c-b511e83f9265.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:59:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion model",
+    "autoregressive model",
+    "decoding schedule",
+    "corruption lattice",
+    "dependence cost",
+    "treedepth",
+    "parallel generation",
+    "unified framework"
+   ],
+   "field": "生成模型理论",
+   "innovations": [
+    "提出腐蚀格统一框架将扩散/自回归/中间调度视为同一偏序空间中的路径",
+    "定义依赖代价（总相关量）量化并行步骤丢弃的依赖并等于路径散度",
+    "证明零代价最少步数等于数据图的树深度，并用对偶依赖核在解码前预测调度排名"
+   ],
+   "benchmarks": [
+    "text8 bpc",
+    "ImageNet-256 FID-50K (MAR-B)",
+    "GSM8K accuracy (LLaDA-8B)",
+    "HumanEval pass@1",
+    "VBench video quality (SkyReels-V2)"
+   ]
+  }
+ }
 }

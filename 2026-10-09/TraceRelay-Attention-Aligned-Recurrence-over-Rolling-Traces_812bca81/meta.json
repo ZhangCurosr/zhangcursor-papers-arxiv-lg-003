@@ -4,5 +4,32 @@
  "title": "TraceRelay-Attention-Aligned-Recurrence-over-Rolling-Traces",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-10-09 08:42:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/869b3aa6-2d46-4532-858f-80679110c023.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/869b3aa6-2d46-4532-858f-80679110c023.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:02:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "recurrent architecture",
+    "attention-aligned recurrence",
+    "rolling traces",
+    "phase accumulation",
+    "synthetic sequence tasks",
+    "long-context modeling",
+    "bounded state"
+   ],
+   "field": "序列建模架构设计",
+   "innovations": [
+    "延迟右写/固定相位累加/左读的因果计算图，传输律完全固定、学习集中在注意力投影",
+    "长窄中心路径的受控宽度扫描，揭示 Dyck 偏好宽中心、Most-Freq 偏好窄任务的带宽敏感性",
+    "stride-wise prefix sum 并行 prefill + 有界 buffer 续推的因果可执行实现"
+   ],
+   "benchmarks": [
+    "Equal Repeats",
+    "Bounded Dyck (k=8,m=10)",
+    "Most-Freq (5 symbols)"
+   ]
+  }
+ }
 }

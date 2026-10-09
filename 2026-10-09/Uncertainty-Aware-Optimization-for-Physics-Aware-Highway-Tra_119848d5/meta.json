@@ -4,5 +4,10 @@
  "title": "Uncertainty-Aware-Optimization-for-Physics-Aware-Highway-Tra",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-10-09 08:33:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/73f76592-c779-4808-820e-24cf15e5277a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/73f76592-c779-4808-820e-24cf15e5277a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:02:14",
+  "chunks": 1
+ }
 }

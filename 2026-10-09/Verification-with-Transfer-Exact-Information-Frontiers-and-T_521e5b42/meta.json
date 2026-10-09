@@ -4,5 +4,10 @@
  "title": "Verification-with-Transfer-Exact-Information-Frontiers-and-T",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-10-09 08:38:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d967ff0d-c92b-4f18-aa96-37b941427076.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d967ff0d-c92b-4f18-aa96-37b941427076.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:05:05",
+  "chunks": 4
+ }
 }

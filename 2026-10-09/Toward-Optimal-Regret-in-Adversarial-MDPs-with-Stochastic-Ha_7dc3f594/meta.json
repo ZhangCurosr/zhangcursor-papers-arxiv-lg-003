@@ -4,5 +4,30 @@
  "title": "Toward-Optimal-Regret-in-Adversarial-MDPs-with-Stochastic-Ha",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-10-09 08:34:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f5c1a298-a1d7-436a-9c13-11e70524dd96.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f5c1a298-a1d7-436a-9c13-11e70524dd96.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:01:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "constrained MDP",
+    "adversarial losses",
+    "hard constraints",
+    "regret analysis",
+    "safe exploration",
+    "Slater margin",
+    "online learning"
+   ],
+   "field": "安全强化学习 / 约束马尔可夫决策过程",
+   "innovations": [
+    "改进 S-OPS 遗憾界：从 O(sqrt(T)/d^2) 到 O(sqrt(T)/d)",
+    "提出 MA-OPS 元算法安全学习 Slater 边距，全程零约束违反",
+    "建立匹配下界 Omega(sqrt(T)/rho + 1/(d*rho)) 证明紧确性"
+   ],
+   "benchmarks": [
+    "理论下界对比表 Table 1 (含 OPB, SOLB, OptPess-LP, DOPE+, S-OPS, CV-OPS)"
+   ]
+  }
+ }
 }

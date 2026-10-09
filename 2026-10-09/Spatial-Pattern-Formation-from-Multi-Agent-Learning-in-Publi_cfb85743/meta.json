@@ -4,5 +4,10 @@
  "title": "Spatial-Pattern-Formation-from-Multi-Agent-Learning-in-Publi",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-10-09 08:30:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6a22cf63-a115-4e15-b982-74ae383a13a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6a22cf63-a115-4e15-b982-74ae383a13a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:59:14",
+  "chunks": 5
+ }
 }

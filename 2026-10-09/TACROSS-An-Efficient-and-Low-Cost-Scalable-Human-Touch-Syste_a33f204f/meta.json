@@ -4,5 +4,10 @@
  "title": "TACROSS-An-Efficient-and-Low-Cost-Scalable-Human-Touch-Syste",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-10-09 08:33:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b64ddf6f-70c0-4ace-a5c1-bf797e86241f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b64ddf6f-70c0-4ace-a5c1-bf797e86241f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:00:17",
+  "chunks": 1
+ }
 }

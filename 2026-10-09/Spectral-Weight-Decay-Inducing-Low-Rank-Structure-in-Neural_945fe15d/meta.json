@@ -4,5 +4,35 @@
  "title": "Spectral-Weight-Decay-Inducing-Low-Rank-Structure-in-Neural",
  "token": "sk-hRG9yTz20...",
  "created_at": "2026-10-09 08:39:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/34352553-2b2c-4354-a184-1544f82af29b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/34352553-2b2c-4354-a184-1544f82af29b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:57:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Spectral Weight Decay",
+    "Nuclear Norm Regularization",
+    "Low-Rank Training",
+    "Model Compression",
+    "Label Noise Robustness",
+    "AdamW",
+    "Newton-Schulz Approximation"
+   ],
+   "field": "大模型高效训练与压缩",
+   "innovations": [
+    "提出后步解耦核范数惩罚的谱权重衰减，实现加性谱收缩而非乘性缩放",
+    "证明前后步谱衰减在秩亏附近的敏感性差异并提供理论界",
+    "在预训练阶段诱导低有效秩结构，实现匹配的压缩率与推理加速同时保持标签噪声鲁棒性"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu LLaMA Pretraining",
+    "MNIST Classification",
+    "AG News",
+    "DBpedia-14",
+    "Yahoo Answers",
+    "Yelp Review Full"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "VFOLD-SYMMETRY-AWARE-CROSS-LAYER-VALUE-CACHE-COMPRESSION",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-10-09 08:35:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/73dd810b-2b9f-48ac-a63f-ce4774a6f63b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/73dd810b-2b9f-48ac-a63f-ce4774a6f63b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:03:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV cache compression",
+    "cross-layer cache sharing",
+    "LLM inference optimization",
+    "symmetry-aware reparameterization",
+    "long context"
+   ],
+   "field": "大语言模型推理优化",
+   "innovations": [
+    "利用注意力 W_V-W_O 线性不变性将 CCA 对齐映射折叠入权重实现无损跨层 value cache 合并",
+    "证明 key/value 跨层可平均性存在根本不对称性（key 平均导致性能崩溃而 value 保持 98%+）",
+    "提出与量化/key剪枝正交的 value 深度维压缩，可组合达到 50%+ 总压缩比"
+   ],
+   "benchmarks": [
+    "RULER",
+    "LongBench",
+    "GSM8K",
+    "Wikitext-2"
+   ]
+  }
+ }
 }

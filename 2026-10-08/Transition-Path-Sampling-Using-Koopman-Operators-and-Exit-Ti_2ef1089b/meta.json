@@ -4,5 +4,34 @@
  "title": "Transition-Path-Sampling-Using-Koopman-Operators-and-Exit-Ti",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-10-08 19:47:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/274ce603-0b59-49f1-9f73-d0cc2625d451.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/274ce603-0b59-49f1-9f73-d0cc2625d451.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:56:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Transition Path Sampling",
+    "Koopman Operator",
+    "Optimal Stochastic Control",
+    "Exit-Time Control",
+    "Rare Event Sampling",
+    "Molecular Dynamics",
+    "Committor Function",
+    "RKHS"
+   ],
+   "field": "分子动力学中的稀有事件采样与最优控制",
+   "innovations": [
+    "将 TPS 形式化为退出时间最优随机控制并导出闭式控制器 u*=∇logρ",
+    "用 Koopman 特征函数自动识别 metastable 集并构造 committor，避免手工集体变量",
+    "在 RKHS 中将控制器近似转化为单次带线性等式约束的凸二次规划，消除循环模拟训练"
+   ],
+   "benchmarks": [
+    "Two-channel double well",
+    "Müller-Brown potential",
+    "Alanine dipeptide",
+    "Four-well system"
+   ]
+  }
+ }
 }

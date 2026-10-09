@@ -4,5 +4,10 @@
  "title": "SteerCast-Retrieval-Based-Latent-Steering-for-Decoder-Only-T",
  "token": "sk-6puwYp2kk...",
  "created_at": "2026-10-09 08:42:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/7a983b91-8a4d-4716-82b0-8cd999dd41c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/7a983b91-8a4d-4716-82b0-8cd999dd41c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:58:45",
+  "chunks": 1
+ }
 }

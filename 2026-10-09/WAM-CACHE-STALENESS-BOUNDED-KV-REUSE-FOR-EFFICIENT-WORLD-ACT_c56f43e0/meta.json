@@ -4,5 +4,31 @@
  "title": "WAM-CACHE-STALENESS-BOUNDED-KV-REUSE-FOR-EFFICIENT-WORLD-ACT",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-10-09 08:34:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/7271f104-0145-4947-8f9a-1b0e8f315b58.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/7271f104-0145-4947-8f9a-1b0e8f315b58.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:03:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Action Model",
+    "KV Cache",
+    "Training-Free Acceleration",
+    "Robot Manipulation",
+    "Diffusion Transformer",
+    "Token Refresh"
+   ],
+   "field": "机器人策略推理加速",
+   "innovations": [
+    "首个训练无关的 WAM 视频 DiT prefill KV 复用框架，用 action expert 跨注意力 + latent surprise + age bound 三色信号联合选择刷新集",
+    "证明 policy attention 比 visual drift 更能预测 stale KV 对下游动作精度的影响，oracle 漂移刷新仍存在 25pp 差距",
+    "引入 age bound 严格限定 KV stale 时长，打破 rank-based 选择自引用误差累积，默认 G=2 即可将成功率损失压至 1.8pp"
+   ],
+   "benchmarks": [
+    "RoboTwin 2.0",
+    "LIBERO",
+    "AIRBOT Play 真机（Carrot in Bowl / Stack Cubes）"
+   ]
+  }
+ }
 }

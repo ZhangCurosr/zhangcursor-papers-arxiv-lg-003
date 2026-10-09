@@ -4,5 +4,33 @@
  "title": "Training-Advisors-for-LLM-Agents-from-Task-Outcomes",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-10-08 19:46:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bf6e1d06-8350-4116-b6d6-09cea7245ddb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bf6e1d06-8350-4116-b6d6-09cea7245ddb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:55:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Critic Training",
+    "Reinforcement Learning",
+    "Outcome-Based Reward",
+    "Multi-Step Reasoning",
+    "Tool Use",
+    "Cross-Model Transfer"
+   ],
+   "field": "LLM Agent 训练与反馈机制",
+   "innovations": [
+    "提出 Caddie：从任务最终结果训练 critic，无需步骤级标注或参考 critiques",
+    "仅用 Qwen3-4B 训练的 critic 可跨模型迁移至 30B/27B/Kimi K3 并提升成功率",
+    "在 MuSiQue 上训练的两个 critic 可零样本迁移至 DeepDive 和 τ³ 跨任务域"
+   ],
+   "benchmarks": [
+    "MuSiQue",
+    "ALFWorld",
+    "DeepDive",
+    "tau3-bench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,39 @@
  "title": "V-CoLA-Vision-Token-Compression-with-Linear-Attention",
  "token": "sk-W9Ytd4ppc...",
  "created_at": "2026-10-09 08:36:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/15fb9a5b-6d52-44ca-ba8c-f5bdf3ef940a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/15fb9a5b-6d52-44ca-ba8c-f5bdf3ef940a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:02:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision token compression",
+    "linear attention",
+    "hybrid architecture",
+    "VLM acceleration",
+    "training-free",
+    "adaptive merging",
+    "early exit"
+   ],
+   "field": "视觉语言模型效率优化",
+   "innovations": [
+    "提出基于线性注意力状态重建误差与短期独特性联合的重要性准则",
+    "设计自适应块内令牌合并策略实现差异化压缩",
+    "引入视觉令牌早期退出机制进一步减少深层计算负担"
+   ],
+   "benchmarks": [
+    "MME",
+    "MMB",
+    "GQA",
+    "SQA",
+    "T-VQA",
+    "POPE",
+    "VizWiz",
+    "MMStar",
+    "MMDU",
+    "V*-Bench"
+   ]
+  }
+ }
 }
