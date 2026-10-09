@@ -4,5 +4,30 @@
  "title": "RIFT-Relative-Isolation-From-Trees-For-Anomaly-Detection",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-10-09 08:31:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/2db6ab53-0b11-4b92-a644-d7e0393fbe1f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/2db6ab53-0b11-4b92-a644-d7e0393fbe1f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:33:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "anomaly detection",
+    "isolation forest",
+    "minimum spanning tree",
+    "unsupervised learning",
+    "MST",
+    "deterministic outlier detection"
+   ],
+   "field": "无监督异常检测",
+   "innovations": [
+    "将1D IF闭式解的表观尺寸度量通过MST几何推广到高维，得到参数无关的确定性异常评分",
+    "MST-Forest集成通过仅在子采样阶段引入随机性，使方差比IF低一个数量级",
+    "利用子采样打破密集异常微聚类的遮蔽效应，在mammography等数据上超越精确MST基线"
+   ],
+   "benchmarks": [
+    "ADBench",
+    "synthetic Blob/Varying-density/Clustered-anomalies"
+   ]
+  }
+ }
 }

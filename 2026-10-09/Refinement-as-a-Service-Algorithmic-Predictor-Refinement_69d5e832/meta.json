@@ -4,5 +4,30 @@
  "title": "Refinement-as-a-Service-Algorithmic-Predictor-Refinement",
  "token": "sk-4xOJ8RgWe...",
  "created_at": "2026-10-09 08:34:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c7eccfc6-a253-46e0-9460-1a6c6e9236fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c7eccfc6-a253-46e0-9460-1a6c6e9236fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:34:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "预测聚合",
+    "校准预测器",
+    "信息精炼",
+    "可构建性",
+    "极射线分解",
+    "信号方案",
+    "Blackwell 次序"
+   ],
+   "field": "机器学习理论/预测聚合",
+   "innovations": [
+    "将校准预测器建模为信号方案并通过bag-of-vectors转化为线性空间组合问题",
+    "证明双边确定性精炼多项式可解而多侧为NP-hard",
+    "给出任意数量随机化预测器精炼的多项式时间算法"
+   ],
+   "benchmarks": [
+    "无实验基准"
+   ]
+  }
+ }
 }

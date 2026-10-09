@@ -4,5 +4,35 @@
  "title": "Predictive-Multiplicity-in-Cell-Fate-Assignment-Label-Free-R",
  "token": "sk-s7NFyJaLu...",
  "created_at": "2026-10-09 08:43:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e16fccb3-66d5-4550-81a8-fa53974ffd7f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e16fccb3-66d5-4550-81a8-fa53974ffd7f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:31:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "single-cell trajectory inference",
+    "predictive multiplicity",
+    "Rashomon set",
+    "cell fate assignment",
+    "label-free certification",
+    "absorbing random walk",
+    "Palantir",
+    "multiverse analysis"
+   ],
+   "field": "单细胞轨迹推断与模型可重复性",
+   "innovations": [
+    "无标签Rashomon集构建：用cross-fitted discrepancy+seed-calibrated non-inferiority test替代supervised loss定义admissible set",
+    "Negative result：per-cell infimum FM劣于单模型margin（AUC 0.682 vs 0.965），失败源于aggregator极端顺序统计量退化",
+    "Certification power Π度量：区分真实模型空间分歧与种子噪声floor，揭示跨研究multiplicity率不可直接比较"
+   ],
+   "benchmarks": [
+    "GSE162610小鼠脊髓损伤microglia",
+    "GSE72857髓系祖细胞erythroid/myeloid bifurcation",
+    "Weinreb et al.谱系条形码造血时间序列",
+    "GSE99915成纤维细胞重编程",
+    "75-object synthetic single-cell trajectory cohort"
+   ]
+  }
+ }
 }

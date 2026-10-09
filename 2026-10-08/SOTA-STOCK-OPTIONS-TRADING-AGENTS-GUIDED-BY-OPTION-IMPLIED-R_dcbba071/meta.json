@@ -4,5 +4,32 @@
  "title": "SOTA-STOCK-OPTIONS-TRADING-AGENTS-GUIDED-BY-OPTION-IMPLIED-R",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-10-08 19:43:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/2613ce77-cb81-4888-bd6c-71dc75b8aaed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/2613ce77-cb81-4888-bd6c-71dc75b8aaed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:29:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "options trading",
+    "structured strategy selection",
+    "language-model agent",
+    "reinforcement learning",
+    "option-implied volatility",
+    "GRPO"
+   ],
+   "field": "金融衍生品智能交易",
+   "innovations": [
+    "将期权交易建模为策略级选择而非合约级选择，分离LLM推理与确定性解析器",
+    "基于期权隐含分布特征构建点-in-time状态并结合SFT+GRPO两阶段训练",
+    "发现新闻在教师轨迹中有用但在RL阶段有害的不对称作用"
+   ],
+   "benchmarks": [
+    "SPY及9只美股期权组合",
+    "规则基线(等权/GARCH/阈值)",
+    "机器学习基线(GBDT/Logistic)",
+    "Oracle上限参考"
+   ]
+  }
+ }
 }

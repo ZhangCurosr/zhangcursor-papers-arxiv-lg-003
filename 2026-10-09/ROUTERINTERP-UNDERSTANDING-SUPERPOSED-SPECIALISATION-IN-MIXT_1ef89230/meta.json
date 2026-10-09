@@ -4,5 +4,31 @@
  "title": "ROUTERINTERP-UNDERSTANDING-SUPERPOSED-SPECIALISATION-IN-MIXT",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-10-09 08:38:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/38e24839-bcb2-4fee-9edc-830ce477593d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/38e24839-bcb2-4fee-9edc-830ce477593d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:33:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture of Experts",
+    "Mechanistic Interpretability",
+    "Sparse Autoencoders",
+    "Expert Routing",
+    "Superposition",
+    "MoE Interpretability"
+   ],
+   "field": "大模型机械可解释性",
+   "innovations": [
+    "提出叠加特化假说（SSH）解释MoE专家多微域特化机制",
+    "设计RouterInterp三阶段SAE特征驱动的路由解释框架",
+    "建立基于LLM scorer的专家解释自动化定量评估协议"
+   ],
+   "benchmarks": [
+    "gpt-oss-20b",
+    "OLMoE-1B-7B",
+    "Pile"
+   ]
+  }
+ }
 }

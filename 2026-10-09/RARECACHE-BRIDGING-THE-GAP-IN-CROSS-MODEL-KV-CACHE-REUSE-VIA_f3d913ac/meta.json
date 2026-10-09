@@ -4,5 +4,33 @@
  "title": "RARECACHE-BRIDGING-THE-GAP-IN-CROSS-MODEL-KV-CACHE-REUSE-VIA",
  "token": "sk-yeaNqR4AC...",
  "created_at": "2026-10-09 08:39:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d4f03b85-7eef-4970-801f-caf9037b450d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d4f03b85-7eef-4970-801f-caf9037b450d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:32:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV cache reuse",
+    "cross-model transfer",
+    "selective recomputation",
+    "rank disagreement",
+    "LLM serving",
+    "prefill optimization"
+   ],
+   "field": "大语言模型高效推理与服务",
+   "innovations": [
+    "提出基于rank disagreement的跨模型KV缓存选择性重计算框架，无需目标模型前向传播即可识别需修复的关键token位置",
+    "证明跨模型转移精度损失集中在少量OOD信息密集token，通过全秩与降秩预测能量差度量实现高效选择",
+    "在小模型代预填+大模型精修范式下实现最高3.04x prefill加速与5.0x中位TTFT降低"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MMLU-Redux",
+    "ARC-Challenge",
+    "ARC-Easy",
+    "LongBench-E QA"
+   ]
+  }
+ }
 }

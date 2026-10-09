@@ -4,5 +4,30 @@
  "title": "RobustLDS-Learning-linear-dynamical-systems-under-adversaria",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-10-09 08:34:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/555488aa-7a01-42f8-81d6-78d37d5c0a97.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/555488aa-7a01-42f8-81d6-78d37d5c0a97.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:38:10",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "linear dynamical systems",
+    "robust estimation",
+    "least-trimmed squares",
+    "adversarial corruption",
+    "high-dimensional system identification",
+    "trust region optimization",
+    "SDP relaxation"
+   ],
+   "field": "鲁棒系统辨识",
+   "innovations": [
+    "将LTS估计适配到含邻项乘积的LDS过渡残差",
+    "四种连续松弛策略的算法-理论统一框架",
+    "任意维度LDS在对抗污染下的收敛速率保证"
+   ],
+   "benchmarks": [
+    "synthetic LDS trajectories with adversarial outliers"
+   ]
+  }
+ }
 }

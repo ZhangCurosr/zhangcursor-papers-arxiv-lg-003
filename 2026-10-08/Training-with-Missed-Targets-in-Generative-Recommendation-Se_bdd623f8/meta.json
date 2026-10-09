@@ -4,5 +4,35 @@
  "title": "Training-with-Missed-Targets-in-Generative-Recommendation-Se",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-10-08 19:47:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/50575654-c79a-45b8-871f-2c145548a9bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/50575654-c79a-45b8-871f-2c145548a9bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:31:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "generative recommendation",
+    "reranking",
+    "candidate completion",
+    "listwise learning",
+    "training-inference mismatch",
+    "probability competition"
+   ],
+   "field": "生成式推荐与重排序训练策略",
+   "innovations": [
+    "把追加未命中目标的损失拆成组内监督与跨组竞争两项并进行受控对比",
+    "由 Full 推导 Cond 以消除组间 softmax 竞争并保留两组组内排序",
+    "提出基于开发集校正下置信界的生成器粒度切换规则并在保留集验证"
+   ],
+   "benchmarks": [
+    "RecIF-Ads",
+    "RecIF-Product",
+    "Amazon Video Games",
+    "Amazon Digital Music",
+    "Amazon Home and Kitchen",
+    "Amazon Cell Phones and Accessories",
+    "Amazon Health and Personal Care"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Prospective-Prediction-of-OOD-Degradation-from-Source-Side-T",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-10-09 08:37:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/acc44259-049b-416b-8a32-f24787bac807.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/acc44259-049b-416b-8a32-f24787bac807.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:31:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "shortcut learning",
+    "OOD degradation",
+    "training dynamics",
+    "distribution shift",
+    "spurious features",
+    "prospective prediction"
+   ],
+   "field": "机器学习鲁棒性与可信赖性",
+   "innovations": [
+    "提出仅用源侧训练动态前瞻预测持久性 OOD 退化的任务",
+    "发现时序汇总特征（均值/标准差/斜率）显著优于当前值并降低误报",
+    "证明置信度和熵的动态在不同架构间具有良好的跨架构迁移预测能力"
+   ],
+   "benchmarks": [
+    "MNIST binary shortcut-learning"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "SCORE-Spectral-Correlation-Estimation-for-Multivariate-Gauss",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-10-09 08:30:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9128c1fe-30cf-4ff2-bbf8-ac8195bdb856.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9128c1fe-30cf-4ff2-bbf8-ac8195bdb856.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:39:10",
+  "chunks": 6
+ }
 }

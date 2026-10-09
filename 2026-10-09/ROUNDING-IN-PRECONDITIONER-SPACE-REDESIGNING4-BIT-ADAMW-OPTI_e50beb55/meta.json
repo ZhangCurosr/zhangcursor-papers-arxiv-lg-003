@@ -4,5 +4,34 @@
  "title": "ROUNDING-IN-PRECONDITIONER-SPACE-REDESIGNING4-BIT-ADAMW-OPTI",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-10-09 08:33:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/42a9c82d-e390-4b48-819e-77adaf32590b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/42a9c82d-e390-4b48-819e-77adaf32590b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:33:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "optimizer quantization",
+    "4-bit AdamW",
+    "stochastic rounding",
+    "preconditioner space",
+    "low-precision training",
+    "model compression"
+   ],
+   "field": "低比特优化器状态量化",
+   "innovations": [
+    "提出预条件器空间随机舍入Update-SR，在含零码本下避免零点失败并使预条件器误差有界",
+    "将EDEN块级校准引入排除零的二阶矩量化以缓解正下界对大预条件器尾部的压制",
+    "通过匹配checkpoint干预定位LM-head一阶矩确定性舍入导致的晚期不稳定性并给出靶向SR方案"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu预训练",
+    "Tulu-3 SFT",
+    "MMLU",
+    "GSM8K",
+    "HumanEval",
+    "IFEval"
+   ]
+  }
+ }
 }

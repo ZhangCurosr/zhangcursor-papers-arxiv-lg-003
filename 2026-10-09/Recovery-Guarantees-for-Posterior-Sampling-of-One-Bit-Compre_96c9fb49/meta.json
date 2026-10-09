@@ -4,5 +4,30 @@
  "title": "Recovery-Guarantees-for-Posterior-Sampling-of-One-Bit-Compre",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-10-09 08:47:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9858f89e-0d3a-494f-bb74-53f4d257dffb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9858f89e-0d3a-494f-bb74-53f4d257dffb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:34:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "one-bit compressed sensing",
+    "posterior sampling",
+    "diffusion prior",
+    "sample complexity",
+    "covering number",
+    "plug-and-play"
+   ],
+   "field": "压缩感知与生成模型",
+   "innovations": [
+    "建立一bit后验采样的采样复杂度上下界，近似覆盖数刻画先验复杂性",
+    "提出一bit近远测试与Rényi稳定性分析处理先验失配",
+    "将扩散后验采样与分裂Gibbs框架结合解决一bit恢复"
+   ],
+   "benchmarks": [
+    "FFHQ",
+    "ImageNet"
+   ]
+  }
+ }
 }

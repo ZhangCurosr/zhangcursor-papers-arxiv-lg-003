@@ -4,5 +4,33 @@
  "title": "RideBench-A-Large-Scale-Exogenous-Aware-Benchmark-for-Ride-H",
  "token": "sk-LqkNuH8i8...",
  "created_at": "2026-10-09 08:37:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/94be2979-2987-4964-9430-bb7a429d5411.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/94be2979-2987-4964-9430-bb7a429d5411.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:36:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列预测",
+    "外生感知模型",
+    "网约车需求预测",
+    "长周期预测",
+    "基准评测",
+    "时序基础模型"
+   ],
+   "field": "时空时序预测与外生变量建模",
+   "innovations": [
+    "发布Ride-Hailing合成数据集与RideBench双任务基准，支持未来可知连续与分类外生变量",
+    "引入Acc.与Corr.日级趋势指标评估长周期预测质量，揭示点精度与趋势质量的脱钩现象",
+    "建立全局多区域训练协议，验证任务特定模型在海量异质区域数据上的可扩展性"
+   ],
+   "benchmarks": [
+    "RideBench",
+    "Monash",
+    "TSlib",
+    "GIFT-Eval",
+    "TIME"
+   ]
+  }
+ }
 }

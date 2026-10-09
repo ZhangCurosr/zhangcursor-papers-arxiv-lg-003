@@ -4,5 +4,33 @@
  "title": "Quickest-Change-Detection-with-Difusion-Integrated-Scores",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-10-09 08:38:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c19a4ef9-d4ab-4c71-904a-df064b0fd38a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c19a4ef9-d4ab-4c71-904a-df064b0fd38a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:32:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "quickest change detection",
+    "Hyvärinen score",
+    "diffusion model",
+    "CUSUM",
+    "Fisher divergence",
+    "KL divergence",
+    "score matching",
+    "sample-based detection"
+   ],
+   "field": "序列变点检测与统计推断",
+   "innovations": [
+    "提出 DI-SCUSUM 免训练多尺度扩散积分检测器，通过 Hyvärinen 分数差积分恢复有向 KL 散度",
+    "建立相对 de Bruijn 恒等式驱动的序贯理论保证：指数虚警标度与一阶检测延迟界",
+    "揭示扩散积分在各向异性高斯场景下恢复似然比权重、消除单尺度 SCUSUM 信息损失的机理"
+   ],
+   "benchmarks": [
+    "Anisotropic Gaussian simulation",
+    "MNIST digit change detection",
+    "Oxford-IIIT Pet animal change detection"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "SFT-AS-CONTEXT-MITIGATES-FORGETTINGIN-SUPERVISED-FINE-TUNING",
  "token": "sk-Ow5x4gcSo...",
  "created_at": "2026-10-09 08:38:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/00d16af3-382c-4902-8141-9ef50da6b97f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/00d16af3-382c-4902-8141-9ef50da6b97f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:38:22",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Training-with-Missed-Targets-in-Generative-Recommendation-Se",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-10-08 08:31:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/14329ebf-7c7c-4751-9be2-4ca939bbbf6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/14329ebf-7c7c-4751-9be2-4ca939bbbf6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:30:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "generative recommendation",
+    "candidate completion",
+    "listwise learning",
+    "reranking",
+    "probability competition"
+   ],
+   "field": "生成式推荐系统",
+   "innovations": [
+    "提出WN/Cond/Full三损失分离追加监督与组间竞争效应",
+    "推导Conditional Training消除组间概率竞争",
+    "给出基于调整后置信下界的追加训练决策规则"
+   ],
+   "benchmarks": [
+    "RecIF-Bench Ads",
+    "Amazon Video Games",
+    "Amazon Cell Phones",
+    "Amazon Health and Personal Care"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Tracing-Inputs-Verifying-Outputs-Validating-Attribution-in-M",
  "token": "sk-8zjLxCqN4...",
  "created_at": "2026-10-08 19:48:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/42b73e53-dde9-4d13-8158-e2af9b44afde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/42b73e53-dde9-4d13-8158-e2af9b44afde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:30:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "音乐生成",
+    "数据归因",
+    "记忆审计",
+    "音频条件生成",
+    "版权归属",
+    "stem级生成",
+    "musicDNA"
+   ],
+   "field": "音乐生成与AI版权归因",
+   "innovations": [
+    "提出输入记录+输出验证互补的归因框架，同时证明输入是否真正塑造输出",
+    "构建仅音频条件的stem级生成器MixAudio并记录每段输入的权属映射",
+    "用音乐版本识别模型musicDNA审计记忆复现，在composition-level检测上优于通用音频嵌入和token匹配方法"
+   ],
+   "benchmarks": [
+    "MoisesDB",
+    "MUSDB18",
+    "内部训练/验证集"
+   ]
+  }
+ }
 }

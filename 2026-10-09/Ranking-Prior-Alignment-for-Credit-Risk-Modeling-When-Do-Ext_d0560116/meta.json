@@ -4,5 +4,30 @@
  "title": "Ranking-Prior-Alignment-for-Credit-Risk-Modeling-When-Do-Ext",
  "token": "sk-4XReLOXGN...",
  "created_at": "2026-10-09 08:38:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3563f35a-774f-435b-9923-eb1686854b64.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/3563f35a-774f-435b-9923-eb1686854b64.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:34:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Ranking Prior Alignment",
+    "Credit Risk Scoring",
+    "Cold-Start Generalization",
+    "KL Divergence Alignment",
+    "Prior-Guided Learning",
+    "Inverse-Scaling Pattern"
+   ],
+   "field": "金融风控与表格机器学习",
+   "innovations": [
+    "模型无关的排名先验对齐框架统一MIL与XGBoost",
+    "逆缩放规律ΔAUC∝π/(N·C·Q)的实证发现与PAC-Bayes解释",
+    "树模型对50%先验噪声的强鲁棒性及跨4模型族一致性验证"
+   ],
+   "benchmarks": [
+    "Seller_loan工业数据集（1.5M商户）",
+    "Amex Default Prediction公开数据集"
+   ]
+  }
+ }
 }

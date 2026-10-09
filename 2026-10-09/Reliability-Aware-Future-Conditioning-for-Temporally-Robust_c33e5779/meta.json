@@ -4,5 +4,31 @@
  "title": "Reliability-Aware-Future-Conditioning-for-Temporally-Robust",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-10-09 08:36:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ccdfe347-23c3-40fe-82a5-39dff9a67235.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ccdfe347-23c3-40fe-82a5-39dff9a67235.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:35:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时序鲁棒控制",
+    "未来条件化",
+    "残差强化学习",
+    "机器人操作",
+    "视频条件BC",
+    "时序错位容忍"
+   ],
+   "field": "具身智能-机器人操作与时序鲁棒性",
+   "innovations": [
+    "提出RAFC门控机制，从任务奖励中学习生成未来的时序可信度与相位偏好，无需对齐标签",
+    "构建静态null回退+局部偏移候选池的设计，分离内容可靠性与时间可靠性两个独立问题",
+    "首次在仿真与真实机器人上系统量化时序错位对生成未来的破坏效应并实现恢复"
+   ],
+   "benchmarks": [
+    "CALVIN",
+    "RoboCasa",
+    "Franka实物实验"
+   ]
+  }
+ }
 }

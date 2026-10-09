@@ -4,5 +4,34 @@
  "title": "SR-TTA-Spatial-Redundancy-Test-Time-Adaptation-for-Interfere",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-10-09 08:39:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/0febc278-6175-4465-a6ca-3ab252287b24.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/0febc278-6175-4465-a6ca-3ab252287b24.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:39:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cell-free massive MIMO",
+    "respiration sensing",
+    "test-time adaptation",
+    "spatial redundancy",
+    "O-RAN",
+    "interference-robust sensing",
+    "beamforming"
+   ],
+   "field": "无线感知与测试时自适应",
+   "innovations": [
+    "提出无标签空间冗余测试时自适应准则SR-TTA，通过跨天线子集一致性最大化区分呼吸与带内干扰",
+    "揭示频率与方差准则在带内干扰下的内在失效机制，证明空间冗余是判别呼吸与局部干扰的关键信号",
+    "将学习复数波束成形器与测试时自适应结合并映射至O-RAN分层架构，实现端到端可部署的鲁棒呼吸感知流水线"
+   ],
+   "benchmarks": [
+    "in-band interference (strong)",
+    "clean synthetic",
+    "real single-person",
+    "real+int. (in-band)",
+    "real+int. (in+out)"
+   ]
+  }
+ }
 }

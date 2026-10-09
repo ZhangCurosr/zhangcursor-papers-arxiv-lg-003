@@ -4,5 +4,32 @@
  "title": "Prediction-Powered-Data-Fusion-for-Treatment-Efect-Estimatio",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-10-09 08:30:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e68eee33-6cae-4bd2-a9da-27841e5ed5f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e68eee33-6cae-4bd2-a9da-27841e5ed5f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:32:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "因果推断",
+    "数据融合",
+    "ATE估计",
+    "CATE估计",
+    "预测赋能推断",
+    "密度比校准",
+    "正交学习"
+   ],
+   "field": "因果机器学习与试验-观察数据融合",
+   "innovations": [
+    "AIPW-Fusion在任意OBS混杂下无偏并联合AIPW与PPI双通道",
+    "DRF/RF以RCT CATE风险为目标的正交融合学习器",
+    "校准密度比控制运输偏倚至次要阶"
+   ],
+   "benchmarks": [
+    "IHDP",
+    "ACIC 2016",
+    "Synthetic confounded design"
+   ]
+  }
+ }
 }

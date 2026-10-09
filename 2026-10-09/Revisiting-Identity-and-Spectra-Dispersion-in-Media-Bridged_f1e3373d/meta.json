@@ -4,5 +4,39 @@
  "title": "Revisiting-Identity-and-Spectra-Dispersion-in-Media-Bridged",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-10-09 08:30:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9729bbe5-2d1b-4001-8151-53f1aa354361.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9729bbe5-2d1b-4001-8151-53f1aa354361.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:36:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "media-bridged time series forecasting",
+    "multivariate forecasting",
+    "multimodal forecasting",
+    "identity-aware graph",
+    "spectral convolution",
+    "adaptive architecture search",
+    "time series foundation model"
+   ],
+   "field": "多变量/多模态时序预测",
+   "innovations": [
+    "提出MIDAPN统一骨干，通过身份分解（本质/行为/共性）解决跨媒体变量异质性建模",
+    "设计SPConv+ASGM实现search-by-construction自动多尺度时序架构配置",
+    "提出CIM模块，通过CMI信息论解耦残差精炼与门控调制两条信息流"
+   ],
+   "benchmarks": [
+    "ETTm2/ETTh2",
+    "Weather",
+    "Traffic",
+    "Electricity",
+    "Solar",
+    "PEMS03/04/07/08",
+    "ILI",
+    "NASDAQ",
+    "Time-MMD 10 datasets",
+    "MSPG/LEU/PTF (ChatTime)"
+   ]
+  }
+ }
 }

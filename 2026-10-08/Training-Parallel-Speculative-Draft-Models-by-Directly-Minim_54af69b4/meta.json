@@ -4,5 +4,39 @@
  "title": "Training-Parallel-Speculative-Draft-Models-by-Directly-Minim",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-10-08 19:45:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6f115a90-51da-48e8-b755-6c3728db6521.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6f115a90-51da-48e8-b755-6c3728db6521.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:30:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speculative decoding",
+    "parallel drafter",
+    "semi-autoregressive",
+    "EDR",
+    "Markov reward process",
+    "temporal-difference gradient",
+    "mean accepted length",
+    "draft model training"
+   ],
+   "field": "大语言模型推理加速",
+   "innovations": [
+    "将推测解码建模为条件于目标 rollout 的马尔可夫奖励过程，给出期望轮次的精确表达与可微 TD 梯度",
+    "提出无超参的 EDR 全局训练目标并证明其对块局部代理的严格优越性",
+    "构建离线精确评估器实现无 rollout 噪声的配对 drafter 比较"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "AIME25",
+    "MBPP",
+    "HumanEval",
+    "LiveCodeBench",
+    "MT-Bench",
+    "Alpaca",
+    "Arena-Hard"
+   ]
+  }
+ }
 }

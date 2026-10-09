@@ -4,5 +4,31 @@
  "title": "Q-Capsule-A-Localized-Capsule-Based-Quantum-Neural-Architect",
  "token": "sk-z9ycjZdD1...",
  "created_at": "2026-10-09 08:41:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e992a97f-8199-41ae-858f-eee6634e6e6b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e992a97f-8199-41ae-858f-eee6634e6e6b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:32:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Quantum Machine Learning",
+    "Barren Plateaus",
+    "Variational Quantum Circuits",
+    "Quantum Fisher Information Matrix",
+    "Adaptive Quantum Circuits",
+    "Capsule Networks",
+    "Quantum Neural Networks"
+   ],
+   "field": "量子机器学习/变分量子算法可训练性",
+   "innovations": [
+    "Q-Capsule局部胶囊架构使每胶囊梯度方差下界Ω(2^{-c_size})与总比特数N无关",
+    "QFIM驱动的饱和门控自适应深度增长按局部优化几何分配表征容量",
+    "稀疏跨胶囊耦合以少量边界门保留密集耦合84%互信息并控制纠缠预算"
+   ],
+   "benchmarks": [
+    "MNIST binary classification 3/8",
+    "MNIST four-class classification 0-3"
+   ]
+  }
+ }
 }

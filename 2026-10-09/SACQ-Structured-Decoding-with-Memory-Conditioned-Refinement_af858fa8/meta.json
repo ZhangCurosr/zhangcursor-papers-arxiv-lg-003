@@ -4,5 +4,33 @@
  "title": "SACQ-Structured-Decoding-with-Memory-Conditioned-Refinement",
  "token": "sk-wqji9kxkl...",
  "created_at": "2026-10-09 08:39:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b1522ad2-2b60-4c03-9de0-ea427d90f908.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b1522ad2-2b60-4c03-9de0-ea427d90f908.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:37:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-term time series forecasting",
+    "structured decoding",
+    "prediction head",
+    "robust loss",
+    "memory-conditioned attention",
+    "scaled log-cosh"
+   ],
+   "field": "长周期时间序列预测",
+   "innovations": [
+    "提出可插拔的两阶段结构化预测头 SACQ，以粗 scaffold + 历史记忆条件 cross-attention + 门控残差融合替代 flatten readout",
+    "引入 SAR 因果偏置与批量自适应缩放 log-cosh 损失，联合提升长视界预测精度与鲁棒性",
+    "系统性评估 flatten readout 在推理输入扰动与训练标签噪声下的脆弱性，并提供跨 PatchTST/DLinear/Mamba 骨干的通用验证"
+   ],
+   "benchmarks": [
+    "ETT (ETTh1/ETTh2/ETTm1/ETTm2)",
+    "Electricity (ECL)",
+    "Traffic",
+    "Weather",
+    "TSRBench 鲁棒性基准"
+   ]
+  }
+ }
 }
