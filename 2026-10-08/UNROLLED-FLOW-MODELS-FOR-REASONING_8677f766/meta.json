@@ -4,5 +4,10 @@
  "title": "UNROLLED-FLOW-MODELS-FOR-REASONING",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-10-08 08:31:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/8a73977d-9403-4272-bd1a-809e69fd6ddb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/8a73977d-9403-4272-bd1a-809e69fd6ddb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:07:06",
+  "chunks": 1
+ }
 }

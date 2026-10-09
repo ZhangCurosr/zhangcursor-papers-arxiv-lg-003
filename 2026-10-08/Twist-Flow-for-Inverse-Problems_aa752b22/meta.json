@@ -4,5 +4,31 @@
  "title": "Twist-Flow-for-Inverse-Problems",
  "token": "sk-0Q9KcIM9N...",
  "created_at": "2026-10-08 08:34:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/4a9e3d43-fcf2-4b21-bd61-4eb15b57bb17.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/4a9e3d43-fcf2-4b21-bd61-4eb15b57bb17.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:05:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Bayesian inverse problems",
+    "posterior sampling",
+    "flow matching",
+    "generative models",
+    "uncertainty quantification",
+    "seismic inversion"
+   ],
+   "field": "贝叶斯逆问题与概率生成建模",
+   "innovations": [
+    "提出增广流匹配框架 (z_x, y) -> (x, z_y) 以保留后验变异性",
+    "证明直接条件传输的拓扑障碍并解释增广参数化的缓解机制",
+    "在高维科学逆问题中验证观测一致性驱动的后验多样性保持"
+   ],
+   "benchmarks": [
+    "Toy inverse problems with MCMC reference",
+    "CelebA image restoration (3 operators)",
+    "Seismic velocity-model inversion (RTM-conditioned)"
+   ]
+  }
+ }
 }

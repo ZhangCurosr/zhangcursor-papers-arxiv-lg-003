@@ -4,5 +4,32 @@
  "title": "Universal-Local-Error-and-Realized-Amplification-for-the-Fir",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-10-08 19:50:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b4cf0509-9add-482e-84d8-1870cd37d716.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b4cf0509-9add-482e-84d8-1870cd37d716.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:09:52",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "diffusion models",
+    "EDM sampling",
+    "Wasserstein error bound",
+    "local discretization error",
+    "realized amplification",
+    "deterministic sampler",
+    "theoretical analysis"
+   ],
+   "field": "扩散模型采样理论",
+   "innovations": [
+    "将EDM一阶采样器总误差分解为与分布无关的局部离散误差和依赖网络的误差传播放大两部分",
+    "给出通用局部误差上界 B_{d,rho} sigma^(1-2rho)，指数sharp且常数与数据分布无关",
+    "引入实际放大率 gamma_j 刻画误差传播，导出全局收敛界 O(e^{Lambda_K}/K)"
+   ],
+   "benchmarks": [
+    "W_2(mu_hat_K, q)",
+    "CIFAR-10 (推测)",
+    "ImageNet (推测)"
+   ]
+  }
+ }
 }

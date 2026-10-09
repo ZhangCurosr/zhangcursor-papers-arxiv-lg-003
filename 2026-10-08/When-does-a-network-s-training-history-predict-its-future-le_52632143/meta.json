@@ -4,5 +4,32 @@
  "title": "When-does-a-network-s-training-history-predict-its-future-le",
  "token": "sk-0sYDudTcj...",
  "created_at": "2026-10-08 19:50:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ec006d68-1eaa-4183-8c49-06cd75f29784.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ec006d68-1eaa-4183-8c49-06cd75f29784.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:10:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "training history prediction",
+    "plasticity loss",
+    "response probe",
+    "compact recurrent state",
+    "learning curve extrapolation",
+    "model diagnostics",
+    "training dynamics"
+   ],
+   "field": "深度学习训练动态与可塑性",
+   "innovations": [
+    "提出响应探针验证框架：通过函数保持重缩放正向对照确保探针可靠性，再解读历史对当前状态的边际预测价值",
+    "构建紧凑循环历史状态摘要并与校准后当前状态基线进行注册式对比检验",
+    "揭示历史信息的价值取决于预测目标距离：仅在运行早期/状态未充分反映目标时才有额外预测力"
+   ],
+   "benchmarks": [
+    "合成回归任务 (1560 runs)",
+    "CIFAR-100 subsets (ResNet-18/VGG-11)",
+    "Class-incremental CIFAR-100"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Two-Level-Softmax-Sampling-Done-Right-Correcting-Bias-from-S",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-08 19:46:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/181fbed8-0b55-4063-a898-65f32a9b1f91.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/181fbed8-0b55-4063-a898-65f32a9b1f91.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:06:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "two-level softmax",
+    "softmax approximation",
+    "sampling bias",
+    "size imbalance",
+    "intra-cluster dispersion",
+    "recommendation inference",
+    "large vocabulary sampling"
+   ],
+   "field": "大规模推理采样与近似Softmax",
+   "innovations": [
+    "形式化刻画2LS因聚类大小与方差引发的系统性偏差",
+    "提出零额外开销的S-2LS与基于二阶MGF修正的SD-2LS",
+    "在五数据集上证明SD-2LS相对2LS可达一到四个数量级的KL提升"
+   ],
+   "benchmarks": [
+    "VK-LSVD",
+    "YAMBDA",
+    "GloVe-100",
+    "Synth-balanced",
+    "Synth-unbalanced"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Robust-Decentralized-Fairness-Auditing",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-10-08 19:45:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/0a22fefd-2562-48e7-97f9-d36f3e49cc16.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/0a22fefd-2562-48e7-97f9-d36f3e49cc16.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:02:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fairness auditing",
+    "black-box LLM",
+    "decentralized auditing",
+    "fairwashing",
+    "robust aggregation",
+    "demographic parity",
+    "Byzantine resilience"
+   ],
+   "field": "AI安全与公平性审计",
+   "innovations": [
+    "轮次去中心化公平性审计协议AUDITOPUS，仅交换累积统计向量",
+    "基于自一致性的二项式z-score怀疑分与锁定权重防御机制",
+    "强自适应公平清洗攻击者模型及单攻击者洗白充要条件理论刻画"
+   ],
+   "benchmarks": [
+    "Civil Comments (QWEN2.5-7B-INSTRUCT)",
+    "Bias in Bios (LLAMA-3.1-8B-INSTRUCT)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Which-Rollout-Taught-It-That-BehaviorTrace-and-the-Limits-of",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-10-08 19:45:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d0c781a5-6d82-4f73-898f-54e973725d1f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d0c781a5-6d82-4f73-898f-54e973725d1f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:10:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "training-data attribution",
+    "online reinforcement learning",
+    "GRPO",
+    "behavior trace",
+    "gradient-based attribution",
+    "emergent misalignment"
+   ],
+   "field": "可解释AI / 训练数据归因",
+   "innovations": [
+    "提出行为Trace开放评估套件用于在线RL归因验证",
+    "揭示梯度幅度与流畅度混杂可导致归因信号虚高",
+    "发现token级方向对齐是唯一跨seed稳健信号"
+   ],
+   "benchmarks": [
+    "Qwen2.5-1.5B-Instruct GRPO微调",
+    "step-level tie-aware precision",
+    "rollout-level within-group AUC",
+    "token-level cosine alignment"
+   ]
+  }
+ }
 }

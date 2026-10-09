@@ -4,5 +4,40 @@
  "title": "YANchor-4B-Effective-Long-Horizon-Reasoning-in-O-N-Time-with",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-10-08 19:45:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/53e6df9f-9e60-462d-ac46-e12d064b1a8a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/53e6df9f-9e60-462d-ac46-e12d064b1a8a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:10:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长程推理",
+    "有界状态模型",
+    "循环注意力",
+    "独立记忆",
+    "YANchor-4B",
+    "AIME",
+    "RLVR"
+   ],
+   "field": "高效大语言模型架构",
+   "innovations": [
+    "三层互补历史记录（循环+局部注意力+独立记忆锚点）实现O(N)时间/O(1)内存长程推理",
+    "基于优先级与分组保留的独立记忆写入读取机制",
+    "四阶段训练管线（M0/R/S/RLVR）提升数学与通用能力"
+   ],
+   "benchmarks": [
+    "AIME 2024-2026",
+    "HMMT Feb 2026",
+    "MATH-500",
+    "MMLU-Pro",
+    "HumanEval",
+    "LiveCodeBench v6",
+    "MMBench",
+    "POPE",
+    "MME",
+    "ChartQA",
+    "AI2D"
+   ]
+  }
+ }
 }

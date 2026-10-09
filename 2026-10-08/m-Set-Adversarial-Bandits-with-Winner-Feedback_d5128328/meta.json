@@ -4,5 +4,33 @@
  "title": "m-Set-Adversarial-Bandits-with-Winner-Feedback",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-10-08 19:49:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b96c7e4f-6dab-49d4-8f21-e424f93feefd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b96c7e4f-6dab-49d4-8f21-e424f93feefd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:11:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adversarial bandits",
+    "combinatorial bandits",
+    "winner feedback",
+    "Plackett-Luce model",
+    "regret lower bound",
+    "m-set bandits",
+    "online learning"
+   ],
+   "field": "在线学习与 bandit 理论",
+   "innovations": [
+    "提出 FB+WF 中间反馈模型并建立 tight regret 界 Θ(m√(KT))",
+    "创新信息论下界构造：均匀噪声压制胜者索引信息泄露的 KL 散度分析",
+    "系统性区分多种效用/反馈组合揭示线性 regret 与亚线性 regret 的临界条件"
+   ],
+   "benchmarks": [
+    "synthetic m-set bandit instances",
+    "stationary correlated rewards",
+    "corrupted reward setting",
+    "time-varying block-wise stationary rewards"
+   ]
+  }
+ }
 }

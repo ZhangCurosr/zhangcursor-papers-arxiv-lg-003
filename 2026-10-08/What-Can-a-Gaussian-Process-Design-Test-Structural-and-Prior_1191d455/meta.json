@@ -4,5 +4,10 @@
  "title": "What-Can-a-Gaussian-Process-Design-Test-Structural-and-Prior",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-10-08 19:42:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/af9c02e2-bab1-4e7d-a392-82edc69f993a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/af9c02e2-bab1-4e7d-a392-82edc69f993a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:08:52",
+  "chunks": 1
+ }
 }

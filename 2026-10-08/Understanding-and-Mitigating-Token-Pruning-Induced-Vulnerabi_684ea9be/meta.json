@@ -4,5 +4,10 @@
  "title": "Understanding-and-Mitigating-Token-Pruning-Induced-Vulnerabi",
  "token": "sk-1W4pDEr0k...",
  "created_at": "2026-10-08 19:48:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6db69d73-0415-496b-9d8a-952f601929e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6db69d73-0415-496b-9d8a-952f601929e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:07:20",
+  "chunks": 1
+ }
 }

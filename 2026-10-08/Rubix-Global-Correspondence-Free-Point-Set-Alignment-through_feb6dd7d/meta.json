@@ -4,5 +4,34 @@
  "title": "Rubix-Global-Correspondence-Free-Point-Set-Alignment-through",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-10-08 08:30:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/49e6609a-5d67-47bc-8373-0745e8e350f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/49e6609a-5d67-47bc-8373-0745e8e350f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:06:01",
+  "chunks": 6,
+  "meta": {
+   "keywords": [
+    "点集配准",
+    "全局优化",
+    "分支定界",
+    "SE(3)",
+    "无对应关系",
+    "李群优化",
+    "刚体变换",
+    "partial matching"
+   ],
+   "field": "3D 点云配准与全局优化",
+   "innovations": [
+    "SE(3)联合重力搜索框架统一旋转/平移/离散匹配的全局最优分支定界",
+    "矩形极值几何简化将24顶点评估降至3次yaw采样",
+    "moment hull充分统计量处理未知平移下的凹下界构造"
+   ],
+   "benchmarks": [
+    "Generalized-CVO",
+    "RAP",
+    "高斯合成集",
+    "正方形/圆盘合成集"
+   ]
+  }
+ }
 }

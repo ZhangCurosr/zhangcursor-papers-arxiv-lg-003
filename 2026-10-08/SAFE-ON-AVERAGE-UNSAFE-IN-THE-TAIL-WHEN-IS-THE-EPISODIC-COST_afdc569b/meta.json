@@ -4,5 +4,10 @@
  "title": "SAFE-ON-AVERAGE-UNSAFE-IN-THE-TAIL-WHEN-IS-THE-EPISODIC-COST",
  "token": "sk-wqji9kxkl...",
  "created_at": "2026-10-08 19:48:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/1ed72972-4f7d-4ac2-b754-dd15f6f23dc4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/1ed72972-4f7d-4ac2-b754-dd15f6f23dc4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:04:29",
+  "chunks": 1
+ }
 }
