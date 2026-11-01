@@ -4,5 +4,34 @@
  "title": "TRAINING-ON-THE-FUTURE-A-DELAY-AWARE-AUDITOF-TEST-TIME-ADAPT",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-10-09 19:26:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/1de93978-ab0c-4bac-8738-17d2b42c350a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/1de93978-ab0c-4bac-8738-17d2b42c350a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:11:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time adaptation",
+    "time-series forecasting",
+    "delay-aware evaluation",
+    "recursive least squares",
+    "closed-form corrector",
+    "causal protocol",
+    "label leakage"
+   ],
+   "field": "时间序列预测的测试时自适应",
+   "innovations": [
+    "提出无泄露的延迟参数化评估协议并在四个TTA方法代码中强制执行",
+    "设计RLS-Bank闭环校正器：零超参、中值聚合、每步56微秒",
+    "发现梯度TTA方法在因果延迟下改进极有限且多显著劣于冻结模型"
+   ],
+   "benchmarks": [
+    "ETTm1",
+    "ETTh2",
+    "Weather",
+    "Electricity",
+    "Traffic"
+   ]
+  }
+ }
 }

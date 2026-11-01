@@ -4,5 +4,30 @@
  "title": "Poster-A-Preliminary-Study-of-LLM-Distillation-Inference",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-10-09 08:31:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/617c172a-f016-4558-bff0-9415b0bf6088.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/617c172a-f016-4558-bff0-9415b0bf6088.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:06:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "distillation inference",
+    "knowledge distillation detection",
+    "shadow models",
+    "likelihood ratio test",
+    "LLM security",
+    "membership inference"
+   ],
+   "field": "大模型安全与版权保护",
+   "innovations": [
+    "将蒸馏推断形式化为带影子模型校准的假设检验，输出可解释 p-value",
+    "从 per-instance 弱信号聚合为 per-model 强统计量，实现完全群体分离"
+   ],
+   "benchmarks": [
+    "CoT-Collection",
+    "AUC/TPR@FPR",
+    "balanced accuracy"
+   ]
+  }
+ }
 }

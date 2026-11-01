@@ -4,5 +4,10 @@
  "title": "Spectral-Weight-Decay-Inducing-Low-Rank-Structure-in-Neural",
  "token": "sk-hRG9yTz20...",
  "created_at": "2026-10-09 19:24:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/cd42331b-2b20-47a7-87fc-ea35ba605a10.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/cd42331b-2b20-47a7-87fc-ea35ba605a10.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:09:02",
+  "chunks": 1
+ }
 }

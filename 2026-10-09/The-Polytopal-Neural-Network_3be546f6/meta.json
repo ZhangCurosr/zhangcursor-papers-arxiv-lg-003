@@ -4,5 +4,33 @@
  "title": "The-Polytopal-Neural-Network",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-10-09 19:27:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/6d011d7f-b8e0-4ab8-a37d-681543a9c68d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/6d011d7f-b8e0-4ab8-a37d-681543a9c68d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:11:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Polytopal Neural Network",
+    "Archetypal Analysis",
+    "Interpretable Deep Learning",
+    "Vector Quantization",
+    "Simplex Constraint"
+   ],
+   "field": "可解释深度学习",
+   "innovations": [
+    "逐层多面体约束实现内生可解释表示",
+    "氨化单纯形推理加速投影计算",
+    "统一VQ训练的梯度优化路径"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "FashionMNIST",
+    "CIFAR-10",
+    "MedMNIST",
+    "ImageNet-100",
+    "ImageNet-1k"
+   ]
+  }
+ }
 }

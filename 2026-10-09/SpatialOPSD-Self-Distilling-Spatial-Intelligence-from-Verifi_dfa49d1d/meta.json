@@ -4,5 +4,34 @@
  "title": "SpatialOPSD-Self-Distilling-Spatial-Intelligence-from-Verifi",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-10-09 19:19:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/e70fe827-3300-4ca2-9769-2ee61fb8f6fa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/e70fe827-3300-4ca2-9769-2ee61fb8f6fa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:08:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "空间推理",
+    "多模态大模型",
+    "对策自我蒸馏",
+    "特权信息",
+    "编码Agent",
+    "重复感知蒸馏"
+   ],
+   "field": "多模态空间推理",
+   "innovations": [
+    "提出SpatialOPSD框架，将工具增强Agent的可验证执行轨迹蒸馏到无工具MLLM中",
+    "设计重复感知蒸馏（掩码+unlikelihood惩罚）抑制特权信息泄露与自重复",
+    "发现Agent轨迹可有效激发模型内部空间CoT，性能接近完整工具Agent的91%"
+   ],
+   "benchmarks": [
+    "MindCube-Tiny",
+    "ViewSpatial",
+    "OmniSpatial",
+    "BLINK",
+    "MMStar",
+    "VideoMME"
+   ]
+  }
+ }
 }

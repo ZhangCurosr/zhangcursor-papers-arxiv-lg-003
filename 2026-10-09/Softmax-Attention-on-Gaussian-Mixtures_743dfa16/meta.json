@@ -4,5 +4,31 @@
  "title": "Softmax-Attention-on-Gaussian-Mixtures",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-10-09 19:25:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/8806a279-09d1-4ca7-8981-18f1beb7c523.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/8806a279-09d1-4ca7-8981-18f1beb7c523.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:09:23",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "softmax attention",
+    "Gaussian mixture",
+    "in-context learning",
+    "optimization landscape",
+    "Bayes denoising",
+    "linear attention"
+   ],
+   "field": "Transformer 理论基础",
+   "innovations": [
+    "softmax 注意力在高斯混合上的结构恒等式分解",
+    "证明去噪任务中门控本质必要且线性注意力存在严格风险间隙",
+    "残差连接单架构跨任务自适应的理论构造"
+   ],
+   "benchmarks": [
+    "LDA 分类 risk",
+    "Gaussian denoising squared loss",
+    "Bayes optimal risk"
+   ]
+  }
+ }
 }

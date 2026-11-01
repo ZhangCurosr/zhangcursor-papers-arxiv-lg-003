@@ -4,5 +4,30 @@
  "title": "TEST-TIME-COMPUTE-FOR-TABULAR-FOUNDATION-MODELS-MECHANISMS-G",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-10-09 19:16:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/3c5a284e-7d1a-4ec1-ba3c-c008a3246720.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/3c5a284e-7d1a-4ec1-ba3c-c008a3246720.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:10:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time compute",
+    "tabular foundation models",
+    "parameter-efficient adaptation",
+    "aggregation",
+    "context construction",
+    "TabPFN"
+   ],
+   "field": "表格基础模型的推理时优化",
+   "innovations": [
+    "提出因子化 TTC 分析框架，分离适配/聚合/上下文构建的独立贡献",
+    "DiagScale: 仅训练 0.003-0.03% 参数的对角 query-key 相似度修正，跨三个 backbone 接近全量微调性能",
+    "系统揭示 96 配置贪婪选择降低 2.44% 误差 (+67 Elo)，而均匀平均反而有害"
+   ],
+   "benchmarks": [
+    "TabArena",
+    "OpenML (Higgs, US_Accidents, COMET_MC, Poker-Hand, Covertype)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,37 @@
  "title": "WHEN-LOWER-RECONSTRUCTION-LOSS-HURTS-DISTRIBUTIONALLY-ROBUST",
  "token": "sk-pPTU9MbMU...",
  "created_at": "2026-10-09 19:20:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ebc07bff-9523-43a6-a9fe-088f37ba6b1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ebc07bff-9523-43a6-a9fe-088f37ba6b1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:15:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "weight-only quantization",
+    "post-training quantization",
+    "distributionally robust optimization",
+    "reconstruction loss",
+    "LLM compression",
+    "DRQ"
+   ],
+   "field": "低比特语言模型量化",
+   "innovations": [
+    "揭示PTQ中重建损失最小化与模型性能失配现象",
+    "提出分布鲁棒目标L_DRQ=L_calib+α·S_C并导出最坏方向解析解",
+    "设计零推理开销的事后码精修算法DRQ并验证跨6种PTQ方法与密集/MoE架构"
+   ],
+   "benchmarks": [
+    "WikiText-2",
+    "C4",
+    "PIQA",
+    "HellaSwag",
+    "MMLU",
+    "BoolQ",
+    "ARC-Challenge",
+    "ARC-Easy",
+    "WinoGrande"
+   ]
+  }
+ }
 }

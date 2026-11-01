@@ -4,5 +4,30 @@
  "title": "Poster-A-Preliminary-Study-of-LLM-Distillation-Inference",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-10-09 19:18:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/8d387597-d58e-4884-a1ee-af0ff17d203f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/8d387597-d58e-4884-a1ee-af0ff17d203f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:06:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "distillation inference",
+    "knowledge distillation",
+    "large language models",
+    "model audit",
+    "hypothesis testing",
+    "shadow models",
+    "llm security"
+   ],
+   "field": "LLM安全与模型溯源",
+   "innovations": [
+    "首次将蒸馏检测形式化为带影子模型校准的假设检验，提供p-value与FPR上界",
+    "提出per-instance三信号跨审计集聚合为模型级似然比统计量Λ，实现蒸馏/独立模型完美分离",
+    "证明per-instance MIA在蒸馏检测中几乎失效，聚合信号是关键突破"
+   ],
+   "benchmarks": [
+    "CoT-Collection"
+   ]
+  }
+ }
 }

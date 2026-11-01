@@ -4,5 +4,32 @@
  "title": "Uncovering-and-Fixing-Collider-Bias-in-Bayesian-PINNs",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-10-09 19:17:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/71d7c7c9-131d-4a85-80a5-dcac80cb0ea9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/71d7c7c9-131d-4a85-80a5-dcac80cb0ea9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:13:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Bayesian PINN",
+    "collider bias",
+    "physics-informed neural network",
+    "particle MCMC",
+    "inverse problems",
+    "stochastic differential equations",
+    "uncertainty quantification"
+   ],
+   "field": "贝叶斯物理信息推断",
+   "innovations": [
+    "揭示标准B-PINN碰撞器结构导致的系统性后验偏差",
+    "提出马尔可夫状态空间链模型与粒子MCMC消除双重难处理问题",
+    "推导残差度量偏差与耗散偏差的解析分解及诊断准则"
+   ],
+   "benchmarks": [
+    "damped linear oscillator",
+    "double pendulum",
+    "relativistic particle"
+   ]
+  }
+ }
 }

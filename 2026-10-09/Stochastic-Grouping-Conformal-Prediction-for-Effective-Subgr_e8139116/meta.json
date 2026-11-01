@@ -4,5 +4,10 @@
  "title": "Stochastic-Grouping-Conformal-Prediction-for-Effective-Subgr",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-10-09 19:16:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/17533edb-1840-4436-95d9-01dfbb4152b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/17533edb-1840-4436-95d9-01dfbb4152b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:10:08",
+  "chunks": 1
+ }
 }

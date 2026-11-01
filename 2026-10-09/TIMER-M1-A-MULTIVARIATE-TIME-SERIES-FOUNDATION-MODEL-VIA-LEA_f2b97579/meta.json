@@ -4,5 +4,31 @@
  "title": "TIMER-M1-A-MULTIVARIATE-TIME-SERIES-FOUNDATION-MODEL-VIA-LEA",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-10-09 19:23:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/9cc20062-a787-4786-b61d-0c04988ed87c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/9cc20062-a787-4786-b61d-0c04988ed87c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:11:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "time series foundation model",
+    "multivariate forecasting",
+    "primitive learning",
+    "gated 2D transformer",
+    "zero-shot forecasting",
+    "episode pretraining"
+   ],
+   "field": "时间序列预测",
+   "innovations": [
+    "提出基于基元合成的数据管道与episode预训练框架，统一单变量/协变量/多元预测",
+    "门控二维Transformer实现层内自适应跨变量注意力分配",
+    "在FEV/TIME/GIFT-Eval基准上取得领先的零样本预测性能"
+   ],
+   "benchmarks": [
+    "FEV",
+    "TIME",
+    "GIFT-Eval"
+   ]
+  }
+ }
 }

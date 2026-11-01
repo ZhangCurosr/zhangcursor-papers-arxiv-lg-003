@@ -4,5 +4,34 @@
  "title": "VIOLA-LEARNING-GENERALIST-HUMANOIDCONTROL-POLICIES-FROM-HUMA",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-10-09 19:20:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/9994bdc8-cb2e-4b10-ba31-ba9d9d132411.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/9994bdc8-cb2e-4b10-ba31-ba9d9d132411.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:14:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人形机器人",
+    "通用人形策略",
+    "运动潜量",
+    "人体演示学习",
+    "VLA",
+    "WAM",
+    "零样本控制",
+    "flow matching"
+   ],
+   "field": "人形机器人全身控制",
+   "innovations": [
+    "将运动潜量作为通用策略的动作空间，解耦规划与执行，使人体演示可直接监督机器人策略",
+    "构建共享的人体-机器人运动潜空间，用93.2%的人体视频替代昂贵的机器人遥操作演示",
+    "在GR00T/π₀.₅/DiT4DiT三个不同骨干上统一适配，实现零样本实机100%移动和88.6%操作成功率"
+   ],
+   "benchmarks": [
+    "Unitree G1 实机移动任务（6项30次试验）",
+    "Unitree G1 实机操作任务（7项35次试验）",
+    "GR00T N1.7 基线对比",
+    "Psi_0 基线对比"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Smoothing-the-Top-k-Exposure-Boundary-for-Sparse-Mixture-of",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-10-09 19:17:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/7d8cfac7-b39d-4a14-b38d-23b117821feb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/7d8cfac7-b39d-4a14-b38d-23b117821feb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:08:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Sparse MoE",
+    "Expert Routing",
+    "Top-k Smoothing",
+    "Training-time Stochasticization",
+    "Budget Neighborhood",
+    "Mixture-of-Experts"
+   ],
+   "field": "稀疏混合专家模型训练优化",
+   "innovations": [
+    "提出弹性专家路由，从离散高斯邻域采样预算以平滑 top-k 刚性边界",
+    "严格保持期望计算守恒与推理预算零膨胀",
+    "通过中层路由诊断与 router-swap 干预揭示增益机理"
+   ],
+   "benchmarks": [
+    "OLMoE-1B-7B SFT Avg(9)",
+    "Qwen3-30B-A3B SFT Avg(9)",
+    "1.42B MoE From-Scratch Pretraining"
+   ]
+  }
+ }
 }

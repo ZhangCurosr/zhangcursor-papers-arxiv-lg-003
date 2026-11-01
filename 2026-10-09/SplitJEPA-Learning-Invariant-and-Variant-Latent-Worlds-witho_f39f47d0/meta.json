@@ -4,5 +4,32 @@
  "title": "SplitJEPA-Learning-Invariant-and-Variant-Latent-Worlds-witho",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-10-09 19:15:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/2e698149-69ab-4295-b268-ecc45542f42a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/2e698149-69ab-4295-b268-ecc45542f42a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:09:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "JEPA",
+    "不变-变化分解",
+    "块可识别性",
+    "无重建表征学习",
+    "机器人操作",
+    "内容-风格解耦",
+    "因果表征"
+   ],
+   "field": "表征学习与可识别性",
+   "innovations": [
+    "提出无需重建的 SplitJEPA 框架，在表示空间联合预测对齐与不变一致性实现块级可识别",
+    "证明在平稳高斯预测动力学下不变/变化子空间可识别至块内正交变换等价类",
+    "从理论上保证仅基于不变表示的下游预测对变化扰动梯度隔离"
+   ],
+   "benchmarks": [
+    "Synthetic OU system",
+    "ManiSkill3 PushCube",
+    "ManiSkill3 PickCube"
+   ]
+  }
+ }
 }

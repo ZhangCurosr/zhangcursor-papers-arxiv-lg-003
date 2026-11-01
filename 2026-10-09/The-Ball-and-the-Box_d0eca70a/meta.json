@@ -4,5 +4,29 @@
  "title": "The-Ball-and-the-Box",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-10-09 19:17:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/c1f320c8-1ea1-4c82-b86b-dfce58aa45db.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/c1f320c8-1ea1-4c82-b86b-dfce58aa45db.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:12:36",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "极限强度",
+    "双边极值",
+    "指数倾斜",
+    "高维极值理论",
+    "ball-and-box模型",
+    "half-slack bias"
+   ],
+   "field": "高维概率与极值统计",
+   "innovations": [
+    "证明beta>=1时极限强度具有无限均值的相变现象",
+    "建立双边极值的联合渐近分布与标准化框架",
+    "提出half-slack bias并证明其接近Oracle最优"
+   ],
+   "benchmarks": [
+    "仿真对比: k=64,256,1024; m=k^2,k^4; 4096 draws/cell"
+   ]
+  }
+ }
 }

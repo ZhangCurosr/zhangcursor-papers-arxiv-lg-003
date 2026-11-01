@@ -4,5 +4,34 @@
  "title": "Perception-Test-2026-Challenge-Summary-and-Extension-to-City",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-10-09 19:21:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/fb88fe7e-5621-43d3-9a4f-2ff1faa6047c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/fb88fe7e-5621-43d3-9a4f-2ff1faa6047c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:06:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal models",
+    "spatial reasoning",
+    "video QA",
+    "audio-visual reasoning",
+    "agent pipeline",
+    "benchmark",
+    "city-scale perception"
+   ],
+   "field": "多模态视频理解与空间推理",
+   "innovations": [
+    "提出KilometerAudio：首个面向超长自然视频的音频事件推理benchmark",
+    "首次在同一challenge框架下评测table-top到city-scale的空间+音频跨模态推理",
+    "揭示agent管道与单模型在长视频推理上的显著能力gap"
+   ],
+   "benchmarks": [
+    "Perception Test",
+    "KilometerVision",
+    "KilometerAudio",
+    "Video-MME Long",
+    "HOTA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "Toward-Optimal-Regret-in-Adversarial-MDPs-with-Stochastic-Ha",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-10-09 19:16:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/288b13b6-50a0-410b-a6e9-d36bc2a7c938.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/288b13b6-50a0-410b-a6e9-d36bc2a7c938.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:12:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "constrained MDP",
+    "adversarial loss",
+    "safe exploration",
+    "regret lower bound",
+    "Slater margin",
+    "online learning"
+   ],
+   "field": "安全强化学习与在线决策",
+   "innovations": [
+    "改进S-OPS将regret从1/d^2降至1/d",
+    "提出MA-OPS实现对T,d,ρ联合最优的regret界"
+   ],
+   "benchmarks": [
+    "episodic adversarial CMDP with stochastic hard constraints"
+   ]
+  }
+ }
 }

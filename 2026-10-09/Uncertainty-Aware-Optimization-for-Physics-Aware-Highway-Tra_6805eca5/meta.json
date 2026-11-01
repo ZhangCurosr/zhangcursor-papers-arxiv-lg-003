@@ -4,5 +4,28 @@
  "title": "Uncertainty-Aware-Optimization-for-Physics-Aware-Highway-Tra",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-10-09 19:19:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/5d5d6ad9-ac74-444c-a021-4441b2da7510.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/5d5d6ad9-ac74-444c-a021-4441b2da7510.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:12:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "轨迹预测",
+    "不确定性量化",
+    "共形预测",
+    "物理感知模型",
+    "高速公路"
+   ],
+   "field": "自动驾驶轨迹预测与不确定性建模",
+   "innovations": [
+    "将运动变量异方差不确定经运动学子车模型传播至轨迹空间",
+    "嵌套MC Dropout/Deep Ensemble与运动采样实现全协方差分解",
+    "基于共形预测的逐时刻轨迹不确定性校准"
+   ],
+   "benchmarks": [
+    "highD"
+   ]
+  }
+ }
 }

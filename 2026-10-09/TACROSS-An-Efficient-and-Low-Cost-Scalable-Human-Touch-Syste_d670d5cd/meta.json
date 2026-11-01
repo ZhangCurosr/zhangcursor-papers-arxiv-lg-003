@@ -4,5 +4,33 @@
  "title": "TACROSS-An-Efficient-and-Low-Cost-Scalable-Human-Touch-Syste",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-10-09 19:21:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/3b147172-84f0-4748-a242-4fe3fe24cbfd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/3b147172-84f0-4748-a242-4fe3fe24cbfd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:10:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "触觉传感",
+    "人机对齐",
+    "灵巧操作",
+    "跨传感器对齐",
+    "机器人学习",
+    "低成本触觉手套",
+    "模仿学习"
+   ],
+   "field": "机器人触觉学习与灵巧操作",
+   "innovations": [
+    "接触语义对齐：将异构人机触觉信号映射至共享语义表征空间而非原始值匹配",
+    "机器人接地策略学习：以机器人执行动作为唯一真值监督，人类伪标签置信度加权辅助",
+    "高效低成本采集：$10.86手套+无机器人占用方案，采集效率提升3.5倍、成本降低95.7%"
+   ],
+   "benchmarks": [
+    "T1 Fixed-Point Dispensing",
+    "T2 Beaker-to-Beaker Liquid Transfer",
+    "T3 Precision Pipetting",
+    "T4 Sequential Fruit Pick-and-Place"
+   ]
+  }
+ }
 }

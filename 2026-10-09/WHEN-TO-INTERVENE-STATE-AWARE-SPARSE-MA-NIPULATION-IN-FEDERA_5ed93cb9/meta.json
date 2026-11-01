@@ -4,5 +4,31 @@
  "title": "WHEN-TO-INTERVENE-STATE-AWARE-SPARSE-MA-NIPULATION-IN-FEDERA",
  "token": "sk-SRpYy0JAC...",
  "created_at": "2026-10-09 19:28:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/7a0db7eb-7f10-4d9a-9ca7-abec57df90c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/7a0db7eb-7f10-4d9a-9ca7-abec57df90c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:14:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "联邦强化学习",
+    "拜占庭中毒攻击",
+    "轨迹级干预时机",
+    "行为导向攻击",
+    "鲁棒聚合"
+   ],
+   "field": "联邦强化学习安全",
+   "innovations": [
+    "首次将干预时机（WHEN）形式化为FRL中毒的独立攻击维度，与更新构造（HOW）正交分解",
+    "提出V-BSA攻击，通过局部策略熵门控选择稀疏敏感状态并施加envelope约束的行为导向",
+    "揭示任务-聚合依赖性转移边界，如CartPole二元消解现象与FedPG-BR集成防御的穿透机制"
+   ],
+   "benchmarks": [
+    "CartPole-v1",
+    "Acrobot-v1",
+    "LunarLander-v2",
+    "LunarLanderContinuous-v2"
+   ]
+  }
+ }
 }

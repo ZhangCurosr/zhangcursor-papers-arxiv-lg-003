@@ -4,5 +4,10 @@
  "title": "TRANSFER-UNCERTAINTY-TRANSFER-FROM-SMALL-TO-LARGE-NETWORKS-U",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-10-09 19:17:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/bdf4bdb8-48ac-4a12-ac39-f111b929e8de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/bdf4bdb8-48ac-4a12-ac39-f111b929e8de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:11:40",
+  "chunks": 3
+ }
 }

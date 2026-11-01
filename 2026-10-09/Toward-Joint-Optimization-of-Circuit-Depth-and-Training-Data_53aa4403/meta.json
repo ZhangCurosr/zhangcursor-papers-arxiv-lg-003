@@ -4,5 +4,10 @@
  "title": "Toward-Joint-Optimization-of-Circuit-Depth-and-Training-Data",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-09 19:20:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/e200b565-076c-4e33-8e54-054d6f3c085f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/e200b565-076c-4e33-8e54-054d6f3c085f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:12:54",
+  "chunks": 1
+ }
 }

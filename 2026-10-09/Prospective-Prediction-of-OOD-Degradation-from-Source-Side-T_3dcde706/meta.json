@@ -4,5 +4,30 @@
  "title": "Prospective-Prediction-of-OOD-Degradation-from-Source-Side-T",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-10-09 19:22:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/3dcdac4c-ad57-4066-8720-66f432a79bbc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/3dcdac4c-ad57-4066-8720-66f432a79bbc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:08:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "shortcut learning",
+    "training dynamics",
+    "OOD degradation",
+    "prospective prediction",
+    "spurious features",
+    "distribution shift",
+    "early warning"
+   ],
+   "field": "机器学习可靠性和安全性",
+   "innovations": [
+    "证明源侧训练动态可在OOD退化发生前提供前瞻性预警信号且该信号不能简化为训练时间",
+    "揭示窗口均值等时序摘要比单点当前值显著提升预测精度并大幅降低误报率",
+    "发现输出级统计量（置信度与熵动态）在CNN到MLP架构迁移时保留几乎无损的预测信息"
+   ],
+   "benchmarks": [
+    "Binary MNIST with color shortcut"
+   ]
+  }
+ }
 }

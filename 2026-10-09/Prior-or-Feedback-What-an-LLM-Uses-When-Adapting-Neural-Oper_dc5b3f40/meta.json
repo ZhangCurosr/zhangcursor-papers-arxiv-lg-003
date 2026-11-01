@@ -4,5 +4,31 @@
  "title": "Prior-or-Feedback-What-an-LLM-Uses-When-Adapting-Neural-Oper",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-10-09 19:18:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a7a9b2aa-2d90-49ea-bc58-7989084a3a0a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/a7a9b2aa-2d90-49ea-bc58-7989084a3a0a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:07:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM agents",
+    "neural operators",
+    "hyperparameter optimization",
+    "scientific discovery",
+    "intervention analysis",
+    "PDE adaptation"
+   ],
+   "field": "科学智能体决策验证",
+   "innovations": [
+    "决策级干预协议分离先验与反馈依赖",
+    "预算匹配下LLM优于TPE/随机搜索",
+    "首步提议质量优于91.7%随机配置"
+   ],
+   "benchmarks": [
+    "PDEBench",
+    "nRMSE held-out test",
+    "action distance intervention"
+   ]
+  }
+ }
 }
