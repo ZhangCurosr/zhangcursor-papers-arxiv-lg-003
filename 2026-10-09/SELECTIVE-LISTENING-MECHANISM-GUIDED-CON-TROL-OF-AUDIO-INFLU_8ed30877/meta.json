@@ -4,5 +4,33 @@
  "title": "SELECTIVE-LISTENING-MECHANISM-GUIDED-CON-TROL-OF-AUDIO-INFLU",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-10-09 19:21:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/cc735531-01f5-4000-acc7-f5a5c6a1a059.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/cc735531-01f5-4000-acc7-f5a5c6a1a059.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:30:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LALM",
+    "multimodal robustness",
+    "mechanistic interpretability",
+    "audio interference",
+    "selective gating",
+    "paired drift analysis",
+    "ICAP-Gate"
+   ],
+   "field": "多模态大模型鲁棒性与可解释性",
+   "innovations": [
+    "提出配对漂移分析框架揭示Aggregate Accuracy掩盖的推理不稳定",
+    "通过机制干预定位晚期音频通路并实现架构适配的条件控制",
+    "ICAP-Gate以单次生成实现竞争性稳定性并保留ASR能力"
+   ],
+   "benchmarks": [
+    "ARC-Challenge",
+    "MMLU",
+    "FSD50K",
+    "LibriSpeech dev-clean ASR"
+   ]
+  }
+ }
 }

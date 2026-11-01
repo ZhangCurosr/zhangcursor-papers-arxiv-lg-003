@@ -4,5 +4,32 @@
  "title": "Sample-Eficient-Generative-Conformal-Prediction",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-10-09 19:25:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ddedf141-909b-4c89-a247-d5a07aa403b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ddedf141-909b-4c89-a247-d5a07aa403b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:30:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conformal prediction",
+    "generative models",
+    "adaptive sampling",
+    "uncertainty quantification",
+    "resource allocation"
+   ],
+   "field": "生成式模型的预测不确定性量化",
+   "innovations": [
+    "将生成式顺应预测的样本分配建模为约束优化问题",
+    "推导近线性时间对偶算法高效求解",
+    "理论证明样本分配可弥补半径自适应无法解决的欠采样缺陷"
+   ],
+   "benchmarks": [
+    "Synthetic DGPs",
+    "Porto taxi trajectories",
+    "Protein backbone angles",
+    "TextVQA",
+    "OK-VQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Sample-Eficient-Generative-Conformal-Prediction",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-10-09 08:40:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/7ff1c32e-e4ee-4bd3-9ecc-aa83452ed49a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/7ff1c32e-e4ee-4bd3-9ecc-aa83452ed49a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:31:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conformal prediction",
+    "generative models",
+    "sample allocation",
+    "uncertainty quantification",
+    "adaptive sampling",
+    "set-size minimization"
+   ],
+   "field": "共形预测与不确定性量化",
+   "innovations": [
+    "将生成式共形预测的采样预算建模为资源分配问题，推导近线性时间对偶算法",
+    "证明样本分配与半径自适应正交互补，即使在 oracle 半径下仍能缩小集合",
+    "提出基于超几何分布的 Rao-Blackwell 无偏包含概率估计"
+   ],
+   "benchmarks": [
+    "Synthetic DGPs (9种)",
+    "Porto Taxi Trajectories",
+    "Protein Backbone Angles (CATH 4.2)",
+    "TextVQA / OK-VQA"
+   ]
+  }
+ }
 }

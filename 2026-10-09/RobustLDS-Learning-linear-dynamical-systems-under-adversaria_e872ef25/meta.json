@@ -4,5 +4,28 @@
  "title": "RobustLDS-Learning-linear-dynamical-systems-under-adversaria",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-10-09 19:21:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/1aeb1e8a-cc76-45cf-9ac3-a12dee8009c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/1aeb1e8a-cc76-45cf-9ac3-a12dee8009c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:30:14",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Linear Dynamical Systems",
+    "Adversarial Robustness",
+    "K-norm Regularization",
+    "Robust System Identification",
+    "High-dimensional Statistics"
+   ],
+   "field": "鲁棒系统辨识",
+   "innovations": [
+    "提出K-norm正则化对抗扰动下的LDS参数学习框架",
+    "推导污染情形下系统矩阵估计误差的严格上界",
+    "将Gaussian width与Krahmer定理结合用于非凸LDS鲁棒分析"
+   ],
+   "benchmarks": [
+    "Synthetic LDS with adversarial corruption"
+   ]
+  }
+ }
 }

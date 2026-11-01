@@ -4,5 +4,32 @@
  "title": "STABILITY-PLASTICITY-BALANCE-VIA-SINGULAR-VECTOR-SELECTION-I",
  "token": "sk-u8lryRDFU...",
  "created_at": "2026-10-09 19:22:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/6c9775eb-5ef4-4f13-9ddd-16925e939fb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/6c9775eb-5ef4-4f13-9ddd-16925e939fb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:30:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续学习",
+    "大语言模型",
+    "参数高效微调",
+    "奇异值分解",
+    "稳定性-可塑性权衡",
+    "灾难性遗忘",
+    "SVC"
+   ],
+   "field": "LLM 持续学习",
+   "innovations": [
+    "提出奇异向量通道作为稳定性-可塑性权衡的基本原则单元，实现任务自适应方向选择",
+    "基于当前任务梯度与无标签通用域激活统计的收益-成本双信号估算框架",
+    "Knee-Pareto-Otsu 三阶段无超参自适应通道选择机制"
+   ],
+   "benchmarks": [
+    "TRACE",
+    "HumanEval",
+    "GSM8K"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "Refinement-as-a-Service-Algorithmic-Predictor-Refinement",
  "token": "sk-4xOJ8RgWe...",
  "created_at": "2026-10-09 19:18:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/6a0a6425-2451-4843-863a-f61b1c7aaa60.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/6a0a6425-2451-4843-863a-f61b1c7aaa60.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:28:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "calibrated predictor refinement",
+    "forecast aggregation",
+    "signal-level calibration",
+    "informational dominance",
+    "computational social choice",
+    "polyhedral cone decomposition",
+    "garbling",
+    "NP-hardness"
+   ],
+   "field": "预测聚合与信息融合",
+   "innovations": [
+    "提出可构造预测器的线性代数刻画：信号向量属于Row(M)∩R_+^n",
+    "双预测器确定性精炼的多项式时间算法（二分图割点/2-连通分量分解）",
+    "随机化情形下任意k的多项式时间极射线分解算法"
+   ]
+  }
+ }
 }

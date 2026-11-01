@@ -4,5 +4,32 @@
  "title": "RIFT-Relative-Isolation-From-Trees-For-Anomaly-Detection",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-10-09 19:15:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/e93ab976-1eff-4754-9a1f-2967c9a0f646.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/e93ab976-1eff-4754-9a1f-2967c9a0f646.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:26:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "anomaly detection",
+    "isolation forest",
+    "minimum spanning tree",
+    "unsupervised learning",
+    "deterministic algorithm",
+    "outlier detection"
+   ],
+   "field": "无监督异常检测",
+   "innovations": [
+    "将1D IF闭式解的几何解释推广至高维MST，提出无超参数确定性异常检测方法",
+    "证明RIFT在1D精确还原无限树IF的闭式解，在高维消除轴平行伪影并实现密度不变性",
+    "集成变体在保持IF级别精度的同时，随机种子方差降低一个数量级，且小样本集成可突破精确版的掩盖效应"
+   ],
+   "benchmarks": [
+    "ADBench",
+    "synthetic_blob",
+    "synthetic_varying_density",
+    "synthetic_clustered_anomalies"
+   ]
+  }
+ }
 }

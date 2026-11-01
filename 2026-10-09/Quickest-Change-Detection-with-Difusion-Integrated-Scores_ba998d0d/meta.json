@@ -4,5 +4,32 @@
  "title": "Quickest-Change-Detection-with-Difusion-Integrated-Scores",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-10-09 19:15:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/adb27a25-5d18-4c65-9d3a-c369056605d8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/adb27a25-5d18-4c65-9d3a-c369056605d8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:26:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "quickest change detection",
+    "diffusion-integrated score",
+    "Hyvärinen score",
+    "CUSUM",
+    "Fisher divergence",
+    "KL drift identity",
+    "training-free detector"
+   ],
+   "field": "序贯假设检验与快速变化检测",
+   "innovations": [
+    "提出无训练的 DI-SCUSUM，通过高斯混合闭式分数与扩散时间重要性采样估计跨尺度积分证据",
+    "在经验插值模型下建立定向 KL 漂移恒等式，导出指数误报伸缩与首阶延迟上界",
+    "证明积分扩散时间可恢复单尺度 SCUSUM 在异方差下丢失的信息，理想情形等价于似然比 CUSUM"
+   ],
+   "benchmarks": [
+    "Anisotropic Gaussian diagnostic",
+    "MNIST 3→5 change",
+    "Oxford-IIIT Pet cats→dogs change"
+   ]
+  }
+ }
 }

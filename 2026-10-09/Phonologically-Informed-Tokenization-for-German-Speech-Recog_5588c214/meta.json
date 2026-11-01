@@ -4,5 +4,33 @@
  "title": "Phonologically-Informed-Tokenization-for-German-Speech-Recog",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-10-09 19:17:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/85fdd78b-14de-42c0-8484-05509e6c9095.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/85fdd78b-14de-42c0-8484-05509e6c9095.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:25:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语音识别",
+    "分词器选择",
+    "音韵信息",
+    "域外泛化",
+    "wav2vec 2.0",
+    "CTC",
+    "德语ASR",
+    "OOD鲁棒性"
+   ],
+   "field": "自动语音识别",
+   "innovations": [
+    "首次在大尺度可控实验中分离词汇量与音韵分词策略的交互效应，揭示小词汇量下音韵分词在方言/自发语音场景的优势及大词汇量下的逆转",
+    "构建正交OOD测试框架（方言phonetic变体 vs 自发lexical变体）定量诊断分词器鲁棒性",
+    "证明音韵分词器与声学编码器是互补设计轴，误差模式在分词器间高度不变"
+   ],
+   "benchmarks": [
+    "CV+SWC",
+    "RVG 1",
+    "Verbmobil VM1"
+   ]
+  }
+ }
 }

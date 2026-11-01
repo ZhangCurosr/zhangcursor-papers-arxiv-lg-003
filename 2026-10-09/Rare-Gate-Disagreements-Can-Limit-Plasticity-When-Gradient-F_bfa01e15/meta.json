@@ -4,5 +4,28 @@
  "title": "Rare-Gate-Disagreements-Can-Limit-Plasticity-When-Gradient-F",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-10-09 19:27:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/3eb55eb0-0989-4d63-a742-5b2a1338fb88.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/3eb55eb0-0989-4d63-a742-5b2a1338fb88.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:27:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "塑性丧失",
+    "有限批次SGD",
+    "门分歧",
+    "梯度流",
+    "持续学习",
+    "ReLU网络",
+    "两神经元模型"
+   ],
+   "field": "深度学习理论/优化动力学",
+   "innovations": [
+    "证明群体梯度流在预训练后可定性误判有限批次SGD的适应时间，failure horizon达e^{c/eta}；提出分歧预算Gamma=b*delta/eta统一组织恢复概率；从相同检查点证明SGD恢复所需样本量和batch size均随预训练时间指数增长"
+   ],
+   "benchmarks": [
+    "两神经元ReLU回归（圆盘均匀输入），risk阈值0.4"
+   ]
+  }
+ }
 }

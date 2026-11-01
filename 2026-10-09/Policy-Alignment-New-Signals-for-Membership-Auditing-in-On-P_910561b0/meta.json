@@ -4,5 +4,31 @@
  "title": "Policy-Alignment-New-Signals-for-Membership-Auditing-in-On-P",
  "token": "sk-7yAuxnEAp...",
  "created_at": "2026-10-09 08:44:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e34bdba5-652c-43fa-b476-8f6913108be8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e34bdba5-652c-43fa-b476-8f6913108be8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:25:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "membership auditing",
+    "on-policy distillation",
+    "privacy",
+    "teacher alignment",
+    "LLM security"
+   ],
+   "field": "大语言模型隐私与安全",
+   "innovations": [
+    "提出 TAG 通过两端点差估计教师引导更新方向",
+    "首次识别教师对齐为 OPD 成员信号"
+   ],
+   "benchmarks": [
+    "MATH",
+    "MBPP",
+    "MMLU-Pro",
+    "BigCodeBench",
+    "MulDimIF"
+   ]
+  }
+ }
 }

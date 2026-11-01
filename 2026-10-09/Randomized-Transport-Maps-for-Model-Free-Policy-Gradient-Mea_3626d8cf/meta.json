@@ -4,5 +4,30 @@
  "title": "Randomized-Transport-Maps-for-Model-Free-Policy-Gradient-Mea",
  "token": "sk-5jLHcS0AE...",
  "created_at": "2026-10-09 19:18:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/399416e6-96d5-43f3-adaa-1c0df754bf67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/399416e6-96d5-43f3-adaa-1c0df754bf67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:28:44",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "策略梯度",
+    "无模型强化学习",
+    "随机化输运映射",
+    "平均场控制",
+    "误差界分析",
+    "粒子滤波"
+   ],
+   "field": "强化学习理论",
+   "innovations": [
+    "策略梯度双项分解：分离策略得分与群体得分",
+    "随机化输运映射构造可微扰动过程",
+    "无模型梯度估计的偏差-方差误差界"
+   ],
+   "benchmarks": [
+    "线性-二次高斯（L-Q）控制问题",
+    "平均场马尔可夫决策过程"
+   ]
+  }
+ }
 }

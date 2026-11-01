@@ -4,5 +4,28 @@
  "title": "ROUTERINTERP-UNDERSTANDING-SUPERPOSED-SPECIALISATION-IN-MIXT",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-10-09 19:17:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ed86c087-caf9-4662-948e-8c791750b8ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ed86c087-caf9-4662-948e-8c791750b8ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:26:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture of Experts",
+    "Mechanistic Interpretability",
+    "Sparse Autoencoders",
+    "Router Interpretation",
+    "Superposition"
+   ],
+   "field": "机制可解释性",
+   "innovations": [
+    "提出超位特化假说SSH并给出实证证据",
+    "开发RouterInterp方法利用SAE特征生成专家路由的自然语言解释"
+   ],
+   "benchmarks": [
+    "gpt-oss-20b",
+    "OLMoE-1B-7B"
+   ]
+  }
+ }
 }

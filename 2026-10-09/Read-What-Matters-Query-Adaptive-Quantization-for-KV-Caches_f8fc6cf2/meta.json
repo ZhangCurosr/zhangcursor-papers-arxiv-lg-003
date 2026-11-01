@@ -4,5 +4,30 @@
  "title": "Read-What-Matters-Query-Adaptive-Quantization-for-KV-Caches",
  "token": "sk-f9bQDVs2Y...",
  "created_at": "2026-10-09 19:25:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/24130c01-f700-4428-ae89-44040041d35c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/24130c01-f700-4428-ae89-44040041d35c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:28:17",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "KV-cache quantization",
+    "query-adaptive reading",
+    "progressive coding",
+    "causal two-stage reader",
+    "information-theoretic bounds",
+    "long-context inference"
+   ],
+   "field": "大模型推理优化",
+   "innovations": [
+    "渐进标量编码器实现 query-dependent 细粒度 KV-cache 读取",
+    "因果两阶段阅读器分离 key/value 精度分配",
+    "信息论严格证明优于 query-independent 方案"
+   ],
+   "benchmarks": [
+    "C4 perplexity",
+    "Qwen2.5-7B throughput"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Score-Based-Learning-of-Cluster-DAGs-from-Interventions",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-10-09 08:43:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/91bdd73b-2eba-4300-9708-838066d5c4e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/91bdd73b-2eba-4300-9708-838066d5c4e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:32:10",
+  "chunks": 1
+ }
 }

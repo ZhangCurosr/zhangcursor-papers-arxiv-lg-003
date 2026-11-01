@@ -4,5 +4,30 @@
  "title": "Policy-Alignment-New-Signals-for-Membership-Auditing-in-On-P",
  "token": "sk-7yAuxnEAp...",
  "created_at": "2026-10-09 19:27:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/438794ee-f286-4943-aaaf-4b71f39942af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/438794ee-f286-4943-aaaf-4b71f39942af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:25:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Membership Auditing",
+    "On-Policy Distillation",
+    "Teacher Alignment Gain",
+    "Policy Drift",
+    "Privacy"
+   ],
+   "field": "大模型安全与隐私",
+   "innovations": [
+    "提出TAG信号量化教师引导的策略对齐方向",
+    "构建PAMA框架融合漂移与方向对齐多信号"
+   ],
+   "benchmarks": [
+    "MATH",
+    "MMLU-Pro",
+    "BigCodeBench",
+    "MulDimIF"
+   ]
+  }
+ }
 }

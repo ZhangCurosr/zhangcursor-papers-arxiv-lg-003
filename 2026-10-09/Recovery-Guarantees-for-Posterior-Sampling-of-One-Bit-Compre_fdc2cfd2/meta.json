@@ -4,5 +4,30 @@
  "title": "Recovery-Guarantees-for-Posterior-Sampling-of-One-Bit-Compre",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-10-09 19:29:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ab67b03a-5c9a-4996-91c9-ffae6681d6f3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ab67b03a-5c9a-4996-91c9-ffae6681d6f3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:28:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "one-bit compressed sensing",
+    "posterior sampling",
+    "diffusion model",
+    "sample complexity",
+    "approximate covering number",
+    "plug-and-play"
+   ],
+   "field": "压缩感知与信息论",
+   "innovations": [
+    "建立一比特压缩感知后验采样的样本复杂度上界，证明测量数与近似覆盖数对数成正比",
+    "给出近匹配的信息论下界，证明近似覆盖数是一比特恢复的必要复杂度度量",
+    "提出PnP-OneBit算法，首次为一比特扩散恢复建立理论保证并通过后验采样克服过度平滑"
+   ],
+   "benchmarks": [
+    "FFHQ 256x256",
+    "ImageNet 256x256"
+   ]
+  }
+ }
 }

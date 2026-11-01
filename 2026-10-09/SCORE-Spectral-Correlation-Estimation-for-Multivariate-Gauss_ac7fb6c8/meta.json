@@ -4,5 +4,28 @@
  "title": "SCORE-Spectral-Correlation-Estimation-for-Multivariate-Gauss",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-10-09 19:22:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/8548f823-e696-4abf-9a5e-9c24a1b7ceb0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/8548f823-e696-4abf-9a5e-9c24a1b7ceb0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:31:33",
+  "chunks": 6,
+  "meta": {
+   "keywords": [
+    "核得分",
+    "谱相关估计",
+    "概率预测",
+    "Lipschitz 连续性",
+    "DFT 对角化",
+    "CRPS",
+    "MMD",
+    "多元高斯"
+   ],
+   "field": "概率预测与分布估计",
+   "innovations": [
+    "提出 SCORE 两阶段方法：CRPS 边缘校准 + 核得分谱相关估计，解耦联合概率预测优化",
+    "证明高斯核得分在全局 Lipschitz 连续，解决对数得分在协方差奇异时的梯度爆炸问题",
+    "利用 DFT 对角化将两阶段计算复杂度降至 O(d log d)，内存 O(d)，支持低秩修正扩展"
+   ]
+  }
+ }
 }

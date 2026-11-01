@@ -4,5 +4,33 @@
  "title": "PUFFIN-PROBABILISTIC-LEARNING-OF-SPATIAL-DETAIL-FROM-COARSE",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-10-09 19:23:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/35170d98-2284-49e8-b4b9-feb14ec12e6c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/35170d98-2284-49e8-b4b9-feb14ec12e6c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:24:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "空间降尺度",
+    "弱监督学习",
+    "概率约束满足",
+    "卫星嵌入",
+    "不确定性量化",
+    " Census 数据"
+   ],
+   "field": "空间统计与地理机器学习",
+   "innovations": [
+    "将空间降尺度形式化为概率约束满足问题，仅用区域总量训练，后验条件化保证总量精确守恒",
+    "提出面积加权方差设计，在 irregular 多边形子区域上显著提升拆分质量",
+    "两阶段校准方法（tile 级粗残差 + 全局细标签因子）在几乎无标签下实现可迁移区间标定"
+   ],
+   "benchmarks": [
+    "German Zensus 2022",
+    "US Census 2020",
+    "LODES Employment Statistics",
+    "Gun Violence Archive",
+    "2024 US Presidential Precinct Results"
+   ]
+  }
+ }
 }

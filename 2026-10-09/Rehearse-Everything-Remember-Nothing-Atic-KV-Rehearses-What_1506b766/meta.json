@@ -4,5 +4,31 @@
  "title": "Rehearse-Everything-Remember-Nothing-Atic-KV-Rehearses-What",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-10-09 19:16:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/61372463-93e7-4a01-9497-abbe70f162b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/61372463-93e7-4a01-9497-abbe70f162b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:29:25",
+  "chunks": 3,
+  "meta": {
+   "keywords": [
+    "KV缓存压缩",
+    "长上下文推理",
+    "排练评分",
+    "无训练方法",
+    "注意力机制"
+   ],
+   "field": "长上下文语言模型高效推理",
+   "innovations": [
+    "提出Attic无训练排练模块，通过自生成QA和内容自适应长度解决全文档排练预算分散问题",
+    "系统论证排练内容比打分函数更关键，重构query-agnostic压缩范式",
+    "Attic作为插件可显著提升KVgrad/RestoreKV+性能，3%保持率下领先KVzip+ 41.9分"
+   ],
+   "benchmarks": [
+    "RULER-4K",
+    "RULER-16K",
+    "LongBench",
+    "LooGLE"
+   ]
+  }
+ }
 }

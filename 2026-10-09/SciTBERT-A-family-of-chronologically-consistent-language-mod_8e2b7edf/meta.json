@@ -4,5 +4,30 @@
  "title": "SciTBERT-A-family-of-chronologically-consistent-language-mod",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-09 19:16:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/dc9ec15b-9ed9-439c-bdb0-a0c4fca92e59.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/dc9ec15b-9ed9-439c-bdb0-a0c4fca92e59.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:31:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "chronological consistency",
+    "scientific text embedding",
+    "patent representation",
+    "contrastive post-training",
+    "lookahead bias",
+    "PatRepEval"
+   ],
+   "field": "科学计量与自然语言处理",
+   "innovations": [
+    "年度截止时间预训练与独立分词器消除前瞻偏差",
+    "论文—专利联合引文图的时序对比后训练",
+    "27项专利/跨域检索基准PatRepEval"
+   ],
+   "benchmarks": [
+    "PatRepEval",
+    "SciRepEval"
+   ]
+  }
+ }
 }

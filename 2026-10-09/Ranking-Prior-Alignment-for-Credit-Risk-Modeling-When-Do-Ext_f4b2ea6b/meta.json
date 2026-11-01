@@ -4,5 +4,10 @@
  "title": "Ranking-Prior-Alignment-for-Credit-Risk-Modeling-When-Do-Ext",
  "token": "sk-4XReLOXGN...",
  "created_at": "2026-10-09 19:25:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/4ac4f54a-03f8-431c-84a2-b2df20189228.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/4ac4f54a-03f8-431c-84a2-b2df20189228.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:27:38",
+  "chunks": 1
+ }
 }

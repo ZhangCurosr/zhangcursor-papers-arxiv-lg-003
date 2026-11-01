@@ -4,5 +4,30 @@
  "title": "RideBench-A-Large-Scale-Exogenous-Aware-Benchmark-for-Ride-H",
  "token": "sk-LqkNuH8i8...",
  "created_at": "2026-10-09 19:21:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/7aa3c985-37fb-449e-b564-14ce711c5d4f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/7aa3c985-37fb-449e-b564-14ce711c5d4f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:29:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ride-hailing forecasting",
+    "exogenous-aware benchmark",
+    "long-horizon time series",
+    "multi-area global modeling",
+    "trend evaluation",
+    "foundation model benchmark"
+   ],
+   "field": "网约车时间序列预测与外生感知基准",
+   "innovations": [
+    "发布 Ride-Hailing 大规模合成数据集与 RideBench 外生感知统一基准",
+    "引入天级趋势指标 Acc./Corr. 联合评估长期预测质量",
+    "系统性揭示外生感知优势与长期预测多目标失衡的共性局限"
+   ],
+   "benchmarks": [
+    "RideBench",
+    "Ride-Hailing"
+   ]
+  }
+ }
 }
