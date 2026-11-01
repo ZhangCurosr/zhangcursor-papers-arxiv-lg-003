@@ -4,5 +4,28 @@
  "title": "asdex-Automatic-Sparse-Diferentiation-in-JAX",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-10-09 08:35:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e88c300f-d23c-4ad9-9e5b-30b888ade05c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/e88c300f-d23c-4ad9-9e5b-30b888ade05c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:34:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动稀疏微分",
+    "JAX",
+    "Jacobian",
+    "Hessian",
+    "图着色",
+    "抽象解释",
+    "jaxpr",
+    "稀疏矩阵"
+   ],
+   "field": "自动微分与稀疏计算",
+   "innovations": [
+    "首个JAX通用ASD工具包，完整串联检测-着色-压缩微分-解压四阶段",
+    "基于jaxpr抽象解释的保守稀疏模式检测，二阶检测零额外实现",
+    "距离-2/星形着色一体化，支持前向/反向自动选择颜色更少者"
+   ]
+  }
+ }
 }

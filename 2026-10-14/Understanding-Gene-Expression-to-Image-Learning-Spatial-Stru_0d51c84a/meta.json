@@ -4,5 +4,36 @@
  "title": "Understanding-Gene-Expression-to-Image-Learning-Spatial-Stru",
  "token": "sk-s7NFyJaLu...",
  "created_at": "2026-10-14 18:32:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/531017f5-3cea-420a-9d9a-c570ac6ced7a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/531017f5-3cea-420a-9d9a-c570ac6ced7a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:36:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GE2I",
+    "single-cell RNA sequencing",
+    "representation learning",
+    "spatial smoothness",
+    "information fidelity",
+    "pixel assignment",
+    "CNN",
+    "beta regression"
+   ],
+   "field": "单细胞基因组表示学习",
+   "innovations": [
+    "揭示空间平滑性与基因保真度之间的权衡机制",
+    "通过独占像素分配干预验证保真度对预测的主导作用",
+    "提供视觉骨干与预训练/增强迁移的架构相关指南"
+   ],
+   "benchmarks": [
+    "DKD",
+    "GTEx v9",
+    "HypoMap",
+    "Immune Cell Atlas",
+    "Tabula Sapiens",
+    "CITE-Seq gene-to-protein"
+   ]
+  }
+ }
 }

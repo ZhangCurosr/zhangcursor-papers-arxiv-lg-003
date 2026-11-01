@@ -4,5 +4,31 @@
  "title": "To-Align-or-Not-To-Align-Check-Your-COMPASS-Before-You-Train",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-14 07:13:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/b38884f2-4040-43eb-a5d3-a17adb9e5567.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/b38884f2-4040-43eb-a5d3-a17adb9e5567.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:35:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型兼容性诊断",
+    "跨模态对齐",
+    "任务算术合并",
+    "表示收敛",
+    "局部邻域重叠",
+    "COMPASS"
+   ],
+   "field": "表示学习与模型组合",
+   "innovations": [
+    "提出COMPASS诊断工具，通过Ease和Ceiling两轴预测模型对兼容性",
+    "建立起始重叠控制收敛概率和目标差异限制重叠上界的理论保证",
+    "揭示范式与任务适配的不对称性，提供四象限可操作决策框架"
+   ],
+   "benchmarks": [
+    "Flickr30k I2T R@1",
+    "COCO I2T R@1",
+    "Task-Arithmetic 8-task Retention"
+   ]
+  }
+ }
 }

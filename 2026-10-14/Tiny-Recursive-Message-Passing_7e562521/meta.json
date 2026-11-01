@@ -4,5 +4,35 @@
  "title": "Tiny-Recursive-Message-Passing",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-10-14 07:15:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7efa3382-d33f-47fe-b35b-952787de260f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7efa3382-d33f-47fe-b35b-952787de260f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:35:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "递归图神经网络",
+    "消息传递",
+    "截断递归",
+    "深度监督",
+    "自适应停止",
+    "离散格推理",
+    "约束满足",
+    "零样本迁移"
+   ],
+   "field": "图神经网络与组合推理",
+   "innovations": [
+    "将深度监督/截断递归/自适应停止/离散格系统性地引入递归 GNN 并证明与图结构互补",
+    "提出基于平滑最小值的顶点级停止 logit 聚合机制",
+    "揭示截断梯度代价与图直径的关系并给出 peer/factor wiring 的 trade-off 分析"
+   ],
+   "benchmarks": [
+    "Sudoku-Extreme",
+    "Maze-Unique",
+    "N-Queens",
+    "G4SATBench",
+    "RandCSPBench"
+   ]
+  }
+ }
 }

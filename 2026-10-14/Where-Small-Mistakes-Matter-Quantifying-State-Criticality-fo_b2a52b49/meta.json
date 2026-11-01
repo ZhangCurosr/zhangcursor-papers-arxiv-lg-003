@@ -4,5 +4,31 @@
  "title": "Where-Small-Mistakes-Matter-Quantifying-State-Criticality-fo",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-10-14 07:15:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/29c4342f-7fd1-4aad-8d10-21f1df8f8102.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/29c4342f-7fd1-4aad-8d10-21f1df8f8102.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:39:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Imitation Learning",
+    "State Criticality",
+    "Data Curation",
+    "Behavior Cloning",
+    "Robotic Manipulation",
+    "Adversarial RL"
+   ],
+   "field": "模仿学习中的数据质量与策略改进",
+   "innovations": [
+    "形式化有界扰动下的状态关键性度量",
+    "对抗扰动+保守critic估算关键性",
+    "关键性驱动的损失重加权与数据选择"
+   ],
+   "benchmarks": [
+    "MetaWorld Hammer",
+    "ManiSkill2 StackCube/TurnFaucet/PegInsertion",
+    "Franka Panda实物任务"
+   ]
+  }
+ }
 }

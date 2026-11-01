@@ -4,5 +4,31 @@
  "title": "When-Does-Opponent-Modeling-Pay-Of-Spatial-Inference-Stabili",
  "token": "sk-Dw4PCoiSK...",
  "created_at": "2026-10-14 07:12:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/6cd7b8b8-d4ce-44fc-a0a8-bd4106d3a8a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/6cd7b8b8-d4ce-44fc-a0a8-bd4106d3a8a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:38:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "opponent modeling",
+    "partial observability",
+    "spatial inference",
+    "double DQN",
+    "reinforcement learning",
+    "POSG",
+    "stability"
+   ],
+   "field": "多智能体强化学习",
+   "innovations": [
+    "将空间对手目标推断模块引入部分可观测 Dueling DDQN，以 early spatial fusion 稳定 TD(0) 训练",
+    "基于 hind sight 重标签生成连续软热力图目标并以 KL 散度训练 Transformer 推断",
+    "系统分析对手建模优势的三个边界条件：能见度、对手意图类型与资源密度"
+   ],
+   "benchmarks": [
+    "map3 dense foraging POSG",
+    "map4 sparse foraging POSG"
+   ]
+  }
+ }
 }

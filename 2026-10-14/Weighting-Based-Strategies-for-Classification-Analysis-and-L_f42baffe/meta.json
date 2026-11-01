@@ -4,5 +4,32 @@
  "title": "Weighting-Based-Strategies-for-Classification-Analysis-and-L",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-10-14 07:21:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/1aeb3229-16a9-4168-91db-86ea2f7079ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/1aeb3229-16a9-4168-91db-86ea2f7079ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:37:56",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Precision-Recall",
+    "决策树",
+    "加权分类",
+    "阈值化分析",
+    "PR AUC",
+    "ROC AUC"
+   ],
+   "field": "分类理论分析",
+   "innovations": [
+    "定理5.3：决策树Precision-Recall解析关系闭式推导",
+    "定理6.3：单变量递增回归下PR轨迹统一刻画",
+    "加权树vs标准树的PR理论比较框架"
+   ],
+   "benchmarks": [
+    "PR AUC",
+    "ROC AUC",
+    "F1-score",
+    "FPR"
+   ]
+  }
+ }
 }

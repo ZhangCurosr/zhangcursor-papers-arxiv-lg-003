@@ -4,5 +4,32 @@
  "title": "UNIW-A-M-A-UNIFIED-MIXTURE-OF-EXPERTS-FRAMEWORK-FOR-WORLD-AN",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-10-14 07:12:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/a4756b7d-c46b-4067-ad7a-d085f9a9d117.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/a4756b7d-c46b-4067-ad7a-d085f9a9d117.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:36:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "世界模型",
+    "世界动作模型",
+    "混合专家",
+    "扩散 Transformer",
+    "具身智能",
+    "动作条件建模",
+    "接口路由"
+   ],
+   "field": "具身世界模型与动作生成",
+   "innovations": [
+    "提出 UniW(A)M 统一框架联合训练 AC-WM 与四种 WAM 接口",
+    "设计 CATR 按预测角色分配专家并学习组内混合权重",
+    "开发 PAIR 在冻结主干下实现 chunk 级接口自适应选择"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "RoboTwin 2.0",
+    "WorldArena"
+   ]
+  }
+ }
 }

@@ -4,5 +4,27 @@
  "title": "Weighting-Based-Strategies-for-Classification-Analysis-and-L",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-10-14 18:30:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/87ab7761-07da-4359-8b76-60bb37a35f73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/87ab7761-07da-4359-8b76-60bb37a35f73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:37:57",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "CART决策树",
+    "加权学习",
+    "PR AUC",
+    "类别不平衡",
+    "不纯度增益",
+    "Precision-Recall曲线",
+    "重要性加权"
+   ],
+   "field": "分类理论与可解释机器学习",
+   "innovations": [
+    "推导PR AUC与ROC AUC最优分裂阈值的闭式解",
+    "建立加权CART树不纯度增益的完整解析表达与小量展开",
+    "在单变量递增回归设定下给出Precision-Recall曲线的端到端闭式形式"
+   ]
+  }
+ }
 }

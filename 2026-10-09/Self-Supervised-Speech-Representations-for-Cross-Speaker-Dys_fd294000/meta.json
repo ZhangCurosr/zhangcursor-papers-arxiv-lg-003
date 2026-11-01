@@ -4,5 +4,33 @@
  "title": "Self-Supervised-Speech-Representations-for-Cross-Speaker-Dys",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-10-09 08:33:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/db67fc64-58ed-48e2-868c-57c273d45578.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/db67fc64-58ed-48e2-868c-57c273d45578.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:34:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "构音障碍检测",
+    "清醒开颅手术",
+    "自监督语音表征",
+    "wav2vec2",
+    "说话人日记",
+    "跨说话人泛化",
+    "级联分类器",
+    "医疗语音分析"
+   ],
+   "field": "临床语音信号处理",
+   "innovations": [
+    "利用日记隔离将SSL表征限定于患者帧以消除医生语音混淆",
+    "HiFi-GAN病理保真音高增强缓解小样本类别不平衡",
+    "内层LOSO无泄漏级联分类器结合梯度提升与神经网络"
+   ],
+   "benchmarks": [
+    "DATABRASE",
+    "UA-Speech (对比基线)",
+    "TORGO (对比基线)"
+   ]
+  }
+ }
 }

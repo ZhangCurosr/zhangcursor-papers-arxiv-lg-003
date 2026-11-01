@@ -4,5 +4,31 @@
  "title": "When-Does-Opponent-Modeling-Pay-Of-Spatial-Inference-Stabili",
  "token": "sk-Dw4PCoiSK...",
  "created_at": "2026-10-14 18:21:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/cab52cb5-bb0f-4841-af92-62071c38eae3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/cab52cb5-bb0f-4841-af92-62071c38eae3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:38:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "opponent modeling",
+    "partial observability",
+    "multi-agent reinforcement learning",
+    "spatial inference",
+    "stability",
+    "goal recognition",
+    "POSG"
+   ],
+   "field": "多智能体强化学习-部分可观测博弈",
+   "innovations": [
+    "将空间对手模型扩展至部分可观测POS G，通过hindsight重标记和运动差通道推断对手子目标热力图",
+    "证明对手建模的核心价值在于训练稳定化（难配置）与部署推理（易配置）的双机制分解",
+    "提出可见度-意图-资源密度三重边界条件，解释对手建模优势何时出现及消失"
+   ],
+   "benchmarks": [
+    "map3 dense foraging POSG",
+    "map4 sparse foraging POSG"
+   ]
+  }
+ }
 }

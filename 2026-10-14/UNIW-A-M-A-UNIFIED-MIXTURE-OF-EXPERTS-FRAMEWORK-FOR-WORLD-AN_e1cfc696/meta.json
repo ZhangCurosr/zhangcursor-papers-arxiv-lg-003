@@ -4,5 +4,34 @@
  "title": "UNIW-A-M-A-UNIFIED-MIXTURE-OF-EXPERTS-FRAMEWORK-FOR-WORLD-AN",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-10-14 18:26:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/3b4cd5c5-8e63-4f8b-b0fc-4bf2c79f7752.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/3b4cd5c5-8e63-4f8b-b0fc-4bf2c79f7752.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:36:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world model",
+    "world-action model",
+    "mixture of experts",
+    "robot manipulation",
+    "action-conditioned generation",
+    "domain adaptation"
+   ],
+   "field": "具身智能与world-action modeling",
+   "innovations": [
+    "提出UniW(A)M统一MoE框架，通过视频-动作可见性掩码联合训练AC-WM与四种WAM接口",
+    "设计CATR能力对齐路由，按预测角色分配专家集合使共享动力学与专用能力协同",
+    "提出PAIR分块路由器，在冻结主干前提下以少量目标数据实现OOD场景的接口自适应选择"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "RoboTwin 2.0",
+    "WorldArena",
+    "Folding Clothes",
+    "Folding Box",
+    "Tabletop Cleaning"
+   ]
+  }
+ }
 }

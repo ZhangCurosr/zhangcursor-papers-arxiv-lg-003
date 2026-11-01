@@ -4,5 +4,33 @@
  "title": "Tiny-Recursive-Message-Passing",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-10-14 18:22:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/ee77a2eb-4624-4bfb-b242-c56eea8f1fcd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/ee77a2eb-4624-4bfb-b242-c56eea8f1fcd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:35:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "message passing neural networks",
+    "recursive reasoning",
+    "truncated gradients",
+    "deep supervision",
+    "constraint satisfaction",
+    "parameter efficiency"
+   ],
+   "field": "图神经网络与算法推理",
+   "innovations": [
+    "将 Tiny Recursive Transformer 技术适配到递归图神经网络",
+    "揭示梯度截断成本与图拓扑直径的关系",
+    "极小参数模型在多项算法推理基准上达到 SOTA"
+   ],
+   "benchmarks": [
+    "Sudoku-Extreme",
+    "Maze-Unique",
+    "N-Queens",
+    "G4SATBench",
+    "RandCSPBench"
+   ]
+  }
+ }
 }

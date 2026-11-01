@@ -4,5 +4,30 @@
  "title": "Understanding-Circulant-Permutation-to-Extend-the-CMinHash-E",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-10-14 18:22:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/b0ab0eba-8357-4d3f-a855-1f47f2b12427.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/b0ab0eba-8357-4d3f-a855-1f47f2b12427.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:36:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MinHash",
+    "Jaccard相似度",
+    "循环置换",
+    "方差分析",
+    "Minner估计量",
+    "不对称哈希",
+    "组合哈希"
+   ],
+   "field": "MinHash与集合相似度估计",
+   "innovations": [
+    "给出CMinHash方差的新简化证明及大D显式近似，并修正原论文中的理论错误",
+    "将循环置换方差分析框架首次推广到含计数的Minner不对称哈希估计量"
+   ],
+   "benchmarks": [
+    "Synthetic data with varying D/f/a",
+    "Words dataset (Li & Church, 2005)"
+   ]
+  }
+ }
 }

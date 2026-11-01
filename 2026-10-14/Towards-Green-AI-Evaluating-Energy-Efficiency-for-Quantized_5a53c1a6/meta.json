@@ -4,5 +4,33 @@
  "title": "Towards-Green-AI-Evaluating-Energy-Efficiency-for-Quantized",
  "token": "sk-WLNedHnmw...",
  "created_at": "2026-10-14 07:25:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/1f80041f-336d-48d5-8b1d-3d28acf1f416.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/1f80041f-336d-48d5-8b1d-3d28acf1f416.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:35:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM量化",
+    "推理能效",
+    "绿色AI",
+    "后训练量化",
+    "GPU能耗",
+    "int8量化",
+    "int4量化"
+   ],
+   "field": "大语言模型高效推理",
+   "innovations": [
+    "首次系统评估PTQ策略在多GPU/多任务下的能耗效率，发现长输入+短输出场景能效峰值",
+    "实证发现运行时间与能耗高度相关(r=0.9966)，延迟优化可作为能耗优化的可靠代理",
+    "揭示int8融合kernel(EETQ/Bitsandbytes)在能效上超越部分int4策略的工程洞察"
+   ],
+   "benchmarks": [
+    "GLUE MNLI",
+    "MMLU",
+    "HumanEval",
+    "GSM8K"
+   ]
+  }
+ }
 }

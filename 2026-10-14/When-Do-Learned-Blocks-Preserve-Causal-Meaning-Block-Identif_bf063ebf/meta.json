@@ -4,5 +4,29 @@
  "title": "When-Do-Learned-Blocks-Preserve-Causal-Meaning-Block-Identif",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-10-14 07:13:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/fe993055-5540-4059-b944-55bbc1bb6921.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/fe993055-5540-4059-b944-55bbc1bb6921.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:37:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "块可识别性",
+    "构建性因果抽象",
+    "因果表示学习",
+    "干预转移",
+    "稀疏自编码器",
+    "独立子空间分析"
+   ],
+   "field": "因果表示学习",
+   "innovations": [
+    "证明块对角可逆变换加兼容置换是保持所有块对齐因果抽象的最大变换类",
+    "建立块可识别性与因果抽象的理论桥梁",
+    "合成实验验证跨模型高层干预转移"
+   ],
+   "benchmarks": [
+    "合成加性生成模型"
+   ]
+  }
+ }
 }

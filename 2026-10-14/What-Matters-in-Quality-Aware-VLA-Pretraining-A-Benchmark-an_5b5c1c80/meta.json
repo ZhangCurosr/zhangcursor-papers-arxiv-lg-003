@@ -4,5 +4,10 @@
  "title": "What-Matters-in-Quality-Aware-VLA-Pretraining-A-Benchmark-an",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-10-14 07:18:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/9a7afa47-55db-4196-9698-ddd66eb423a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/9a7afa47-55db-4196-9698-ddd66eb423a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:37:52",
+  "chunks": 1
+ }
 }

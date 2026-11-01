@@ -4,5 +4,31 @@
  "title": "Score-Based-Learning-of-Cluster-DAGs-from-Interventions",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-10-09 19:23:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/83d1c8d2-2a8e-4818-a97e-448be556de7b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/83d1c8d2-2a8e-4818-a97e-448be556de7b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:34:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "causal discovery",
+    "interventional coarsening",
+    "score-based learning",
+    "cluster DAGs",
+    "BIC",
+    "grow-shrink",
+    "causal abstraction"
+   ],
+   "field": "因果发现与因果抽象",
+   "innovations": [
+    "提出coarse：首个基于分数的干预粗化学习方法，用BIC替代CI检验",
+    "证明干预签名可识别集群划分与因果顺序，避免全局顺序搜索",
+    "设计聚合BIC分数，在线性高斯假设下保证局部一致性"
+   ],
+   "benchmarks": [
+    "Erdos-Renyi graphs",
+    "light-tunnel causal chamber"
+   ]
+  }
+ }
 }

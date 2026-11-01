@@ -4,5 +4,30 @@
  "title": "When-More-Objectives-Make-Identification-Easier-The-Role-of",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-10-14 07:11:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/6f2dd895-bfc5-482b-ae8b-8c213a72223b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/6f2dd895-bfc5-482b-ae8b-8c213a72223b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:38:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "best-arm identification",
+    "multi-objective bandits",
+    "characteristic time",
+    "Pareto preference",
+    "lexicographic preference",
+    "Track-and-Stop"
+   ],
+   "field": "多目标纯探索与最佳臂识别",
+   "innovations": [
+    "统一特征时下界横跨 Pareto/线性/字典序偏好，解耦三因素交互效应",
+    "证明多目标识别可严格优于最强单目标基准，加速比达 M 倍",
+    "提出 OATS 算法，在任意置信水平 δ-correct 且渐近匹配下界"
+   ],
+   "benchmarks": [
+    "Synthetic Gaussian two-arm/ four-arm instances",
+    "CRFM HELM Instruct v1.0.0 GPT-4 evaluator ratings (M=5, K=4)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Who-Verifies-the-Verifier-Co-Evolving-Inspectable-Graders-wi",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-10-09 08:35:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bee779e3-3728-4305-9eb4-1fffde0d4807.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bee779e3-3728-4305-9eb4-1fffde0d4807.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 22:34:55",
+  "chunks": 1
+ }
 }
