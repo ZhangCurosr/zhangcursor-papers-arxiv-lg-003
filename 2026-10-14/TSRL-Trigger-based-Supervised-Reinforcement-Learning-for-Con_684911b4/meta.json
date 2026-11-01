@@ -4,5 +4,34 @@
  "title": "TSRL-Trigger-based-Supervised-Reinforcement-Learning-for-Con",
  "token": "sk-pPTU9MbMU...",
  "created_at": "2026-10-14 18:26:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/31cce136-c5b6-46e3-912c-dbf3bff77c0f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/31cce136-c5b6-46e3-912c-dbf3bff77c0f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:09:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "continual learning",
+    "LLM agents",
+    "reinforcement learning",
+    "supervised fine-tuning",
+    "catastrophic forgetting",
+    "GRPO",
+    "trigger-based supervision"
+   ],
+   "field": "持续学习与智能体训练",
+   "innovations": [
+    "提出基于GSR的触发机制，仅在策略全组失败时注入稀疏SFT监督，理论证明其遗忘上界严格小于全量SFT",
+    "设计时序退火调度使SFT权重从λ0线性衰减至0，允许策略后期通过RL探索超越专家性能",
+    "在ALFWorld/WebShop/Deep Search三基准上验证，持续学习中先前任务保留提升最高达9.6个百分点"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop",
+    "Deep Search (BrowseComp, BrowseComp-ZH)",
+    "ScienceWorld",
+    "AIME 24/25"
+   ]
+  }
+ }
 }

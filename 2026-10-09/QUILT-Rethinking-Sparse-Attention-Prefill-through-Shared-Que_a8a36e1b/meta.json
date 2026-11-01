@@ -4,5 +4,33 @@
  "title": "QUILT-Rethinking-Sparse-Attention-Prefill-through-Shared-Que",
  "token": "sk-GAGmasUl1...",
  "created_at": "2026-10-09 19:22:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/d6b08be9-ce36-49d3-9b98-592d74d48e24.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/d6b08be9-ce36-49d3-9b98-592d74d48e24.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:04:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse attention",
+    "LLM inference",
+    "prefill acceleration",
+    "KV cache reuse",
+    "kernel optimization",
+    "Ascend NPU"
+   ],
+   "field": "大模型推理系统优化",
+   "innovations": [
+    "提出SCSD将不规则集合运算转为数据并行原语并流水线隐藏开销",
+    "设计级联共享机制在多粒度层级上捕获跨查询KV重用",
+    "引入瓦片感知执行与重要性感知裁剪平衡硬件利用率与精度"
+   ],
+   "benchmarks": [
+    "LongBench",
+    "Qasper",
+    "GovReport",
+    "Musique",
+    "NarrativeQA"
+   ]
+  }
+ }
 }

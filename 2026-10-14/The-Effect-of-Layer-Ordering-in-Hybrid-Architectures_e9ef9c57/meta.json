@@ -4,5 +4,32 @@
  "title": "The-Effect-of-Layer-Ordering-in-Hybrid-Architectures",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-10-14 18:30:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/2c1c64a3-05b5-4de4-a20f-ab26aceefce7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/2c1c64a3-05b5-4de4-a20f-ab26aceefce7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:12:32",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "hybrid architecture",
+    "layer ordering",
+    "theoretical deep learning",
+    "model expressivity",
+    "Transformer-RNN",
+    "task mixing",
+    "computational complexity"
+   ],
+   "field": "理论深度学习 / 架构设计",
+   "innovations": [
+    "首次建立混合架构层顺序效应的严格理论下界",
+    "构造 wrong-order 与 insufficient-profile 两类任务族刻画可解性边界",
+    "通过任务混合将多任务误差界转化为统一下界"
+   ],
+   "benchmarks": [
+    "synthetic task benchmarks",
+    "wrong-order tasks",
+    "insufficient-profile tasks"
+   ]
+  }
+ }
 }

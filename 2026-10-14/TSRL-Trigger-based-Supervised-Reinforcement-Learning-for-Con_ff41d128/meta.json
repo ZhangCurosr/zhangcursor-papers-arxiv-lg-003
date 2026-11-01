@@ -4,5 +4,36 @@
  "title": "TSRL-Trigger-based-Supervised-Reinforcement-Learning-for-Con",
  "token": "sk-pPTU9MbMU...",
  "created_at": "2026-10-14 07:15:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/d005c9a9-ad5d-4a8e-8b77-50a93a90932d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/d005c9a9-ad5d-4a8e-8b77-50a93a90932d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:09:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续学习",
+    "灾难性遗忘",
+    "大语言模型Agent",
+    "监督微调",
+    "强化学习",
+    "触发机制",
+    "GRPO"
+   ],
+   "field": "LLM Agent持续学习",
+   "innovations": [
+    "提出基于GSR的触发式监督机制，仅在策略失败的难状态上注入SFT专家监督",
+    "推导Fisher加权遗忘上界，理论证明稀疏监督可显著降低累积参数更新能量",
+    "设计线性退火调度使训练后期策略超越专家性能上限"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop",
+    "Deep Search",
+    "BrowseComp",
+    "BrowseComp-ZH",
+    "ScienceWorld",
+    "AIME 24/25"
+   ]
+  }
+ }
 }

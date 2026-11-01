@@ -4,5 +4,34 @@
  "title": "TStruct-Learning-Shared-Temporal-Structures-for-Long-term-Ti",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-10-14 07:20:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/9018df92-5a54-4efa-9804-9222ccd78289.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/9018df92-5a54-4efa-9804-9222ccd78289.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:10:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-term time series forecasting",
+    "temporal dependency modeling",
+    "shared structure learning",
+    "patch-based representation",
+    "parameter-efficient adaptation"
+   ],
+   "field": "长期时序预测",
+   "innovations": [
+    "揭示 patch 级时序关系矩阵跨样本/跨变量存在共享主导结构（谱集中度验证）",
+    "提出 TStruct：以共享基底凸组合 + 静态变量先验/动态样本查询实现自适应时序依赖建模",
+    "提出 PCAHead：共享基础投影 + 低秩残差通道适配实现参数高效的变量特异性预测"
+   ],
+   "benchmarks": [
+    "ETTh1",
+    "ETTh2",
+    "ETTm1",
+    "ETTm2",
+    "Weather",
+    "Electricity",
+    "Traffic"
+   ]
+  }
+ }
 }

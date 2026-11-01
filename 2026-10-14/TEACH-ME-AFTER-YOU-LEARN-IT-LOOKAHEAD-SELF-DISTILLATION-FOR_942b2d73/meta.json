@@ -4,5 +4,34 @@
  "title": "TEACH-ME-AFTER-YOU-LEARN-IT-LOOKAHEAD-SELF-DISTILLATION-FOR",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-10-14 07:17:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/bda393bf-4d6b-422a-8eba-f61c5e690fd0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/bda393bf-4d6b-422a-8eba-f61c5e690fd0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:07:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "On-Policy Self-Distillation",
+    "Lookahead",
+    "Cross-Scoring",
+    "Harmonious Modulation",
+    "GRPO",
+    "Scientific Reasoning",
+    "Interactive Agent"
+   ],
+   "field": "大语言模型强化学习",
+   "innovations": [
+    "将自蒸馏从同实例扩展到跨实例，通过虚拟RL更新构造lookahead teacher实现inter-instance监督",
+    "Cross Scoring机制显式提取跨实例学习信号，避免supervision entanglement",
+    "基于信号一致性的自适应GRPO优势调制，协调RLVR与OPSD两种监督源"
+   ],
+   "benchmarks": [
+    "SciKnowEval L3",
+    "ALFWorld",
+    "WebShop",
+    "Search"
+   ]
+  }
+ }
 }

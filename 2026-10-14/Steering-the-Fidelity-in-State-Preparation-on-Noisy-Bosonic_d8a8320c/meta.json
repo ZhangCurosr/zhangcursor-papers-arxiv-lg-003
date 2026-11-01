@@ -4,5 +4,32 @@
  "title": "Steering-the-Fidelity-in-State-Preparation-on-Noisy-Bosonic",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-10-14 18:22:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/3808bebe-e41c-40fc-9049-7fd676c89b1f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/3808bebe-e41c-40fc-9049-7fd676c89b1f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:06:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Quantum State Preparation",
+    "Risk-Sensitive Optimization",
+    "Bosonic Systems",
+    "SNAP-Displacement",
+    "Quantum Trajectories",
+    "Entropic Risk Measure",
+    "Variational Quantum Algorithms"
+   ],
+   "field": "含噪量子计算",
+   "innovations": [
+    "将 entropic risk measure 引入含噪量子态制备，提出轨迹级风险寻求优化框架",
+    "通过风险系数 β 实现最低不完美度与成功率的可调权衡",
+    "风险寻求优化将最低纯态不完美度降低四个数量级（从 10⁻² 至 10⁻⁶）"
+   ],
+   "benchmarks": [
+    "Haar 随机纯态制备",
+    "d=8 Fock 空间",
+    "B=4 SD-blocks"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Statistical-Vignettes-on-the-Grokking-Phenomenon",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-10-14 07:13:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/0690fc61-ce25-498c-8e85-3134937bc6bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/0690fc61-ce25-498c-8e85-3134937bc6bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:05:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Grokking",
+    "delayed generalization",
+    "singular perturbation",
+    "Fenichel theory",
+    "interpolation edge",
+    "gradient flow",
+    "high-dimensional statistics"
+   ],
+   "field": "理论机器学习 / 优化动力学",
+   "innovations": [
+    "利用Fenichel奇异摄动理论分离快慢动力学，给出Grokking平台长度的解析渐近公式",
+    "证明weight decay非Grokking的必要条件，仅调节延迟长度与可达准确率上限",
+    "刻画插值边界处谱间隙消失导致的额外对数延迟机制"
+   ],
+   "benchmarks": [
+    "synthetic bilinear classification",
+    "gradient flow vs gradient descent comparison"
+   ]
+  }
+ }
 }

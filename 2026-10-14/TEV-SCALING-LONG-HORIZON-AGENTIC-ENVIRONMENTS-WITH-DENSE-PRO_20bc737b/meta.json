@@ -4,5 +4,34 @@
  "title": "TEV-SCALING-LONG-HORIZON-AGENTIC-ENVIRONMENTS-WITH-DENSE-PRO",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-10-14 07:14:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7b305f4b-8319-414f-8ca1-13efae5b91fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7b305f4b-8319-414f-8ca1-13efae5b91fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:08:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-horizon agent",
+    "reinforcement learning",
+    "reward shaping",
+    "synthetic data",
+    "terminal agent",
+    "GRPO",
+    "progress potential",
+    "TEV-GYM"
+   ],
+   "field": "长程Agent强化学习",
+   "innovations": [
+    "潜在世界优先合成：以完整latent world为单一anchor反向生成任务/verifier/progress scorer，消除artifact drift",
+    "PPRS密集进度奖励：基于workflow DAG的Φ(s)将长程稀疏奖励转化为每步shaping信号，修复GRPO全失败组梯度饥饿",
+    "TEV-GYM数据集：1,170个含staged progressive reward的7域长程agent训练环境，median 12.4 min per rollout"
+   ],
+   "benchmarks": [
+    "ALE-CM",
+    "Terminal-Bench 3.0 CM",
+    "Terminal-Bench 4.0 CM",
+    "Terminal-Bench 2.1"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Steering-the-Fidelity-in-State-Preparation-on-Noisy-Bosonic",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-10-14 07:12:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/3680a05c-f4f0-4c26-af94-4772ea663222.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/3680a05c-f4f0-4c26-af94-4772ea663222.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:06:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "量子态制备",
+    "玻色子系统",
+    "风险寻求优化",
+    "熵风险度量",
+    "量子轨迹",
+    "SNAP-Displacement协议",
+    "含噪量子计算"
+   ],
+   "field": "含噪量子变分优化",
+   "innovations": [
+    "将 entropic risk measure 引入玻色子系统态制备，设计轨迹级风险寻求目标函数",
+    "提出保真度熵风险与对数不可信度熵风险两种目标，实现不可信度四个数量级改善",
+    "基于 SCG 框架给出轨迹级熵风险目标的蒙特卡洛梯度估计器"
+   ],
+   "benchmarks": [
+    "Haar随机纯态制备",
+    "平均保真度基线",
+    "10^-6 不可信度阈值达标率"
+   ]
+  }
+ }
 }

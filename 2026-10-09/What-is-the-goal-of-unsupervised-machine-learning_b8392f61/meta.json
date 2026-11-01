@@ -4,5 +4,27 @@
  "title": "What-is-the-goal-of-unsupervised-machine-learning",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-10-09 19:17:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/236f2eda-ba3b-4f99-be72-b0e6229d9896.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/236f2eda-ba3b-4f99-be72-b0e6229d9896.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:05:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督学习",
+    "学习目标分类",
+    "可识别性",
+    "自监督学习",
+    "分布估计",
+    "数据生成",
+    "特征提取",
+    "数据理解"
+   ],
+   "field": "无监督学习理论基础",
+   "innovations": [
+    "提出无监督学习四目标分类框架（分布估计/数据生成/特征提取/数据理解）",
+    "论证各目标间存在正交性与潜在矛盾，挑战单一目标预设"
+   ]
+  }
+ }
 }

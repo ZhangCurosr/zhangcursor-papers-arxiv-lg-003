@@ -4,5 +4,31 @@
  "title": "TEXTURE-INTERPOLATION-AS-TEXTON-MATCHING",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-10-14 07:29:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/1665dd17-56d4-4113-a1fc-15a1b2ebdfd3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/1665dd17-56d4-4113-a1fc-15a1b2ebdfd3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:08:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "texture interpolation",
+    "optimal transport",
+    "texton matching",
+    "generative models",
+    "feature blending"
+   ],
+   "field": "纹理生成与编辑",
+   "innovations": [
+    "在冻结编码器-解码器框架内用外观感知最优传输匹配替代位置配对，显著提升纹理插值质量",
+    "系统比较软OT与精确OT等匹配规则，揭示配对形式比外观信息本身更重要",
+    "证明texton匹配干预可迁移至不同预训练纹理插值器（Texture Mixer）无需重新训练"
+   ],
+   "benchmarks": [
+    "DTD texture dataset",
+    "KID",
+    "FID",
+    "Inception/DINOv2 realism"
+   ]
+  }
+ }
 }

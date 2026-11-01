@@ -4,5 +4,30 @@
  "title": "Who-Verifies-the-Verifier-Co-Evolving-Inspectable-Graders-wi",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-10-09 19:18:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/4d562af0-532d-4bba-9d36-ac71850776e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/4d562af0-532d-4bba-9d36-ac71850776e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:05:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-improving agents",
+    "verifier evolution",
+    "reward hacking",
+    "inspectable graders",
+    "co-evolution"
+   ],
+   "field": "自改进Agent系统与验证器设计",
+   "innovations": [
+    "将verifier作为可演化对象而非给定信号",
+    "发现锚定纪律是verifier安全的负载保障",
+    "Double Ratchet框架保留ground truth 88-110%提升"
+   ],
+   "benchmarks": [
+    "MBPP+",
+    "Spider 2.0-Snow",
+    "Report Generation"
+   ]
+  }
+ }
 }

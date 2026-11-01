@@ -4,5 +4,37 @@
  "title": "TRAIN-FOR-MANY-UPDATE-WITH-ONE-IMPROVING-MULTI-SAMPLE-REASON",
  "token": "sk-f9bQDVs2Y...",
  "created_at": "2026-10-14 18:27:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/47d9541c-676a-4c6a-8b47-318053b1ac8c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/47d9541c-676a-4c6a-8b47-318053b1ac8c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:09:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多样本推理",
+    "Pass@K",
+    "Fenchel-Bregman优化",
+    "变分后验学习",
+    "有限K后验学习",
+    "递归推理",
+    "数学推理"
+   ],
+   "field": "大模型推理与多样本采样",
+   "innovations": [
+    "将Fenchel共轭重公式化与Bregman EMA追踪结合，实现每次更新单次后验采样的有限K后验学习",
+    "问题相关梯度权重K*F^(K-1)的自然涌现，使训练自动聚焦于其他候选难以解决的问题"
+   ],
+   "benchmarks": [
+    "Sudoku-Extreme",
+    "Maze-Hard",
+    "ARC-AGI-1",
+    "ARC-AGI-2",
+    "MATH500",
+    "OlymMATH",
+    "AMC23",
+    "AIME24",
+    "AIME25"
+   ]
+  }
+ }
 }

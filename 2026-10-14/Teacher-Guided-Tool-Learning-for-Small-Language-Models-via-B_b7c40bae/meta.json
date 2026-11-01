@@ -4,5 +4,31 @@
  "title": "Teacher-Guided-Tool-Learning-for-Small-Language-Models-via-B",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-10-14 18:22:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/abfdc50d-c1bf-4474-aafd-6e2122a0f69c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/abfdc50d-c1bf-4474-aafd-6e2122a0f69c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:10:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "小语言模型",
+    "工具学习",
+    "强化学习",
+    "知识蒸馏",
+    "双向KL",
+    "教师指导"
+   ],
+   "field": "小型语言模型工具使用增强",
+   "innovations": [
+    "选择性反向KL教师指导与持续前向KL演示监督相结合的双向KL正则化框架",
+    "基于任务表现阈值的 token 级 advantage 修正机制，区分错误偏好并精细调整"
+   ],
+   "benchmarks": [
+    "BFCL-v4",
+    "API-Bank",
+    "GSM8K",
+    "HotpotQA"
+   ]
+  }
+ }
 }

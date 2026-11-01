@@ -4,5 +4,27 @@
  "title": "TAMING-SOFTMAX-AT-THE-LIMITS-OF-MUON-AUNIFIED-APPROACH-THROU",
  "token": "sk-u8lryRDFU...",
  "created_at": "2026-10-14 18:27:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/1dd8196c-0d8b-4042-a861-d51677d9431c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/1dd8196c-0d8b-4042-a861-d51677d9431c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:06:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Hilbert距离",
+    "Muon优化器",
+    "softmax模块",
+    "RowNorm",
+    "Compositional Muon",
+    "概率分布稳定性",
+    "优化几何"
+   ],
+   "field": "深度学习优化器设计",
+   "innovations": [
+    "提出Hilbert距离作为softmax模块的统一更新约束度量",
+    "从概率分布稳定性推导RowNorm和Compositional Muon的数学基础",
+    "建立Hilbert距离与CE损失界、TV界的严格关系"
+   ]
+  }
+ }
 }

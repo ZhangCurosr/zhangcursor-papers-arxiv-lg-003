@@ -4,5 +4,34 @@
  "title": "THE-TOKENS-STRIKE-BACK-SAFETY-AWARE-DE-NOISING-WITH-DIRECTIO",
  "token": "sk-U7bL6pfXM...",
  "created_at": "2026-10-14 18:27:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/ca441976-71e4-4c9b-8747-e6054852d509.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/ca441976-71e4-4c9b-8747-e6054852d509.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:09:37",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "扩散语言模型",
+    "安全引导",
+    "激活干预",
+    "去噪过程",
+    "零样本对齐",
+    "选择性门控"
+   ],
+   "field": "扩散语言模型安全对齐",
+   "innovations": [
+    "首次将激活方向引导系统引入扩散语言模型推理阶段，提出SADDER框架",
+    "设计选择性二值门控机制，根据去噪动态得分仅在有害偏向位置施校正，平衡安全与质量",
+    "提出Warm-up+Selective两阶段策略，并结合位置级安全分布理论分析"
+   ],
+   "benchmarks": [
+    "RealToxicityPrompts",
+    "JailbreakBench",
+    "AdvBench",
+    "HarmBench",
+    "XSTest",
+    "BeaverTails"
+   ]
+  }
+ }
 }

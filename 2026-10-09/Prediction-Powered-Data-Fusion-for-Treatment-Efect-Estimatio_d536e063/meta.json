@@ -4,5 +4,32 @@
  "title": "Prediction-Powered-Data-Fusion-for-Treatment-Efect-Estimatio",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-10-09 19:18:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/8dbcffbb-03f3-42ea-b596-0c621629173f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/8dbcffbb-03f3-42ea-b596-0c621629173f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:04:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "causal inference",
+    "data fusion",
+    "RCT-OBS integration",
+    "ATE estimation",
+    "CATE learning",
+    "prediction-powered inference",
+    "density ratio calibration"
+   ],
+   "field": "因果推断与数据融合",
+   "innovations": [
+    "提出AIPW-Fusion估计量，在任意OBS混杂下保持无偏并联合优化两通道降方差",
+    "提出DRF/RF两个CATE学习器，无需建模混杂函数即保持RCT目标",
+    "校准密度比估计以消除偏差，提供有效置信区间与风险上界理论"
+   ],
+   "benchmarks": [
+    "IHDP",
+    "ACIC 2016",
+    "synthetic design with confounded OBS"
+   ]
+  }
+ }
 }

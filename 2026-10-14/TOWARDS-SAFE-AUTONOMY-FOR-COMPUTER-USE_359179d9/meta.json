@@ -4,5 +4,10 @@
  "title": "TOWARDS-SAFE-AUTONOMY-FOR-COMPUTER-USE",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-10-14 18:25:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/0383d124-abe0-4328-a552-1ca59c33a3c0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/0383d124-abe0-4328-a552-1ca59c33a3c0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:09:07",
+  "chunks": 3
+ }
 }

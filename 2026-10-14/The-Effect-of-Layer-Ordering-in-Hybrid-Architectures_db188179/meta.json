@@ -4,5 +4,31 @@
  "title": "The-Effect-of-Layer-Ordering-in-Hybrid-Architectures",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-10-14 07:23:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/187ea464-5d6d-453f-ae38-88382ab1971a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/187ea464-5d6d-453f-ae38-88382ab1971a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:11:41",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "hybrid architecture",
+    "layer ordering",
+    "transformer",
+    "state-space model",
+    "Mamba",
+    "theory of deep learning"
+   ],
+   "field": "混合架构设计与效率",
+   "innovations": [
+    "证明混合架构最优层顺序高度依赖任务，不存在普适配置",
+    "提出‘包含关系’作为性能预测指标",
+    "构造 Exact Copy 与 Segmented Retrieval 任务实现理论分离"
+   ],
+   "benchmarks": [
+    "Exact Copy",
+    "Segmented Retrieval",
+    "Associative Recall (2,1)-AR"
+   ]
+  }
+ }
 }

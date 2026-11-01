@@ -4,5 +4,32 @@
  "title": "TEACH-ME-AFTER-YOU-LEARN-IT-LOOKAHEAD-SELF-DISTILLATION-FOR",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-10-14 18:29:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/d17c3b6e-03ac-49d2-99b4-3f61ae6309de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/d17c3b6e-03ac-49d2-99b4-3f61ae6309de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:07:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-distillation",
+    "RLVR",
+    "GRPO",
+    "on-policy distillation",
+    "reasoning LLMs",
+    "inter-instance supervision"
+   ],
+   "field": "大语言模型强化学习训练",
+   "innovations": [
+    "提出跨实例蒸馏：lookahead teacher 先学其他 rollout 再教当前实例，避免 supervision entanglement",
+    "Cross Scoring 机制：通过两组虚拟 RL 更新构建 teacher 并交叉评分，显式利用跨实例监督信号",
+    "Harmonious Modulation：根据 lookahead 信号与 GRPO advantage 的一致性自适应调制 advantage 幅度"
+   ],
+   "benchmarks": [
+    "SciKnowEval L3",
+    "ALFWorld",
+    "WebShop",
+    "Search"
+   ]
+  }
+ }
 }

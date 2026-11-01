@@ -4,5 +4,32 @@
  "title": "SoK-Rethinking-Membership-Inference-in-Tabular-Machine-Learn",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-10-14 07:26:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/8035863f-3238-4ca4-98be-8d53fa180240.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/8035863f-3238-4ca4-98be-8d53fa180240.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 19:05:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "成员推理攻击",
+    "表格数据",
+    "隐私评估",
+    "k-匿名",
+    "差分隐私"
+   ],
+   "field": "机器学习隐私安全",
+   "innovations": [
+    "基于对手最小访问需求的新MIA分类法",
+    "证明无参考攻击与参考模型攻击在统计上等价",
+    "首次系统量化单一记录在MIA中的脆弱性"
+   ],
+   "benchmarks": [
+    "COMPAS Recidivism",
+    "MIC Myocardial Infarction",
+    "Diabetes Readmission",
+    "Surgery",
+    "Half Million Lifestyle"
+   ]
+  }
+ }
 }
