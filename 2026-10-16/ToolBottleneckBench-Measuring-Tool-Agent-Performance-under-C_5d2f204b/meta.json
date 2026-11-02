@@ -4,5 +4,10 @@
  "title": "ToolBottleneckBench-Measuring-Tool-Agent-Performance-under-C",
  "token": "sk-aqqIvKJig...",
  "created_at": "2026-10-16 19:21:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/4d11ab4b-16e7-4e4b-8ef6-1d216a0c2cbf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/4d11ab4b-16e7-4e4b-8ef6-1d216a0c2cbf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:16:19",
+  "chunks": 1
+ }
 }

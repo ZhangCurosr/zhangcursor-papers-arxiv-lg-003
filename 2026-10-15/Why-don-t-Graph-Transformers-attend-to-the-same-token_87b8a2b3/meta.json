@@ -4,5 +4,31 @@
  "title": "Why-don-t-Graph-Transformers-attend-to-the-same-token",
  "token": "sk-u8lryRDFU...",
  "created_at": "2026-10-15 07:06:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/76fd7c01-d30e-43ff-a230-7a6c9d71f3e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/76fd7c01-d30e-43ff-a230-7a6c9d71f3e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:13:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Graph Transformer",
+    "attention sink",
+    "GRIT",
+    "dot-product attention",
+    "gated scoring",
+    "molecular graphs",
+    "over-smoothing"
+   ],
+   "field": "图深度学习",
+   "innovations": [
+    "首次系统研究 Graph Transformer 中的 attention sink 现象并证明打分函数是决定性因素",
+    "发现图 Transformer 与 LLM 相反的 sink-尺寸趋势（图越大 sink 越少）",
+    "提出三个 attention 上界（对称性/局部性/打分散布）并实证其在真实分子上均不充分"
+   ],
+   "benchmarks": [
+    "ZINC-12k",
+    "Peptides-func"
+   ]
+  }
+ }
 }

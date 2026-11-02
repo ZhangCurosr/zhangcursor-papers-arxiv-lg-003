@@ -4,5 +4,31 @@
  "title": "inLoRA-MINT-Internal-Representations-for-Auditing-Training-D",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-10-14 07:16:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/3df58b07-945b-43ea-9a5b-56c77baab1bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/3df58b07-945b-43ea-9a5b-56c77baab1bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:08:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Membership Inference Test",
+    "LoRA",
+    "LLM Auditing",
+    "Model Privacy",
+    "Internal Representations",
+    "Data Provenance"
+   ],
+   "field": "大模型安全与隐私审计",
+   "innovations": [
+    "基于内部激活统计、梯度敏感性与输出信号的15维混合特征，实现无需完整参数访问的LoRA微调模型审计",
+    "揭示LoRA注入点（MLP路径>Attention路径）对隐私泄露的影响",
+    "证明多源特征互补性，All3Layers配置在4模型3数据集上AUC达95%-99%"
+   ],
+   "benchmarks": [
+    "Medical-o1-reasoning-SFT",
+    "CAMEL Math Reasoning",
+    "Maths & College Reasoning"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "When-Non-Adversarial-Noise-Hurts-Learning-Benchmarking-Skill",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-10-15 07:07:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/04c1b8bd-4a14-4e34-bed7-75a6207c12ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/04c1b8bd-4a14-4e34-bed7-75a6207c12ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:12:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Skill Self-Evolution",
+    "Agent Robustness",
+    "Non-Adversarial Noise",
+    "Benchmark",
+    "RSE-Bench",
+    "RSEClaw",
+    "LLM Agent"
+   ],
+   "field": "Agent 鲁棒性与自演化",
+   "innovations": [
+    "首个面向非对抗性噪声的技能自演化鲁棒性基准 RSE-Bench，正交分离学习侧与评估侧噪声",
+    "提出任务保持型四类噪声注入协议（指令/证据/记录/绑定），覆盖自演化循环全入口",
+    "构建方法无关的统一评测框架 RSEClaw，内置过程诊断（IER/CCS/版本追踪）与 paired-replay audit"
+   ],
+   "benchmarks": [
+    "RSE-Bench",
+    "SpreadsheetBench",
+    "SP-DocVQA",
+    "MP-DocVQA",
+    "ALFWorld",
+    "SkillFlow",
+    "ContinualSkillBench"
+   ]
+  }
+ }
 }

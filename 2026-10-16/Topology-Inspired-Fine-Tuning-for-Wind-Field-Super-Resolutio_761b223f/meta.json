@@ -4,5 +4,31 @@
  "title": "Topology-Inspired-Fine-Tuning-for-Wind-Field-Super-Resolutio",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-10-16 06:47:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/4740c020-368d-4f34-a510-0ae46609961b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/4740c020-368d-4f34-a510-0ae46609961b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:16:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scientific super-resolution",
+    "topological data analysis",
+    "persistence diagram",
+    "merge tree",
+    "wind field",
+    "fine-tuning",
+    "topology-inspired loss"
+   ],
+   "field": "科学计算超分辨率与拓扑数据分析交叉",
+   "innovations": [
+    "提出梯度幅值监督与固定持久性对监督的轻量可微分拓扑启发损失",
+    "系统16配置损失研究揭示梯度与固定对监督的互补性",
+    "证明PD与MT改进在字段级别常解耦，揭示拓扑描述符的互补性"
+   ],
+   "benchmarks": [
+    "NREL WIND Toolkit 168-field benchmark",
+    "PhIRE MR-to-HR wind SR"
+   ]
+  }
+ }
 }

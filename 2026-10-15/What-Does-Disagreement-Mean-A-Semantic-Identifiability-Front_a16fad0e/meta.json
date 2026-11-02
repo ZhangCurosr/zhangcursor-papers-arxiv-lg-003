@@ -4,5 +4,29 @@
  "title": "What-Does-Disagreement-Mean-A-Semantic-Identifiability-Front",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-10-15 07:04:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/92e47dcd-932f-4dfe-8924-3674744defb6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/92e47dcd-932f-4dfe-8924-3674744defb6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:10:13",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "semantic identifiability",
+    "LLM voting",
+    "disagreement analysis",
+    "abstention channel",
+    "finite-sample theory",
+    "preference learning"
+   ],
+   "field": "大语言模型理论与可解释性",
+   "innovations": [
+    "证明BRA组合是实现(μ,τ,α)三元组点识别的最小信道集合",
+    "给出精确有限样本矩、Hoeffding集中界与语义动作恢复充分样本量下界"
+   ],
+   "benchmarks": [
+    "Semantic Fiber Reconstruction",
+    "Channel Frontier TV Distance"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "TimeCap-A-Scalable-Open-Source-Pipeline-for-Captioning-Weara",
  "token": "sk-EKa3zthlJ...",
  "created_at": "2026-10-16 06:51:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/8c83b97c-4f79-4b19-abec-e8cc051328d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/8c83b97c-4f79-4b19-abec-e8cc051328d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:15:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列语言模型",
+    "可穿戴设备",
+    "字幕化管道",
+    "多模态对齐",
+    "健康预测",
+    "确定性生成"
+   ],
+   "field": "时间序列语言模型与可穿戴健康数据分析",
+   "innovations": [
+    "提出四层可组合确定性字幕管道（统计/结构/语义/跨通道），无需LLM参与",
+    "引入频道模式抽象机制实现跨数据集可配置扩展",
+    "构建首个开放多模态可穿戴配对字幕语料库MHCap（700万+字幕）"
+   ],
+   "benchmarks": [
+    "OpenMHC健康结果预测基准",
+    "WESAD情绪检测数据集"
+   ]
+  }
+ }
 }

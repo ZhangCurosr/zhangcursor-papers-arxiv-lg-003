@@ -4,5 +4,30 @@
  "title": "Who-s-Behind-the-Text-Robust-Model-Authorship-Attribution",
  "token": "sk-57bzKRZBk...",
  "created_at": "2026-10-15 07:05:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/5977298c-20c1-491d-b636-afabcf6c1d42.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/5977298c-20c1-491d-b636-afabcf6c1d42.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:12:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型作者归属",
+    "MAA",
+    "分布外泛化",
+    "源条件建模",
+    "LoRA适配",
+    "生成文本检测"
+   ],
+   "field": "模型作者归属与文本溯源",
+   "innovations": [
+    "提出ATLAS通过源条件文本建模实现鲁棒MAA，避免直接源预测的捷径依赖",
+    "引入MAABench基准系统评估domain/version/joint三类型分布偏移",
+    "证明源条件似然可迁移用于蒸馏教师识别和部署模型相似度分析"
+   ],
+   "benchmarks": [
+    "MAABench",
+    "OpenTuringBench"
+   ]
+  }
+ }
 }

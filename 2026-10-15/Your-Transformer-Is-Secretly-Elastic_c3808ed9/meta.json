@@ -4,5 +4,31 @@
  "title": "Your-Transformer-Is-Secretly-Elastic",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-10-15 18:05:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/64eb6f72-ce25-4a19-964d-463e8e13db7b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/64eb6f72-ce25-4a19-964d-463e8e13db7b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:15:23",
+  "chunks": 3,
+  "meta": {
+   "keywords": [
+    "elastic inference",
+    "differentiable soft pruning",
+    "Transformer sparsity",
+    "multi-objective optimization",
+    "retraining-free compression"
+   ],
+   "field": "模型压缩与高效推理",
+   "innovations": [
+    "无需重训练的逐神经元+注意力头联合弹性化方法",
+    "多目标可微分软剪枝实现平滑预算-精度曲线",
+    "零权重校正评估突出纯稀疏效率"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "Pascal VOC 2012",
+    "MTEB(eng, v2)",
+    "BEIR"
+   ]
+  }
+ }
 }

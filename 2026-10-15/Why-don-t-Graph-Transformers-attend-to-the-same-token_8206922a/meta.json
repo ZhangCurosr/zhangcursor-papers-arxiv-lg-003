@@ -4,5 +4,10 @@
  "title": "Why-don-t-Graph-Transformers-attend-to-the-same-token",
  "token": "sk-u8lryRDFU...",
  "created_at": "2026-10-15 18:08:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/d4e1e3a9-cf9a-424a-bc01-3f7846ba76af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/d4e1e3a9-cf9a-424a-bc01-3f7846ba76af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:13:39",
+  "chunks": 1
+ }
 }

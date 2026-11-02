@@ -4,5 +4,31 @@
  "title": "TimeCap-A-Scalable-Open-Source-Pipeline-for-Captioning-Weara",
  "token": "sk-EKa3zthlJ...",
  "created_at": "2026-10-16 19:20:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/623d79de-f9e9-4b80-9c49-ae135519ee09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/623d79de-f9e9-4b80-9c49-ae135519ee09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:15:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Time-series Language Models",
+    "Wearable Health Data",
+    "Deterministic Captioning",
+    "OpenMHC",
+    "MHCap",
+    "Cross-channel Synthesis",
+    "TSLM"
+   ],
+   "field": "时序语言模型与可穿戴健康数据分析",
+   "innovations": [
+    "四层确定性标注管道，无语言模型参与，可审计可复现",
+    "跨通道合成层整合多模态证据生成统一叙述",
+    "通道方案抽象实现新数据集配置即适配"
+   ],
+   "benchmarks": [
+    "OpenMHC 健康结果预测",
+    "WESAD 情感识别"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "What-You-Sign-Is-Not-What-You-Run-The-Verifiability-Gap-in-Q",
  "token": "sk-pPTU9MbMU...",
  "created_at": "2026-10-15 07:06:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/5c4d004d-381b-4c4f-9c91-67266097837d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/5c4d004d-381b-4c4f-9c91-67266097837d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:09:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM quantization",
+    "supply chain verifiability",
+    "reproducible builds",
+    "model signing",
+    "GGUF",
+    "floating-point non-determinism",
+    "independence verification rate"
+   ],
+   "field": "可信AI系统与机器学习供应链安全",
+   "innovations": [
+    "提出IVR指标并首次测量GGUF生态独立可验证率为0/198",
+    "定位缺失关键坐标（FP收缩设置与每张量配方）并实现7/8 bit-exact重建",
+    "划定B>0 regime下自然方差与篡改检测的安全边界"
+   ],
+   "benchmarks": [
+    "Hugging Face GGUF下载量Top 200",
+    "wikitext-2 perplexity"
+   ]
+  }
+ }
 }

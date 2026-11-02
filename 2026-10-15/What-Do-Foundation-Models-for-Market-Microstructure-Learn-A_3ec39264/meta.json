@@ -4,5 +4,30 @@
  "title": "What-Do-Foundation-Models-for-Market-Microstructure-Learn-A",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-10-15 07:11:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/c413a270-aaaa-407e-889e-fa273a6f58ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/c413a270-aaaa-407e-889e-fa273a6f58ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:08:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "limit order book",
+    "foundation models",
+    "in-context learning",
+    "Bayesian inference",
+    "market simulation",
+    "scaling laws"
+   ],
+   "field": "市场微观结构与金融大模型",
+   "innovations": [
+    "以已知潜参数的合成 LOB 模拟器为基准，精确验证自回归预训练实现摊销贝叶斯推断与在线滤波",
+    "揭示模型容量与 Token 量早期饱和，体制多样性是泛化的决定性资源",
+    "冻结模型的线性读出可在 0.02s 内高精度校准 Hawkes/代理参数，远超窗口 MLE"
+   ],
+   "benchmarks": [
+    "LOB-Bench",
+    "NASDAQ LOBSTER ITCH (2012-06-21)"
+   ]
+  }
+ }
 }

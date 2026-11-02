@@ -4,5 +4,35 @@
  "title": "Training-LLMs-for-Multi-Agent-Collaboration-with-Verifiable",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-10-14 18:25:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/c329e5e1-852a-4d70-afe2-e205e79ab294.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/c329e5e1-852a-4d70-afe2-e205e79ab294.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:07:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-Agent Collaboration",
+    "Reinforcement Learning",
+    "Information Rewards",
+    "LLM Post-Training",
+    "Team Surprisal",
+    "Self-Play"
+   ],
+   "field": "多智能体协作与大语言模型后训练",
+   "innovations": [
+    "基于团队surprisal减少量的可验证细粒度信息奖励机制",
+    "自博弈RL中结合Shapley分配与参考模型KL正则的协作后训练框架",
+    "在可计算玩具环境中训练并将协作行为迁移至7个未见自然语言任务"
+   ],
+   "benchmarks": [
+    "HiddenBench",
+    "SILO-BENCH",
+    "SplitQA",
+    "MathChat",
+    "BenchForm",
+    "Einstein Puzzles",
+    "Collaboration Tax"
+   ]
+  }
+ }
 }

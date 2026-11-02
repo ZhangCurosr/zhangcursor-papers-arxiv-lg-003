@@ -4,5 +4,10 @@
  "title": "Training-Generalist-Navigation-Policies-via-Action-Self-Dist",
  "token": "sk-L9xk33MRr...",
  "created_at": "2026-10-14 18:29:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/5a25383a-747d-47fc-a460-b2737b856849.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/5a25383a-747d-47fc-a460-b2737b856849.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:06:42",
+  "chunks": 1
+ }
 }

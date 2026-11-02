@@ -4,5 +4,41 @@
  "title": "When-Does-the-Dependency-Graph-Help-Code-to-Architecture-Map",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-10-15 07:03:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/72ef2e2f-13b7-441f-afbe-0881c4e9fc42.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/72ef2e2f-13b7-441f-afbe-0881c4e9fc42.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:12:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Code-to-Architecture Mapping",
+    "Graph Neural Networks",
+    "Semi-supervised Node Classification",
+    "Self-training",
+    "Dependency Graph",
+    "Software Architecture",
+    "GCN",
+    "GAT",
+    "MLP Baseline"
+   ],
+   "field": "软件工程与架构分析中的图学习方法",
+   "innovations": [
+    "在无图 MLP 对照下量化依赖图对 C2A 映射的增量收益",
+    "按依赖类型分别建模始终优于合并单关系边",
+    "揭示训练种子敏感性并区分稳健图收益与波动排名"
+   ],
+   "benchmarks": [
+    "A.UML",
+    "C.Img",
+    "JabRef",
+    "Lucene",
+    "SH-3D",
+    "T.Mates",
+    "Bash",
+    "HDF",
+    "HDC",
+    "Chrome"
+   ]
+  }
+ }
 }

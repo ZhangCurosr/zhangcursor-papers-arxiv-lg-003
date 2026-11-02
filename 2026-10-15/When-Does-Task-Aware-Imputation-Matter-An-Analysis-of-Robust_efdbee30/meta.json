@@ -4,5 +4,31 @@
  "title": "When-Does-Task-Aware-Imputation-Matter-An-Analysis-of-Robust",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-10-15 07:10:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/a0b2f3f6-9f05-48fb-907d-1a196296c545.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/a0b2f3f6-9f05-48fb-907d-1a196296c545.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:11:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "missing data imputation",
+    "task-aware imputation",
+    "train-test mismatch",
+    "robustness",
+    "tabular classification",
+    "missingness mechanism"
+   ],
+   "field": "缺失数据处理与鲁棒学习",
+   "innovations": [
+    "提出统一联合优化框架将缺失值作为可学习残差变量与预测模型协同训练",
+    "系统证明重建误差与下游预测性能相关性极弱(ρ≈0.16-0.32)",
+    "揭示任务感知插补仅在分布偏移和MNAR等高难度场景下显著优于经典方法"
+   ],
+   "benchmarks": [
+    "OpenML 98 classification datasets",
+    "36 datasets for train-test mismatch evaluation",
+    "6 missingness mechanisms x 5 missing rates"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "When-Does-Task-Aware-Imputation-Matter-An-Analysis-of-Robust",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-10-15 18:09:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/dd93b54b-db82-44bd-820d-703c93442609.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/dd93b54b-db82-44bd-820d-703c93442609.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:10:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "missing data imputation",
+    "task-aware imputation",
+    "train-test mismatch",
+    "recovery ratio",
+    "tabular classification",
+    "distribution shift",
+    "latent optimization",
+    "amortized imputation"
+   ],
+   "field": "缺失数据学习与表格机器学习",
+   "innovations": [
+    "将缺失值作为可学习变量与预测模型联合优化的统一框架",
+    "证明重建误差与下游预测性能仅弱相关并提出 Hardness 分层评估",
+    "在训练-测试缺失率/机制偏移与困难场景下显著提升恢复比例与赢率"
+   ],
+   "benchmarks": [
+    "OpenML 98 个表格分类数据集",
+    "36 个分布偏移子集",
+    "MCAR/MAR/MNAR 及其变体缺失机制"
+   ]
+  }
+ }
 }

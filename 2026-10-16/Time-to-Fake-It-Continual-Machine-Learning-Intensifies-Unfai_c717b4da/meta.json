@@ -4,5 +4,33 @@
  "title": "Time-to-Fake-It-Continual-Machine-Learning-Intensifies-Unfai",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-10-16 19:22:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/f67281f0-ba85-4f85-9230-34d06269f47d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/f67281f0-ba85-4f85-9230-34d06269f47d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:14:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续学习",
+    "深度伪造检测",
+    "算法公平性",
+    "人口统计公平",
+    "灾难性遗忘",
+    "交叉性",
+    "ViT"
+   ],
+   "field": "计算机视觉中的公平性持续学习",
+   "innovations": [
+    "首个系统评估CL方法在深度伪造检测中四维度公平性演化趋势的研究，揭示精度保持但公平性普遍恶化的现象",
+    "证明不公平恶化不能仅由数据欠代表解释，replay/prompt/regularization三类方法的内部指标与公平性的关系存在异质性"
+   ],
+   "benchmarks": [
+    "AI-Face-FairnessBench",
+    "FaceForensics++",
+    "DFD",
+    "CelebDF",
+    "DFDC"
+   ]
+  }
+ }
 }

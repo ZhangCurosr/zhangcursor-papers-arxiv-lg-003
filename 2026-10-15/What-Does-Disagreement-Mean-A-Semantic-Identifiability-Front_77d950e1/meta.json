@@ -4,5 +4,30 @@
  "title": "What-Does-Disagreement-Mean-A-Semantic-Identifiability-Front",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-10-15 18:05:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/0f30f0bb-2563-4b97-bf42-e429e537bc22.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/0f30f0bb-2563-4b97-bf42-e429e537bc22.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:11:49",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "可识别性理论",
+    "偏好学习",
+    "语义分解",
+    "信道设计",
+    "RLHF",
+    "分歧建模"
+   ],
+   "field": "大语言模型偏好对齐",
+   "innovations": [
+    "证明匿名二元反馈无法区分持久分歧与非二元质量（语义纤维定理）",
+    "提出重复采样与弃权信号作为最小信道细化策略",
+    "建立信道等价性的完备分类与识别前沿"
+   ],
+   "benchmarks": [
+    "合成数据验证",
+    "语义量估计误差"
+   ]
+  }
+ }
 }

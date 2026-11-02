@@ -4,5 +4,31 @@
  "title": "Where-to-Start-How-to-Move-Analyzing-Curricula-under-GRPO-fo",
  "token": "sk-7wel9Fhtk...",
  "created_at": "2026-10-15 18:14:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/0551ead2-4b69-4c51-b70d-7e93c6b29fa9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/0551ead2-4b69-4c51-b70d-7e93c6b29fa9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:13:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GRPO",
+    "curriculum learning",
+    "agent RL",
+    "tool calling",
+    "long-horizon",
+    "guide-assisted start",
+    "Thompson sampling"
+   ],
+   "field": "大语言模型智能体训练",
+   "innovations": [
+    "提出引导辅助起始课程，系统解耦起始位置、交接粒度与移动规则对GRPO训练的影响",
+    "结果感知的工具调用级选择（Call-Bandit）在训练与未见类别上持续超越GRPO",
+    "证明末端起始在固定阈值规则下更有效，且可节省训练GPU时间"
+   ],
+   "benchmarks": [
+    "BFCL",
+    "AppWorld"
+   ]
+  }
+ }
 }

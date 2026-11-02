@@ -4,5 +4,10 @@
  "title": "When-Does-the-Dependency-Graph-Help-Code-to-Architecture-Map",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-10-15 18:05:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/0e707a68-84e1-420a-94f8-91bc5e249042.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/0e707a68-84e1-420a-94f8-91bc5e249042.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:12:15",
+  "chunks": 1
+ }
 }

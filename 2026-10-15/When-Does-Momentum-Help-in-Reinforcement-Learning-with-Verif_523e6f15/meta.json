@@ -4,5 +4,10 @@
  "title": "When-Does-Momentum-Help-in-Reinforcement-Learning-with-Verif",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-10-15 07:06:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/3e0f68f9-a265-4124-8be8-7225ace4862b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/3e0f68f9-a265-4124-8be8-7225ace4862b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:12:08",
+  "chunks": 3
+ }
 }

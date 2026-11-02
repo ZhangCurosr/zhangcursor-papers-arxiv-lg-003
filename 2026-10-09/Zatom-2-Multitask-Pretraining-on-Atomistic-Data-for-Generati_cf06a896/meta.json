@@ -4,5 +4,36 @@
  "title": "Zatom-2-Multitask-Pretraining-on-Atomistic-Data-for-Generati",
  "token": "sk-KgtqP1w4p...",
  "created_at": "2026-10-09 19:18:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/012dc6c6-5d2f-4cb9-a573-7fc18b54c868.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/012dc6c6-5d2f-4cb9-a573-7fc18b54c868.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 02:05:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "atomistic generation",
+    "flow matching",
+    "multitask pretraining",
+    "protein design",
+    "machine learning interatomic potential",
+    "force conditioning",
+    "cross-domain transfer"
+   ],
+   "field": "原子级生成建模与跨域迁移学习",
+   "innovations": [
+    "统一atom1/atom14分词支持分子/材料/蛋白质跨域生成",
+    "力条件生成控制样本弛豫状态",
+    "生成-预测联合预训练提升低数据蛋白质迁移能力"
+   ],
+   "benchmarks": [
+    "OMol25",
+    "OMat24",
+    "QM9",
+    "MP20",
+    "GEOM-Drugs",
+    "SCOPe-2k",
+    "LeMat-GenBench"
+   ]
+  }
+ }
 }
