@@ -4,5 +4,10 @@
  "title": "zPocket-Better-Pocket-Finding-with-Frozen-Co-Folding-Feature",
  "token": "sk-dpgvlEWCZ...",
  "created_at": "2026-10-14 18:32:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/83e29f7d-68d6-4fa7-84d5-01d49302e4bb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/83e29f7d-68d6-4fa7-84d5-01d49302e4bb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:49:22",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Whole-Body-Dexterity",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-10-16 06:50:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/1ea45275-5b7f-4058-9632-5f61821b6e39.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/1ea45275-5b7f-4058-9632-5f61821b6e39.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:55:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "whole-body manipulation",
+    "dexterous re-grasping",
+    "humanoid robot",
+    "sim-to-real",
+    "reinforcement learning",
+    "diffusion policy distillation",
+    "teleoperation refinement"
+   ],
+   "field": "人形机器人全身灵巧操作",
+   "innovations": [
+    "基于模式约束的重抓握目标图与双臂交接约束，使人形双臂-躯干尺度上学习连续滑动/滚动接触",
+    "从多对象专家轨迹蒸馏出仅依赖本体感受与物体几何的通用控制器，通过扩散+逆动力学精炼遥操作命令",
+    "Escapability 筛选抓取种子提升示范数据质量，配合球体预训练 warm-start 降低新物体训练成本"
+   ],
+   "benchmarks": [
+    "Shoulder tap round-trip (basketball/cardboard box)",
+    "Underarm stow round-trip (basketball/cardboard box)",
+    "Shelf pick-stow-carry-unstow-place sequence",
+    "Simulated 6-region transfer under noisy commands"
+   ]
+  }
+ }
 }

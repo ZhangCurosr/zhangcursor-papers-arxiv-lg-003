@@ -4,5 +4,36 @@
  "title": "What-Should-We-Remove-Evaluating-the-Reliability-and-Costs-o",
  "token": "sk-y9PdQWlPV...",
  "created_at": "2026-10-16 19:21:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/3d77b50e-4b86-4cf2-afe9-4cbb2d848037.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/3d77b50e-4b86-4cf2-afe9-4cbb2d848037.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:52:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "decontamination",
+    "data quality",
+    "benchmark contamination",
+    "reinforcement learning",
+    "math reasoning",
+    "evaluation methodology"
+   ],
+   "field": "机器学习数据工程",
+   "innovations": [
+    "首个专为去污染策略评估构建的双盲评审参考集（594对+80项完整边评审）",
+    "提出项目级误删评估方法：评审所有候选边而非单对精度",
+    "实证发现更激进语义清洗反而可靠性更低（88%误删率）",
+    "验证LLM裁判政策在未见过语料上的泛化能力（98.1%精度）"
+   ],
+   "benchmarks": [
+    "MATH-500",
+    "GSM8K",
+    "AIME24",
+    "AIME25",
+    "AIME26",
+    "AMC23"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "When-Should-a-Low-Light-Pipeline-Generate-Auditable-Risk-Con",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-10-16 06:56:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/2c7bb454-e242-4cb5-96eb-acb107268fc5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/2c7bb454-e242-4cb5-96eb-acb107268fc5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:54:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低光图像增强",
+    "选择性生成",
+    "共形预测",
+    "风险控制在线",
+    "可审计评估",
+    "反事实路由"
+   ],
+   "field": "低光图像增强与生成式恢复",
+   "innovations": [
+    "以反事实区域效用训练可校准路由",
+    "基于safe-suffix图像级共形否决保证边际危害",
+    "将预注册与自审计纳入LLIE选择性部署协议"
+   ],
+   "benchmarks": [
+    "LOL-v1",
+    "LOLv2-syn",
+    "LOLv2-real",
+    "SICE"
+   ]
+  }
+ }
 }

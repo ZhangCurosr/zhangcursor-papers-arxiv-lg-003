@@ -4,5 +4,34 @@
  "title": "Two-Clocks-Why-Larger-Rollout-Batches-Learn-Slower-but-Fail",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-10-14 07:11:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/c1dd936f-095c-4957-94e5-808ea3967aed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/c1dd936f-095c-4957-94e5-808ea3967aed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:46:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "rollout batch scaling",
+    "square-root rule",
+    "GRPO",
+    "critical batch",
+    "policy gradient",
+    "training stability",
+    "ratio clipping"
+   ],
+   "field": "大语言模型强化学习训练动力学",
+   "innovations": [
+    "提出双时钟框架统一解释多步RLVR中进展变慢与故障时钟不变的并行现象",
+    "证明平方根规则下临界批随学习率增大而缩小并远低于梯度噪声尺度",
+    "推导实用的分批ramp调度策略并实验验证其接近最优固定批次性能"
+   ],
+   "benchmarks": [
+    "DAPO-Math-17k",
+    "DeepScaleR-Preview",
+    "Qwen2.5-Math-1.5B",
+    "Qwen2.5-Math-7B"
+   ]
+  }
+ }
 }

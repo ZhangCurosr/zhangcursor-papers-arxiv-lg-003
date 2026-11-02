@@ -4,5 +4,33 @@
  "title": "When-is-a-better-LLM-worth-paying-for-Stochastic-Optimizatio",
  "token": "sk-pPTU9MbMU...",
  "created_at": "2026-10-16 19:21:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/802edb18-7618-4b53-b244-b39696330186.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/802edb18-7618-4b53-b244-b39696330186.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:55:46",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "随机优化",
+    "oracle 选择",
+    "保真度自适应",
+    "LLM 成本优化",
+    "阶段依赖策略",
+    "信息价值理论",
+    "投影梯度法",
+    "可信认证"
+   ],
+   "field": "低资源机器翻译",
+   "innovations": [
+    "阶段依赖保真度策略：证明混合保真度信息的最优使用取决于下游优化阶段",
+    "信息按决策价值购买而非内在准确度：将优化分析与经典信息价值理论连接",
+    "理论界与实际最优同一数量级：认证-训练成本权衡公式与实际最优 B 相差 ≤ 2 倍"
+   ],
+   "benchmarks": [
+    "HELM",
+    "Chatbot Arena",
+    "Data Completion Oracle"
+   ]
+  }
+ }
 }

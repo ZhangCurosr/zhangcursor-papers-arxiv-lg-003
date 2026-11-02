@@ -4,5 +4,29 @@
  "title": "V-SHARE-PROVABLE-CONVERGENCE-GUARANTEES-FOR-ADVANTAGE-BASED",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-10-16 06:50:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/ae04f25d-a2ef-46ec-b532-01c651d14c94.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/ae04f25d-a2ef-46ec-b532-01c651d14c94.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:53:08",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "advantage-based learning",
+    "provable convergence",
+    "Markovian sampling",
+    "two-timescale",
+    "contraction-variance tradeoff",
+    "off-policy learning"
+   ],
+   "field": "强化学习理论",
+   "innovations": [
+    "首次为优势基算法在 Markovian 采样下建立逐次收敛与有限样本保证",
+    "识别并形式化收缩-方差权衡现象，提出两时间尺度与递减β调度解决方案",
+    "通过优势分解消除异步Q-learning的稀有动作瓶颈"
+   ],
+   "benchmarks": [
+    "Discrete MDP (10 states, 5 actions, Dirichlet transition)"
+   ]
+  }
+ }
 }

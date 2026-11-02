@@ -4,5 +4,31 @@
  "title": "Weighted-Adjoint-Matching-Finetuning-Flow-Matching-Models-wi",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-10-15 07:07:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/9931a97e-ab97-468d-b127-49aab269c8ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/9931a97e-ab97-468d-b127-49aab269c8ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:48:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "flow matching",
+    "diffusion model fine-tuning",
+    "stochastic optimal control",
+    "weighted adjoint matching",
+    "mode collapse",
+    "KL regularization",
+    "coarse-to-fine generation"
+   ],
+   "field": "生成模型微调与对齐",
+   "innovations": [
+    "在 Adjoint Matching 的 SOC 问题中引入时间依赖控制代价权重 w(t)，利用扩散模型粗到细的生成特性在早期时间步保持多样性",
+    "证明加权 SOC 等价于在所有子路径 [0,t] 上施加时变 KL 正则的目标",
+    "设计数值稳定的 loss 形式，通过 λ(t)=2(1-t)t 消除边界处 γ(t) 的爆炸"
+   ],
+   "benchmarks": [
+    "Gaussian Mixture (two-component)",
+    "MNIST"
+   ]
+  }
+ }
 }

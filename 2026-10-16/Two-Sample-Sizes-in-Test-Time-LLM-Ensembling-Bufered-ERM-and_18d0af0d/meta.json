@@ -4,5 +4,30 @@
  "title": "Two-Sample-Sizes-in-Test-Time-LLM-Ensembling-Bufered-ERM-and",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-10-16 19:20:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/3f5a7535-59de-4290-8c06-172673088055.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/3f5a7535-59de-4290-8c06-172673088055.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:50:47",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "test-time ensembling",
+    "buffered ERM",
+    "deployment error",
+    "Hellinger modulus",
+    "minimax lower bound",
+    "majority voting",
+    "Rademacher complexity"
+   ],
+   "field": "大模型测试时推理与集成",
+   "innovations": [
+    "提出 Buffered ERM 框架，将部署投票误差分解为边界风险与指数衰减尾部项",
+    "建立有限部署定理（Theorem 2.4），给出比任何 T^{-k} 更快的尾部衰减上界",
+    "将 Donoho-Liu 模-测试方法应用于多模型投票的 Hellinger 模极小极大下界分析"
+   ],
+   "benchmarks": [
+    "论文未提及"
+   ]
+  }
+ }
 }

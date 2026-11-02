@@ -4,5 +4,32 @@
  "title": "When-the-KV-Cache-Is-Slower-Than-the-GPU-Scaling-Remote-KV-T",
  "token": "sk-8dCw3hSU3...",
  "created_at": "2026-10-16 06:49:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/ce679eb0-cd07-406a-932f-f16fbc0f1dc8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/ce679eb0-cd07-406a-932f-f16fbc0f1dc8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:55:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV cache",
+    "remote tier",
+    "context parallelism",
+    "MLA",
+    "LLM serving",
+    "LMCache",
+    "prefill optimization"
+   ],
+   "field": "大语言模型推理系统优化",
+   "innovations": [
+    "提出B*=sR和T_0双重参数成本模型量化远程KV命中收益",
+    "设计跨PCP rank的分片MLA KV存储与永不失步的加载协议",
+    "Rank分区远程层实现无协调的6.3倍带宽扩展"
+   ],
+   "benchmarks": [
+    "16k-token production trace replay",
+    "450-request hit-heavy subset (98.5% L2 hit rate)",
+    "200k-token SLA benchmark (TTFT P90<70s, P50<30s)"
+   ]
+  }
+ }
 }

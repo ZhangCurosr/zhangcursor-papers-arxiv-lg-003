@@ -4,5 +4,33 @@
  "title": "Uncertainty-Aware-Federated-Learning-for-Joint-Communication",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-10-16 19:20:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/71f64f92-64bf-4480-9a08-8aad02170836.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/71f64f92-64bf-4480-9a08-8aad02170836.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:50:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "federated learning",
+    "uncertainty injection",
+    "joint communication and computation",
+    "XR systems",
+    "robust resource allocation",
+    "6G"
+   ],
+   "field": "无线通信与边缘计算资源管理",
+   "innovations": [
+    "联合不确定性注入机制同时处理信道与计算双重误差",
+    "无监督DNN训练直接优化γ分位数最差延迟目标",
+    "联邦学习替代集中式优化降低训练数据交换量2-3个数量级"
+   ],
+   "benchmarks": [
+    "SAA/WMMSE",
+    "Non-robust FP",
+    "Uniform FP",
+    "FedProx",
+    "Local Learning"
+   ]
+  }
+ }
 }

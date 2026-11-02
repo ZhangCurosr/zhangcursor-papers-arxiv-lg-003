@@ -4,5 +4,33 @@
  "title": "When-Does-Post-Call-Begin-An-Availability-Contract-for-Earni",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-10-16 19:19:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/8e82d942-e970-4520-9c57-8d5e72fb69eb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/8e82d942-e970-4520-9c57-8d5e72fb69eb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:53:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "financial NLP",
+    "earnings calls",
+    "benchmark construction",
+    "availability contract",
+    "event window",
+    "timing sensitivity",
+    "lookahead bias",
+    "trustworthy AI"
+   ],
+   "field": "金融自然语言处理与基准评测",
+   "innovations": [
+    "提出Availability Contract九字段报告框架，把输入完成证据与价格锚绑定",
+    "构造paired three-clock diagnostic并在固定设计矩阵下给出精确OLS分解恒等式",
+    "在552次call与DEC基准上证明timing choice可显著改变标签与损失而排名不变"
+   ],
+   "benchmarks": [
+    "Dense Earnings Call (DEC)",
+    "552-call paired three-clock audit",
+    "24-firm 2018-2024 common sample"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "When-Is-Muon-Optimal-Radial-Fragility-and-Minimax-Geometry",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-10-16 19:20:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/10f4dd30-f599-4f61-b1ef-d9c1c95e77eb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/10f4dd30-f599-4f61-b1ef-d9c1c95e77eb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:54:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Muon优化器",
+    "各向同性曲率模型",
+    "极因子分解",
+    "随机半径",
+    "极小极大优化",
+    "次微分几何",
+    "球面zonoid",
+    "谱几何"
+   ],
+   "field": "深度学习优化理论",
+   "innovations": [
+    "揭示RR-ICM中平均曲率解释的径向脆弱性，证明原子无径向律下精确极因子最优仅退化成立",
+    "引入Minimax RR-ICM，通过最坏情况方向聚合建立Muon极因子更新的曲率视角极小极大变分刻画",
+    "提出极因子可容许集框架，统一刻画RR-ICM（球面zonoid几何）与Minimax RR-ICM（正半定迹条带几何）的差异机制"
+   ]
+  }
+ }
 }

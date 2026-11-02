@@ -4,5 +4,35 @@
  "title": "What-Should-We-Remove-Evaluating-the-Reliability-and-Costs-o",
  "token": "sk-y9PdQWlPV...",
  "created_at": "2026-10-16 06:56:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/fa13158b-b9c3-45b6-b19e-10d38396ebd8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/fa13158b-b9c3-45b6-b19e-10d38396ebd8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:53:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "data decontamination",
+    "benchmark contamination",
+    "semantic similarity",
+    "LLM adjudication",
+    "evaluation methodology",
+    "math reasoning corpora"
+   ],
+   "field": "AI安全与数据可靠性",
+   "innovations": [
+    "预注册的双层盲审参考集（配对+项目级完整候选边审查）",
+    "实证证伪'更激进语义阈值更可靠'，揭示召回-可靠性解耦",
+    "提出去污策略的代价会计框架并发放审核标签与覆盖数据"
+   ],
+   "benchmarks": [
+    "MATH-500",
+    "GSM8K",
+    "AIME24",
+    "AIME25",
+    "AIME26",
+    "AMC23"
+   ]
+  }
+ }
 }

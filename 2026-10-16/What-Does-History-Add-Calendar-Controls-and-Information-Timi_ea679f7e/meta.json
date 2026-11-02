@@ -4,5 +4,33 @@
  "title": "What-Does-History-Add-Calendar-Controls-and-Information-Timi",
  "token": "sk-yEKi8NUQa...",
  "created_at": "2026-10-16 19:20:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/7c9a4116-74c4-404e-bad6-27eae3fe6981.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/7c9a4116-74c4-404e-bad6-27eae3fe6981.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:53:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "university trajectory forecasting",
+    "history-audit",
+    "calendar control",
+    "Ridge regression",
+    "reproducibility",
+    "simulator evaluation",
+    "conditional prediction"
+   ],
+   "field": "教育轨迹预测与可复现性审计",
+   "innovations": [
+    "提出历史摘要与日历长度的匹配对照审计框架，分离历史信息内容与时间特征",
+    "构建可审计规则型大学轨迹模拟器，实现来源透明与权重冻结的新鲜族验证",
+    "目标组误差分解结合支撑集违规检测，揭示聚合指标的局部掩盖效应"
+   ],
+   "benchmarks": [
+    "nRMSE (aggregate)",
+    "preparation nRMSE",
+    "fatigue nRMSE",
+    "funds nRMSE"
+   ]
+  }
+ }
 }

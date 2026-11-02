@@ -4,5 +4,33 @@
  "title": "Why-Shallow-Neural-Networks-Learn-Sinusoidal-Components-Firs",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-10-16 06:53:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/a76f94a5-72e7-430a-bf92-0e9dc87bef51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/a76f94a5-72e7-430a-bf92-0e9dc87bef51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 08:56:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spectral bias",
+    "orthogonal polynomials",
+    "general Fourier series",
+    "dynamics matrix",
+    "graded matrix",
+    "NTK",
+    "frequency principle",
+    "activation function"
+   ],
+   "field": "神经网络理论/谱偏差机制",
+   "innovations": [
+    "提出无混叠的正交多项式GFS框架统一解释谱偏差动力学",
+    "证明动态矩阵H的降级结构H=DBD并给出特征值显式上界",
+    "统一处理任意光滑激活函数无需闭式积分判断特征向量形状"
+   ],
+   "benchmarks": [
+    "Chebyshev/GFS渐近衰减阶",
+    "解析激活几何衰减O(Θ^{-2k})",
+    "光滑激活多项式衰减O(k^{-2ν-2})"
+   ]
+  }
+ }
 }
