@@ -4,5 +4,33 @@
  "title": "Unlocking-Any-Order-Generation-in-Pretrained-Autoregressive",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-10-30 08:23:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/61812d4f-8251-4191-b475-94b3abfd7f9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/61812d4f-8251-4191-b475-94b3abfd7f9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:06:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自回归图像生成",
+    "任意顺序生成",
+    "预训练模型适配",
+    "未来感知位置嵌入",
+    "排序课程学习",
+    "图像修复",
+    "推理效率"
+   ],
+   "field": "生成式视觉模型",
+   "innovations": [
+    "提出未来感知位置嵌入解决因果任意顺序生成的标识符冲突",
+    "设计排序课程学习实现从预训练到任意顺序的稳定适配",
+    "以13-33%额外计算成本解锁任意顺序生成并保持AR推理生态兼容"
+   ],
+   "benchmarks": [
+    "ImageNet-1k 256x256",
+    "Inpainting FID",
+    "Outpainting FID",
+    "Parallel Decoding Efficiency"
+   ]
+  }
+ }
 }

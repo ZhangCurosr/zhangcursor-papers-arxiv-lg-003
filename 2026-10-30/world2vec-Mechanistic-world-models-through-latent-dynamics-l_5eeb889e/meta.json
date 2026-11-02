@@ -4,5 +4,10 @@
  "title": "world2vec-Mechanistic-world-models-through-latent-dynamics-l",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-10-30 08:09:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/3d5a18b9-6807-40bf-b376-4e477905fb0c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/3d5a18b9-6807-40bf-b376-4e477905fb0c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:08:53",
+  "chunks": 1
+ }
 }

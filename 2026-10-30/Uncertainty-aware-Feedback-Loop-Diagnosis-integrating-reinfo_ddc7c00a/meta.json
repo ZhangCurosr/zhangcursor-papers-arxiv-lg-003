@@ -4,5 +4,28 @@
  "title": "Uncertainty-aware-Feedback-Loop-Diagnosis-integrating-reinfo",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-10-30 19:06:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/ac991b24-3c7a-4191-b77b-8e717751d221.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/ac991b24-3c7a-4191-b77b-8e717751d221.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:05:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "晶圆缺陷检测",
+    "共形预测",
+    "强化学习",
+    "自适应数据采集",
+    "Causal Transformer",
+    "多标签分类"
+   ],
+   "field": "半导体制造缺陷检测",
+   "innovations": [
+    "以共形预测两阶段校准替代辅助置信度估计网络实现Ada停止规则",
+    "将CP从单样本扩展至多标签逐标签预测集，并设计适配序列决策的停时校准流程"
+   ],
+   "benchmarks": [
+    "MixedWM38"
+   ]
+  }
+ }
 }

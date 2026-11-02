@@ -4,5 +4,37 @@
  "title": "Towards-Continual-Learning-Mitigating-Forgetting-With-Subspa",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-10-16 06:47:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/3a784a11-76a6-4056-9ac4-b339fdf434a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-16/3a784a11-76a6-4056-9ac4-b339fdf434a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:04:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续学习",
+    "灾难性遗忘",
+    "子空间调优",
+    "大语言模型微调",
+    "奇异值分解",
+    "正交约束"
+   ],
+   "field": "大语言模型持续学习",
+   "innovations": [
+    "提出优化器无关的双侧投影机制SST，通过投影最终优化器更新而非梯度实现精确子空间约束",
+    "引入基刷新机制，以当前权重为锚点重新计算SVD，在保护强度与适应能力间提供可调节控制",
+    "证明SST与SFT/SDFT/Muon等微调配方正交可组合，在多个领域和模型规模上显著改善学习-保留权衡"
+   ],
+   "benchmarks": [
+    "GPQA-Diamond",
+    "MMLU-Pro",
+    "GSM8K",
+    "HumanEval",
+    "IFEval",
+    "FinQA",
+    "MedMCQA",
+    "ToolAlpaca",
+    "SciKnowEval"
+   ]
+  }
+ }
 }

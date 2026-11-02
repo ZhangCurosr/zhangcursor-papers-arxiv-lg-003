@@ -4,5 +4,32 @@
  "title": "mathbf-H-2-mathbf-R-mathbf-i-Hierarchical-Hint-Based-Reward",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-10-30 08:24:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/f8c69907-6737-4f8f-9ae0-3630189736a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/f8c69907-6737-4f8f-9ae0-3630189736a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:08:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "process reward",
+    "hierarchical hint",
+    "reward shaping",
+    "mathematical reasoning",
+    "GRPO"
+   ],
+   "field": "大语言模型推理强化学习",
+   "innovations": [
+    "利用子问题层级结构作为训练期可验证中间奖励信号",
+    "硬门控混合奖励函数抑制 reward hacking",
+    "构建污染抗性 HiMath 基准并揭示错误传播机制"
+   ],
+   "benchmarks": [
+    "HiMath",
+    "MATH500",
+    "AIME24",
+    "AIME25"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Who-Improves-the-Robot-Toward-Physical-Recursive-Self-Improv",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-14 18:27:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/6228db98-3322-46cc-832d-9dda0cbf91f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/6228db98-3322-46cc-832d-9dda0cbf91f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:05:02",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Physical Recursive Self-Improvement",
+    "具身智能",
+    "L0-L5分层",
+    "独立评估器",
+    "持续学习",
+    "安全约束RL",
+    "VLA模型",
+    "RSIBench-Data"
+   ],
+   "field": "具身智能与递归自我改进",
+   "innovations": [
+    "提出Physical RSI概念与L0–L5能力分层框架，首次将递归自我改进拓展至物理机器人领域",
+    "设计三循环解耦架构与独立评估器安全保护机制，实现能力更新与元程序更新的隔离验证",
+    "统合VLA/世界模型/奖励模型并给出跨任务递归改进与知识迁移的可复用路径"
+   ],
+   "benchmarks": [
+    "RSIBench-Data"
+   ]
+  }
+ }
 }

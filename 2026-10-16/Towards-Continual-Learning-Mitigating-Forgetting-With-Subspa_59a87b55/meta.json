@@ -4,5 +4,35 @@
  "title": "Towards-Continual-Learning-Mitigating-Forgetting-With-Subspa",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-10-16 19:18:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/2269aaec-a57a-4276-b6ec-53e66e251ee3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/2269aaec-a57a-4276-b6ec-53e66e251ee3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:05:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "catastrophic forgetting",
+    "subspace tuning",
+    "continual learning",
+    "LLM fine-tuning",
+    "singular value decomposition",
+    "on-policy distillation"
+   ],
+   "field": "大语言模型持续学习与参数高效微调",
+   "innovations": [
+    "对优化器最终更新做双侧奇异子空间投影以严格限制更新方向",
+    "提出并系统化 basis refresh 机制作为适应-保留控制旋钮",
+    "证明对于 Adam 等有状态优化器必须投影更新而非梯度才能精确约束子空间"
+   ],
+   "benchmarks": [
+    "GPQA-Diamond",
+    "MMLU-Pro",
+    "GSM8K",
+    "HumanEval",
+    "IFEval",
+    "FinQA",
+    "MedMCQA"
+   ]
+  }
+ }
 }

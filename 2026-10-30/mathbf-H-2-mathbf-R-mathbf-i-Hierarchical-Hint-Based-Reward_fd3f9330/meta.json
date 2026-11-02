@@ -4,5 +4,33 @@
  "title": "mathbf-H-2-mathbf-R-mathbf-i-Hierarchical-Hint-Based-Reward",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-10-30 19:14:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/63103645-06f1-4dcd-bc0f-9c6a842239b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/63103645-06f1-4dcd-bc0f-9c6a842239b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:08:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "层次化奖励",
+    "过程奖励",
+    "数学推理",
+    "GRPO",
+    "reward hacking",
+    "LLM-as-judge"
+   ],
+   "field": "强化学习与大语言模型推理",
+   "innovations": [
+    "提出H²R分层提示奖励框架，利用子问题结构作为RL训练中间监督信号",
+    "设计hard gate hybrid reward防止错误答案获得虚假过程分",
+    "构建HiMath层次化数学基准并验证跨模型族泛化"
+   ],
+   "benchmarks": [
+    "HiMath",
+    "MATH500",
+    "AIME24",
+    "AIME25"
+   ]
+  }
+ }
 }

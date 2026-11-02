@@ -4,5 +4,31 @@
  "title": "Understanding-axial-attention-in-TSFMs-through-single-locati",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-10-30 08:18:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/71b9675f-0a73-468c-b91a-49b20f7ebddb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/71b9675f-0a73-468c-b91a-49b20f7ebddb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:06:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "轴向注意力",
+    "时序基础模型",
+    "Single Location Regression",
+    "稀疏信息",
+    "贝叶斯最优性",
+    "投影梯度下降",
+    "逆温度调度"
+   ],
+   "field": "时序基础模型的理论分析",
+   "innovations": [
+    "将SLR模型拓展至2D轴向注意力并证明渐近贝叶斯最优性",
+    "严格证明去掉内层非线性导致半线性预测器严格次优",
+    "证明在特定逆温度缩放下PGD全局收敛至oracle参数"
+   ],
+   "benchmarks": [
+    "合成SLR数据 (M=N=5, d=20)",
+    "无公开基准数据集"
+   ]
+  }
+ }
 }

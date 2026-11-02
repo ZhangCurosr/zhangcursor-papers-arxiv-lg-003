@@ -4,5 +4,27 @@
  "title": "WHEN-TO-SPEND-PRIVACY-OPTIMAL-ALLOCATION-IN-PRIVATE-LEARNING",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-10-30 08:11:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/763e345a-6e94-4ebd-a97c-b4937c96340f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/763e345a-6e94-4ebd-a97c-b4937c96340f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:07:44",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "differential privacy",
+    "DP-SGD",
+    "privacy budget allocation",
+    "zero-concentrated DP",
+    "mirror descent",
+    "optimal control",
+    "noise scheduling"
+   ],
+   "field": "差分隐私机器学习",
+   "innovations": [
+    "将隐私预算分配形式化为有限视界随机控制问题并证明预算饱和定理",
+    "提出PB-AMD算法通过熵镜像更新保持精确预算单纯形约束",
+    "在线性-二次情形下导出显式平方根分配律及全局收敛结果"
+   ]
+  }
+ }
 }

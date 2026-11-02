@@ -4,5 +4,39 @@
  "title": "Your-LR-Schedule-May-Not-Be-Principled-Effective-Learning-Ra",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-10-30 19:21:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/a9dbc815-efcc-4599-adff-1815ae2cd881.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/a9dbc815-efcc-4599-adff-1815ae2cd881.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:07:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "learning rate scheduling",
+    "weight normalization",
+    "effective learning rate",
+    "large language model pretraining",
+    "MoE",
+    "optimization"
+   ],
+   "field": "大语言模型预训练优化",
+   "innovations": [
+    "揭示 ELR 轨迹是 WN 优于 WD 的真正驱动因素，匹配后训练动态几乎坍缩",
+    "从方向对齐最大化理论导出 1/√t 最优衰减，构造 AIR 仿射调度器",
+    "发现 late-stage 调度占最终损失差距约 90%，shared tail 可关闭 42%-94% 差距"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "MMLU-Pro",
+    "AGIEval",
+    "WinoGrande",
+    "BBH",
+    "DROP",
+    "GSM8k",
+    "MATH",
+    "HumanEval",
+    "MBPP+",
+    "TriviaQA"
+   ]
+  }
+ }
 }

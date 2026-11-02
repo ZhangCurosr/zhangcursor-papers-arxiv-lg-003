@@ -4,5 +4,31 @@
  "title": "Trajectory-Level-Speculation-with-Semantic-Verification-for",
  "token": "sk-AURmMVi2z...",
  "created_at": "2026-10-16 19:20:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/27117b06-0594-4511-a7cf-68ca13d7bb0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-17/27117b06-0594-4511-a7cf-68ca13d7bb0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:05:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tool-using agent",
+    "speculative execution",
+    "weak-strong collaboration",
+    "semantic verification",
+    "efficient LLM serving"
+   ],
+   "field": "高效大模型 Agent 推理",
+   "innovations": [
+    "弱模型带真实观测起草 + 强模型语义前缀评审的多步投机协议",
+    "将状态变更作为唯一审查边界以保证可逆性",
+    "在 verdict 中融合可执行替换动作以降低修复开销"
+   ],
+   "benchmarks": [
+    "τ2-Bench",
+    "AutomationBench",
+    "VitaBench",
+    "MCP-Atlas"
+   ]
+  }
+ }
 }

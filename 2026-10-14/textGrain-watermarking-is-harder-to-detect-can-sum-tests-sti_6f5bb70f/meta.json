@@ -4,5 +4,27 @@
  "title": "textGrain-watermarking-is-harder-to-detect-can-sum-tests-sti",
  "token": "sk-rJF0pjIu8...",
  "created_at": "2026-10-14 07:23:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/296bab4d-96ef-48fd-bd55-960a1bbb74e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/296bab4d-96ef-48fd-bd55-960a1bbb74e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-02 19:03:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM watermarking",
+    "textGrain",
+    "detection boundary",
+    "sum test",
+    "Berk-Jones statistic",
+    "sparse detection",
+    "entropy calibration"
+   ],
+   "field": "LLM水印统计检测理论",
+   "innovations": [
+    "证明textGrain检测边界(p+q=1/2)严格劣于Gumbel-max(2p+q=1)，揭示熵校准的检测成本",
+    "建立固定列下sum检验最优、增长列下sum检验失效的分 regime 理论",
+    "提出参数自由的加权多尺度二项扫描检测器，同时达到所有检测边界和Chernoff-Stein最优指数"
+   ]
+  }
+ }
 }
