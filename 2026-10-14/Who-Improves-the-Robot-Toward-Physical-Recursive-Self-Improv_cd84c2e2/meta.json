@@ -4,5 +4,35 @@
  "title": "Who-Improves-the-Robot-Toward-Physical-Recursive-Self-Improv",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-14 07:13:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7c5faf73-4881-4087-978f-80b7151a574a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/7c5faf73-4881-4087-978f-80b7151a574a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 09:06:48",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Physical Recursive Self-Improvement",
+    "VLA",
+    "Safe Exploration",
+    "Runtime Assurance",
+    "Knowledge Insulation",
+    "Continual Adaptation",
+    "Reward Modeling",
+    "Survey"
+   ],
+   "field": "具身智能与机器人学习综述",
+   "innovations": [
+    "提出物理RSI三类学习范式与VLA/世界模型/奖励模型适应路径的统一分类",
+    "引入知识绝缘机制阻断连续动作专家梯度污染主干",
+    "构建L2-L5层级验证体系与跨代风险并集界安全预算框架"
+   ],
+   "benchmarks": [
+    "RSIBench-Data",
+    "RoboTwin",
+    "Open X-Embodiment",
+    "Ai4ai-bench",
+    "WorldEval"
+   ]
+  }
+ }
 }

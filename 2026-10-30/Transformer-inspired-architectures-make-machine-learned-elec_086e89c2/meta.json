@@ -4,5 +4,36 @@
  "title": "Transformer-inspired-architectures-make-machine-learned-elec",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-10-30 19:02:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/0dfd25c2-5c77-4081-96b1-fac6f71918c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/0dfd25c2-5c77-4081-96b1-fac6f71918c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 09:05:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "电子密度预测",
+    "Kohn-Sham密度泛函理论",
+    "Transformer架构",
+    "SwinUNETR",
+    "NeXtUNETR",
+    "非自洽修正",
+    "分子动力学",
+    "几何优化"
+   ],
+   "field": "机器学习的电子结构计算",
+   "innovations": [
+    "提出SwinUNETR-V2与NeXtUNETR两个Transformer启发式架构，在QM9上将密度NMAE降至0.075%/0.046%，超越此前所有CNN基线",
+    "单次Kohn-Sham对角化即可替代SCF迭代，一步能量中位误差仅0.036 meV，力中位误差0.65 meV/Ang",
+    "引入非自洽修正(NSCC)使一步力成为能量精确梯度，实现能量守恒的从头算分子动力学与可靠几何优化"
+   ],
+   "benchmarks": [
+    "QM9 (10,000 test)",
+    "C7O2H10 AIMD isomers",
+    "MT charged biomolecular fragments",
+    "W1500/30 water clusters",
+    "D-B-A donor-bridge-acceptor chains",
+    "Wmin-PBE/3-100 size extrapolation"
+   ]
+  }
+ }
 }
