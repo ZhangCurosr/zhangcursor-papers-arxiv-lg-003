@@ -4,5 +4,36 @@
  "title": "Transformer-inspired-architectures-make-machine-learned-elec",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-10-30 08:14:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/1086cb8f-d3f3-4418-bed9-857cbbffcee4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/1086cb8f-d3f3-4418-bed9-857cbbffcee4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:28:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "electron density",
+    "Kohn-Sham DFT",
+    "Transformer",
+    "machine learning force field",
+    "molecular dynamics",
+    "self-consistent field",
+    "density functional theory",
+    "NeXtUNETR"
+   ],
+   "field": "电子结构机器学习",
+   "innovations": [
+    "首次将 Transformer-inspired 层级架构用于真实空间网格电子密度预测，SOTA 精度",
+    "证明预测密度经单次 Kohn–Sham 步骤即可复现自洽电子结构与能量守恒动力学",
+    "提出可微分非自洽修正（NSCC）使一步力成为一步能量严格梯度"
+   ],
+   "benchmarks": [
+    "QM9",
+    "Wmin-PBE/3–100",
+    "W1500/30",
+    "D-B-A chains",
+    "MT charged fragments",
+    "C7O2H10 isomers"
+   ]
+  }
+ }
 }

@@ -4,5 +4,40 @@
  "title": "Turing-LLM-Post-Training-Calibrated-Distillation-and-Efficie",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-10-30 08:05:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/0b45d17a-26f9-4720-9d2f-393322a0b696.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/0b45d17a-26f9-4720-9d2f-393322a0b696.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:28:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多教师在线蒸馏",
+    "动态 MoE",
+    "RL 后训练",
+    "能力整合",
+    "有界宽度调度",
+    "异步重叠",
+    "损失尺度校准"
+   ],
+   "field": "大语言模型后训练与 MoE 整合",
+   "innovations": [
+    "教师本地 Top-K 反向 KL 匹配配合教师级别损失尺度归一化与 token 级裁剪的 C-MOPD 目标",
+    "容量过滤后 32 宽度的有界调度 R3 回放与异步 rollout-训练重叠的工程路径"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "MBPP",
+    "HumanEval",
+    "IFEval",
+    "BFCL v4",
+    "MMLU",
+    "CMMLU",
+    "C-Eval",
+    "MMLU-Pro",
+    "BBH",
+    "GPQA Diamond"
+   ]
+  }
+ }
 }

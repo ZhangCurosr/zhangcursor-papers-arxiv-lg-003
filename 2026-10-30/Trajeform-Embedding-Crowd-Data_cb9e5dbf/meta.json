@@ -4,5 +4,32 @@
  "title": "Trajeform-Embedding-Crowd-Data",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-10-30 19:19:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/551a8250-122a-4a1c-9a64-7e17db0e06e8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/551a8250-122a-4a1c-9a64-7e17db0e06e8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-03 01:27:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "crowd simulation",
+    "trajectory embedding",
+    "VAE",
+    "behavior similarity",
+    "latent space",
+    "crowd data"
+   ],
+   "field": "人群模拟与行为评估",
+   "innovations": [
+    "基于VAE的连续行为嵌入空间学习",
+    "归一化隐空间距离度量",
+    "MoG后验引导的模拟器参数优化"
+   ],
+   "benchmarks": [
+    "Flock",
+    "Students",
+    "ETH",
+    "Zara"
+   ]
+  }
+ }
 }
