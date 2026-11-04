@@ -4,5 +4,32 @@
  "title": "Unimodal-Augmentation-based-SSL-Objectives-Induce-Cross-Moda",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-11-03 09:06:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/131b6624-0b66-4c1b-b531-ef8e53cf8f9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/131b6624-0b66-4c1b-b531-ef8e53cf8f9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:16:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨模态对齐",
+    "自监督学习",
+    "InfoNCE",
+    "CKA",
+    "表征学习",
+    "多模态"
+   ],
+   "field": "多模态表示学习",
+   "innovations": [
+    "证明单模态Aug-SSL目标隐式诱导跨模态对齐",
+    "建立InfoNCE损失与局部CKA的理论联系",
+    "发现单模态损失是跨模态对齐的强预测因子而非模型规模"
+   ],
+   "benchmarks": [
+    "MS-COCO",
+    "WIT",
+    "CLOTHO",
+    "AudioCaps"
+   ]
+  }
+ }
 }

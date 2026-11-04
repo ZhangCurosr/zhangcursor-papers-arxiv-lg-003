@@ -4,5 +4,27 @@
  "title": "Tilted-Convexity-and-an-Exact-Ofline-Online-Separation",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-11-03 09:10:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/3250af2f-8751-4e72-8cd2-3c7b1622e61f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/3250af2f-8751-4e72-8cd2-3c7b1622e61f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:14:18",
+  "chunks": 12,
+  "meta": {
+   "keywords": [
+    "gamma-tilted convexity",
+    "online optimization",
+    "generalized convexity",
+    "subdifferential monotonicity",
+    "lower-linearization",
+    "regret bounds",
+    "in-online learning"
+   ],
+   "field": "在线优化与广义凸分析",
+   "innovations": [
+    "建立gamma-tilted convexity的严格数学理论（五重等价刻画）",
+    "证明三类广义凸函数在线优化共享同一最优系数gamma并给出端点类不可实现下界",
+    "提出比较向量二分搜索算法实现下线性化归约并获SReg_gama(T)<=2DGsqrt(T)"
+   ]
+  }
+ }
 }

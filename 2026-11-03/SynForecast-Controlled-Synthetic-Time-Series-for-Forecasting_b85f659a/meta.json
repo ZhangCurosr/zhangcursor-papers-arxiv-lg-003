@@ -4,5 +4,29 @@
  "title": "SynForecast-Controlled-Synthetic-Time-Series-for-Forecasting",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-11-03 09:23:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/7df20620-d889-4d7a-8dbb-87496d9ad494.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/7df20620-d889-4d7a-8dbb-87496d9ad494.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:07:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "synthetic time series",
+    "time series forecasting",
+    "pretraining",
+    "controlled experiments",
+    "generation library",
+    "M4 benchmark"
+   ],
+   "field": "时间序列合成数据与预训练",
+   "innovations": [
+    "提出支持正交扰动与并行确定性的一体化合成时间序列生成库 SynForecast",
+    "系统揭示合成先验在短历史下优于从零训练（最高+34%）而在全历史下劣化的符号翻转规律",
+    "诊断小时频点失败源于日周期缺失，注入 calendar overlays 后 zero-shot 误差下降 43–63%"
+   ],
+   "benchmarks": [
+    "M4"
+   ]
+  }
+ }
 }

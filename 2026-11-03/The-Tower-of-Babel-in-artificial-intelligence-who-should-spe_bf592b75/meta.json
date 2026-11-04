@@ -4,5 +4,38 @@
  "title": "The-Tower-of-Babel-in-artificial-intelligence-who-should-spe",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-11-03 09:20:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/065d2382-d5e5-4ee3-a2e1-48c781e066b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/065d2382-d5e5-4ee3-a2e1-48c781e066b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:09:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "narrow-bandwidth communication",
+    "multi-agent coordination",
+    "emerged communication",
+    "decentralized detection",
+    "cooperation vs coordination",
+    "information bottleneck",
+    "paired calibration"
+   ],
+   "field": "多智能体系统通信与信息聚合",
+   "innovations": [
+    "严格解耦协调增益与合作增益并在多数据集量化二者差异",
+    "构建精确可解的协同证据模型揭示个体统计无法预测配对价值",
+    "提出配对校准作为部署前预测团队收益的可靠工具"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "Optical Digits",
+    "Pen Digits",
+    "Multiple Features",
+    "DBpedia Text",
+    "Dry Bean",
+    "Daily and Sports Activities",
+    "CUB-200-2011",
+    "Web of Science"
+   ]
+  }
+ }
 }

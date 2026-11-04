@@ -4,5 +4,36 @@
  "title": "The-Tower-of-Babel-in-artificial-intelligence-who-should-spe",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-11-03 20:44:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/5c55541a-0e1d-428c-ad54-2daa3178d898.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/5c55541a-0e1d-428c-ad54-2daa3178d898.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:09:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体通信",
+    "带宽受限通信",
+    "协同设计",
+    "团队智能",
+    "信息瓶颈",
+    "分布式检测",
+    "协调与合作"
+   ],
+   "field": "多智能体系统与受限通信",
+   "innovations": [
+    "形式化区分协调增益与合作增益并提出可解模型证明个体统计不足以判断合作价值",
+    "证明固定互补约定可恢复约一半协调增益且无需学习编码器",
+    "提出配对校准优于独立校准，揭示独立测量无法预测真实团队收益的根本原因"
+   ],
+   "benchmarks": [
+    "MNIST halves",
+    "Optical Digits",
+    "Pen Digits",
+    "Multiple Features",
+    "DBpedia 219-class text halves",
+    "Dry Bean",
+    "Daily and Sports Activities sensors"
+   ]
+  }
+ }
 }

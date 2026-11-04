@@ -4,5 +4,32 @@
  "title": "Training-Autoregressive-Language-Models-on-Rounded-Bounded-a",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-11-03 20:36:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/bcb8dc81-83c1-4f07-ae22-1a91b50d64af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/bcb8dc81-83c1-4f07-ae22-1a91b50d64af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:11:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "autoregressive language models",
+    "numerical prediction",
+    "censored labels",
+    "boundary marginalization",
+    "CRPS training",
+    "interval likelihood",
+    "digit decoder"
+   ],
+   "field": "数值预测与分布建模",
+   "innovations": [
+    "提出边界边缘化算法，通过至多两条teacher-forced路径精确计算数值区间似然，复杂度O(b·log_b(M))",
+    "单一似然目标统一精确标签、四舍五入区间和上下界删失观测的训练",
+    "相同计算框架支持精确分位数查询和无偏CRPS梯度估计"
+   ],
+   "benchmarks": [
+    "ChEMBL 37 hERG IC50",
+    "KBSS (Code-Regression)",
+    "Controlled Gaussian mixture recovery"
+   ]
+  }
+ }
 }

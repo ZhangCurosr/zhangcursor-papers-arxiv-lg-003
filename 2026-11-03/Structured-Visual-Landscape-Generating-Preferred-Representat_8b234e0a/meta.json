@@ -4,5 +4,33 @@
  "title": "Structured-Visual-Landscape-Generating-Preferred-Representat",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-11-03 20:37:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/e318b60e-7295-4eea-a4d1-9c1072cb261a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/e318b60e-7295-4eea-a4d1-9c1072cb261a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:06:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "脑解码",
+    "扩散模型",
+    "变分自编码器",
+    "fMRI",
+    "视觉表征",
+    "神经调控",
+    "图像生成",
+    "CLIP"
+   ],
+   "field": "计算神经科学与可解释 AI 交叉",
+   "innovations": [
+    "提出激活正则化双峰先验构建结构化 VAE 潜空间，独立建模激活增加/减少方向",
+    "放弃 CLIP 空间单一对称方向假设，通过连续松弛约束实现更可控的神经激活调控"
+   ],
+   "benchmarks": [
+    "NSD (Natural Scenes Dataset)",
+    "ImageNet-mini",
+    "FID@2k",
+    "BrainACTIV baseline"
+   ]
+  }
+ }
 }

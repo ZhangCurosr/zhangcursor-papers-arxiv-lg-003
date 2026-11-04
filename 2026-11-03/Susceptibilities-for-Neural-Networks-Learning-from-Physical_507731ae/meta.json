@@ -4,5 +4,32 @@
  "title": "Susceptibilities-for-Neural-Networks-Learning-from-Physical",
  "token": "sk-vlHk6dmng...",
  "created_at": "2026-11-03 09:25:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/f5942064-361b-40e1-8401-54357f8a454c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/f5942064-361b-40e1-8401-54357f8a454c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:07:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "susceptibility",
+    "physical data learning",
+    "masked susceptibility",
+    "control parameter construction",
+    "emergence tracking",
+    "singular learning theory",
+    "granular materials",
+    "percolation"
+   ],
+   "field": "物理数据机器学习可解释性",
+   "innovations": [
+    "将响应函数从语言模型迁移至物理数据学习，推导协方差表达式",
+    "提出屏蔽响应函数隔离关键物理特征贡献",
+    "通过标量函数构造无自然参数系统的控制参数，追踪能力涌现"
+   ],
+   "benchmarks": [
+    "16x16 percolation lattice",
+    "granular collision system with 64 particles"
+   ]
+  }
+ }
 }

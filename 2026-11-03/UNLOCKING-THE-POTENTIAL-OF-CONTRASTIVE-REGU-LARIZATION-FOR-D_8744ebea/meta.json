@@ -4,5 +4,31 @@
  "title": "UNLOCKING-THE-POTENTIAL-OF-CONTRASTIVE-REGU-LARIZATION-FOR-D",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-11-03 09:08:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/bf8bbed3-7bda-4ead-b40b-b9b96e422342.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/bf8bbed3-7bda-4ead-b40b-b9b96e422342.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:15:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散模型",
+    "对比学习",
+    "表示正则化",
+    "Diffusion Transformer",
+    "InfoNCE",
+    "图像生成"
+   ],
+   "field": "生成模型训练优化",
+   "innovations": [
+    "揭示扩散训练中对比学习的噪声捷径问题",
+    "提出干净表示锚定的自适应对比正则化CRAN",
+    "仅用内部表示达到与外部DINO对齐方法相当的性能"
+   ],
+   "benchmarks": [
+    "ImageNet-256",
+    "FFHQ",
+    "HumanML3D"
+   ]
+  }
+ }
 }

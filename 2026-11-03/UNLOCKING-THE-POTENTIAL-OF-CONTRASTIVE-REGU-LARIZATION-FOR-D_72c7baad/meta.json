@@ -4,5 +4,35 @@
  "title": "UNLOCKING-THE-POTENTIAL-OF-CONTRASTIVE-REGU-LARIZATION-FOR-D",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-11-03 20:31:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/035d13c9-5cbb-4071-969c-8430138c59ff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/035d13c9-5cbb-4071-969c-8430138c59ff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:14:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散 Transformer",
+    "对比学习",
+    "InfoNCE",
+    "表征正则化",
+    "扩散模型训练",
+    "噪声捷径",
+    "CRAN",
+    "ImageNet 生成"
+   ],
+   "field": "扩散模型训练优化",
+   "innovations": [
+    "揭示 InfoNCE 在扩散 Transformer 训练中的噪声捷径失效机制",
+    "提出 CRAN 用干净表征成对距离自适应锚定负对分离上界",
+    "无需外部预训练编码器即匹配 REPA 性能并超越所有内部特征方法"
+   ],
+   "benchmarks": [
+    "ImageNet 256x256 FID-50K",
+    "FFHQ",
+    "WebVision-10-50K",
+    "ImageNet 512x512",
+    "HumanML3D 文本到动作"
+   ]
+  }
+ }
 }

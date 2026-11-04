@@ -4,5 +4,30 @@
  "title": "VIAS-Value-Isolating-Activation-Steering-for-Multi-Value-Ali",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-11-03 09:11:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/6fdcfc68-7683-4dce-9515-4a79c1f7702a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/6fdcfc68-7683-4dce-9515-4a79c1f7702a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:17:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "activation steering",
+    "multi-value alignment",
+    "organizational compliance",
+    "PROTECT",
+    "contrastive data construction",
+    "inference-time intervention",
+    "representation engineering"
+   ],
+   "field": "大模型价值观对齐与安全",
+   "innovations": [
+    "提出值隔离对比数据构建策略VIAS以降低多价值导向向量共线性",
+    "诊断并量化全值对比导致方向重合于统一遵从轴的机制",
+    "验证VIAS+Values-Prompt在三个7B模型上优于纯提示的联合效果"
+   ],
+   "benchmarks": [
+    "PROTECT test set (800 scenarios)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "VIOTECH-FRAME-LEVEL-VIOLIN-PLAYING-TECHNIQUE-DETECTIONWITH-M",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-11-03 20:34:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/5e4f1653-6441-4fb1-a498-5c8d37500a7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/5e4f1653-6441-4fb1-a498-5c8d37500a7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:17:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "violin technique detection",
+    "mixture-of-experts",
+    "frame-level modeling",
+    "music information retrieval",
+    "self-supervised audio representation",
+    "MERT",
+    "dataset annotation"
+   ],
+   "field": "音乐信息检索/演奏技术检测",
+   "innovations": [
+    "帧级多尺度MoE架构消除音符分割依赖",
+    "任务特定门控路由适配技术时间尺度异质性",
+    "首个真实录音细粒度标注数据集VioTech120及标注工具"
+   ],
+   "benchmarks": [
+    "VioTech120",
+    "MOSA-VPT",
+    "RWC Music Database",
+    "Bach10",
+    "URMP"
+   ]
+  }
+ }
 }

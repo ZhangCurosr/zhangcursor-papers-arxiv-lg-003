@@ -4,5 +4,29 @@
  "title": "Utility-Aware-Generative-Recommendation-Utility-Enriched-Sem",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-11-03 20:44:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/3b636f9f-99e8-4032-8484-cd596d5bb80b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/3b636f9f-99e8-4032-8484-cd596d5bb80b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:16:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Generative Recommendation",
+    "Semantic Identifiers",
+    "Utility-Aware",
+    "Beam Search",
+    "Multi-objective",
+    "Industrial Deployment"
+   ],
+   "field": "生成式推荐系统",
+   "innovations": [
+    "在SID最终层嵌入离散化效用信号，不增加词表规模",
+    "复用骨干隐藏状态预测多目标后曝光并融合至beam pruning",
+    "stop-gradient隔离效用梯度，保障生成能力稳定性"
+   ],
+   "benchmarks": [
+    "KuaiRand"
+   ]
+  }
+ }
 }

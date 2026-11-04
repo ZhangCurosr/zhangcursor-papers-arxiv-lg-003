@@ -4,5 +4,32 @@
  "title": "VERS-Steering-Reasoning-Models-by-Editing-Their-Activation-E",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-11-03 20:32:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/59fe1344-f66d-44ef-a4ee-7dffdf5c3d87.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/59fe1344-f66d-44ef-a4ee-7dffdf5c3d87.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:16:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "natural language autoencoder",
+    "activation steering",
+    "reasoning compression",
+    "chain-of-thought shortening",
+    "affine map transfer",
+    "mechanistic interpretability"
+   ],
+   "field": "推理模型激活干预与效率优化",
+   "innovations": [
+    "基于单条轨迹解释编辑构建可复用推理方向 N, 无需对比语料对",
+    "通过 ridge 仿射映射将冻结 1.7B NLA 与方向 N 迁移至最大 235B-A22B 模型并保留 30–35% token 节省",
+    "揭示 selective construction（仅用冗余 doubt 子集、Probe B 门控）均未能改善 accuracy-length trade-off 的机制性原因"
+   ],
+   "benchmarks": [
+    "GSM8K (gsm1319)",
+    "MATH-500",
+    "confirm400",
+    "hard128 (AIME/AMC/HMMT)"
+   ]
+  }
+ }
 }

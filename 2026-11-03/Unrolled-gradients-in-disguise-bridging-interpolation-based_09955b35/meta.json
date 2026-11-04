@@ -4,5 +4,31 @@
  "title": "Unrolled-gradients-in-disguise-bridging-interpolation-based",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-11-03 20:34:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/c0f12e36-7fb4-4471-9988-647305d10dfb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/c0f12e36-7fb4-4471-9988-647305d10dfb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:16:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neural ODE",
+    "Jacobian regularization",
+    "long-term stability",
+    "physical systems",
+    "unrolled training",
+    "scientific machine learning"
+   ],
+   "field": "科学机器学习/物理信息神经网络",
+   "innovations": [
+    "证明Jacobian正则化与插值训练等价于unrolled轨迹梯度的近似",
+    "推导通用的JacMatch与AccMatch损失框架",
+    "在监督与非监督设置下验证统一正则化对长期稳定性的提升"
+   ],
+   "benchmarks": [
+    "Van der Pol",
+    "Rigid Body",
+    "Kuramoto-Sivashinsky"
+   ]
+  }
+ }
 }

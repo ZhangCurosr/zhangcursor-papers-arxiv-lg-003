@@ -4,5 +4,30 @@
  "title": "Thought-deciphering-via-hierarchical-EEG-to-text-alignment",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-11-03 20:37:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/82f5f21d-f05a-4838-972e-1a29c656b881.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/82f5f21d-f05a-4838-972e-1a29c656b881.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:09:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "EEG-to-text",
+    "brain-computer interface",
+    "hierarchical alignment",
+    "contrastive learning",
+    "sentence retrieval",
+    "neuro-language decoding"
+   ],
+   "field": "非侵入式脑机接口与神经语言解码",
+   "innovations": [
+    "两阶段层次化EEG-to-text对齐框架（语义类→句子检索）",
+    "通过高层语义引导降低检索空间并超越直接对齐性能",
+    "统一轻量化预处理与跨通道布局的可学习映射方案"
+   ],
+   "benchmarks": [
+    "ChineseEEG (Little Prince / Garnett Dream)",
+    "Chisco daily phrases"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Train-the-Sampler-You-Run-Few-Step-Masked-Diffusion-Language",
  "token": "sk-FmwWXAxnf...",
  "created_at": "2026-11-03 09:20:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/c1f107c2-e1b1-443f-ba81-692396a88db2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/c1f107c2-e1b1-443f-ba81-692396a88db2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:11:05",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Masked Diffusion",
+    "Few-Step Sampling",
+    "Mixture-Likelihood",
+    "Fine-Tuning",
+    "Language Models"
+   ],
+   "field": "扩散语言模型",
+   "innovations": [
+    "提出 Mix-FT 微调框架，对齐 few-step 采样目标",
+    "揭示 CE 训练与混合似然的理论偏差",
+    "利用对称性实现精确评估的高效计算"
+   ],
+   "benchmarks": [
+    "OpenWebText",
+    "BD3-LM"
+   ]
+  }
+ }
 }

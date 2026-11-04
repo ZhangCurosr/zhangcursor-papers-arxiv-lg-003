@@ -4,5 +4,10 @@
  "title": "Turbo-GMM-FlashAttention-Inspired-GPU-Accelerated-Gaussian-M",
  "token": "sk-W9Ytd4ppc...",
  "created_at": "2026-11-03 09:12:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/a96d0504-c232-444b-a60e-62b286db0d30.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/a96d0504-c232-444b-a60e-62b286db0d30.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:15:28",
+  "chunks": 4
+ }
 }

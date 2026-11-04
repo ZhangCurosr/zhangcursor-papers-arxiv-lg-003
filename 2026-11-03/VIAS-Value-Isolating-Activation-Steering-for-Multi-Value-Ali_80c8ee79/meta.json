@@ -4,5 +4,33 @@
  "title": "VIAS-Value-Isolating-Activation-Steering-for-Multi-Value-Ali",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-11-03 20:36:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/ae92155c-d9be-4e5d-a892-b7977118b7ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/ae92155c-d9be-4e5d-a892-b7977118b7ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:18:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "activation steering",
+    "multi-value alignment",
+    "organizational compliance",
+    "contrastive data construction",
+    "PROTECT taxonomy",
+    "representation engineering",
+    "inference-time intervention"
+   ],
+   "field": "多属性激活工程与LLM合规对齐",
+   "innovations": [
+    "逐值隔离对比构造VIAS降低per-value方向共线性",
+    "诊断All-values构造使方向落入通用comply-vs-violate主轴",
+    "VIAS+VP在三模型上取得最高75.5%严格全值合规率"
+   ],
+   "benchmarks": [
+    "PROTECT strict sample compliance",
+    "micro compliance",
+    "macro compliance",
+    "hard-subset recovery"
+   ]
+  }
+ }
 }

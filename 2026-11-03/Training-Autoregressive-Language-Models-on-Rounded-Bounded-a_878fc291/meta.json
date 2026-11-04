@@ -4,5 +4,31 @@
  "title": "Training-Autoregressive-Language-Models-on-Rounded-Bounded-a",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-11-03 09:12:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/eb8cc3cc-3c5d-41b3-bca6-97e722027306.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/eb8cc3cc-3c5d-41b3-bca6-97e722027306.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:12:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "边界边际化",
+    "数值区间似然",
+    "删失标签训练",
+    "自回归语言模型",
+    "CRPS评分",
+    "数值解码"
+   ],
+   "field": "语言模型数值预测与分布学习",
+   "innovations": [
+    "边界边际化：通过至多两条前缀路径在 O(b log M) 时间内计算数值区间精确对数似然及其梯度",
+    "单一事件似然统一训练精确值、舍入区间和单边界删失观测",
+    "相同框架支持无偏阈值采样 CRPS 梯度与精确分位数查询"
+   ],
+   "benchmarks": [
+    "受控双分量高斯混合分布恢复 (ISE)",
+    "ChEMBL hERG 心脏安全 IC50 预测 (NLL)",
+    "KBSS Triton GPU 代码延迟预测 (CRPS, Brier)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Structured-Visual-Landscape-Generating-Preferred-Representat",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-11-03 09:13:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/067c5acd-3e62-4ca8-9e6e-e61c4166876f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/067c5acd-3e62-4ca8-9e6e-e61c4166876f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:06:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "brain decoding",
+    "visual representation",
+    "variational autoencoder",
+    "diffusion model",
+    "fMRI",
+    "preferred image generation",
+    "neural activation modulation"
+   ],
+   "field": "计算神经科学与可解释 AI 交叉",
+   "innovations": [
+    "提出激活正则化双峰先验构建结构化 VAE 潜空间，独立建模激活增强与抑制",
+    "通过潜空间直接编辑而非逐图迭代优化生成优选视觉刺激，避免局部最优并提升效率"
+   ],
+   "benchmarks": [
+    "NSD (Natural Scenes Dataset)",
+    "ImageNet-mini",
+    "BrainACTIV baseline"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "VERS-Steering-Reasoning-Models-by-Editing-Their-Activation-E",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-11-03 09:08:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/27c88b3a-594d-4d1c-a59f-cfb175327ed1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/27c88b3a-594d-4d1c-a59f-cfb175327ed1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:16:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "激活导向",
+    "自然语言自编码器",
+    "推理压缩",
+    "跨模型迁移",
+    "装饰性推理"
+   ],
+   "field": "推理模型效率优化",
+   "innovations": [
+    "单轨迹NLA解释编辑构建固定导向",
+    "段落边界注入策略",
+    "仿射映射迁移推理方向"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "hard128",
+    "confirm400"
+   ]
+  }
+ }
 }

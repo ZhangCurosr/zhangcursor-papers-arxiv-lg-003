@@ -4,5 +4,29 @@
  "title": "Subspace-Representations-for-Synthetic-to-Real-Transfer-in-3",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-11-03 09:10:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/34621be5-96a7-420c-927e-350195a0f9e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/34621be5-96a7-420c-927e-350195a0f9e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 03:06:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Synthetic-to-real transfer",
+    "Subspace methods",
+    "3D anomaly detection",
+    "Domain adaptation",
+    "Surface inspection"
+   ],
+   "field": "3D视觉与工业检测",
+   "innovations": [
+    "提出泄漏诊断理论约束子空间分类器阈值稳定性",
+    "冻结编码器+注册模板子空间实现零训练3D缺陷检测",
+    "揭示参考质量比子空间构造对迁移性能影响更大"
+   ],
+   "benchmarks": [
+    "MVTec 3D-AD",
+    "Real3D-AD"
+   ]
+  }
+ }
 }
