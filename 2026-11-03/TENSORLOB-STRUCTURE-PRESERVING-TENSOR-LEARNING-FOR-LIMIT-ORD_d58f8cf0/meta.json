@@ -4,5 +4,30 @@
  "title": "TENSORLOB-STRUCTURE-PRESERVING-TENSOR-LEARNING-FOR-LIMIT-ORD",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-11-03 09:12:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/e4238fe5-2b1e-4d43-ad80-293a39878a76.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/e4238fe5-2b1e-4d43-ad80-293a39878a76.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:39:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Limit Order Book",
+    "tensor learning",
+    "mid-price prediction",
+    "CP decomposition",
+    "Kronecker factorization",
+    "FI-2010",
+    "structure-preserving model"
+   ],
+   "field": "金融时序多路数据张量建模",
+   "innovations": [
+    "全程张量域 LOB 表征学习，保留时间/侧/层级/属性四模结构",
+    "多头 Kronecker 因子化张量投影实现模式特异性交互",
+    "CP 低秩张量分类器，分类层参数减少 85.3%"
+   ],
+   "benchmarks": [
+    "FI-2010"
+   ]
+  }
+ }
 }

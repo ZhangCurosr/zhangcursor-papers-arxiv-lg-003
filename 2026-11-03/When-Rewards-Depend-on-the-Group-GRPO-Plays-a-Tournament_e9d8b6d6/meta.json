@@ -4,5 +4,32 @@
  "title": "When-Rewards-Depend-on-the-Group-GRPO-Plays-a-Tournament",
  "token": "sk-vCZXYoScl...",
  "created_at": "2026-11-03 09:17:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/2394eb75-c9d3-44b6-a8d4-b433291bfbf4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/2394eb75-c9d3-44b6-a8d4-b433291bfbf4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:44:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GRPO",
+    "group-relative policy gradient",
+    "diversity reward",
+    "distribution matching",
+    "Team-GRPO",
+    "reinforcement learning",
+    "LLM finetuning",
+    "credit assignment"
+   ],
+   "field": "大语言模型强化学习",
+   "innovations": [
+    "证明组依赖奖励下 GRPO 的组内减均值翻转外部性符号（α=-1/(K-1)），将训练目标扭曲为零和锦标赛",
+    "提出 Team-GRPO，以留一总奖励差计算无偏梯度估计，统一 max@k/分布匹配/SetPO 等已有估计器",
+    "在 9B 模型上实现理论不动点的定量预测（Pearson r=0.995），并在 GlobalOpinionQA 和 NoveltyBench 上验证"
+   ],
+   "benchmarks": [
+    "GlobalOpinionQA",
+    "NoveltyBench"
+   ]
+  }
+ }
 }

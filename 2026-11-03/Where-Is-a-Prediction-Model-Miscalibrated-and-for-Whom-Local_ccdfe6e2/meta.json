@@ -4,5 +4,33 @@
  "title": "Where-Is-a-Prediction-Model-Miscalibrated-and-for-Whom-Local",
  "token": "sk-7yAuxnEAp...",
  "created_at": "2026-11-03 20:43:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/6748046a-4480-45d9-8186-e1eac59c73bc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/6748046a-4480-45d9-8186-e1eac59c73bc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:45:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型审计",
+    "校准",
+    "隐藏分层",
+    "算法公平性",
+    "随机森林相似度",
+    "联合推断",
+    "集群bootstrap",
+    "医疗AI"
+   ],
+   "field": "机器学习模型可解释性与公平性审计",
+   "innovations": [
+    "基于结局学习的双地图口袋审计框架，可复用且兼容黑箱模型",
+    "同时估计局部校准误差与组间差距以区分浓度偏差与组内差距",
+    "wild cluster bootstrap联合置信区间支持集群相关性的多重检验"
+   ],
+   "benchmarks": [
+    "Obermeyer照护管理合成数据",
+    "WiDS 2020 ICU死亡率数据",
+    "NIH ChestX-ray14"
+   ]
+  }
+ }
 }

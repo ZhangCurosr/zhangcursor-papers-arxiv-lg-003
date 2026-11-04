@@ -4,5 +4,32 @@
  "title": "When-Does-Design-Thinking-Work-A-Convergence-Theorem-for-the",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-11-03 09:03:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/ae8c90bf-0ea1-48c3-bb9b-1315517eeda8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/ae8c90bf-0ea1-48c3-bb9b-1315517eeda8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:43:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "design thinking",
+    "convergence theorem",
+    "stochastic search",
+    "prototyping",
+    "Bayesian optimization",
+    "multi-armed bandit",
+    "iterator-test loop"
+   ],
+   "field": "设计思维的形式化建模与收敛分析",
+   "innovations": [
+    "证明设计思维迭代-测试核心在五条假设下几乎必然收敛至局部最优",
+    "证明有界偏置B使最优性退化为2B-局部最优，标准漂移D使退化至2D/4D-局部最优",
+    "通过仿真揭示有限视界下'测试每个原型一次是最差策略'及预筛选的贡献大于算法选择"
+   ],
+   "benchmarks": [
+    "DVF additive valuation landscape",
+    "NK rugged landscape family",
+    "14-feature prototype space (2^14 = 16384 prototypes)"
+   ]
+  }
+ }
 }

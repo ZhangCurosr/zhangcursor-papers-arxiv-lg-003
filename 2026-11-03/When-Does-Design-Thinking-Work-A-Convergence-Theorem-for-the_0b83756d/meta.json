@@ -4,5 +4,32 @@
  "title": "When-Does-Design-Thinking-Work-A-Convergence-Theorem-for-the",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-11-03 20:32:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/da4e4798-b7a4-4ce5-ac39-d184d150be21.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/da4e4798-b7a4-4ce5-ac39-d184d150be21.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:43:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "design thinking",
+    "convergence theorem",
+    "stochastic search",
+    "prototype testing",
+    "confirmation bias",
+    "bandit policy",
+    "optimization under noise"
+   ],
+   "field": "设计思维的形式化建模与计算分析",
+   "innovations": [
+    "迭代-测试循环在五个可解释条件下的局部最优收敛定理",
+    "有偏测试与标准漂移的2B-局部最优定量衰减界",
+    "预筛选对设计循环绩效的贡献超过测试策略调优的仿真发现"
+   ],
+   "benchmarks": [
+    "DVF additive landscape",
+    "NK rugged landscape",
+    "UCB/Thompson sampling/epsilon-greedy policies"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Which-Chains-to-Calibrate-for-Physical-Backpropagation",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-11-03 09:13:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/284dce65-376f-4cd4-94f8-29e13ea8dfc2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/284dce65-376f-4cd4-94f8-29e13ea8dfc2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:45:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "物理反向传播",
+    "大规模MIMO",
+    "互易校准",
+    "硬件非互惠性",
+    "空中计算",
+    "加权速率优化",
+    "选择惩罚"
+   ],
+   "field": "大规模MIMO预编码与硬件校准",
+   "innovations": [
+    "证明用户端幅度误差将目标转换为加权sum-rate并在多数配置下主导损失（选择惩罚占86-94%）",
+    "给出基站侧固定SNR损失闭式下界，证明其不随阵列规模消除",
+    "提出一次回波E1估计器，在256天线集群信道上距oracle仅差2.4个百分点"
+   ],
+   "benchmarks": [
+    "聚类信道M=64/128/256",
+    "瑞利信道M=64/128/256",
+    "3000次迭代下的sum-rate相对损失（bit/s/Hz与百分比）"
+   ]
+  }
+ }
 }

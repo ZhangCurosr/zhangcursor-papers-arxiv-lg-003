@@ -4,5 +4,26 @@
  "title": "When-Prediction-Shapes-the-Future-A-BlueSky-Agenda-for-Refle",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-11-03 09:15:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/6d7906d1-272d-413a-9cba-9ea8a1fc2771.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/6d7906d1-272d-413a-9cba-9ea8a1fc2771.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:44:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reflexive time series",
+    "performative prediction",
+    "closed-loop evaluation",
+    "causal time series",
+    "AI-shaped trajectory",
+    "agent memory"
+   ],
+   "field": "时间序列因果推断与部署分析",
+   "innovations": [
+    "提出反射性时间序列分析议程，将分析对象从被动序列转向预测-行动-观测闭环",
+    "定义AI-shaped trajectory概念并形式化闭环因果结构，区分干预效应与内在过程动态",
+    "构建三级递进框架（闭环溯源-序列识别-闭环评估），并提出三个开放问题引导社区研究"
+   ]
+  }
+ }
 }

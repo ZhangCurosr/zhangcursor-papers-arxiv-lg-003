@@ -4,5 +4,29 @@
  "title": "The-SIMPLE-Law-for-Energy-Cost-of-LLM-Inference",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-11-03 09:16:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/2e6584b5-443c-45b4-b37a-a45cf724353c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/2e6584b5-443c-45b4-b37a-a45cf724353c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:41:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM推理能耗",
+    "SIMPLE定律",
+    "Grouped-Query Attention",
+    "能效预测",
+    "Green AI",
+    "解析模型"
+   ],
+   "field": "绿色人工智能与LLM系统效率",
+   "innovations": [
+    "首个兼顾MHA/GQA注意力机制、无需逐模型校准的LLM能耗解析定律",
+    "从FLOPs/MemOPs闭式推导并简化为仅4个全局系数的紧凑模型",
+    "推导出最小化能耗的最优输出长度公式，揭示推理预算与IPJ的非单调关系"
+   ],
+   "benchmarks": [
+    "TensorRT-LLM H100追踪数据集 (13个密集LLM)"
+   ]
+  }
+ }
 }

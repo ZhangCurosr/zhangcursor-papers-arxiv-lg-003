@@ -4,5 +4,31 @@
  "title": "When-Rewards-Depend-on-the-Group-GRPO-Plays-a-Tournament",
  "token": "sk-vCZXYoScl...",
  "created_at": "2026-11-03 20:39:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/bf761626-f826-46e8-858c-00e35b204ab3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/bf761626-f826-46e8-858c-00e35b204ab3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:44:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GRPO",
+    "group-dependent reward",
+    "policy gradient",
+    "diversity",
+    "distribution matching",
+    "credit assignment",
+    "reinforcement learning"
+   ],
+   "field": "大语言模型强化学习",
+   "innovations": [
+    "证明GRPO在群依赖奖励下优化零和锦标赛目标而非群体目标",
+    "提出Team-GRPO无偏估计器统一多种专用方法",
+    "给出α-line框架量化不同估计器的系统性偏差"
+   ],
+   "benchmarks": [
+    "GlobalOpinionQA",
+    "NoveltyBench"
+   ]
+  }
+ }
 }

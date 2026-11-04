@@ -4,5 +4,32 @@
  "title": "TSB-SEG-A-Systematic-Time-Series-Segmentation-Benchmark",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-11-03 20:31:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/122f327b-d1aa-4b76-9d9f-1603e32c4c00.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/122f327b-d1aa-4b76-9d9f-1603e32c4c00.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:41:32",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "时间序列分割",
+    "变点检测",
+    "状态检测",
+    "benchmark",
+    "TSB-SEG"
+   ],
+   "field": "时间序列分析",
+   "innovations": [
+    "首个统一CPD+SD的双任务系统性基准",
+    "SMS误差分解框架量化四类错误模式",
+    "搜索策略×同质性准则两维度分类学地图"
+   ],
+   "benchmarks": [
+    "TSB-SEG",
+    "UTSA",
+    "TCPD",
+    "SKAB",
+    "TSSB"
+   ]
+  }
+ }
 }

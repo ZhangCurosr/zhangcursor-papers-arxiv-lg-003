@@ -4,5 +4,30 @@
  "title": "The-Cost-of-Mismatch-Noise-Amplification-in-Zeroth-Order-Rei",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-11-03 20:33:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/9d54822a-75ee-492f-b4cf-94f94f38ade9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/9d54822a-75ee-492f-b4cf-94f94f38ade9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:40:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Zeroth-Order Optimization",
+    "Reinforcement Learning with Verifiable Rewards",
+    "Noise Amplification",
+    "BOLT",
+    "LLM Post-Training",
+    "Variance Analysis"
+   ],
+   "field": "大语言模型高效后训练与零阶优化",
+   "innovations": [
+    "建立通用方差理论框架，揭示ZO梯度估计可靠性由两次配对评估的噪声相关性结构决定",
+    "证明on-policy RL失配数据导致1/μ²预言机噪声放大，BOLT匹配数据消除该放大",
+    "提出ZO-BOLT算法，在保持近推理显存的同时实现RLVR对齐优化"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Whitened-Advantage-Summation-Policy-Optimization-Correlation",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-11-03 09:22:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/84e6312c-0c35-49e0-8674-fc2afd114963.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/84e6312c-0c35-49e0-8674-fc2afd114963.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:45:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多奖励强化学习",
+    "ZCA白化",
+    "策略优化",
+    "奖励相关性",
+    "GRPO",
+    "GDPO",
+    "多目标聚合"
+   ],
+   "field": "语言模型对齐与强化学习",
+   "innovations": [
+    "提出ZCA白化校正多奖励加权聚合中的相关性失真，使设定权重精确作用于去相关分量",
+    "给出两奖励权重反转的精确判据 rho > 2ab/(a^2+b^2)及近冗余奖励的扩展",
+    "推导白化矩阵估计误差的上界，定量刻画奖励数量与条件数对估计难度的影响"
+   ],
+   "benchmarks": [
+    "BFCL v3 single-turn",
+    "GSM8K"
+   ]
+  }
+ }
 }

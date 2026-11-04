@@ -4,5 +4,31 @@
  "title": "Which-Chains-to-Calibrate-for-Physical-Backpropagation",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-11-03 20:37:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/4430a613-bfcc-450d-9c7c-d7c0ec04c819.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/4430a613-bfcc-450d-9c7c-d7c0ec04c819.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:45:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "physical backpropagation",
+    "channel reciprocity",
+    "massive MIMO",
+    "hardware impairment",
+    "over-the-air computation",
+    "reciprocity calibration"
+   ],
+   "field": "物理反向传播中的硬件非互易性校准",
+   "innovations": [
+    "返回场双端分解揭示逐用户幅度误差使目标变为加权sum-rate",
+    "选择惩罚框架量化幅度误差中服务错配的主导贡献(86%-94%)",
+    "单次回波估计器E1在256天线时仅落后oracle逐用户校准2.4pp"
+   ],
+   "benchmarks": [
+    "Rayleigh信道",
+    "Clustered信道",
+    "80用户256天线大规模MIMO"
+   ]
+  }
+ }
 }

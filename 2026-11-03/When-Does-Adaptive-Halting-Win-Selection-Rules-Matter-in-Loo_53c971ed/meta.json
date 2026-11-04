@@ -4,5 +4,33 @@
  "title": "When-Does-Adaptive-Halting-Win-Selection-Rules-Matter-in-Loo",
  "token": "sk-4XReLOXGN...",
  "created_at": "2026-11-03 20:41:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/006e5db0-880b-4861-b419-e87aff7ab7c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/006e5db0-880b-4861-b419-e87aff7ab7c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:43:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adaptive halting",
+    "looped language models",
+    "early exit",
+    "selection rules",
+    "Ouro",
+    "pre-registration"
+   ],
+   "field": "高效推理与模型压缩",
+   "innovations": [
+    "揭示选择规则对暂停方法偏好的决定性影响",
+    "证明训练探针相比无训练KL散度读出来无显著优势",
+    "提供预注册密封测试的评估范式与六条方法论建议"
+   ],
+   "benchmarks": [
+    "OpenBookQA",
+    "CommonsenseQA",
+    "HellaSwag",
+    "PIQA",
+    "Social IQa"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "What-Structurally-Breaks-an-Agent-Auditing-Dificulty-in-Stat",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-11-03 09:31:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/9dd6245b-ab15-49f6-9a13-e11082923f73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/9dd6245b-ab15-49f6-9a13-e11082923f73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:42:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent evaluation",
+    "task structure",
+    "dependency graphs",
+    "state retention",
+    "experimental design",
+    "tool-use benchmarks"
+   ],
+   "field": "Agent 评估与诊断基准",
+   "innovations": [
+    "固定工作量的状态化工具使用因子化任务族与精确结构审计",
+    "Controller 表征敏感性对照揭示缓存/索引/预计算的等效替代关系",
+    "Hidden resampling 条件下的信息论成功上界定理"
+   ],
+   "benchmarks": [
+    "DyVal",
+    "TRAJECT-Bench",
+    "RHB",
+    "SynthAPI",
+    "MCPAgentBench"
+   ]
+  }
+ }
 }

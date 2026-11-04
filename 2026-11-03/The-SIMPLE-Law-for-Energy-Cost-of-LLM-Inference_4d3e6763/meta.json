@@ -4,5 +4,32 @@
  "title": "The-SIMPLE-Law-for-Energy-Cost-of-LLM-Inference",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-11-03 20:32:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/e497216b-04ed-42fb-adb3-bf852cfef15e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/e497216b-04ed-42fb-adb3-bf852cfef15e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:42:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM 推理能耗",
+    "Energy Modeling",
+    "GQA",
+    "Tokenomics",
+    "Green AI",
+    "Inference Efficiency",
+    "SIMPLE Law"
+   ],
+   "field": "绿色 AI / LLM 推理能效建模",
+   "innovations": [
+    "首个同时满足解析推导/LLM-agnostic/attention-aware/全阶段预测的 LLM 推理能耗闭式定律（4 参数）",
+    "从 FLOPs/MemOPs 逐算子推导并做项显著性消融，得到可解释的 Prefill-Amortization/KV-cache/Next-token 三分项分解",
+    "解析推导最小能耗最优输出长度 tau_out*，并量化 reasoning token budget 扩展下 IPJ 的峰值行为与 agentic 工作负载能耗增幅"
+   ],
+   "benchmarks": [
+    "TensorRT-LLM H100 trace（13 密集 LLM, 6 家族, 49×1000 组合）",
+    "AIME-24（推理效率评估）",
+    "GitHub Copilot 中位 workload（agentic 能耗评估）"
+   ]
+  }
+ }
 }

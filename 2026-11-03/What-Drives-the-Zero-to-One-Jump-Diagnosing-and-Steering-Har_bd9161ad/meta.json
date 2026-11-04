@@ -4,5 +4,34 @@
  "title": "What-Drives-the-Zero-to-One-Jump-Diagnosing-and-Steering-Har",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-11-03 09:19:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/1a7112bc-baa5-4a8b-8915-1e076a3f4d0c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/1a7112bc-baa5-4a8b-8915-1e076a3f4d0c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:42:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "Zero-to-One Jump",
+    "Negative Learning",
+    "Policy Optimization",
+    "Generation Entropy",
+    "Fisher Information",
+    "Hard Prompt"
+   ],
+   "field": "大语言模型强化学习推理",
+   "innovations": [
+    "提出基于早期分支驱动的NAPO方法，在GRPO全负组内对负样本进行分级优势赋值",
+    "建立TTFP和N→P事件的事件级诊断框架，揭示硬提示零到一跳变的熵模式",
+    "从Fisher信息角度证明高熵失败样本的政策可塑性，为负样本加权提供理论依据"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME2025",
+    "AMC23",
+    "Math-Beyond",
+    "LiveCodeBench"
+   ]
+  }
+ }
 }

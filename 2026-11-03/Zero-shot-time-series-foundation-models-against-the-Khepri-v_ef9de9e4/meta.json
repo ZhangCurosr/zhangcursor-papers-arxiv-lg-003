@@ -4,5 +4,30 @@
  "title": "Zero-shot-time-series-foundation-models-against-the-Khepri-v",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-11-03 09:07:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/cc41152a-bccf-4aee-95ae-cd117ff36984.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/cc41152a-bccf-4aee-95ae-cd117ff36984.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:46:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列基础模型",
+    "零样本预测",
+    "碳排放强度",
+    "预注册评估",
+    "污染控制",
+    "Diebold-Mariano检验"
+   ],
+   "field": "时间序列预测评估方法",
+   "innovations": [
+    "回测+后发布holdout双窗口污染控制设计",
+    "MDE前置锁定与not-determined判定规则",
+    "OpenTimestamps完整审计链与deviation log机制"
+   ],
+   "benchmarks": [
+    "Khepri v1.5 Nordic Bidding Zones",
+    "CarbonX 214 grids"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "When-Prediction-Shapes-the-Future-A-BlueSky-Agenda-for-Refle",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-11-03 20:38:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/abed0e0a-04aa-4d79-a439-4a4c0ebf36d1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/abed0e0a-04aa-4d79-a439-4a4c0ebf36d1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 10:44:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reflexive Time Series Analysis",
+    "AI-shaped Trajectories",
+    "Closed-loop Evaluation",
+    "Performative Prediction",
+    "Causal Time Series",
+    "Agentic Systems",
+    "Data Provenance"
+   ],
+   "field": "时间序列分析与因果推断",
+   "innovations": [
+    "提出预测-行动-观测闭环的反思性时间序列分析范式",
+    "构建闭环溯源-序列识别-闭环评估三阶段研究议程",
+    "形式化时序干预的动态传播机制与反事实解耦目标"
+   ],
+   "benchmarks": [
+    "M4 Competition",
+    "M5 Competition",
+    "Clinical Monitoring Datasets",
+    "Smart Grid Demand Response"
+   ]
+  }
+ }
 }
