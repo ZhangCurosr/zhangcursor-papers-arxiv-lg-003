@@ -4,5 +4,34 @@
  "title": "The-Staged-Pandora-s-Box-Reservation-Indices-for-Multi-Fidel",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-11-03 09:16:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/83177971-3814-4127-a056-8e017b545374.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/83177971-3814-4127-a056-8e017b545374.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 18:21:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多保真贝叶斯优化",
+    "Pandora's Box",
+    "索引策略",
+    "序贯搜索",
+    "信息共享",
+    "比较静态",
+    "近似规划"
+   ],
+   "field": "贝叶斯优化与序贯决策",
+   "innovations": [
+    "看跌期权递归给出分阶指定收集的多臂搜索精确指标与损失分解",
+    "独立臂索引最优定理与任意策略精确遗憾拆解",
+    "共享信息下基于局部值偏差的近似规划 regret 界与共因 TV 弥散控制"
+   ],
+   "benchmarks": [
+    "Independent binary-tree verification (192 instances)",
+    "Staging grid verification (660 cells)",
+    "Comparative statics pairs (1763+60)",
+    "Shared-law audit (453 cells)",
+    "Concentration sweep (240 cells)"
+   ]
+  }
+ }
 }

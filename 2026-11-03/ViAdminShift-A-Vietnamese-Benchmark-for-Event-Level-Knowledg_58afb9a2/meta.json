@@ -4,5 +4,33 @@
  "title": "ViAdminShift-A-Vietnamese-Benchmark-for-Event-Level-Knowledg",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-11-03 20:35:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/ba9179fd-99c1-4960-860b-c51c4458f68a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/ba9179fd-99c1-4960-860b-c51c4458f68a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 18:22:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vietnamese LLM benchmark",
+    "temporal knowledge update",
+    "event-level knowledge",
+    "administrative reform",
+    "prompting and temporal anchoring",
+    "knowledge editing evaluation"
+   ],
+   "field": "Temporal Knowledge in LLMs / Low-resource NLP Benchmarks",
+   "innovations": [
+    "Built a 7,995-item Vietnamese benchmark with 2x2 built-in controls from a real 2025 administrative reform",
+    "Demonstrated the 'temporal default' phenomenon: most knowers return outdated answers without time cues",
+    "Systematically compared date placement across system prompt, question prefix, tool, and earlier turn"
+   ],
+   "benchmarks": [
+    "ViAdminShift",
+    "EvolvingQA",
+    "ChroKnowBench",
+    "PTC benchmark",
+    "WikiRecentChanges"
+   ]
+  }
+ }
 }

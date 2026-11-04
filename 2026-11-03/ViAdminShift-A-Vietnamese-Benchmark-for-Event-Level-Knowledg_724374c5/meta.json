@@ -4,5 +4,31 @@
  "title": "ViAdminShift-A-Vietnamese-Benchmark-for-Event-Level-Knowledg",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-11-03 09:05:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/f249db56-90d0-4fe3-a660-8d25300d6627.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/f249db56-90d0-4fe3-a660-8d25300d6627.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 18:23:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vietnamese benchmark",
+    "event-level knowledge update",
+    "temporal default",
+    "administrative reform",
+    "LLM evaluation",
+    "outdated knowledge",
+    "2x2 control",
+    "cue placement"
+   ],
+   "field": "低资源语言知识更新评估",
+   "innovations": [
+    "构建首个越南语事件级知识更新基准，含2×2控制设计",
+    "揭示LLM时间默认现象：知晓改革却默认使用旧地图",
+    "系统比较日期提示放置效果，问题内日期最有效"
+   ],
+   "benchmarks": [
+    "ViAdminShift"
+   ]
+  }
+ }
 }

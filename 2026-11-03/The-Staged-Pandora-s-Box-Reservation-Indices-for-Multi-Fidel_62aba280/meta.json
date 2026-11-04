@@ -4,5 +4,10 @@
  "title": "The-Staged-Pandora-s-Box-Reservation-Indices-for-Multi-Fidel",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-11-03 20:33:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/33455764-94a6-4c9d-bff5-b6db62636173.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/33455764-94a6-4c9d-bff5-b6db62636173.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-04 18:22:05",
+  "chunks": 1
+ }
 }
