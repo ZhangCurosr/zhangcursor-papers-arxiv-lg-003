@@ -4,5 +4,29 @@
  "title": "Variable-names-provide-priors-semantic-grounding-enables-dat",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-11-03 09:16:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/662703ab-d6c9-4720-a578-5c8ab56954c7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/662703ab-d6c9-4720-a578-5c8ab56954c7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 21:56:25",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "隐式贝叶斯推断",
+    "变量名语义先验",
+    "少样本数值预测",
+    "in-context learning",
+    "LLM预测机制"
+   ],
+   "field": "大语言模型可解释性与推理机制",
+   "innovations": [
+    "提出隐式贝叶斯推断理论框架，证明LLM预测行为可被建模为Bayes observer",
+    "揭示变量名语义先验在少样本预测中的核心作用，量化其贡献随样本量衰减的规律"
+   ],
+   "benchmarks": [
+    "20个数值预测数据集",
+    "R²",
+    "WAPE"
+   ]
+  }
+ }
 }
