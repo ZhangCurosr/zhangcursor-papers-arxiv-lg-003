@@ -4,5 +4,10 @@
  "title": "WHY-TABULAR-FOUNDATION-MODELS-EXCEL-ON-RELATIONAL-DATA-THEY",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-11-03 09:03:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/f4c58b73-926a-40ff-9d16-62bc45e9a31f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/f4c58b73-926a-40ff-9d16-62bc45e9a31f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:14:44",
+  "chunks": 1
+ }
 }

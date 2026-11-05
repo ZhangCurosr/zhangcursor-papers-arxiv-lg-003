@@ -4,5 +4,33 @@
  "title": "Variational-Functional-Neural-Networks-vfNN",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-11-03 09:07:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/de44bf95-67e6-40af-a467-376ee7fb7abe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/de44bf95-67e6-40af-a467-376ee7fb7abe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:13:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "物理信息神经网络",
+    "变分法",
+    "非凸优化",
+    "Euler-Lagrange方程",
+    "SR1拟牛顿法",
+    "共轭点"
+   ],
+   "field": "科学机器学习/物理启发优化",
+   "innovations": [
+    "直接优化物理泛函替代残差损失，消除人工权重系数",
+    "SR1 Hessian更新结合Metropolis线搜索，可收敛至任意一阶临界点",
+    "硬约束边界条件变换与共轭点自动定位算法"
+   ],
+   "benchmarks": [
+    "线性ODE基准（多f(u)情形）",
+    "最小区面旋转问题",
+    "稳态Sine-Gordon方程",
+    "Poisson-Boltzmann方程",
+    "手性硬棒液晶单层耦合ODE"
+   ]
+  }
+ }
 }

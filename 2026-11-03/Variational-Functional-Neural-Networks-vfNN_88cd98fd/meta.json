@@ -4,5 +4,34 @@
  "title": "Variational-Functional-Neural-Networks-vfNN",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-11-03 20:30:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/2d71bc55-80cc-4593-955d-f242a42f6757.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-04/2d71bc55-80cc-4593-955d-f242a42f6757.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 17:13:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "变分神经网络",
+    "物理信息神经网络",
+    "变分优化",
+    "非凸优化",
+    "微分方程求解",
+    "SR1拟Newton",
+    "泛函极值"
+   ],
+   "field": "物理信息机器学习",
+   "innovations": [
+    "直接优化物理积分泛函替代微分方程残差，用物理尺度替代经验权重",
+    "基于SR1不定Hessian与Metropolis随机线搜索的拟Newton优化器，可收敛至任意一阶临界点",
+    "硬约束边界条件输出变换与Neumann边界泛函项的自然嵌入"
+   ],
+   "benchmarks": [
+    "线性ODE共轭点问题",
+    "最小旋转曲面(Euler问题)",
+    "稳态Sine-Gordon方程",
+    "Poisson-Boltzmann方程",
+    "胶体硬棒单层有序参数耦合"
+   ]
+  }
+ }
 }
