@@ -4,5 +4,40 @@
  "title": "TSB-SEG-A-Systematic-Time-Series-Segmentation-Benchmark",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-11-03 09:07:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/ab4ed426-8907-4f6d-ab93-f87a7f544edc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-03/ab4ed426-8907-4f6d-ab93-f87a7f544edc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:49:16",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "time-series segmentation",
+    "change point detection",
+    "benchmark",
+    "state segmentation",
+    "TSB-SEG",
+    "CPD",
+    "SD",
+    "tsseg"
+   ],
+   "field": "时间序列分割基准评测",
+   "innovations": [
+    "首个CPD与SD联合评测的大规模统一基准TSB-SEG，覆盖26种算法与8个异构数据集",
+    "提出双池设计（主池+扩展池）与软评估指标体系（Gaussian F1/SMS误差分解）",
+    "实证验证CPD可作为SD的实用代理并刻画两类尾部误差regime"
+   ],
+   "benchmarks": [
+    "TSB-SEG",
+    "ActRecTut",
+    "HAS",
+    "MoCap",
+    "USC-HAD",
+    "SKAB",
+    "PUMP",
+    "TSSB",
+    "UTSA",
+    "PAMAP2"
+   ]
+  }
+ }
 }
